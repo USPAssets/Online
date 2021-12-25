@@ -23,7 +23,7 @@ using System.Linq;
  *  3 and onward - reserved.
  */
 int translationVersion = -1;
-int myVersion = 3; // this installer is V1.
+int myVersion = 4; // this installer is V1.
 static Guid V1_GUID = Guid.Parse("{2E50E32D-4932-4DA7-8CB9-B1C3BE410C2C}");
 static Guid V2_GUID = Guid.Parse("{7E9EF6F9-1C47-4D3A-A369-E2E375A6EF66}");
 static Guid V3_GUID = Guid.Parse("{52E75B10-B0D6-400B-8E0C-41C2CA7CB70A}"); // reserved
@@ -395,7 +395,26 @@ void DoImportStrings() {
 	// the fun
 	int len = itLINES.Length;
 	if (len != enLINES.Length) {
-		ScriptMessage("WARN: IT lines count does not match EN lines count!");
+		//check if we have added lines
+		var path = g_AssetsPath;
+		var eng_path = Path.Combine(path, "game_strings" + "V0" + ".txt");
+		if (!File.Exists(eng_path))
+		{
+			ScriptError("String lookup files do not exist, they will not be imported.", "Strings Import Error");
+			return;
+		}
+
+		string[] enOriginalLINES = File.ReadAllLines(eng_path);
+		if (len == enOriginalLINES.Length && len > enLINES.Length)
+		{
+			// we have added lines! let's update the base file with these
+			for (int i = 0; i < enLINES.Length; ++i)
+				enOriginalLINES[i] = enLINES[i];
+
+			enLINES = enOriginalLINES;
+		}
+		else
+			ScriptMessage("WARN: IT lines count does not match EN lines count!");
 	}
 	
 	for (int l = 0; l < len; ++l) {
