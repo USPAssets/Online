@@ -23,7 +23,7 @@ using System.Linq;
  *  3 and onward - reserved.
  */
 int translationVersion = -1;
-int myVersion = 2; // this installer is V1.
+int myVersion = 3; // this installer is V1.
 static Guid V1_GUID = Guid.Parse("{2E50E32D-4932-4DA7-8CB9-B1C3BE410C2C}");
 static Guid V2_GUID = Guid.Parse("{7E9EF6F9-1C47-4D3A-A369-E2E375A6EF66}");
 static Guid V3_GUID = Guid.Parse("{52E75B10-B0D6-400B-8E0C-41C2CA7CB70A}"); // reserved
