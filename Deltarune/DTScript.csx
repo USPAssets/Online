@@ -2,7 +2,7 @@
  *  Undertale Spaghetti Project
  *  DELTARUNE Chapter 1&2 Translation script
  *
- *  @version 1.0
+ *  @version 1.4
  *  @author USP
  */
 
@@ -20,16 +20,21 @@ using System.Linq;
  *  0 - no translation (english)
  *  1 - translation V1
  *  2 - translation V2
- *  3 and onward - reserved.
+ *  3 - translation V3
+ *  4 - translation V4
+ *  5 and onward - reserved.
  */
 int translationVersion = -1;
 int myVersion = 4; // this installer is V1.
 static Guid V1_GUID = Guid.Parse("{2E50E32D-4932-4DA7-8CB9-B1C3BE410C2C}");
 static Guid V2_GUID = Guid.Parse("{7E9EF6F9-1C47-4D3A-A369-E2E375A6EF66}");
-static Guid V3_GUID = Guid.Parse("{52E75B10-B0D6-400B-8E0C-41C2CA7CB70A}"); // reserved
-static Guid V4_GUID = Guid.Parse("{8F3D27AB-FD9C-4BFC-BD26-28FEA95A5F05}"); // reserved
+static Guid V3_GUID = Guid.Parse("{52E75B10-B0D6-400B-8E0C-41C2CA7CB70A}");
+static Guid V4_GUID = Guid.Parse("{8F3D27AB-FD9C-4BFC-BD26-28FEA95A5F05}");
 static Guid V5_GUID = Guid.Parse("{BD476F48-9D1F-48BF-BB6E-0732ED6AA440}"); // reserved
 static Guid V6_GUID = Guid.Parse("{F1243771-9450-451D-AB3F-4240E440580D}"); // reserved
+static Guid V7_GUID = Guid.Parse("{B46E1A9D-645B-4EA1-B067-9C60EED1608F}"); // reserved
+static Guid V8_GUID = Guid.Parse("{23406B09-2BAE-45B6-85AA-C67F73B559FF}"); // reserved
+static Guid V9_GUID = Guid.Parse("{63B6F4FF-2D25-48E6-8775-44823C8F3AC6}"); // reserved
 
 int DetermineTranslationVersion(UndertaleData dd)
 {
@@ -41,13 +46,19 @@ int DetermineTranslationVersion(UndertaleData dd)
 	else if (myguid == V2_GUID)
 		return 2; // v2
 	else if (myguid == V3_GUID)
-		return 3; // v3 reserved
+		return 3; // v3
 	else if (myguid == V4_GUID)
-		return 4; // v4 reserved
+		return 4; // v4
 	else if (myguid == V5_GUID)
 		return 5; // v5 reserved
 	else if (myguid == V6_GUID)
 		return 6; // v6 reserved
+	else if (myguid == V7_GUID)
+		return 7; // v7 reserved
+	else if (myguid == V8_GUID)
+		return 8; // v8 reserved
+	else if (myguid == V9_GUID)
+		return 9; // v9 reserved
 	// is it really that bad.
 	else
 		return -1;
@@ -69,6 +80,12 @@ Guid VersionToGUID(int version)
 			return V5_GUID;
 		case 6:
 			return V6_GUID;
+		case 7:
+			return V7_GUID;
+		case 8:
+			return V8_GUID;
+		case 9:
+			return V9_GUID;
 		default:
 			return Guid.Empty;
 	}
