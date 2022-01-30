@@ -13,83 +13,6 @@ using System.Xml; // XmlDocument
 using System.Text.RegularExpressions; // Regex
 using System.Linq;
 
-/** global vars */
-
-/**
- * -1 - error/undefined
- *  0 - no translation (english)
- *  1 - translation V1
- *  2 - translation V2
- *  3 - translation V3
- *  4 - translation V4
- *  5 and onward - reserved.
- */
-int translationVersion = -1;
-int myVersion = 5; // this installer is V1.
-static Guid V1_GUID = Guid.Parse("{2E50E32D-4932-4DA7-8CB9-B1C3BE410C2C}");
-static Guid V2_GUID = Guid.Parse("{7E9EF6F9-1C47-4D3A-A369-E2E375A6EF66}");
-static Guid V3_GUID = Guid.Parse("{52E75B10-B0D6-400B-8E0C-41C2CA7CB70A}");
-static Guid V4_GUID = Guid.Parse("{8F3D27AB-FD9C-4BFC-BD26-28FEA95A5F05}");
-static Guid V5_GUID = Guid.Parse("{BD476F48-9D1F-48BF-BB6E-0732ED6AA440}"); // reserved
-static Guid V6_GUID = Guid.Parse("{F1243771-9450-451D-AB3F-4240E440580D}"); // reserved
-static Guid V7_GUID = Guid.Parse("{B46E1A9D-645B-4EA1-B067-9C60EED1608F}"); // reserved
-static Guid V8_GUID = Guid.Parse("{23406B09-2BAE-45B6-85AA-C67F73B559FF}"); // reserved
-static Guid V9_GUID = Guid.Parse("{63B6F4FF-2D25-48E6-8775-44823C8F3AC6}"); // reserved
-
-int DetermineTranslationVersion(UndertaleData dd)
-{
-	Guid myguid = dd.GeneralInfo.DirectPlayGuid;
-	if (myguid == Guid.Empty)
-		return 0; // english..?
-	else if (myguid == V1_GUID)
-		return 1; // v1
-	else if (myguid == V2_GUID)
-		return 2; // v2
-	else if (myguid == V3_GUID)
-		return 3; // v3
-	else if (myguid == V4_GUID)
-		return 4; // v4
-	else if (myguid == V5_GUID)
-		return 5; // v5 reserved
-	else if (myguid == V6_GUID)
-		return 6; // v6 reserved
-	else if (myguid == V7_GUID)
-		return 7; // v7 reserved
-	else if (myguid == V8_GUID)
-		return 8; // v8 reserved
-	else if (myguid == V9_GUID)
-		return 9; // v9 reserved
-	// is it really that bad.
-	else
-		return -1;
-}
-
-Guid VersionToGUID(int version)
-{
-	switch (version)
-	{
-		case 1:
-			return V1_GUID;
-		case 2:
-			return V2_GUID;
-		case 3:
-			return V3_GUID;
-		case 4:
-			return V4_GUID;
-		case 5:
-			return V5_GUID;
-		case 6:
-			return V6_GUID;
-		case 7:
-			return V7_GUID;
-		case 8:
-			return V8_GUID;
-		case 9:
-			return V9_GUID;
-		default:
-			return Guid.Empty;
-	}
-}
 
 string g_AssetsPath;
 string g_GameFolder;
@@ -142,7 +65,9 @@ void DoProgress(string progressName) {
 }
 
 void SmartFontReplace(string origName, string scapegoatName) {
-	string fontGmx = Path.Combine(g_AssetsPath, origName + ".font.gmx");
+	var path = Path.Combine(g_AssetsPath, "Fonts");
+
+	string fontGmx = Path.Combine(path, origName + ".font.gmx");
 	string fontPng = null;
 	
 	UndertaleFont ufont = Data.Fonts.ByName(origName);
@@ -239,7 +164,7 @@ void SmartFontReplace(string origName, string scapegoatName) {
 			}
 			
 			case "image": {
-				fontPng = Path.Combine(g_AssetsPath, GmxString(xnode.InnerText));
+				fontPng = Path.Combine(path, GmxString(xnode.InnerText));
 				break;
 			}
 			
@@ -382,83 +307,40 @@ void DoExportStrings() {
 	}	
 }
 
-void GetCorrectStringsPaths(out string path_base, out string path_to) {
-	var path = g_AssetsPath;
-
-	var latestV = "V" + myVersion;
-	path_to = Path.Combine(path, "game_strings" + latestV + ".txt");
-
-	var baseV = "V" + translationVersion;
-	path_base = Path.Combine(path, "game_strings" + baseV + ".txt");
+void DoImportCh1Strings() {	
+	var langFolder = Path.Combine(g_GameFolder, "lang");
+	
+	var langch1 = Path.Combine(langFolder, "lang_en_ch1.json");
+	var langch1IT = Path.Combine(g_AssetsPath, "Strings", "lang_it_ch1.json");
+	
+	File.Copy(langch1IT, langch1, true);
 }
 
-void DoImportStrings() {
-	// load the files:
-	var itTXT = "<!error!>";
-	var enTXT = "<!error!>";
-	GetCorrectStringsPaths(out enTXT, out itTXT);
-	
-	// sanity
-	if (!File.Exists(itTXT) || !File.Exists(enTXT)) {
-		ScriptError("String lookup files do not exist, they will not be imported.", "Strings Import Error");
-		return;
+void DoImportCh2Strings() {
+	var stringsCh2IT = Path.Combine(g_AssetsPath, "Strings", "strings_ch2.txt");
+	if (!File.Exists(stringsCh2IT)) {
+		ScriptError("String file for Ch2 does not exist, strings will not be imported", "Strings Import Error");
 	}
 	
-	string[] itLINES = File.ReadAllLines(itTXT);
-	string[] enLINES = File.ReadAllLines(enTXT);
-	// build a lookup table for replacement:
-	Dictionary<string, string> lookup = new Dictionary<string, string>();
-	
-	// the fun
-	int len = itLINES.Length;
-	if (len != enLINES.Length) {
-		//check if we have added lines
-		var path = g_AssetsPath;
-		var eng_path = Path.Combine(path, "game_strings" + "V0" + ".txt");
-		if (!File.Exists(eng_path))
-		{
-			ScriptError("String lookup files do not exist, they will not be imported.", "Strings Import Error");
-			return;
-		}
-
-		string[] enOriginalLINES = File.ReadAllLines(eng_path);
-		if (len == enOriginalLINES.Length && len > enLINES.Length)
-		{
-			// we have added lines! let's update the base file with these
-			for (int i = 0; i < enLINES.Length; ++i)
-				enOriginalLINES[i] = enLINES[i];
-
-			enLINES = enOriginalLINES;
-		}
-		else
-			ScriptMessage("WARN: IT lines count does not match EN lines count!");
-	}
-	
-	for (int l = 0; l < len; ++l) {
-		lookup[enLINES[l].Replace("\\n", "\n").Replace("\\r", "\r")] = itLINES[l].Replace("\\n", "\n").Replace("\\r", "\r");
-	}
-	
-	// do the fun:
-	var abc = 0;
-	foreach (var utstr in Data.Strings) {
-		// if str is present in english list
-		if (lookup.ContainsKey(utstr.Content)) {
-			// str = italian_lookup[enlish]
-			utstr.Content = lookup[utstr.Content];
-			
-			++abc;
+	using (StreamReader reader = new StreamReader(stringsCh2IT)) {
+		foreach (var str in Data.Strings) {
+			var line = reader.ReadLine();
+			if (line != null) {
+				str.Content = line.Replace("\\n", "\n").Replace("\\r", "\r");
+			} else {
+				ScriptError("String file for Ch2 has less lines than expected.", "Strings Import Error");
+				return;
+			}
 		}
 	}
-	
-	// we're done here...
-	ScriptMessage("Replaced " + abc.ToString() + " strings...");
 }
 
 void DoStrings() {
 	DoProgress("Strings");
 	// uncomment this if you want...
 	// DoExportStrings();
-	DoImportStrings();
+	DoImportCh1Strings();
+	DoImportCh2Strings();
 }
 
 void DoSprites() {
@@ -561,18 +443,6 @@ void DoSounds() {
 	DoSoundReplace(Path.Combine(sndFolder, "snd_joker_chaos_ch1.wav"));
 	DoSoundReplace(Path.Combine(sndFolder, "snd_joker_metamorphosis_ch1.wav"));
 	DoSoundReplace(Path.Combine(sndFolder, "snd_joker_neochaos_ch1.wav"));
-}
-
-void DoFiles() {
-	DoProgress("Files");
-	
-	var langFolder = Path.Combine(g_GameFolder, "lang");
-	
-	var langch1 = Path.Combine(langFolder, "lang_en_ch1.json");
-	var langch1IT = Path.Combine(g_AssetsPath, "lang_it_ch1.json");
-	
-	File.Delete(langch1);
-	File.Copy(langch1IT, langch1);
 }
 
 UndertaleCode GetCode(string name) {
@@ -697,9 +567,6 @@ void DoCode() {
 }
 
 void Done() {
-	DoProgress("Versioning");
-	Data.GeneralInfo.DirectPlayGuid = VersionToGUID(myVersion);
-	
 	HideProgressBar();
 	ScriptMessage("Done. PLEASE save and overwrite your file (Ctrl+S) and run the game!");
 }
@@ -736,26 +603,6 @@ void ScriptEntry() {
 		return;
 	}
 	
-	translationVersion = DetermineTranslationVersion(Data);
-	if (translationVersion < 0) {
-		ScriptError("Unable to detect .win translation version.", "Version Error");
-		return;
-	}
-	
-	if (translationVersion > myVersion) {
-		ScriptError("This .win contains a translation from the future, update the installer.", "Version Error");
-		return;
-	}
-	
-	if (translationVersion == myVersion) {
-		ScriptError("Translation is already applied, no need to.", "Version Error");
-		return;
-	}
-	
-	if (translationVersion > 0) {
-		ScriptMessage("Updating the translation...");
-	}
-	
 	var doPatch = true;
 	// the API says nothing against that :p
 	if (DummyString() != "<usp_installer>") doPatch = ScriptQuestion("This will modify your .win file, proceed?");
@@ -765,7 +612,6 @@ void ScriptEntry() {
 	DoSprites();
 	DoFonts();
 	DoSounds();
-	DoFiles();
 	DoCode();
 	
 	Done();

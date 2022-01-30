@@ -41,92 +41,6 @@ string RealScriptPath = Path.GetDirectoryName(ScriptPath);
 double progValue = 0.0;
 double totalValue = 5.0;
 
-/**
- * -1 - error/undefined
- *  0 - no translation (english)
- *  1 - translation V1 (no Guid set, but Italian strings applied)
- *  2 - translation V2 (Guid set)
- *  3 - translation V3 (corrected Italian)
- *  4 and onward - reserved.
- */
-int translationVersion = -1;
-int myVersion = 3; // this installer is V3.
-
-static Guid V1_GUID = Guid.Empty;
-static Guid V2_GUID = Guid.Parse("{7DF3449D-34E6-4D1D-A2E6-175F989891F2}");
-static Guid V3_GUID = Guid.Parse("{EB2E8648-35B5-4344-B2E0-1B6894BDEA32}");
-static Guid V4_GUID = Guid.Parse("{5F9253BD-D031-4BEB-AEAB-AB3C1740533F}"); // reserved
-static Guid V5_GUID = Guid.Parse("{83D3ECDE-3B53-40AE-AA30-3D04FAF72832}"); // reserved
-static Guid V6_GUID = Guid.Parse("{E18F6929-E1ED-4A07-8486-DAA2A6725B81}"); // reserved
-
-int DetermineTranslationVersion(UndertaleData dd)
-{
-	Guid myguid = dd.GeneralInfo.DirectPlayGuid;
-	if (myguid == V1_GUID)
-	{
-		// I left this message intentionally in `attention_hackerz_no_2` variable `demond`
-		// it turns out my weird joke *is* useful now.
-		if (dd.Strings.Any(str => str.Content == "pleaz no mayo pasta (eat mayo pasta!!!)"))
-			return 1; // v1
-		else
-			return 0; // english
-	}
-	else if (myguid == V2_GUID)
-		return 2; // v2
-	else if (myguid == V3_GUID)
-		return 3; // v3 reserved
-	else if (myguid == V4_GUID)
-		return 4; // v4 reserved
-	else if (myguid == V5_GUID)
-		return 5; // v5 reserved
-	else if (myguid == V6_GUID)
-		return 6; // v6 reserved
-	// is it really that bad.
-	else
-		return -1;
-}
-
-Guid VersionToGUID(int version)
-{
-	switch (version)
-	{
-		case 1:
-			return V1_GUID;
-		case 2:
-			return V2_GUID;
-		case 3:
-			return V3_GUID;
-		case 4:
-			return V4_GUID;
-		case 5:
-			return V5_GUID;
-		case 6:
-			return V6_GUID;
-		default:
-			return Guid.Empty;
-	}
-
-}
-
-string VersionToReleaseVersion(int version)
-{
-	switch (version)
-	{
-		case 1:
-			return "V1.11";
-		case 2:
-			return "V1.15";
-		case 3:
-			return "V1.16";
-		case 4:
-		case 5:
-		case 6:
-			return "VX.XX";
-		default:
-			return "Invalid";
-	}
-}
-
 void ExecuteTranslation(string paath)
 {
 	EnsureDataLoaded(); // so we only work with actual files.
@@ -152,8 +66,6 @@ void ExecuteTranslation(string paath)
 	//	return;
 	//}
 
-	string path = Path.Combine(RealScriptPath, trfolderName);
-	string winpath = Path.GetDirectoryName(FilePath);
 	
 	bool isUndertale = (Data.GeneralInfo.DisplayName.Content.ToLower() == "undertale" || Data.GeneralInfo.DisplayName.Content.ToLower() == "nxtale");
 	// i don't think nxtale will work but idfk lol.
@@ -165,35 +77,11 @@ void ExecuteTranslation(string paath)
 		return;
 	}
 
+	string path = Path.Combine(RealScriptPath, trfolderName);
 	if (!Directory.Exists(path))
 	{
 		ScriptError(stringArray[(int)StrType.NO_ASSET_ERROR], stringArray[(int)StrType.ERROR_TITLE]);
 		return;
-	}
-
-
-	translationVersion = DetermineTranslationVersion(Data);
-	if (translationVersion < 0)
-	{
-		ScriptMessage(string.Format(stringArray[(int)StrType.TOONEW_ERR]));
-		return;
-	}
-
-	if (translationVersion > myVersion)
-	{
-		ScriptMessage(string.Format(stringArray[(int)StrType.VERSION_ERR], VersionToReleaseVersion(translationVersion), VersionToReleaseVersion(myVersion)));
-		return;
-	}
-
-	if (translationVersion == myVersion)
-	{
-		ScriptMessage(string.Format(stringArray[(int)StrType.NO_NEED_TO], VersionToReleaseVersion(translationVersion)));
-		return;
-	}
-
-	if (translationVersion > 0)
-	{
-		ScriptMessage(stringArray[(int)StrType.YOURE_UPDATING]);
 	}
 
 	ImportSounds();
@@ -215,7 +103,7 @@ void UpdateProgress(string n)
 // --- Import Sounds --- //
 void ImportSounds()
 {
-	string path = Path.Combine(RealScriptPath, trfolderName);
+	string path = Path.Combine(RealScriptPath, trfolderName, "Sounds");
 	string winpath = Path.GetDirectoryName(FilePath);
 
 	UpdateProgress("Sounds...");
@@ -231,11 +119,9 @@ void ImportSounds()
 		}
 
 		snd.AudioFile.Data = wonderfulidea;
-		wonderfulidea = null; // free the array since we don't need it anymore.
 
 		// Copy Mettaton sound.
-		File.Delete(Path.Combine(winpath, "mus_ohyes.ogg"));
-		File.Copy(Path.Combine(path, "mus_ohyes.ogg"), Path.Combine(winpath, "mus_ohyes.ogg"));
+		File.Copy(Path.Combine(path, "mus_ohyes.ogg"), Path.Combine(winpath, "mus_ohyes.ogg"), true);
 
 	}
 	catch (Exception e)
@@ -288,22 +174,13 @@ void handleSpecialSprite(UndertaleSprite sprite)
 	}
 }
 
-// --- Import Sprites --- //
 void ImportSprites()
 {
-	string path = Path.Combine(RealScriptPath, trfolderName);
-	string winpath = Path.GetDirectoryName(FilePath);
 	UpdateProgress("Sprites...");
+	string path = Path.Combine(RealScriptPath, trfolderName, "Sprites");
 	
 	try
 	{
-		// no need to apply sprites.
-		if (translationVersion >= 1)
-		{
-			ScriptMessage(string.Format(stringArray[(int)StrType.NO_NEED_TO], stringArray[(int)StrType.SPRITES]));
-			return;
-		}
-
 		foreach (var spr in Data.Sprites)
 		{
 			if (spr is null) continue;
@@ -332,21 +209,11 @@ void ImportSprites()
 	}
 }
 
-// --- Import Fonts --- //
 void ImportFonts()
 {
-	string path = Path.Combine(RealScriptPath, trfolderName);
-	string winpath = Path.GetDirectoryName(FilePath);
 	UpdateProgress("Fonts... (ci impiegherá un po')");
-	try
-	{
-		// no need to apply fonts.
-		if (translationVersion >= 1)
-		{
-			ScriptError(stringArray[(int)StrType.NO_NEED_TO], stringArray[(int)StrType.FONTS]);
-			return;
-		}
-
+	string path = Path.Combine(RealScriptPath, trfolderName, "Fonts");
+	try	{
 		// -- Importing Glyph & Tex Data -- //
 
 		string glyphdatapath = Path.Combine(path, "glyphdata.xml");
@@ -456,47 +323,37 @@ void ImportFonts()
 		// no need to change BoundingWidth/Height.
 
 	}
-	catch (Exception e)
-	{
+	catch (Exception e)	{
 		throw new Exception(string.Format(stringArray[(int)StrType.FMT_AN_ERROR], stringArray[(int)StrType.FONTS], e.ToString()));
 	}
 }
 
 void ImportStrings()
 {
-	string path = Path.Combine(RealScriptPath, trfolderName);
-	string winpath = Path.GetDirectoryName(FilePath);
 	UpdateProgress("Strings...");
-	try
-	{
-		GetCorrectStringsPaths(out string base_path, out string to_path);
-		string[] cont1 = File.ReadAllLines(base_path);
-		string[] cont2 = File.ReadAllLines(to_path);
-
-		var locDict = StringArraysToDic(cont1, cont2);
-
-		for (int s = 0; s < Data.Strings.Count; s++)
-		{
-			var str = Data.Strings[s].Content;
-
-			if (locDict.ContainsKey(str))
-				Data.Strings[s].Content = locDict[str];
-		}
-
-		//locDict.Dispose();
-		cont1 = null;
-		cont2 = null;
+	
+	var stringsPath = Path.Combine(RealScriptPath, trfolderName, "strings.txt");
+	if (!File.Exists(stringsPath)) {
+		ScriptError("String file does not exist, strings will not be imported", "Strings Import Error");
 	}
-	catch (Exception e)
-	{
-		throw new Exception(string.Format(stringArray[(int)StrType.FMT_AN_ERROR], stringArray[(int)StrType.STRINGS], e.ToString()));
+	
+	using (StreamReader reader = new StreamReader(stringsPath)) {
+		foreach (var str in Data.Strings) {
+			var line = reader.ReadLine();
+			if (line != null) {
+				str.Content = line.Replace("\\n", "\n").Replace("\\r", "\r");
+			} else {
+				ScriptError("String file has less lines than expected.", "Strings Import Error");
+				return;
+			}
+		}
 	}
 }
 
 void ImportSplash()
 {
 
-	string path = Path.Combine(RealScriptPath, trfolderName);
+	string path = Path.Combine(RealScriptPath, trfolderName, "Sprites");
 	string winpath = Path.GetDirectoryName(FilePath);
 	UpdateProgress("Splash...");
 
@@ -505,10 +362,8 @@ void ImportSplash()
 		string utsplashPath = Path.Combine(winpath, "splash.png");
 		// the file is already 640x480 (right resolution for game window!)
 		string ITsplashPath = Path.Combine(path, "OPTIONAL_splash.png");
-		if (File.Exists(utsplashPath) && File.Exists(ITsplashPath))
-		{
-			File.Delete(utsplashPath);
-			File.Copy(ITsplashPath, utsplashPath);
+		if (File.Exists(utsplashPath) && File.Exists(ITsplashPath)) {
+			File.Copy(ITsplashPath, utsplashPath, true);
 		}
 		// that should be it...
 	}
@@ -518,38 +373,10 @@ void ImportSplash()
 	}
 }
 
-// --- A little helper --- //
-
-Dictionary<string, string> StringArraysToDic(string[] arr1, string[] arr2)
-{
-	Dictionary<string, string> dic = new Dictionary<string, string>();
-	for (int s = 0; s < arr2.Length; s++)
-	{
-		dic.Add(arr1[s].Replace(@"\n", "\n").Replace(@"\r", "\r"), arr2[s].Replace(@"\n", "\n").Replace(@"\r", "\r"));
-		//        ^^^ allows to properly unescape newlines and stuff.
-	}
-	return dic;
-}
-
-void GetCorrectStringsPaths(out string path_base, out string path_to)
-{
-	string path = Path.Combine(RealScriptPath, trfolderName);
-
-	string latestV = "V" + myVersion;
-	path_to = Path.Combine(path, "game_strings" + latestV + ".txt");
-
-	string baseV = "V" + translationVersion;
-	path_base = Path.Combine(path, "game_strings" + baseV + ".txt");
-}
-
 // --- Done, hooray! --- //
 void Finish()
 {
-	// write new GUID
-	Data.GeneralInfo.DirectPlayGuid = VersionToGUID(myVersion);
-
 	ScriptMessage(stringArray[(int)StrType.DONE]);
-	// do something here...?
 }
 
 ExecuteTranslation(RealScriptPath);
