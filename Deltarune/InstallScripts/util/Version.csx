@@ -7,7 +7,7 @@ using System.Linq;
 using System.IO;
 using ImageMagick;
 
-void CheckGameVersion(Version expectedVersion, string? value)
+void CheckGameVersion(Version expectedVersion, string? value, Version? fallbackVersion = null)
 {
     if (value == null)
     {
@@ -24,6 +24,10 @@ Vuoi continuare lo stesso? (Potrebbe non funzionare correttamente)"))
     Version foundVersion = new Version(value);
     if (foundVersion < expectedVersion)
     {
+        if (foundVersion == fallbackVersion)
+        {
+            return;
+        }
         throw new Exception($"Stai usando una versione vecchia del gioco ({foundVersion}). Aggiornala subito all'ultima versione ({expectedVersion}).");
     }
     if (foundVersion > expectedVersion)

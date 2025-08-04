@@ -37,6 +37,52 @@ enum StrType : int
 string[] stringArray = new string[(int)StrType._LENGTH];
 string RealScriptPath = Path.GetDirectoryName(ScriptPath);
 
+GlobalDecompileContext g_GlobalDecompileContext = new(Data);
+
+// Finds the first setting of the given variable in the code.
+string? FindCodeVariableValue(string codeName, string varName)
+{
+    var decompiledCode = GetDecompiledText(codeName, g_GlobalDecompileContext);
+    var pattern = $@"({varName})\s*=\s*""([^""]*)""";
+    Match m = Regex.Match(decompiledCode, pattern);
+	if (!m.Success) {
+        return null;
+	}
+    return m.Groups[2]?.Value;
+}
+
+void CheckGameVersion(Version expectedVersion, string? value)
+{
+    if (value == null)
+    {
+        if (!ScriptQuestion(
+@"Non siamo stati in grado di determinare la versione del gioco.
+Molto probabilmente, il gioco è stato aggiornato e la traduzione non è più compatibile. 
+Vuoi continuare lo stesso? (Potrebbe non funzionare correttamente)"))
+        {
+            throw new Exception("Errore: versione del gioco non trovata. Installazione interrotta.");
+        }
+        return;
+    }
+
+    Version foundVersion = new Version(value);
+    if (foundVersion < expectedVersion)
+    {
+        throw new Exception($"Stai usando una versione vecchia del gioco ({foundVersion}). Aggiornala subito all'ultima versione ({expectedVersion}).");
+    }
+    if (foundVersion > expectedVersion)
+    {
+        if (!ScriptQuestion(
+@"La versione del gioco è più recente rispetto a quella che la traduzione supporta attualmente.
+Vuoi continuare lo stesso? (Potrebbe non funzionare correttamente)"))
+        {
+            throw new Exception("Errore: versione del gioco non supportata. Installazione interrotta.");
+        }
+    }
+}
+
+readonly Version g_supportedVersion = new Version("1.08");
+
 async Task ExecuteTranslation(string path)
 {
 	EnsureDataLoaded(); // so we only work with actual files.
@@ -76,6 +122,9 @@ async Task ExecuteTranslation(string path)
 	{
 		throw new Exception(stringArray[(int)StrType.NO_ASSET_ERROR]);
 	}
+
+	string? gameVersion = FindCodeVariableValue("gml_Object_obj_intromenu_Draw_0", "var version");
+	CheckGameVersion(g_supportedVersion, gameVersion);
 
 	UpdateProgress("Sounds...");
 	await Task.Yield(); // let UI update.

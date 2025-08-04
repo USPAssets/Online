@@ -27,6 +27,7 @@ void Done() {
 }
 
 readonly Version g_supportedVersion = new Version(1, 38);
+readonly Version g_itchioVersion = new Version(1, 19);
 
 async Task Main()
 {
@@ -54,7 +55,7 @@ async Task Main()
 	}
 
 	string? gameVersion = FindCodeVariableValue("gml_Object_obj_initializer2_Create_0", "global.version");
-	CheckGameVersion(g_supportedVersion, gameVersion);
+	CheckGameVersion(g_supportedVersion, gameVersion, g_itchioVersion);
 
 	int numSteps = 5;
 	int currentStep = 1;

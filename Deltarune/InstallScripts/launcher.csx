@@ -8,6 +8,7 @@
 #load "util/Strings.csx"
 #load "util/Version.csx"
 #load "util/GameCode.csx"
+#load "util/Fonts.csx"
 
 using UndertaleModLib.Util; // TextureWorker
 using System.Text; // StringBuilder
@@ -24,6 +25,7 @@ void Done() {
 }
 
 readonly Version g_supportedVersion = new Version(16, 0);
+readonly Version g_itchioVersion = new Version(3, 0);
 
 async Task Main()
 {
@@ -56,10 +58,10 @@ async Task Main()
 		// Ensure it is in the format "X.Y" for Version constructor
 		gameVersion += ".0";
 	}
-	CheckGameVersion(g_supportedVersion, gameVersion);
+	CheckGameVersion(g_supportedVersion, gameVersion, g_itchioVersion);
 
-	int numSteps = 1;
-	int currentStep = 1;
+	int numSteps = 2;
+	int currentStep = 2;
 	async Task Progress(string progressName) {
 		UpdateProgressBar(
 			progressName,
@@ -74,6 +76,9 @@ async Task Main()
 		Path.Join(assetPath, "Strings", "launcher", "lookup_en.txt"),
 		Path.Join(assetPath, "Strings", "launcher", "lookup_it.txt")
 	);
+
+	await Progress("Fonts");
+	ImportAllFonts(Path.Join(assetPath, "Fonts"));
 
 	Done();
 }
