@@ -419,6 +419,11 @@ void ImportStrings()
 
 void ImportSplash()
 {
+	// We don't import the splash when on Mac because it's bugged
+	if (OperatingSystem.IsMacOS())
+	{
+		return;
+	}
 
 	string path = Path.Combine(RealScriptPath, "Sprites");
 	string winpath = Path.GetDirectoryName(FilePath);
