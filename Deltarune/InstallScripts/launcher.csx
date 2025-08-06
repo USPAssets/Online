@@ -24,7 +24,7 @@ void Done() {
 	ScriptMessage("Done. PLEASE save and overwrite your file (Ctrl+S) and run the game!");
 }
 
-readonly Version g_supportedVersion = new Version(16, 0);
+readonly Version g_supportedVersion = new Version(17, 0);
 readonly Version g_itchioVersion = new Version(3, 0);
 
 async Task Main()

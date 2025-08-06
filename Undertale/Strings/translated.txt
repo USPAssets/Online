@@ -1,13 +1,13 @@
 prototype
 @@array@@
 arguments
-Greetings.
+Translation ported by nik, 1.08 strings by Depa.
 demona
-This translation was ported by nik.
+Salve, avete reso chiare le vostre intenzioni.
 demonb
-1.08 strings by Depa.
+Ho compreso.
 demonc
-pleaz no mayo pasta (eat mayo pasta!!!)
+Quindi io, il vostro umile servitore, vi seguirò fino in fondo...
 demond
 argument0
 \XLa, la.^3 &Time to wake&up and\R smell\X &the^4 pain./
@@ -7165,7 +7165,7 @@ NYEH HEH HEH!!!/%%
 * ho detto 5G^1?&* intendevo 50G^1.&  Compra      No\C
   
 * hai ragione./
-* i should charge way&  more than that./%%
+* dovrei parle pagare&  molto di più./%%
 * davvero^1?&* che mi dici di 5000G?&  Compra      No\C
 * è ancora troppo poco./%%
 * 50000G^1. questa è la&  mia ultima offerta.&  Compra      No\C
@@ -11074,19 +11074,19 @@ obj_colorlever_152
 obj_controlspear_89
 * Mira con le \*A \*D e seleziona con \*Z.
 obj_controlspear_90
-* Teabox - Blatantly correct choice.
+* Scatola di tè - L'ovvia scelta corretta.
 obj_controlspear_132
-* Hot Chocolate - Green cylinder.
+* Cioccolata Calda - Cilindro verde.
 obj_controlspear_143
-* Soda - Sickly yellow liquid.
+* Cedrata - liquido ripugnantemente giallo.
 obj_controlspear_154
-* Sugar - Goes in tea.
+* Zucchero - Va nel tè.
 obj_controlspear_165
 * Undyne.
 obj_controlspear_176
-* Fridge - Full of food.
+* Frigo - Pieno di cibo.
 obj_controlspear_192
-* Sword - Acquired taste.
+* Spada - Ci vuole gusto per questa.
 obj_controlspear_204
 * Seleziona con \*Z.
 obj_controlspear_select
@@ -24869,7 +24869,7 @@ obj_shop3_1033
 obj_shop3_1035
 \M5* ...../
 obj_shop3_1055
-\M1* Waterfall&  mostly./*
+\M1* Cascate&  principalmente./*
 obj_shop3_1056
 \E7* ...../
 obj_shop3_1058
@@ -31696,13 +31696,13 @@ SPAGHETTI...
 joyconfig_spaghetted
 TEST CONTROLLI
 joyconfig_test
-cold outside#but stay warm#inside of you
+fuori fa freddo#ma dentro di#te c'è calore
 joyconfig_fun_winter
-spring time#back to school
+primavera,#pulizie!
 joyconfig_fun_spring
-try to withstand#the sun's life-#giving rays
+sopravvivi ai#raggi solari#ma vitali
 joyconfig_fun_summer
-sweep a leaf#sweep away a#troubles
+spazza una foglia#spazza via i#problemi
 joyconfig_fun_fall
 Non preoccuparti.
 damage_special_0
