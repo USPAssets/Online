@@ -424,7 +424,7 @@ void ImportSplash()
 	{
 		return;
 	}
-
+	
 	string path = Path.Combine(RealScriptPath, "Sprites");
 	string winpath = Path.GetDirectoryName(FilePath);
 

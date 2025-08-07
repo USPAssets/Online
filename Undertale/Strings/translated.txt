@@ -23156,7 +23156,7 @@ obj_readable_room5_227
 obj_readable_room5_231
 * (It's not clear how this is&  going to encourage anyone&  to donate.)/%
 obj_readable_room5_232
-* (A framed photo of Papyrus.)/
+* (Una foto incorniciata di Papyrus.)/
 obj_readable_room5_236
 * (Looks like he's having fun&  making some kind of pasta...)/%
 obj_readable_room5_237
