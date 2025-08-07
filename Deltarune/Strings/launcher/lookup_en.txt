@@ -1,0 +1,26 @@
+DELTARUNE Chapter 1&2
+The Beginning
+A Cyber's World
+DELTARUNE 
+Chapter 
+Play
+Do Not
+load failed: 
+load succeeded
+English
+Quit
+CHAPTER 
+CHAPTER 
+DELTARUNE Chapter 1&2
+Yes
+yes
+Would you like to start from Chapter 1?
+Chapter 1から始めますか？
+ was completed.
+Play Chapter 
+Chapter Select
+Continue from Chapter 
+Chapter
+***** Event = 
+gamepad discovered
+gamepad lost
