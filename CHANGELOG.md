@@ -6,7 +6,7 @@ Ciao a tutti! Eccoci col primo aggiornamento della patch da quando siamo resusci
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer)**
 
-Grazie mille per le segnalazioni, in particolare: @Nulla, @SuperFrancy 0171, @El Brown e @fwancis dalla community di Discord!
+Grazie mille per le segnalazioni, in particolare: @Nulla, @SuperFrancy 0171, @El Brown, @fwancis e @Andrea Bruzzone dalla community di Discord.
 
 ### DELTARUNE v2.1.0
 
@@ -22,6 +22,7 @@ Grazie mille per le segnalazioni, in particolare: @Nulla, @SuperFrancy 0171, @El
 - Ripristinate varie stringhe mancanti
 - Ripristinati vari background mancanti
 - Corretto refusi vari
+- Resa coerente la traduzione di "fallen down"
 
 ## DELTARUNE v2.0.0 / UNDERTALE v.1.16
 
