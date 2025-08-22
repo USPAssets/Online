@@ -3263,7 +3263,7 @@ blooky
 なぷすた
 ぶるっち
 …………#(とめるちからは　ない)
-...........#(They're powerless to#stop you.)
+...........#(Non ha modo#di fermarti.)
 ころす
 みのがす
 こんな　なまえで#いいんですか？
@@ -6499,14 +6499,14 @@ GhostFrut
 item_nameb_9
 SidrRagni
 item_nameb_10
-ButtsPie
+CrostCara
 item_nameb_11
-Ribbon
+Fiocco
 item_nameb_12
 item_nameb_13
 GuantClam
 item_nameb_14
-Mandanna
+BanDuro
 item_nameb_15
 PezzoNeve
 item_nameb_16
@@ -6516,7 +6516,7 @@ PDIceCram
 item_nameb_18
 item_nameb_19
 item_nameb_20
-CinnaBun
+CanCann
 item_nameb_21
 CerealTem
 item_nameb_22
@@ -6543,14 +6543,14 @@ InstaNood
 item_nameb_36
 MelaGranc
 item_nameb_37
-Hot Dog
+Canino
 item_nameb_38
 item_nameb_39
 GlamBurg
 item_nameb_40
 item_nameb_41
 item_nameb_42
-Leg.Hero
+EroeLegg
 item_nameb_43
 OcchOpac
 item_nameb_44
@@ -6564,7 +6564,7 @@ item_nameb_48
 item_nameb_49
 <--Pend.
 item_nameb_50
-WornDG
+Pugn.Us.
 item_nameb_51
 VeroColt
 item_nameb_52
@@ -6585,7 +6585,7 @@ ChiavMist
 item_nameb_60
 BistecMet
 item_nameb_61
-HushPupe
+CanGrat
 item_nameb_62
 item_nameb_63
 ARM Temmie
@@ -6606,13 +6606,13 @@ GhstFruit
 item_names_9
 SidrRagni
 item_names_10
-Pie
+Crostata
 item_names_11
 item_names_12
 item_names_13
-Glove
+Guanto
 item_names_14
-Bandanna
+Bandana
 item_names_15
 item_names_16
 item_names_17
@@ -6621,17 +6621,17 @@ item_names_18
 item_names_19
 Popsicle
 item_names_20
-C. Bun
+Cannella
 item_names_21
 item_names_22
-Quiche
+Sformato
 item_names_23
-Tutu
+Tutù
 item_names_24
-Shoes
+Scarpe
 item_names_25
 item_names_26
-Dog
+Cane
 item_names_27
 item_names_28
 Res.Can.
@@ -6652,13 +6652,13 @@ G. Burger
 item_names_40
 item_names_41
 item_names_42
-L. Hero
+Eroe L.
 item_names_43
-Glasses
+Occhiali
 item_names_44
-Notebook
+Taccuino
 item_names_45
-Apron
+Grembiule
 item_names_46
 item_names_47
 item_names_48
@@ -6671,15 +6671,15 @@ item_names_52
 item_names_53
 item_names_54
 item_names_55
-Letter
+Lettera
 item_names_56
 item_names_57
-Chips
+Patatine
 item_names_58
 item_names_59
-Key
+Chiave
 item_names_60
-Steak
+Bistecca
 item_names_61
 C.Gratt
 item_names_62
@@ -6734,7 +6734,7 @@ item_desc_20_0
 item_desc_21_0
 * "Cereali Temmie" - Cura 2 PS&* Sono solo pezzi strappati&  di cartoncini colorati./%%
 item_desc_22_0
-* "Abandoned Quiche" Heals 34 HP&* A psychologically damaged&  spinach egg pie./%%"
+* "Sformato Abbandon." Cura 34 PS&* Uno sformato di uova e spinaci&  psicologicamente danneggiato./%%"
 item_desc_23_0
 * "Vecchio Tutù" - Armatura DF 10&* Finalmente^1, un pezzo di&  armatura protettivo./%%
 item_desc_24_0
@@ -6891,7 +6891,7 @@ monstername_56b
 Cangiunzione
 monstername_57b
 Anima Perduta
-Monster Kid
+Mostriciattolo
 Undyne l'Immortale
 Pupazzo Felice
 Mettaton NEO
@@ -7165,7 +7165,7 @@ NYEH HEH HEH!!!/%%
 * ho detto 5G^1?&* intendevo 50G^1.&  Compra      No\C
   
 * hai ragione./
-* dovrei parle pagare&  molto di più./%%
+* dovrei farla pagare&  molto di più./%%
 * davvero^1?&* che mi dici di 5000G?&  Compra      No\C
 * è ancora troppo poco./%%
 * 50000G^1. questa è la&  mia ultima offerta.&  Compra      No\C
@@ -7343,7 +7343,7 @@ NYEH..^1.&HEH..^1.&HEH!/%%
 * Non è tutto più facile&  quando si chiede?/%%
 * L'uscita è aperta^1?&* Immagino che rotolerò via.../
 * Ehi^1, me la daresti&  una spinta^1, dolcezza?/%%
-* 'Take one.'&* Take a candy?&         Yes         No \C
+* "Prendine una"^1.&* Prendi una caramella?&         Sì          No \C
 * C'è scritto "Prendine una"^1.&* Prendi una caramella?&         Sì          No \C
 * Guarda cosa hai combinato./%%
 * Hai preso una caramella^1.&* (Premi \*C per aprire&  il menù.)/%%
@@ -7736,7 +7736,7 @@ TI RICORDI QUANDO&TI HO CHIESTO COSA&STESSI INDOSSANDO?/
 \E0MA SCOMMETTO&CHE LO SAPEVI GIÀ!/
 \E3E DATO CHE SAPEVO&CHE LO SAPEVI.../
 \E0LE HO RIFERITO CIÒ&CHE MI HAI DETTO&TU!/
-A \[1]!/
+\[1]!/
 PERCHÉ SAPEVO CHE^1,&DI SICURO.../
 \E3DOPO UNA DOMANDA&TANTO SOSPETTA.../
 \E0TI SARESTI&OVVIAMENTE&CAMBIATO!/
@@ -7754,7 +7754,7 @@ LE HO DETTO CHE&NON INDOSSAVI&\[1]!/
 \E3ANCHE SE TU MI&HAI DETTO&IL CONTRARIO!/
 INVECE^1, LE HO&MENTITO!/
 LE HO DETTO CHE&INDOSSAVI.../
-\E0A \[2]./
+\E0 \[2]./
 \E3MI DOLEVA&RACCONTARE UNA&BUGIA COSÌ OVVIA./
 SAPEVO CHE NON&AVRESTI MAI PORTATO \[2]./
 \E0MA LA TUA SICUREZZA&È PIÙ IMPORTANTE&DEL PROPRIO LOOK./
@@ -8355,7 +8355,7 @@ POSSO FARLO IO&PER TE!!!/
 \E0* È forse il caramello?& &  Sì         No      \C
 \E0* È forse la cannella?& &  Sì         No      \C
 \E0* Hi hi hi^1.&* Me lo sentivo./
-\E1* Quando degli umani&  finiscono quaggiù^1,&  stranamente..^1. Io.../
+\E1* Quando degli umani&  cadono quaggiù^1,&  stranamente..^1. Io.../
 \E1* Ho come la sensazione&  di conoscerli già./
 \E0* In verità^1, appena ti ho&  visto^1, mi è parso.../
 \E1* ... di vedere un&  vecchio amico per&  la prima volta./
@@ -8462,15 +8462,15 @@ POSSO FARLO IO&PER TE!!!/
  & &         Mettere     Non mettere\C
 * (...)/
 * (Non avevi nulla di&  interessante.)/%%
-* (Metti un Hot Dog davanti&  alla porta.)/
+* (Metti un Canino davanti&  alla porta.)/
 * (Una zampa bianca schizza &  fuori da sotto la porta.)/
-* (Cerca di tirare l'Hot Dog&  in camera sua...)/
-* (Ma continua a schiacciare&  troppo forte^1, e l'hot dog&  continua a rotolare via.)/
+* (Cerca di tirare il&  Canino in camera sua...)/
+* (Ma continua a schiacciare&  troppo forte^1, e il&  Canino continua a rotolare via.)/
 * (Finalmente^1, ce la fa.)/
 * (Senti uno stridio di rocce&  che si sfregano.)/
 * (Una singola polpettina &  scivola fuori&  da sotto la porta.)/
 * (Hai ottenuto&  il Cucciolo di Polpetta.)/%%
-* (Metti un Hot Cat davanti&  alla porta.)/
+* (Metti una Bagatt davanti&  alla porta.)/
 * (Senti ringhiare...)/%%
 * (Metti l'Insalata Canina&  davanti alla porta.^1)&* (Scivola al di sotto.)/
 * (L'Insalata Canina è stata&  assorbita dall'oscurità.)/%%
@@ -8584,9 +8584,9 @@ In tal caso^1, e sia./%%
    * Errore
    * Dimenati
 \W   * Undyne     
-\W   \Y* (Saved)    \W
+\W   \Y* (Salvata)    \W
    * Alphys \W &
-   \Y* (Saved)\W &
+   \Y* (Salvata)\W &
 \W   * Papyrus       * Sans \W &
 \Y   * (Salvato)     * (Salvato)\W &
 \W   * Toriel        * Asgore \W 
@@ -9362,7 +9362,7 @@ Beh... su.../
 obj_adate_1349
 \E2Tutto!/%%
 obj_adate_1350
-\E7I told you that&seaweed was like...&scientifically&important...%
+\E7I Ti ho detto che le&alghe sono tipo...&scientificamente&importanti...%
 obj_adate_1366
 \F5Ma in realtà io...&Io le uso solo&per farci del gelato^1!%%
 obj_adate_1367
@@ -9785,11 +9785,11 @@ obj_artclass_sign_231
 obj_artclass_sign_281
 * Mi scusi tanto!!!/%%
 obj_artclass_sign_282
-* (A strange light fills the&  room.^5)   %
+* (Una strana luce irradia la&  stanza.^5)   %
 obj_asgore_finalintro_178
-* (Twilight is shining through&  the barrier.^3)   %
+* (Il crepuscolo splende dalla&  barriera.^3)   %
 obj_asgore_finalintro_179
-* (It seems your journey is&  finally over.^4)%
+* (Sembra che il tuo viaggio sia&  finalmente giunto al termine.^4)%
 obj_asgore_finalintro_180
      * (Ti riempi di&          DETERMINAZIONE.^5) %%
 obj_asgore_finalintro_181
@@ -9930,7 +9930,7 @@ Allora&te lo&ricordi./%%
 obj_asgore_lastcutscene_640
 In&questo&mondo.../%%
 obj_asgore_lastcutscene_651
-O UCCIDI o sei UCCISO^4.%%
+O UCCIDI o vieni UCCISO^4.%%
 obj_asgore_lastcutscene_692
 He he he^1.&Non preoccuparti./
 obj_asgore_lastcutscene_769
@@ -10714,7 +10714,7 @@ obj_bed_watcher_94
 * (Probabilmente potresti&  salirci se ti trovassi alla&  sua sinistra.)/%%
 obj_bed_watcher_95
 obj_blookdiary_64
-* Caro Diario^1:&* La sorella di Insirena è&  venuta a mancare di recente./
+* Caro Diario^1:&* La sorella di Insirena è&  "decaduta" di recente./
 obj_blookdiary_70
 * È triste^1.&* Senza sua sorella a&  parlare per lei.../
 obj_blookdiary_71
@@ -11142,7 +11142,7 @@ obj_cookshowevent_90
 obj_cookshowevent_91
 \E6* Non ti preoccupare!/
 obj_cookshowevent_92
-\E0*\M8 I'll hack into the&  light system and&  brighten it up!/%%
+\E0*\M8 Hackererò il sistema&  delle luci per&  illuminare tutto!/%%
 obj_cookshowevent_93
 obj_cookshowevent_135
 * OHHHH SÌÌÌÌ!!!/
@@ -11719,7 +11719,7 @@ obj_dogboat_thing_424
 obj_dogboat_thing_425
 * ... la stanza prima che della&  lanterna si spenga il fuoco./%%
 obj_dogboat_thing_426
-* Tra la la^1.&* Canta con me, ohilà^1.&* Tra la la./%%
+* Tra la la^1.&* Canta con me, su^1.&* Tra la la./%%
 obj_dogboat_thing_427
 * Tra la la^1.&* Uh oh^1. All'improvviso^1...&  ho voglia di tropici, avviso./%%
 obj_dogboat_thing_428
@@ -11848,7 +11848,7 @@ obj_doodlebug_368
 obj_doodlebug_371
 * Disegni un cavallo.&* Scarabbozzo monta&  in sella./^
 obj_doodlebug_381
-* say.../
+* di' un po'.../
 obj_doublesans_75
 \E1* mi stai per caso&  seguendo?/%%
 obj_doublesans_76
@@ -13492,7 +13492,7 @@ Uhh^1, giusto^1!&S-scusate^1, mi sono&un po' lasciata&trasportare./%%
 obj_friendscene_1066
 He he he./
 obj_friendscene_1082
-My child^1, it&seems as if you&must stay here&for a while./
+Tesoro mio^1, pare&che dovrai&restare qui&per un po'./
 obj_friendscene_1083
 \E6Ma vedendo&tutti i begli&amici che hai&conosciuto.../
 obj_friendscene_1084
@@ -14939,7 +14939,7 @@ obj_labtv_event_353
 obj_labtv_event_354
 * Eddai^1, smettila&  di prendermi in giro^1!&* Haha!/%%
 obj_labtv_event_355
-* Ohilà^1, \[C]^1!&* Sorridi alla camera!/
+* Buondì^1, \[C]^1!&* Sorridi alla camera!/
 obj_labtv_event_391
 * Ha^1, stavolta ti ho beccato^1!&* Ho lasciato il coperchio..^1.&* APPOSTA!/
 obj_labtv_event_392
@@ -15422,7 +15422,7 @@ obj_lastsans_trigger_676
 obj_lastsans_trigger_677
 \E2* comodo^1, eh^1?&* una volta per&  dito./
 obj_lastsans_trigger_678
-\E3* but soon.../
+\E3* ma presto.../
 obj_lastsans_trigger_679
 \E4* avrai bisogno di una&  mano da mutante per&  contare le tue morti./%%
 obj_lastsans_trigger_680
@@ -15439,7 +15439,7 @@ obj_lastsans_trigger_694
 obj_lastsans_trigger_695
 \E0* ehi^1, mica male^1.&* il sette mi pare sia&  un numero fortunato./
 obj_lastsans_trigger_696
-\E2* who knows^1, maybe&  you'll hit the&  jackpot.../
+\E2* chissà^1, forse&  farai jackpot.../
 obj_lastsans_trigger_697
 \E4* e quel numero diventerà&  dieci volte più grande./%%
 obj_lastsans_trigger_698
@@ -18144,9 +18144,9 @@ obj_mkid_battle_208
 obj_mkid_battle_209
 obj_mkid_battle_210
 obj_mkid_battle_215
-* Monster Kid trema&  ansiosamente.
+* Mostriciattolo trema&  ansiosamente.
 obj_mkid_battle_450
-* MONSTER KID 2 ATT 2 DIF&* PE Gratis./^
+* MOSTRICIATTOLO 2 ATT 2 DIF&* PE Gratis./^
 obj_mkid_battle_479
 Undyne..^1.&Sei..^1.&Sei ferita.../%%
 obj_mkid_battle_553
@@ -19725,9 +19725,9 @@ obj_papcouch_70
 obj_papdate_150
           VIA^1 INCONTRO!^5 %%
 obj_papdate_151
-HERE WE ARE!^1!&ON OUR DATE!!/
+ECCOCI QUA!^1!&ALL'APPUNTAMENTO!!/
 obj_papdate_166
-HERE WE ARE!^1!&HANGING OUT!!/
+ECCOCI QUA!^1!&A FREQUENTARCI!/
 obj_papdate_167
 \E3IN REALTÀ NON&HO MAI FATTO&NULLA DI SIMILE&PRIMA D'ORA./
 obj_papdate_169
@@ -19735,9 +19735,9 @@ obj_papdate_169
 obj_papdate_170
 NON PUOI DIRE&'PREPARATO' SENZA&DIRE MOLTE LETTE-&RE DEL MIO NOME!!!/%%
 obj_papdate_171
-I SNAGGED AN&OFFICIAL&DATING RULEBOOK&FROM THE LIBRARY!/
+HO RIMEDIATO UNA&GUIDA UFFICIALE&PER APPUNTAMENTI&DALLA BIBLIOTECA!/
 obj_papdate_198
-I SNAGGED AN&OFFICIAL&HANGOUT GUIDEBOOK&FROM THE LIBRARY!/
+HO RIMEDIATO UNA&GUIDA UFFICIALE&PER INCONTRI&DALLA BIBLIOTECA!/
 obj_papdate_199
 SIAMO PRONTI&PER DIVERTIRCI&ALLA GRANDE!/
 obj_papdate_201
@@ -19749,9 +19749,9 @@ obj_papdate_203
 obj_papdate_204
 \XPUNTO UNO..^1. PREMI&\*C PER FAR&COMPARIRE LE&"\RINFO AMICIZIA\X."/
 obj_papdate_205
-\XSTEP ONE..^1. PRESS&YOUR CONTROLLER'S&\*C BUTTON FOR&"\RDATING HUD\X."/
+\XPUNTO UNO..^1. PREMI&[ C ] PER FAR&COMPARIRE LE&"\RINFO APPUNTAM.\X."/
 obj_papdate_206
-\XSTEP ONE..^1. PRESS&YOUR CONTROLLER'S&\*C BUTTON FOR&"\RFRIENDSHIP HUD\X."/
+\XPUNTO UNO..^1. PREMI&[ C ] PER FAR&COMPARIRE LE&"\RINFO AMICIZIA\X."/
 obj_papdate_207
 \E3CREDO CHE&L'HAI GIÀ&FATTO.../%%
 obj_papdate_208
@@ -19765,9 +19765,9 @@ obj_papdate_280
 PENSO CHE SIAMO&PRONTI PER IL&PUNTO DUE!!!/
 obj_papdate_281
 obj_papdate_282
-"STEP TWO..^1.&ASK THEM&ON A DATE."/
+"PUNTO DUE..^1.&CHIEDERE DI&USCIRE INSIEME."/
 obj_papdate_283
-"STEP TWO..^1.&ASK THEM&TO HANG OUT."/
+"PUNTO DUE..^1.&CHIEDERE DI&FARE UN'USCITA."/
 obj_papdate_284
 \E0A\F0HEM!/
 obj_papdate_286
@@ -19801,7 +19801,7 @@ QUEL FIOCCO NEI&TUOI CAPELLI.../
 obj_papdate_371
 QUELLA BANDANA&INTORNO ALLA&TUA TESTA.../
 obj_papdate_372
-QUEL TUTU&INTORNO ALLA&TUA VITA.../
+QUEL TUTÙ&INTORNO ALLA&TUA VITA.../
 obj_papdate_373
 QUEGLI OCCHIALI&SULLA TUA&FACCIA.../
 obj_papdate_374
@@ -22303,7 +22303,7 @@ obj_readable_room1_435
 obj_readable_room1_436
 * ANNOTAZIONE NUMERO 6/
 obj_readable_room1_441
-* ASGORE ha chiesto a quelli fuo-&  ri città di procurargli i mos-&  tri che si stanno "spegnendo"./
+* ASGORE ha chiesto a quelli fuo-&  ri città di procurargli i mos-&  tri che stanno "decadendo"./
 obj_readable_room1_442
 * I loro corpi sono&  arrivati oggi./
 obj_readable_room1_443
@@ -23393,9 +23393,9 @@ obj_ripoff_papyrus_683
 obj_ripoff_papyrus_686
 obj_ripoff_papyrus_692
 obj_ripoff_papyrus_693
- NO! WAIT!^1!& YOU'RE MY FRIEND^1!& I COULD NEVER&  CAPTURE YOU!!/*
+ NO! ASPETTA!^1!& SIAMO AMICI^1!& NON POTREI MAI& CATTURARTI!!/*
 obj_ripoff_papyrus_767
-nah^1, i'm rootin for&ya^1, kid./*
+nah^1, faccio il tifo&per te^1, lo sai./*
 obj_ripoff_papyrus_774
 arren-&diti e&basta.&come me.
 obj_ripoff_sans_212
@@ -23480,9 +23480,9 @@ obj_ripoff_toriel_595
 obj_ripoff_toriel_598
 obj_ripoff_toriel_604
 obj_ripoff_toriel_605
-Your fate is up to&you now!/*
+Ora la tua sorte&dipende da te!/*
 obj_ripoff_toriel_665
-You are our future!/*
+Sei il nostro&futuro!/*
 obj_ripoff_toriel_672
 obj_ripoff_undyne_287
 Ogni&umano&deve&morire!
@@ -24750,16 +24750,16 @@ obj_shop3_658
 obj_shop3_668
 * La cassa&  è vuota./%%
 obj_shop3_673
-* Like^1, see&  you later!/*
+* Tipo^1, ci&  vediamo!/*
 obj_shop3_683
-* Like^1, later&  and stuff!/*
+* Tipo^1, ci&  si becca!/*
 obj_shop3_685
 * .../*
 obj_shop3_690
 obj_shop3_692
-* I'm Bratty^1, and&  this is my&  best friend^1,&  Catty./*
+* Sono Bratty^1, e&  lei è la mia&  migliore amica^1,&  Catty./*
 obj_shop3_710
-* I'm Catty^1, and&  this is my&  best friend^1,&  Bratty./*
+* Sono Catty^1, e&  lei è la mia&  migliore amica^1,&  Bratty./*
 obj_shop3_713
 \M3* Beh^1, quel tipo&  di persona.../
 obj_shop3_726
@@ -24797,13 +24797,13 @@ obj_shop3_822
 obj_shop3_829
 \M6* È tipo..^1.&* La mia cotta&  robot.          /
 obj_shop3_830
-\M4* I think we're&  like..^1. both&  going to marry&  him./*
+\M4* Penso che noi&  tipo..^1. lo&  sposeremo&  entrambe./*
 obj_shop3_831
 \E2* Oh mio DIO^1,&* METTATON./
 obj_shop3_833
 \E2* In realtà&  è tipo..^1.&* La MIA cotta&  robot./
 obj_shop3_834
-* We're both&  like^1, ALREADY&  married to&  him./*
+* Siamo entrambe&  tipo^1, GIÀ&  sposate con&  lui./*
 obj_shop3_835
 \E6* Solo che^1,&  tipo^1, ancora&  non lo sa./%%
 obj_shop3_836
@@ -24811,11 +24811,11 @@ obj_shop3_836
 obj_shop3_845
 \M5* Oh mio Dio^1.&* Alphys./
 obj_shop3_859
-\M0* She used to&  live on our&  street./*
+\M0* Viveva&  sulla nostra&  stessa strada./*
 obj_shop3_860
 \E7* Oh mio dio^1,&* ALPHYS./
 obj_shop3_862
-\E0* She was like&  a big sister./*
+\E0* Era come una&  sorella&  maggiore./*
 obj_shop3_863
 \M0* Cioè Alphys&  ha sempre^1,&  tipo.../*
 obj_shop3_870
@@ -24825,7 +24825,7 @@ obj_shop3_879
 obj_shop3_880
 \M5* Dio^1, siamo&  tipo.../
 obj_shop3_881
-\M1* SO hyped for&  the destruction&  of humanity./*
+\M1* COSÌ eccitate&  per la distru-&  zione dell'&  umanità./*
 obj_shop3_882
 \E0* È una grossa^1,&  fessacchiotta&  palla di pelo!!   /
 obj_shop3_884
@@ -24833,19 +24833,19 @@ obj_shop3_884
 obj_shop3_885
 \E7* Dio^1, siamo&  tipo.../
 obj_shop3_886
-\E1* SO hyped for&  the destruction&  of humanity./*
+\E1* COSÌ eccitate&  per la distru-&  zione dell'&  umanità./*
 obj_shop3_887
 \M0* Io^1?&* Certo^1, io&  AMO i gatti!/
 obj_shop3_898
-\M1* They're^1,&  like^1,&  SO tasty!!/*
+\M1* Sono^1,&  tipo^1,&  COSÌ&  gustosi!!/*
 obj_shop3_899
 \E8* Io^1?&* Certo^1, io&  AMO i gatti!/
 obj_shop3_901
-\E1* They're^1,&  like^1,&  SO cute!!!/*
+\E1* Sono^1,&  tipo^1,&  COSÌ&  carini!!!/*
 obj_shop3_902
 * Ehi^1, questa è&  Bratty!/*
 obj_shop3_910
-* Hey^1, this is&  Catty!/*
+* Ehi^1, questa è&  Catty!/*
 obj_shop3_912
 \E3* ASSOLUTAMENTE&  costosa./%%
 obj_shop3_959
@@ -24855,11 +24855,11 @@ obj_shop3_970
 obj_shop3_980
 \M5* Dovresti.../
 obj_shop3_991
-\M1* TOTALLY wicked&  buy all of&  it?/*
+\M1* ASSOLUTAMENTE.&  comprarla&  tutta?/*
 obj_shop3_992
 \E7* Tipo...      /
 obj_shop3_994
-\E4* TOTALLY wicked&  buy all of&  it?/*
+\E4* ASSOLUTAMENTE.&  comprarla&  tutta?/*
 obj_shop3_995
 \E1* L'abbiamo&  trovata&  nella&  spazzatura!/%%
 obj_shop3_1014
@@ -24869,7 +24869,7 @@ obj_shop3_1033
 obj_shop3_1035
 \M5* ...../
 obj_shop3_1055
-\M1* Cascate&  principalmente./*
+\M1* Cascate&  per lo più./*
 obj_shop3_1056
 \E7* ...../
 obj_shop3_1058
@@ -24999,7 +24999,7 @@ obj_shop3_1761
 obj_shop3_1773
 \E0* Già^1, tipo^1,&  fico./%%
 obj_shop3_1785
-* Like^1,&  millennia&  of being&  imprisoned&  finally over?/*
+* Tipo^1,&  millenni&  di prigionia&  finalmente&  conclusi?/*
 obj_shop3_1797
 \E0* Già^1, è tipo&  abbastanza&  ganzo,&  immagino./%%
 obj_shop3_1809
@@ -25081,15 +25081,15 @@ obj_shop3_2162
 obj_shop3_2174
 * Già^1!&* Schifo!!^1!&* Nya ha ha!!!/%%
 obj_shop3_2184
-* Signed^1,&  Bratty <3/*
+* Firmato^1,&  Bratty <3/*
 obj_shop3_2196
-* Signed^1,&  Catty <3/*
+* Firmato^1,&  Catty <3/*
 obj_shop3_2198
-\E0* The customer is&  always right./*
+\E0* Il cliente ha sempre ragione./*
 obj_shop4_244
 \E0* Benvenuto all'Emporio &  dei Burger MTT^1, casa &  del Glamburger^1.&* Fai brillare la&  tua giornata (TM)./*
 obj_shop4_245
-\E3* Anything else you&  need?/*
+\E3* Qualcos'altro?/*
 obj_shop4_249
 \E3* Cosa posso fare per&  te, scricciolo?/*
 obj_shop4_250
@@ -27172,7 +27172,7 @@ obj_tordogcall_113
 obj_tordogcall_114
 * (Senti una voce in lontananza.)\TT/
 obj_tordogcall_115
-* Stop^1, please!/
+* Fermati^1, ti prego!/
 obj_tordogcall_116
 * Torna qui e ridammi il&  CELLULARE!/
 obj_tordogcall_117
@@ -27189,13 +27189,13 @@ obj_tordogcall_154
 obj_tordogcall_155
 * Dove sei...?/
 obj_tordogcall_156
-* I will give you a nice pat&  on the head!\T0/
+* Ti darò una bella carezza!\T0/
 obj_tordogcall_157
-* (The snoring stops.)\TT/
+* (Il russare si ferma.)\TT/
 obj_tordogcall_158
-* ... if you return my CELLPHONE.\T0/
+* ... se mi ridai il CELLULARE.\T0/
 obj_tordogcall_159
-* (The snoring resumes.)/
+* (Il russare ricomincia.)/
 obj_tordogcall_160
 obj_tordogcall_161
 obj_tordogcall_162
@@ -27780,7 +27780,7 @@ obj_torinteractable7_170
 obj_torinteractable7_171
 * Ecco perché ho svilup-&  pato quella terribile&  visione del mondo./
 obj_torinteractable7_172
-* "O uccidi o sei ucciso"./
+* "O uccidi o vieni ucciso"./
 obj_torinteractable7_173
 \E7* Ma adesso..^1.&* Dopo averti&  incontrato.../
 obj_torinteractable7_174
@@ -28203,7 +28203,7 @@ obj_triswitchevent_147
 obj_triswitchevent_148
 \E0* E-e-ehi!/
 obj_triswitchevent_149
-\E5* Looks like you!!!^1 &* Only needed to press^1!&* Two of them!!!/
+\E5* Sembra proprio!!!^1 &* Che ne dovessi premere^1!&* Solo due!!!/
 obj_triswitchevent_150
 obj_triswitchevent_151
 obj_triswitchevent_152
@@ -28446,7 +28446,7 @@ obj_undyne1_158
 obj_undyne1_159
 \M4CI HO COMBATTUTO&VALOROSAMENTE!/
 obj_undyne1_160
-\M5...WHAT^1?\M1 &DID I CAPTURE THEM...?/
+\M5...COSA^1\M1 &RIGUARDO ALLA&CATTURA...?/
 obj_undyne1_161
 \M0B-B-BEH.../
 obj_undyne1_162
@@ -28533,7 +28533,7 @@ obj_undyne_ex_867
 obj_undyne_ex_868
 Se pensi che io&perda la speranza^1,&ti sbagli./
 obj_undyne_ex_869
-Cause I've..^1.&Got my friends&behind me./
+Perché io..^1.&Ho i miei amici&che mi coprono&le spalle./
 obj_undyne_ex_870
 \E3Alphys mi ha detto&che mi avrebbe&guardato&combatterti.../
 obj_undyne_ex_871
@@ -29483,11 +29483,11 @@ obj_undynetrigger_boss_165
 obj_undynetrigger_boss_190
 * No^1, sai cosa ti dico?/%%
 obj_undynetrigger_boss_191
-* SCREW IT^3! %%
+* AL DIAVOLO^3! %%
 obj_undynetrigger_boss_199
-* WHY SHOULD I TELL THAT STORY^1  %%
+* PERCHÉ DOVREI&  RACCONTARTI QUELLA&  STORIA^1  %%
 obj_undynetrigger_boss_206
-* WHEN YOU'RE ABOUT TO DIE!?^1!   %%
+* QUANDO STAI&  PER MORIRE!?^1!   %%
 obj_undynetrigger_boss_213
 * NGAAAAAHHHHHHHHHHHHHHHHH^1! %%
 obj_undynetrigger_boss_220
@@ -30254,8 +30254,8 @@ NESSUNO SA DOVE&VADA A FINIRE./%%
 NESSUNO SA DOVE&VADA A FINIRE./
 * Ehi^1, io lo so^1!&* Alphys me l'ha detto.../
 * Arriva a Roventerra&  per raffreddare&  il NUCLEO!/
-WOW^1, UNDYNE!^1!&I DIDN'T KNOW YOU&LIKED NERDY STUFF!/
-\E3JUST STRENGTH&AND FIGHTING.../
+WOW^1, UNDYNE!^1!&NON TI FACEVO&COSÌ NERD!/
+\E3PENSAVO TI INTERES-&SASSERO SOLO&I COMBATTIMENTI.../
 \E0* Stai scherzando!?&* Perché non dovrei!?/
 \E6* Il cervello è il&muscolo piú grande&di tutti!!!/%%
 IPNOTIZZANTE^1, &NON TROVI???/%%
@@ -31420,8 +31420,8 @@ weekday_6
 * Hai recuperato \[1] PS!/%
 * I tuoi PS tornano al massimo./%
    * 
-                     PAGE 1
-                     PAGE 2
+                     PAGINA 1
+                     PAGINA 2
    * Risparmia
    * Fuggi
  A
@@ -32212,9 +32212,9 @@ TIME:\[1]
 mettnews_timer
 ASCOLTI \[1]
 mett_ratings
-ESSAY PROMPT:#What do you#love most about#Mettaton?#(No X or Z)
+INCIPIT TEMA:#Qual è la cosa#che ami di più#di Mettaton?#(No X o Z)
 mett_essay_prompt_pc
-ESSAY PROMPT: What do you love most about Mettaton?
+INCIPIT TEMA:Qual è la cosa che ami di più di Mettaton?
 mett_essay_prompt_console
 [INIZIA A SCRIVERE]
 mett_essay_start
@@ -32403,17 +32403,17 @@ Da solo
 shop4_talk11_title
 Minaccia
 shop4_talk12_title
-tem flake
+cereali tem
 shop5_itemname_22a
-tem flake (ON SALE,)
+cereali tem (IN SCONTO,)
 shop5_itemname_22b
-tem flake (expensiv)
+cereali tem (cosos)
 shop5_itemname_22c
-tem flake (premiem)
+cereali (lusuoso)
 shop5_itemname_22d
-tem pay 4 colleg
+paga univresit a tem'
 shop5_itemname_college
-temy ARMOR!!!
+ARMATURA temy!!!
 shop5_itemname_64
 Cura 2PS#cibo de#tem
 shop5_itemdesc_22a
@@ -32768,7 +32768,7 @@ scr_battlegroup_654
 * Muffet ti intrappola!
 * Madjick sbuca fuori&  dal suo cappello!
 * Valletto blocca la&  strada!
-* Final Froggit was already there^1,&  waiting for you.
+* Craccrana finale era già lì^1,&  ad aspettarti.
 * Astigmatismo si avvicina
 * Ghiribasta arriva in tutta&  fretta!
 * Ghiribasta e Craccrana Finale&  sono comparsi.
@@ -47583,7 +47583,7 @@ version
 -4
 -V
 UT v
- (C) Toby Fox 2015-2017 - USP V1.16
+ (C) Toby Fox 2015-2017 - USP V1.17
 intronoise
 ballamount
 special_x

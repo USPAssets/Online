@@ -86,3 +86,16 @@ void UpdateKeyboardPuzzleCode()
 	
 	importGroup.Import();
 }
+
+void UpdateWaterCoolerCode()
+{
+	string codeFile = "gml_Object_obj_watercooler_enemy_Step_0";
+	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
+
+	// Watercooler "b[aeiou]b[il]e"
+	// Format string is B~1b~2e
+	// Replace with Bl~1b~2 for "bl[aeiou]b(bi)?
+	// Only need to replace choose statements in code, rest can be done in strings
+	importGroup.QueueFindReplace(codeFile, """choose("i", "l")""", """choose("", "bi")""");
+	importGroup.Import();
+}

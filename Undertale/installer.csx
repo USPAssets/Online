@@ -133,6 +133,7 @@ async Task ExecuteTranslation(string path)
 	UpdateProgress("Sprites (ci metterà un po' di tempo)...");
 	await Task.Yield(); // let UI update.
 	await ImportSprites();
+	await ImportTilesets();
 
 	UpdateProgress("Fonts...");
 	await Task.Yield(); // let UI update.
@@ -267,6 +268,32 @@ async Task ImportSprites()
 	catch (Exception e)
 	{
 		throw new Exception(string.Format(stringArray[(int)StrType.FMT_AN_ERROR], stringArray[(int)StrType.SPRITES], e.ToString()));
+	}
+}
+
+async Task ImportTilesets()
+{
+	string path = Path.Combine(RealScriptPath, "Backgrounds");
+	foreach (var tileset in Data.Backgrounds)
+	{
+		if (tileset is not null)
+		{
+			string filename = $"{tileset.Name.Content}.png";
+			try
+			{
+				string bgPath = Path.Combine(path, filename);
+				if (File.Exists(bgPath))
+				{
+					using var img = TextureWorker.ReadBGRAImageFromFile(bgPath);
+					tileset.Texture.ReplaceTexture(img);
+				}
+			}
+			catch (Exception ex)
+			{
+				ScriptMessage($"Failed to import {filename} (index {Data.Backgrounds.IndexOf(tileset)}): {ex.Message}");
+			}
+		}
+		await Task.Yield(); // let UI update
 	}
 }
 

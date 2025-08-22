@@ -9,6 +9,7 @@
 #load "util/Version.csx"
 #load "util/GameCode.csx"
 #load "util/Fonts.csx"
+#load "util/Sounds.csx"
 
 using UndertaleModLib.Util; // TextureWorker
 using System.Text; // StringBuilder
@@ -79,6 +80,10 @@ async Task Main()
 
 	await Progress("Fonts");
 	ImportAllFonts(Path.Join(assetPath, "Fonts"));
+
+	await Progress("Sounds");
+	ImportSounds(Path.Join(assetPath, "Sounds"));
+	ImportMusic(assetPath, gameFolder);
 
 	Done();
 }
