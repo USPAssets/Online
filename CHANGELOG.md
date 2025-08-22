@@ -8,7 +8,7 @@ Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'ins
 
 Grazie mille per le segnalazioni, in particolare: @Nulla, @SuperFrancy 0171, @El Brown e @fwancis dalla community di Discord!
 
-DELTARUNE v2.1.0:
+### DELTARUNE v2.1.0:
 
 - Corretto refusi vari
 - Reso coerenti vari termini che venivano tradotti diversamente in Cap.1 e Cap.2
@@ -17,7 +17,7 @@ DELTARUNE v2.1.0:
 - Corretto effetto di luci durante la sequenza di benvenuto nella Citta' del Cap.2
 - Ripristinato canzone finale tradotta in italiano in Cap.1
 
-UNDERTALE v1.17
+### UNDERTALE v1.17
 
 - Ripristinate varie stringhe mancanti
 - Ripristinati vari background mancanti
