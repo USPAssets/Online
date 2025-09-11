@@ -62,14 +62,95 @@ void CheckValidity(string importFolder)
     }
 }
 
-void ImportAllGraphics(string importFolder) {
+UndertaleTexturePageItem CreateTexturePageItem(Node n, UndertaleEmbeddedTexture texturePage)
+{
+    // Initalize values of this texture
+    UndertaleTexturePageItem texturePageItem = new();
+    texturePageItem.Name = new UndertaleString($"PageItem {Data.TexturePageItems.Count}");
+    texturePageItem.SourceX = (ushort)n.Bounds.X;
+    texturePageItem.SourceY = (ushort)n.Bounds.Y;
+    texturePageItem.SourceWidth = (ushort)n.Bounds.Width;
+    texturePageItem.SourceHeight = (ushort)n.Bounds.Height;
+    texturePageItem.TargetX = (ushort)n.Texture.TargetX;
+    texturePageItem.TargetY = (ushort)n.Texture.TargetY;
+    texturePageItem.TargetWidth = (ushort)n.Bounds.Width;
+    texturePageItem.TargetHeight = (ushort)n.Bounds.Height;
+    texturePageItem.BoundingWidth = (ushort)n.Texture.BoundingWidth;
+    texturePageItem.BoundingHeight = (ushort)n.Texture.BoundingHeight;
+    texturePageItem.TexturePage = texturePage;
+    // Add this texture to UMT
+    Data.TexturePageItems.Add(texturePageItem);
+    return texturePageItem;
+}
+
+void ReplaceSprite(UndertaleSprite sprite, int frame, Node n, UndertaleEmbeddedTexture texturePage, Dictionary<UndertaleSprite, Node> maskNodes)
+{
+    sprite.Textures[frame] = new() {
+        Texture = CreateTexturePageItem(n, texturePage),
+    };
+    
+    // Update sprite dimensions
+    uint oldWidth = sprite.Width, oldHeight = sprite.Height;
+    sprite.Width = (uint)n.Texture.BoundingWidth;
+    sprite.Height = (uint)n.Texture.BoundingHeight;
+    bool changedSpriteDimensions = (oldWidth != sprite.Width || oldHeight != sprite.Height);
+
+    // Grow bounding box depending on how much is trimmed
+    bool grewBoundingBox = false;
+    bool fullImageBbox = sprite.BBoxMode == 1;
+    bool manualBbox = sprite.BBoxMode == 2;
+    if (!manualBbox)
+    {
+        int marginLeft = fullImageBbox ? 0 : n.Texture.TargetX;
+        int marginRight = fullImageBbox ? ((int)sprite.Width - 1) : (n.Texture.TargetX + n.Bounds.Width - 1);
+        int marginTop = fullImageBbox ? 0 : n.Texture.TargetY;
+        int marginBottom = fullImageBbox ? ((int)sprite.Height - 1) : (n.Texture.TargetY + n.Bounds.Height - 1);
+        if (marginLeft < sprite.MarginLeft)
+        {
+            sprite.MarginLeft = marginLeft;
+            grewBoundingBox = true;
+        }
+        if (marginTop < sprite.MarginTop)
+        {
+            sprite.MarginTop = marginTop;
+            grewBoundingBox = true;
+        }
+        if (marginRight > sprite.MarginRight)
+        {
+            sprite.MarginRight = marginRight;
+            grewBoundingBox = true;
+        }
+        if (marginBottom > sprite.MarginBottom)
+        {
+            sprite.MarginBottom = marginBottom;
+            grewBoundingBox = true;
+        }
+    }
+
+    // Only generate collision masks for sprites that need them (in newer GameMaker versions)
+    bool noMasksForBasicRectangles = Data.IsVersionAtLeast(2022, 9); // TODO: figure out the exact version, but this is pretty close
+    bool bboxMasks = Data.IsVersionAtLeast(2024, 6);
+    if (!noMasksForBasicRectangles || 
+        sprite.SepMasks is not (UndertaleSprite.SepMaskType.AxisAlignedRect or UndertaleSprite.SepMaskType.RotatedRect) || 
+        sprite.CollisionMasks.Count > 0)
+    {
+        if ((bboxMasks && grewBoundingBox) || 
+            (sprite.SepMasks is UndertaleSprite.SepMaskType.Precise && sprite.CollisionMasks.Count == 0) || 
+            (!bboxMasks && changedSpriteDimensions))
+        {
+            // Use this node for the sprite's collision mask if the bounding box grew, if no collision mask exists for a precise sprite,
+            // or if the sprite's dimensions have been changed altogether when bbox masks are not active.
+            maskNodes[sprite] = n;
+        }
+    }
+}
+
+void ImportAllGraphics(string importFolder, string suffix = null) {
     
     List<MagickImage> imagesToCleanup = new();
     bool importAsSprite = false;
 
     CheckValidity(importFolder);
-
-    bool noMasksForBasicRectangles = Data.IsVersionAtLeast(2022, 9); // TODO: figure out the exact version, but this is pretty close
 
     try
     {
@@ -86,9 +167,6 @@ void ImportAllGraphics(string importFolder) {
         packer.Process(sourcePath, searchPattern, textureSize, PaddingValue, debug,  imagesToCleanup);
         packer.SaveAtlasses(outName);
 
-        int lastTextPage = Data.EmbeddedTextures.Count - 1;
-        int lastTextPageItem = Data.TexturePageItems.Count - 1;
-
         bool bboxMasks = Data.IsVersionAtLeast(2024, 6);
         Dictionary<UndertaleSprite, Node> maskNodes = new();
 
@@ -102,7 +180,7 @@ void ImportAllGraphics(string importFolder) {
             IPixelCollection<byte> atlasPixels = atlasImage.GetPixels();
 
             UndertaleEmbeddedTexture texture = new();
-            texture.Name = new UndertaleString($"Texture {++lastTextPage}");
+            texture.Name = new UndertaleString($"Texture {Data.EmbeddedTextures.Count}");
             texture.TextureData.Image = GMImage.FromMagickImage(atlasImage).ConvertToPng(); // TODO: other formats?
             Data.EmbeddedTextures.Add(texture);
 
@@ -110,24 +188,6 @@ void ImportAllGraphics(string importFolder) {
             {
                 if (n.Texture != null)
                 {
-                    // Initalize values of this texture
-                    UndertaleTexturePageItem texturePageItem = new();
-                    texturePageItem.Name = new UndertaleString($"PageItem {++lastTextPageItem}");
-                    texturePageItem.SourceX = (ushort)n.Bounds.X;
-                    texturePageItem.SourceY = (ushort)n.Bounds.Y;
-                    texturePageItem.SourceWidth = (ushort)n.Bounds.Width;
-                    texturePageItem.SourceHeight = (ushort)n.Bounds.Height;
-                    texturePageItem.TargetX = (ushort)n.Texture.TargetX;
-                    texturePageItem.TargetY = (ushort)n.Texture.TargetY;
-                    texturePageItem.TargetWidth = (ushort)n.Bounds.Width;
-                    texturePageItem.TargetHeight = (ushort)n.Bounds.Height;
-                    texturePageItem.BoundingWidth = (ushort)n.Texture.BoundingWidth;
-                    texturePageItem.BoundingHeight = (ushort)n.Texture.BoundingHeight;
-                    texturePageItem.TexturePage = texture;
-
-                    // Add this texture to UMT
-                    Data.TexturePageItems.Add(texturePageItem);
-
                     // String processing
                     string stripped = Path.GetFileNameWithoutExtension(n.Texture.Source);
 
@@ -145,12 +205,7 @@ void ImportAllGraphics(string importFolder) {
                         UndertaleBackground background = Data.Backgrounds.ByName(stripped);
                         if (background != null)
                         {
-                            background.Texture = texturePageItem;
-                        }
-                        else
-                        {
-                            // ignore backgrounds that don't overwrite existing ones
-                            continue;
+                            background.Texture = CreateTexturePageItem(n, texture);
                         }
                     }
                     else if (spriteType == SpriteType.Sprite)
@@ -170,70 +225,20 @@ void ImportAllGraphics(string importFolder) {
                             continue;
                         }
 
-                        // Create TextureEntry object
-                        UndertaleSprite.TextureEntry texentry = new();
-                        texentry.Texture = texturePageItem;
-
                         // Set values for new sprites
                         UndertaleSprite sprite = Data.Sprites.ByName(spriteName);
-                        if (sprite is null || frame >= sprite.Textures.Count)
+                        if (sprite != null && frame <= sprite.Textures.Count)
                         {
-                            // ignore sprites that don't overwrite existing ones
-                            continue;
+                            ReplaceSprite(sprite, frame, n, texture, maskNodes);
                         }
 
-                        sprite.Textures[frame] = texentry;
-
-                        // Update sprite dimensions
-                        uint oldWidth = sprite.Width, oldHeight = sprite.Height;
-                        sprite.Width = (uint)n.Texture.BoundingWidth;
-                        sprite.Height = (uint)n.Texture.BoundingHeight;
-                        bool changedSpriteDimensions = (oldWidth != sprite.Width || oldHeight != sprite.Height);
-
-                        // Grow bounding box depending on how much is trimmed
-                        bool grewBoundingBox = false;
-                        bool fullImageBbox = sprite.BBoxMode == 1;
-                        bool manualBbox = sprite.BBoxMode == 2;
-                        if (!manualBbox)
+                        // Also try with suffix if it there's not a separate file for it
+                        if (suffix != null && !File.Exists(stripped + suffix + ".png"))
                         {
-                            int marginLeft = fullImageBbox ? 0 : n.Texture.TargetX;
-                            int marginRight = fullImageBbox ? ((int)sprite.Width - 1) : (n.Texture.TargetX + n.Bounds.Width - 1);
-                            int marginTop = fullImageBbox ? 0 : n.Texture.TargetY;
-                            int marginBottom = fullImageBbox ? ((int)sprite.Height - 1) : (n.Texture.TargetY + n.Bounds.Height - 1);
-                            if (marginLeft < sprite.MarginLeft)
+                            sprite = Data.Sprites.ByName(spriteName + suffix);
+                            if (sprite != null && frame <= sprite.Textures.Count)
                             {
-                                sprite.MarginLeft = marginLeft;
-                                grewBoundingBox = true;
-                            }
-                            if (marginTop < sprite.MarginTop)
-                            {
-                                sprite.MarginTop = marginTop;
-                                grewBoundingBox = true;
-                            }
-                            if (marginRight > sprite.MarginRight)
-                            {
-                                sprite.MarginRight = marginRight;
-                                grewBoundingBox = true;
-                            }
-                            if (marginBottom > sprite.MarginBottom)
-                            {
-                                sprite.MarginBottom = marginBottom;
-                                grewBoundingBox = true;
-                            }
-                        }
-
-                        // Only generate collision masks for sprites that need them (in newer GameMaker versions)
-                        if (!noMasksForBasicRectangles || 
-                            sprite.SepMasks is not (UndertaleSprite.SepMaskType.AxisAlignedRect or UndertaleSprite.SepMaskType.RotatedRect) || 
-                            sprite.CollisionMasks.Count > 0)
-                        {
-                            if ((bboxMasks && grewBoundingBox) || 
-                                (sprite.SepMasks is UndertaleSprite.SepMaskType.Precise && sprite.CollisionMasks.Count == 0) || 
-                                (!bboxMasks && changedSpriteDimensions))
-                            {
-                                // Use this node for the sprite's collision mask if the bounding box grew, if no collision mask exists for a precise sprite,
-                                // or if the sprite's dimensions have been changed altogether when bbox masks are not active.
-                                maskNodes[sprite] = n;
+                                ReplaceSprite(sprite, frame, n, texture, maskNodes);
                             }
                         }
                     }

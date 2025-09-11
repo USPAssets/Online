@@ -21,6 +21,3 @@ Play Chapter
 Chapter Select
 Continue from Chapter 
 Chapter
-***** Event = 
-gamepad discovered
-gamepad lost

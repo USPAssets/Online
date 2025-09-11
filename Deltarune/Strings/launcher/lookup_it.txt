@@ -1,13 +1,13 @@
 DELTARUNE Capitolo 1&2
 L'Inizio
 Un Mondo di Cyber
-USP 2.1.0 | DR 
+USP 2.1.1 | DR 
 Capitolo 
 Gioca
 Indietro
 caricamento fallito: 
 caricamento effettuato
-Inglese
+Italiano
 Esci
 CAPITOLO
 CAPITOLO
@@ -21,6 +21,3 @@ Gioca Capitolo
 Seleziona Cap.
 Continua dal Capitolo 
 Capitolo
-***** Evento = 
-controller rilevato
-controller disconnesso

@@ -1,10 +1,18 @@
 # CHANGELOG
 
+Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
+
+## DELTARUNE v2.1.1 / UNDERTALE v.1.18
+
+Hotfix, grazie a tutt* per le segnalazioni!
+
+- Fixato controller non funzionante nel launcher
+- Corretto sprite di Undertale mancanti e sprite sbagliati nella demo di DELTARUNE
+- Corretto vari refusi, errori e linee di testo mancanti
+
 ## DELTARUNE v2.1.0 / UNDERTALE v.1.17
 
 Ciao a tutti! Eccoci col primo aggiornamento della patch da quando siamo resuscitati e abbiamo aperto il server. Abbiamo risolto parecchi errori, nuovi e vecchi, ma principalmente abbiamo ripristinato le stringhe mancanti dalla traduzione di Undertale, che erano andate perdute in uno dei vari cambi di setup che abbiamo avuto nel corso degli anni.
-
-Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
 Grazie mille per le segnalazioni, in particolare: @Nulla, @SuperFrancy 0171, @El Brown, @fwancis e @Andrea Bruzzone dalla community di Discord.
 

@@ -79,7 +79,7 @@ async Task Main()
 	);
 
 	await Progress("Fonts");
-	ImportAllFonts(Path.Join(assetPath, "Fonts"));
+	ImportAllFonts(Path.Join(assetPath, "Fonts"), false);
 
 	await Progress("Sounds");
 	ImportSounds(Path.Join(assetPath, "Sounds"));
