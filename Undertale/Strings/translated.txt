@@ -10909,9 +10909,9 @@ A&dirla&tutta...
 obj_chilldrake_256
 Non sai&perché&lo fac-&cio!!
 obj_chilldrake_258
-Solo&Ghiaccy&sa farlo&bene.
+Solo&Draghy&sa farlo&bene.
 obj_chilldrake_265
-Tu non&sei&Ghiaccy.
+Tu non&sei&Draghy.
 obj_chilldrake_266
 Fanno&più ri-&dere le&battute
 obj_chilldrake_267
@@ -10927,7 +10927,7 @@ HAHA&WOWEE
 obj_chilldrake_280
 LI HAI&RIFAT-&TI UGU-&ALI!
 obj_chilldrake_281
-Dov'è&Ghiaccy&ora?
+Dov'è&Draghy&ora?
 obj_chilldrake_286
 Ha...&Ha...
 obj_chilldrake_287
@@ -10942,7 +10942,7 @@ obj_chilldrake_494
 obj_chilldrake_495
 * C'è odore di deodorante&  al profumo di "Ghiaccio".
 obj_chilldrake_496
-* Dragazzaccio si chiede&  dove sia finito Ghiaccy.
+* Dragazzaccio si chiede&  dove sia finito Draghy.
 obj_chilldrake_497
 * Dragazzaccio si sente&  bloccato dopo che gli hai&  dato ragione.
 obj_chilldrake_498
@@ -10954,7 +10954,7 @@ obj_chilldrake_500
 obj_chilldrake_501
 * Dragazzaccio si&  sta sciogliendo.
 obj_chilldrake_502
-* DRAGAZZACCIO - ATT 12 DIF 7&* Si ribella a tutto!!&* Cerca il suo amico Ghiaccy./^
+* DRAGAZZACCIO - ATT 12 DIF 7&* Si ribella a tutto!!&* Cerca il suo amico Draghy./^
 obj_chilldrake_518
 * Spieghi a Dragazzaccio&  che sta sbagliando tutto./^
 obj_chilldrake_527
@@ -10972,7 +10972,7 @@ obj_chilldrake_551
 obj_chilldrakenpc_70
 * Oh^1, e con i cestini del pranzo&  che i nostri genitori ci&  portano ogni giorno./%%
 obj_chilldrakenpc_71
-* Tutti tranne Ghiaccy^1.&* Ci tocca condividere i nostri&  con lui../%%
+* Tutti tranne Draghy^1.&* Ci tocca condividere i nostri&  con lui../%%
 obj_chilldrakenpc_72
 * Heh..^1.&* Immagino dovremo uscire&  in superficie./
 obj_chilldrakenpc_76
@@ -13706,13 +13706,13 @@ obj_gaster_follower_c_99
 obj_gaster_follower_c_103
 * D'altronde^1, è maleducato&  parlare di qualcuno che&  sta ascoltando./%%
 obj_gaster_follower_c_104
-NOTA NUMERO&DICIASSETTE/
+ANNOTAZIONE&NUMERO&DICIASSETTE/
 obj_gaster_room_34
 BUIO&OSCURO&MA PIÙ BUIO/
 obj_gaster_room_35
 L'OSCURIT^2À &CONTINUA A&AUMENTARE/
 obj_gaster_room_36
-LE OMBR^2E &A TAGLIARE&PIÙ PROFONDAMENTE/
+LE OMBR^2E &A TAGLIARE&PIÙ&PROFONDAMENTE/
 obj_gaster_room_37
 LETTURA DEI&FOTON^2I&NEGATIVA/
 obj_gaster_room_38
@@ -31593,7 +31593,7 @@ roomname_truelab_bedroom
 room_fire_lab2_94
 * (È una lampada con pesci rosa&  sul paralume.^1)&* (Non c'è la lampadina.)/%%
 room_fire_lab2_95
-* (Ci sono delle lettere&  da vari mostri... Craccrana^1, &  Ghiaccy^1, Canltolà...)/
+* (Ci sono delle lettere&  da vari mostri... Craccrana^1, &  Draghy^1, Canltolà...)/
 room_fire_lab2_96_0
 * (Sono ancora chiuse.)/%%
 room_fire_lab2_96_1
@@ -47583,7 +47583,7 @@ version
 -4
 -V
 UT v
- (C) Toby Fox 2015-2017 - USP V1.17
+ (C) Toby Fox 2015-2017 - USP V1.18
 intronoise
 ballamount
 special_x
