@@ -99,3 +99,29 @@ void UpdateWaterCoolerCode()
 	importGroup.QueueFindReplace(codeFile, """choose("i", "l")""", """choose("", "bi")""");
 	importGroup.Import();
 }
+
+void UpdateRankStringCode()
+{
+	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
+
+	// Invert logic that determines rank string
+	// from ?-RANK to RANGO-?
+	importGroup.QueueFindReplace("gml_Object_obj_round_evaluation_Draw_0",
+		"""var rankstring = desiredletter + "-" + roundcompletetext2;""",
+		"""var rankstring = roundcompletetext2 + "-" + desiredletter;""");
+	importGroup.QueueFindReplace("gml_Object_obj_dw_gameshow_screen_Create_0",
+		"""rank_text = _letter_grade + "-" + stringsetloc("RANK", "obj_dw_gameshow_screen_slash_Create_0_gml_123_0");""",
+		"""rank_text = stringsetloc("RANK", "obj_dw_gameshow_screen_slash_Create_0_gml_123_0") + _letter_grade + "-";""");
+
+	// Battle ranks are just drawn with separate offsets
+	// for the letter and the RANK string, so we need to adjust them
+	importGroup.QueueFindReplace("gml_Object_obj_gameshow_battlemanager_Draw_0",
+	"""draw_text_transformed_color(_xx - 25, _yy + (4 * mspace) + 28, lettergrade, 2, 2, 0, lettergradeblend, lettergradeblend, lettergradeblend, lettergradeblend, 1);""",
+	"""draw_text_transformed_color(_xx + 75, _yy + (4 * mspace) + 28, lettergrade, 2, 2, 0, lettergradeblend, lettergradeblend, lettergradeblend, lettergradeblend, 1);"""
+	);
+	importGroup.QueueFindReplace("gml_Object_obj_gameshow_battlemanager_Draw_0",
+	"""draw_text(_xx - 0, _yy + (4.5 * mspace) + 30, rankstring);""",
+	"""draw_text(_xx - 35, _yy + (4.5 * mspace) + 30, rankstring);"""
+	);
+	importGroup.Import();
+}

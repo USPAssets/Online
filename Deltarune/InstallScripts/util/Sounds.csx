@@ -7,7 +7,7 @@ using System.Text;
 using UndertaleModLib.Util;
 using ImageMagick;
 
-void ImportSounds(string sndFolder)
+void ImportSounds(string sndFolder, string suffix = null)
 {
 	if (!Directory.Exists(sndFolder)) {
 		ScriptError("Sound folder does not exist, they will not be imported.", "Sound Import Error");
@@ -16,13 +16,16 @@ void ImportSounds(string sndFolder)
 	
 	foreach (var snd in Data.Sounds) {
 		var wavPath = Path.Join(sndFolder, snd.Name.Content + ".wav");
-		if (!File.Exists(wavPath)) {
-			continue;
+		if (!File.Exists(wavPath) && suffix != null && snd.Name.Content.EndsWith(suffix)) {
+			string strippedName = snd.Name.Content.Substring(0, snd.Name.Content.Length - suffix.Length);
+			wavPath = Path.Join(sndFolder, strippedName + ".wav");
 		}
 
-		var myid = snd.AudioID;
-		var fbytes = File.ReadAllBytes(wavPath);
-		Data.EmbeddedAudio[myid].Data = fbytes;
+		if (File.Exists(wavPath)) {
+			var myid = snd.AudioID;
+			var fbytes = File.ReadAllBytes(wavPath);
+			Data.EmbeddedAudio[myid].Data = fbytes;
+		}
 	}
 }
 

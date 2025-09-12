@@ -235,11 +235,13 @@ void SmartFontReplace(string fontsPath, string origName, string scapegoatName) {
 	// should be done?
 }
 
-void ImportAllFonts(string fontsPath) {
+void ImportAllFonts(string fontsPath, bool includeTinyNoelle = true) {
 	// null - the italian texture is equal to, or smaller.
 	// otherwise, a japanese font is specified to abuse it's large AF texture.
 	// (the JP texture will be wiped out, and italian font will be drawn at 0;0)
-	SmartFontReplace(fontsPath, "fnt_tinynoelle", null);
+	if (includeTinyNoelle) {
+		SmartFontReplace(fontsPath, "fnt_tinynoelle", null);
+	}
 	SmartFontReplace(fontsPath, "fnt_dotumche", "fnt_ja_dotumche"); // doesn't seem to fit... :(
 	// okay now we HAVE to import this font.
 	SmartFontReplace(fontsPath, "fnt_mainbig", null);
