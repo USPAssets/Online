@@ -227,7 +227,7 @@ void ImportAllGraphics(string importFolder, string suffix = null) {
 
                         // Set values for new sprites
                         UndertaleSprite sprite = Data.Sprites.ByName(spriteName);
-                        if (sprite != null && frame <= sprite.Textures.Count)
+                        if (sprite != null && frame < sprite.Textures.Count)
                         {
                             ReplaceSprite(sprite, frame, n, texture, maskNodes);
                         }
@@ -236,7 +236,7 @@ void ImportAllGraphics(string importFolder, string suffix = null) {
                         if (suffix != null && !File.Exists(stripped + suffix + ".png"))
                         {
                             sprite = Data.Sprites.ByName(spriteName + suffix);
-                            if (sprite != null && frame <= sprite.Textures.Count)
+                            if (sprite != null && frame < sprite.Textures.Count)
                             {
                                 ReplaceSprite(sprite, frame, n, texture, maskNodes);
                             }
