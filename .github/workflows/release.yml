@@ -55,8 +55,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Create a unique branch name
-          BRANCH_NAME=${{ github.event.inputs.release-name }} 
+          REL_NAME=${{ github.event.inputs.release-name }} 
+          BRANCH_NAME="release/${REL_NAME}"
           git checkout -b $BRANCH_NAME
           
           # Stage ONLY modified and deleted files (-u for update)
@@ -77,4 +77,4 @@ jobs:
           git push origin $BRANCH_NAME
           
           # Create a pull request (requires GH_TOKEN secret env var)
-          gh pr create -B ${{ github.ref_name }} -H $BRANCH_NAME --title 'Release $BRANCH_NAME' --body 'Created by Github Actions. Please fill in details.'
+          gh pr create -B ${{ github.ref_name }} -H $BRANCH_NAME --title "Release ${REL_NAME}" --body 'Created by Github Actions. Please fill in details.'
