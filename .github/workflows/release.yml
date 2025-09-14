@@ -1,0 +1,80 @@
+name: Sync from Translations repository and create release PR
+
+# Controls when the workflow will run
+on:   
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      include-new-files:
+        description: 'If true will also sync added files, instead of only modified and deleted'
+        required: true
+        default: false
+        type: boolean
+      release-name:
+        description: 'Name of this release, used for the release branch and tags'
+        required: true
+        type: string
+
+jobs:
+  sync-and-release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checkout Online repository under $GITHUB_WORKSPACE/online
+      - name: Checkout this repository
+        uses: actions/checkout@v5
+        with:
+          path: online
+
+      # Check-out Translations repository under $GITHUB_WORKSPACE/translations
+      - name: Checkout Online repo
+        uses: actions/checkout@v5
+        with:
+          repository: USPAssets/Translations
+          ssh-key: ${{ secrets.TRANSLATIONS_DEPLOY_KEY }}
+          path: translations
+
+      # Copy over files from one directory to the other
+      - name: Synchronize assets to Online repo
+        run: |
+          rsync -av ./translations/Deltarune/ ./online/Deltarune/
+          rsync -av ./translations/Undertale/ ./online/Undertale/
+
+      - name: Create commit in new branch and Open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd ./online
+
+          # Set up Git user for the commit
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Create a unique branch name
+          BRANCH_NAME=${{ github.event.inputs.release-name }} 
+          git checkout -b $BRANCH_NAME
+          
+          # Stage ONLY modified and deleted files (-u for update)
+          git add -u
+          if ${{ github.event.inputs.include-new-files }}; then
+            # Also add new files
+            git add ./Undertale
+            git add ./Deltarune
+          fi
+          
+          # Check if there are any changes to commit
+          if git diff --cached --exit-code; then
+            echo "No modified or deleted files to commit. Exiting."
+            exit 0
+          fi
+          
+          git commit -m "Sync from source repository"
+          git push origin $BRANCH_NAME
+          
+          # Create a pull request (requires GH_TOKEN secret env var)
+          gh pr create -B main -H $BRANCH_NAME --title 'Release $BRANCH_NAME' --body 'Created by Github Actions. Please fill in details.'
