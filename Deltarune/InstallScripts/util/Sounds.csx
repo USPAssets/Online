@@ -15,33 +15,43 @@ void ImportSounds(string sndFolder, string suffix = null)
 	}
 	
 	foreach (var snd in Data.Sounds) {
-		var wavPath = Path.Join(sndFolder, snd.Name.Content + ".wav");
-		if (!File.Exists(wavPath) && suffix != null && snd.Name.Content.EndsWith(suffix)) {
+		// First try .wav extension
+		var sndPath = Path.Join(sndFolder, snd.Name.Content + ".wav");
+		if (!File.Exists(sndPath) && suffix != null && snd.Name.Content.EndsWith(suffix)) {
+			// Try with suffix added if it doesn't exist
 			string strippedName = snd.Name.Content.Substring(0, snd.Name.Content.Length - suffix.Length);
-			wavPath = Path.Join(sndFolder, strippedName + ".wav");
+			sndPath = Path.Join(sndFolder, strippedName + ".wav");
 		}
 
-		if (File.Exists(wavPath)) {
+		// Also try .ogg files, which may also be embedded
+		if (!File.Exists(sndPath)) {
+			sndPath = Path.Join(sndFolder, snd.Name.Content + ".ogg");
+		}
+
+		if (File.Exists(sndPath)) {
 			var myid = snd.AudioID;
-			var fbytes = File.ReadAllBytes(wavPath);
+			var fbytes = File.ReadAllBytes(sndPath);
 			Data.EmbeddedAudio[myid].Data = fbytes;
 		}
 	}
 }
 
-void ImportMusic(string assetsPath, string gameFolder)
+// Imports .ogg files into "mus" folder.
+// To be called only by launcher script.
+void ImportMusic(string sndFolder, string gameFolder)
 {
-	var sndFolder = Path.Join(assetsPath, "Sounds");
 	if (!Directory.Exists(sndFolder)) {
 		ScriptError("Sound folder does not exist, they will not be imported.", "Sound Import Error");
 		return;
 	}
-	// To be done in launcher script
-	var dfPath = Path.Join(sndFolder, "dontforget_IT.ogg");
-	
-	var musFolderO = Path.Join(gameFolder, "mus");
-	var dfPathO = Path.Join(musFolderO, "dontforget.ogg");
-	
-	// copy new one over old one
-	File.Copy(dfPath, dfPathO, true);
+
+	foreach (string sndFile in Directory.GetFiles(sndFolder))
+    {
+        if (!sndFile.EndsWith(".ogg")) continue;
+		var destPath = Path.Join(gameFolder, "mus", Path.GetFileName(sndFile));
+		if (File.Exists(destPath))
+		{
+			File.Copy(sndFile, destPath, true);
+		}
+	}
 }

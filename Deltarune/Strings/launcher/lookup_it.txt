@@ -1,7 +1,7 @@
 DELTARUNE Capitolo 1&2
 L'Inizio
 Un Mondo di Cyber
-USP 2.1.1 | DR 
+USP 3.0 | DR 
 Capitolo 
 Gioca
 Indietro
@@ -13,7 +13,6 @@ CAPITOLO
 CAPITOLO
 DELTARUNE Capitolo 1&2
 Sì
-sì
 Vuoi iniziare dal Capitolo 1?
 Capitolo 1から始めますか？
  completato.
@@ -21,3 +20,5 @@ Gioca Capitolo
 Seleziona Cap.
 Continua dal Capitolo 
 Capitolo
+Ultimo Spettacolo
+Profezia (Prossimamente)

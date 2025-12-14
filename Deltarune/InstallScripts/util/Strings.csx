@@ -37,7 +37,21 @@ void ImportHardcodedStrings(string lookupOriginalPath, string lookupTranslatedPa
         if (str.Content.Contains("\n") || str.Content.Contains("\r"))
             continue;
         if (lookupDict.TryGetValue(str.Content, out var translation)) {
+            if (Data.Variables.ByName(str.Content) != null) {
+                ScriptError(string.Format("Lookup string '{0}' is also a variable name. Translation '{1}' will not be imported.", str.Content, translation));
+                continue;
+            }
             str.Content = translation;
         }
     }
+}
+
+void ReplaceStringInCode(string codeName, string original, string translated)
+{
+    UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
+    // Replace strings in the code, which are surrounded by double quotes
+    string toFind = '"' + original + '"';
+    string toReplace = '"' + translated + '"';
+    importGroup.QueueFindReplace(codeName, toFind, toReplace);
+    importGroup.Import();
 }
