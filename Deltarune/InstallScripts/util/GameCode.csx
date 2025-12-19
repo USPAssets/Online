@@ -100,6 +100,28 @@ void UpdateWaterCoolerCode()
 	importGroup.Import();
 }
 
+// Add logic to correctly pluralize things like points and money
+void UpdateItemGetCode()
+{
+	string codeFile = "gml_GlobalScript_scr_itemget_anytype_text";
+	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
+
+	// First define a variable that will decide if plural of not (default no)
+	importGroup.QueueFindReplace(codeFile, """var _itemid = argument0;""", """var _itemid = argument0; var plural = false;""");
+	// Then set it for money and points text. $& inserts the matched text
+	importGroup.QueueRegexFindReplace(codeFile, """if \(_itemtype == "money"\)\s*\{""", """$& plural = true;""");
+	importGroup.QueueRegexFindReplace(codeFile, """if \(_itemtype == "points"\)\s*\{""", """$& plural = true;""");
+	// Finally replace the actual text if it's plural
+	importGroup.QueueRegexFindReplace(codeFile, """if \(argument_count >= 3\)""", 
+	"""
+	if (plural)
+		itemgetstring = stringsetsub("* (\\cY~1\\cW sono stati aggiunti al \\cY~2\\cW.)", itemname, itemtypename);
+	$&
+	""");
+
+	importGroup.Import();
+}
+
 void UpdateRankStringCode()
 {
 	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
@@ -111,7 +133,7 @@ void UpdateRankStringCode()
 		"""var rankstring = roundcompletetext2 + "-" + desiredletter;""");
 	importGroup.QueueFindReplace("gml_Object_obj_dw_gameshow_screen_Create_0",
 		"""rank_text = _letter_grade + "-" + stringsetloc("RANK", "obj_dw_gameshow_screen_slash_Create_0_gml_123_0");""",
-		"""rank_text = stringsetloc("RANK", "obj_dw_gameshow_screen_slash_Create_0_gml_123_0") + _letter_grade + "-";""");
+		"""rank_text = stringsetloc("RANK", "obj_dw_gameshow_screen_slash_Create_0_gml_123_0") + "-" + _letter_grade;""");
 
 	// Battle ranks are just drawn with separate offsets
 	// for the letter and the RANK string, so we need to adjust them
@@ -123,5 +145,39 @@ void UpdateRankStringCode()
 	"""draw_text(_xx - 0, _yy + (4.5 * mspace) + 30, rankstring);""",
 	"""draw_text(_xx - 35, _yy + (4.5 * mspace) + 30, rankstring);"""
 	);
+
+	// Add extra 4-pixel offset to battle rankings in results screen to avoid clipping
+	importGroup.QueueFindReplace("gml_Object_obj_round_evaluation_Draw_0",
+	"""var offset = round((16 * totalbattles) / 2);""",
+	"""var offset = 8 + round((16 * totalbattles) / 2);"""
+	);
+
+	// Align SECRET BONUS string to left (by zeroing its indent)
+	// so it doesn't overlap with text
+	importGroup.QueueFindReplace("gml_Object_obj_round_evaluation_Draw_0",
+	"""var indent = 40;""",
+	"""var indent = 0;"""
+	);
+
+	// Bonus: move position of B/Circle button in chef minigame
+	importGroup.QueueFindReplace("gml_Object_obj_chef_controls_ui_Draw_0",
+	"""var _xx = 0;""",
+	"""var _xx = 12;"""
+	);
+
+	importGroup.Import();
+}
+
+void UpdateLauncherStarsPosition()
+{
+	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
+
+	// Move stars after chapter select screen a few pixels to the right
+	// so they doesn't overlap with text
+	importGroup.QueueFindReplace("gml_Object_obj_ui_chapter_Draw_0",
+	"""draw_sprite_ext(spr_ui_star, star_index, x + 180""",
+	"""draw_sprite_ext(spr_ui_star, star_index, x + 185"""
+	);
+
 	importGroup.Import();
 }

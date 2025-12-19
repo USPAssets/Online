@@ -13,7 +13,6 @@ CHAPTER
 CHAPTER 
 DELTARUNE Chapter 1&2
 Yes
-yes
 Would you like to start from Chapter 1?
 Chapter 1から始めますか？
  was completed.
@@ -21,3 +20,5 @@ Play Chapter
 Chapter Select
 Continue from Chapter 
 Chapter
+Late Night
+Prophecy

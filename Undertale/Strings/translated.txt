@@ -6359,21 +6359,21 @@ item_name_0
 ds_map_add
 Caram. x mostri
 item_name_1
-Croquet Roll
+Crocchetta
 item_name_2
 Bastone
 item_name_3
 Cerotto
 item_name_4
-Rock Candy
+Carocciamella
 item_name_5
-Pumpkin Rings
+Anelli di Z.
 item_name_6
 Ciamb. di ragni
 item_name_7
-Stoic Onion
+Stoicipolla
 item_name_8
-Ghost Fruit
+Sputtro
 item_name_9
 Sidro di ragni
 item_name_10
@@ -6391,7 +6391,7 @@ Pupezzo di Neve
 item_name_16
 Gelieto   
 item_name_17
-Puppydough Icecream
+Cucciolotto
 item_name_18
 Biscotto
 item_name_19
@@ -6478,24 +6478,24 @@ Can Grattato
 item_name_62
 CrostLum
 item_name_63
-temy armor
+armat temi
 item_name_64
 item_nameb_0
 CaraMostri
 item_nameb_1
-CroqtRoll
+Crocchet
 item_nameb_2
 item_nameb_3
 item_nameb_4
-RockCandy
+Carocc
 item_nameb_5
-PunkRings
+A.Zuccone
 item_nameb_6
 BellaRagn
 item_nameb_7
-StocOnoin
+Stoicip
 item_nameb_8
-GhostFrut
+Sputtra
 item_nameb_9
 SidrRagni
 item_nameb_10
@@ -6512,7 +6512,7 @@ PezzoNeve
 item_nameb_16
 Gelieto  
 item_nameb_17
-PDIceCram
+Cucciol
 item_nameb_18
 item_nameb_19
 item_nameb_20
@@ -6596,13 +6596,13 @@ item_names_2
 item_names_3
 item_names_4
 item_names_5
-PmknRings
+A.Zucca
 item_names_6
 CiamRagni
 item_names_7
 Onion
 item_names_8
-GhstFruit
+Sputtra
 item_names_9
 SidrRagni
 item_names_10
@@ -6690,23 +6690,23 @@ item_names_64
 item_desc_0_0
 * "Caramella per mostri" - 10 PS&* Ha uno spiccato sapore&  non di liquirizia./%
 item_desc_1_0
-* "Croquet Roll" - Heals 15 HP&* Fried dough traditionally&  served with a mallet./%
+* "Crocchetta" - Cura 15 PS&* Una versione miniaturizzata&  della famosa Crocca fritta./%
 item_desc_2_0
 * "Bastone" - Arma AT 0&* Da restarci stecchi./%
 item_desc_3_0
 * "Cerotto" - Cura 10 PS&* È già stato usato&  parecchie volte./%
 item_desc_4_0
-* "Rock Candy" - Heals 1 HP&* Here is a recipe to make&  this at home:/
+* "Carocciamella" - Cura 1 PS&* Ricetta:/
 item_desc_5_0
-* 1. Find a rock/%
+* 1. Trova una roccia/%
 item_desc_5_1
-* "Pumpkin Rings" - Heals 8 HP&* A small pumpkin cooked&  like onion rings./%
+* "Anelli di Z." - Cura 8 PS&* Zucca fritta come&  anelli di cipolla./%
 item_desc_6_0
 * "Ciambella di ragni" - 12 PS&* Ciambella con impasto al&  sidro di ragni./%
 item_desc_7_0
-* "Stoic Onion" - Heals 5 HP&* Even eating it raw^1, the&  tears just won't come./%
+* "Stoicipolla" - Cura 5 PS&* Anche se mangiata cruda^1,&  non ti farà piangere./%
 item_desc_8_0
-* "Ghost Fruit" - Heals 16 HP&* If eaten^1, it will never&  pass to the other side./%
+* "Sputtra" - Cura 16 PS&* I frutti del duro lavoro&  di uno spettro./%
 item_desc_9_0
 * "Sidro di ragni" - Cura 24 PS&* Fatto con ragni interi^1,&  non solo la spremuta./%
 item_desc_10_0
@@ -6724,7 +6724,7 @@ item_desc_15_0
 item_desc_16_0
 * "Gelieto" - Cura 15 PS&* Invece di una barzelletta,^1 la&  confezione dice cose carine./%
 item_desc_17_0
-* "Puppydough Icecream"&* Heals 28 HP^1.&* Made by young pups./%
+* "Cucciolotto" - Cura 28 PS&* Fatto da cani.&* C'è una battuta orrenda sopra./%
 item_desc_18_0
 * "Biscotto" - Cura 11 PS&* È un biscotto a due facce^1,&  un po' doppiogiochista./%
 item_desc_19_0
@@ -6992,7 +6992,7 @@ SCR_TEXT_62
 * È la tua prima volta&  nel SOTTOSUOLO^2,&  non è vero?/
 * Woah^1, hai un'&  aria confusa./
 * Qualcuno ti dovrà&  insegnare come&  vanno le cose qui!/
-\W* Nessun problema^1, ci&  pensa il piccolo\Y FLOWEY\W./
+* Nessun problema^1, ci&  pensa il piccolo\Y FLOWEY\W./
 * Pronti^2?&* Via!/%%
 \E2* Da questa parte./%%
 \E2* Ti do il benvenuto&  nella tua nuova dimora^1,&  tesoro mio./
@@ -7572,7 +7572,7 @@ NON CI SONO&SCHELETRI NEL&MIO ARMADIO!!!/
 \E1* per fortuna^1, due lavori&  significano il doppio&  delle pause normali./
 \E0* fo un salto da grillby.&* vieni anche tu?&  Yeah        Ho da fare \C
 * .../%%
-\E2* ehi, pare che ti stia&  cominciando ad orientare.
+\E2* ehi, pare che ti stia&  cominciando ad orientare./
 \E0* che ne diresti se ti&  offrissi un pranzo da&  grillby?/
 \E1* ... quando tutti quelli &  che hai fatto scappare&  fanno ritorno^1, intendo./%%
 * va bene^1, se insisti..^1.&* vedrò di staccare un&  po' dal mio lavoro.../%%
@@ -7631,9 +7631,9 @@ NON CI SONO&SCHELETRI NEL&MIO ARMADIO!!!/
 * (La musica continua^1, e&  non si ferma.)/%%
 * (Posizioni l'ombrello&  sopra la statua.)/
 * (Dentro la statua^1, un&  carillon inizia a suonare...)/%%
-* (It's a rusty old&  fridge.)/
-* (You open the fridge.^1)&* (The air fills with a&  rotten stench.)/
-* (All the food inside here&  spoiled long ago.)/%%
+* (È un vecchio frigo&  arrugginito.)/
+* (Apri il frigo.^1)&* (L'aria si riempie di&  un miasma di marciume.)/
+* (Tutto il cibo all'interno&  è andato a male molto tempo&  fa.)/%%
 * error/%%
 * (Il congelatore è vuoto.)/%%
 * (Prendi una barretta spaziale&  dal congelatore?)&         Sì          No \C
@@ -7794,20 +7794,20 @@ SONO SICURO&CHE SARESTE&OTTIMI AMICI!/
 PERCHÉ NON CI&INCONTRIAMO A CASA&SUA, PIÙ TARDI!?/
 DOPO CHE AVRAI&FATTO UN'USCITA&CON ME.../
 INCONTRIAMOCI&A CASA SUA!/
-* (It's a book labelled&  Monster History Part 7.)&         Read it     Do not\C
-* When a human dies^1, its&  soul remains stable&  outside the body./
-* Meanwhile^1, a monster's soul&  disappears near-instantly&  upon death./
-* This allows monsters to&  absorb the souls of&  humans.../
-* While it is extremely&  difficult for humans to&  absorb a monster's soul./
-* This is why they feared us./
-* Though monsters are weak^1,&  with enough human souls.../
-* They could easily destroy&  all of mankind./%%
-* (You decide not to read it.)/%%
-* (It's a book labelled&  Monster History Part 8.)&         Read it     Do not\C
-* There is one exception&  to the aforementioned&  rules:/
-* A certain type of monster^1,&  the "boss" monster./
-* Due to its life cycle^1, it&  possesses an incredibly&  strong soul for a monster./
-* This soul can remain&  stable after death^1, if&  only for a few moments./%%
+* (Un libro intitolato&  Storia dei Mostri Parte 7.)&         Leggi       Non Farlo\C
+* Quando un umano muore^1, l'ani-&  ma rimane stabile fuori&  dal suo corpo./
+* Invece^1, quella di un mostro&  sparisce quasi subito&  dopo la sua morte./
+* Questo permette ai mostri&  di assorbire l'anima&  degli umani.../
+* Mentre è molto difficile&  per gli umani assorbire&  l'anima di un mostro./
+* Questo è il motivo per cui&  ci temevano./
+* Sebbene i mostri siano deboli^1,&  con abbastanza anime umane.../
+* Potrebbero facilmente&  annichilire l'intera&  umanità./%%
+* (Decidi di non leggerlo.)/%%
+* (Un libro intitolato&  Storia dei Mostri Parte 8.)&         Leggi       Non Farlo\C
+* Vi è un'eccezione&  alle regole precedentemente&  menzionate:/
+* Un certo tipo di mostri^1,&  i mostri "boss"./
+* Dato il suo ciclo vitale^1,&  possiedono anime molto&  più forti degli altri mostri./
+* Queste anime possono&  rimanere stabili post-mortem^1,&  anche se solo per poco./%%
 * (Tutti questi libri sono&  etichettati "Storia Umana".)&          Leggi uno   Non farlo    \C
 * (Sfogli un libro.)/
 * (È un fumetto di un robot&  gigante che combatte una&  stupenda principessa aliena.)/
@@ -8465,7 +8465,7 @@ POSSO FARLO IO&PER TE!!!/
 * (Metti un Canino davanti&  alla porta.)/
 * (Una zampa bianca schizza &  fuori da sotto la porta.)/
 * (Cerca di tirare il&  Canino in camera sua...)/
-* (Ma continua a schiacciare&  troppo forte^1, e il&  Canino continua a rotolare via.)/
+* (Ma continua a schiacciare&  troppo forte^1, e il Canino&  continua a rotolare via.)/
 * (Finalmente^1, ce la fa.)/
 * (Senti uno stridio di rocce&  che si sfregano.)/
 * (Una singola polpettina &  scivola fuori&  da sotto la porta.)/
@@ -9160,7 +9160,7 @@ obj_adate_771
 obj_adate_772
 \E7Come posso provare&anche solo a pensare&di fare questa cosa!?/%%
 obj_adate_773
-   Proviamo una   Ovvio, &   simulazione?   facciamo una&                  simulazione&
+   Proviamo una   Ovvio, &   simulazione?   facciamo una&                  simulazione
 obj_adate_794
 \E4Una s..^1. simulazione?/
 obj_adate_827
@@ -10681,7 +10681,7 @@ obj_battlebomb_245
 obj_battlebomb_485
 * Il cane è ancora attivo!
 obj_battlebomb_486
-* BOMBA&* Potrebbe esplodere da un&  momento all'altro./
+* BOMBA&* Potrebbe esplodere da un&  momento all'altro./^
 obj_battlebomb_513
 * FASTIDIOSO CANE-BOMBA&* È beatamente ignaro&  di ciò che sta accadendo./^
 obj_battlebomb_514
@@ -11784,7 +11784,7 @@ obj_dogfood_99
 obj_dogfoodbag_57
 * (È una sacca di cibo per cani.^1)&* (È mezza piena.)/%%
 obj_dogfoodbag_59
-* (È una sacca di cibo per cani,&  mezza vuota.)
+* (È una sacca di cibo per cani,&  mezza vuota.)/
 obj_dogfoodbag_63
 obj_dogfoodbag_64
 * (Hai appena ricordato&  una cosa divertente.)/%%
@@ -14880,13 +14880,13 @@ obj_labtv_event_288
 obj_labtv_event_289
 * Ssssh^1!&* Voglio registrare&  la tua reazione./
 obj_labtv_event_290
-* Gori^1, carissimo^1.&* Qual è la mia verdura&  preferita?\Ta/ 
+* Gori^1, carissimo^1.&* Qual è la mia verdura&  preferita?\Ta/
 obj_labtv_event_291
-* Hmmm..^1.&* La carota^1, giusto?\TT/ 
+* Hmmm..^1.&* La carota^1, giusto?\TT/
 obj_labtv_event_292
 * No no no^1!&* La mia verdura&  PREFERITA è.../
 obj_labtv_event_293
-* L'edaMAMME./ 
+* L'edaMAMME./
 obj_labtv_event_294
 * ... l'hai capita???\Ta/
 obj_labtv_event_295
@@ -14901,7 +14901,7 @@ obj_labtv_event_299
 obj_labtv_event_300
 * Sarei.../
 obj_labtv_event_301
-* UNA MAMMALTESE.\Ta/ 
+* UNA MAMMALTESE.\Ta/
 obj_labtv_event_302
 * Hohoho!/
 obj_labtv_event_303
@@ -15018,7 +15018,7 @@ obj_laserswitch1_165
 obj_laserswitch1_166
 \E8* Se non avessi..^1.&* Se non avessi..^1./
 obj_laserswitch1_167
-\E4* Ehm^1, ritardato usando&  le mie abilità da hacker^1,&  voglio dire.../
+\E4* Ehm^1, ritardato usando&  le mie abilità da&  hacker^1, voglio dire.../
 obj_laserswitch1_168
 \E8* ... scusami./
 obj_laserswitch1_169
@@ -15084,7 +15084,7 @@ obj_lastsans_trigger_207
 obj_lastsans_trigger_208
 * Quindi ce l'hai&  finalmente fatta.../%%
 obj_lastsans_trigger_214
-*Ora^1, vedi./
+* Ora^1, vedi./
 obj_lastsans_trigger_243
 * È il momento del&  giudizio finale./
 obj_lastsans_trigger_244
@@ -16085,7 +16085,7 @@ obj_mainend_323
 obj_mainend_324
 E ANCHE LA&CASA.../
 obj_mainend_325
-\\E2È STATO TRISTE..^1.&MA CI STIAMO PREN-&DENDO CURA DI LEI!/
+\E2È STATO TRISTE..^1.&MA CI STIAMO PREN-&DENDO CURA DI LEI!/
 obj_mainend_326
 \E0ORA DORME SUL&NOSTRO DIVANO./
 obj_mainend_327
@@ -16201,7 +16201,7 @@ PERCHÉ VOGLIO&ANDARE CON&LEI!/
 obj_mainend_394
 COSÌ TI POTREI&RIVEDEREI!/
 obj_mainend_395
-\\E3 ANCHE SE DOVESSIMO&COMBATTERE DI NUOVO./
+\E3 ANCHE SE DOVESSIMO&COMBATTERE DI NUOVO./
 obj_mainend_396
 \E0OH BEH^1, INCROCIAMO&LE DITA!/
 obj_mainend_397
@@ -16599,7 +16599,7 @@ obj_mainend_823
 obj_mainend_824
 \E0POSSO&PARLARCI???/
 obj_mainend_825
-* tieni^1, fai&  pure./%%
+* tieni^1, fai&  pure./
 obj_mainend_827
 EHI!!^1!&UNDYNE È DIVEN-&TATA IMPERATRICE!!/
 obj_mainend_829
@@ -17358,7 +17358,7 @@ Oooh, è il momento&per un test a sorpresa!/
 obj_mettatonex_214
 Spero tu abbia una &tastiera con te.../
 obj_mettatonex_215
-Have fun with that&on-screen keyboard.../
+Divertiti con quella tastiera a schermo.../
 obj_mettatonex_215_console
 Questa è una domanda&a risposta aperta!/%%
 obj_mettatonex_216
@@ -18219,7 +18219,7 @@ Dovrai fare&un po' meglio&di COSÌ./%%
 obj_mkid_battle_827
 You.../
 obj_mkid_battle_883
-Dovrai fare&un po' meglio&di COSÌ!/%%
+\E9Dovrai fare&un po' meglio&di COSÌ!/%%
 obj_mkid_battle_884
 * Ehi^1!&* Anche te sei un ???^1, &  non è così?/%%
 obj_mkid_goner_91
@@ -18740,7 +18740,7 @@ obj_multitileevent_649
 obj_multitileevent_650
 * NO!/%%
 obj_musicstatue_110
-* (No point in giving it an&  umbrella now.)/%%
+* (Non ha senso dargli&  un ombrello ora.)/%%
 obj_musicstatue_114
 sto&bene,&grazie.
 obj_napstablook_294
@@ -19019,7 +19019,7 @@ obj_nastytree_59
 obj_nicecreamguy_122
 * È il clima perfetto&  per qualcosa di freddo.../%%
 obj_nicecreamguy_123
-* You must have something better to do than read this message./%%
+* Avrai sicuramente di meglio&  da fare che leggere&  questo messaggio./%%
 obj_nicecreamguy_135
 * Ho trasferito la mia&  bancarella^1, ancora non ci&  sono clienti.../%%
 obj_nicecreamguy_152
@@ -19593,7 +19593,7 @@ obj_otherphonecall_118
 obj_otherphonecall_119
 * (Il tuo cellulare &  è troppo vecchio per leggere&  messaggi di testo...)/
 obj_otherphonecall_120
-* (Legge a volume alto^1, caratterer-&  per carattere^1, un'ASCII art di&  una donna-gatto di un anime.)/
+* (Legge a volume alto^1, carattere&  per carattere^1, un'ASCII art di&  una donna-gatto di un anime.)/
 obj_otherphonecall_121
 \TA* .../%%
 obj_otherphonecall_122
@@ -19682,7 +19682,7 @@ obj_papcheckpoint_103
 obj_papcheckpoint_107
 (AGGIORNAMENTO:&SONO GIÀ DIVENTATO&UN SOLDATO REALE???)/%%
 obj_papcheckpoint_108
-* These instructions&  are written in&  chicken scratch./%%
+* Le istruzioni sono&  scritte con degli&  scarabocchi./%%
 obj_papcheckpoint_112
 INTERNET^1!&SONO PIUTTOSTO&POPOLARE LÌ./
 obj_papcomputer_63
@@ -22083,13 +22083,13 @@ obj_readable_room1_67
 obj_readable_room1_68
 * (C'è una rana minuscola&  in una fessura della parete...^1)&* (Ti saluta da lontano.)/%%
 obj_readable_room1_69
-* (There's a small crack in the&  wall here.)/
+* (C'è una piccola crepa&  nel muro qui.)/
 obj_readable_room1_69_console_1
-* (There's a frog inside...^2)&* (Wait^1! There are two!)/
+* (C'è una rana dentro...^2)&* (Aspetta^1! Sono due!)/
 obj_readable_room1_69_console_2
-* (You had a wonderful,&  exclusive experience...)/
+* (Che fantastica,&  esperienza unica...)/
 obj_readable_room1_69_console_3
-* (... that only someone who&  saw two frogs could feel.)/%%
+* (... che solo qualcuno che&  ha visto due rane&  potrà mai capire.)/%%
 obj_readable_room1_69_console_4
 * C'è un solo interruttore./%%
 obj_readable_room1_70
@@ -22217,7 +22217,7 @@ obj_readable_room1_257
 obj_readable_room1_258
 * Sui glifi antichi è stata&  dipinta una lista con 21&  differenti gusti./%%
 obj_readable_room1_263
-* Achoo^1!&* Tried to catch a bug^1, but&  I just caught a cold.../%%
+* Ecciù^1! Volevo beccare&  un insetto^1, ma mi sono&  beccato un raffreddore.../%%
 obj_readable_room1_269
 * Gli umani, timorosi del nostro&  potere^1, ci dichiararono guerra./
 obj_readable_room1_274
@@ -22772,15 +22772,15 @@ NON ESSERE COSÌ&CRITICA^1,&UNDYNE./
 obj_readable_room2_513
 IL MIO CAPANNO&È A QUATTRO&STELLE./
 obj_readable_room2_514
-* What^1, lemme guess./
+* Che c'è^1, fammi indovinare./
 obj_readable_room2_516
-\E6* Sometimes you cut a&  hot dog into the&  dog food^1, right?/
+\E6* A volte sminuzzi&  un hot dog nel&  cibo per cani^1, vero?/
 obj_readable_room2_517
-WHAT!?!?/
+COSA!?!?/
 obj_readable_room2_519
-\E0HOW'D YOU KNOW?/
+\E0COME LO SAI?/
 obj_readable_room2_520
-* OH MY GOD^1! NO^1!&* I WAS JOKING!!^1!&* DON'T DO THIS!!!/%%
+* OH MIO DIO^1! NO^1!&* SCHERZAVO!!^1!&* NON FARLO!!!/%%
 obj_readable_room2_522
 DOVRESTI IMPARARE&COS'È LA PRIVACY./%%
 obj_readable_room2_528
@@ -22885,7 +22885,7 @@ MI RICORDA SEMPRE&COS'È IMPORTANTE&NELLA VITA./%%
 obj_readable_room3_176
 * (È il dipinto di un&  osso stilizzato.)/%%
 obj_readable_room3_180
-* (Whenever the girl moves her&  net^1, this bug scurries straight&  into it.)/%%
+* (Quando la tipa agita la&  rete^1, questo insetto ci&  sgattaiola dentro.)/%%
 obj_readable_room3_195
 * (Sembrano note per&  qualcosa^1, ma sono scritte&  davvero male.)/
 obj_readable_room3_200
@@ -23011,13 +23011,13 @@ obj_readable_room4_118
 obj_readable_room4_119
 * Ancora^1, il nostro RE è&  veramente pessimo con&  i nomi...?/%%
 obj_readable_room4_120
-* Excuse me..^1.&* Yes^1, you^1, with the striped&  shirt./
+* Scusa..^1.&* Sì^1, tu^1, con la maglia&  a righe./
 obj_readable_room4_126
-* Can you do something about&  your friend...?/
+* Puoi fare qualcosa riguardo&  il tuo amico...?/
 obj_readable_room4_127
-* Yes^1, your friend..^1.&* The one behind you^1, with the&  creepy smile./%%
+* Sì^1, il tuo amico..^1.&* Quello dietro di te^1, che&  sorride in modo inquietante./%%
 obj_readable_room4_128
-* Hmmm^1?&* Where'd your friend go?/%%
+* Hmmm^1?&* Dov'è finito il tuo amico?/%%
 obj_readable_room4_131
 * Se un mostro sconfigge un&  umano^1, egli può acquisirne&  l'ANIMA./
 obj_readable_room4_139
@@ -23140,58 +23140,58 @@ obj_readable_room5_192
 obj_readable_room5_197
 * (È incollata al tavolo.)/%%
 obj_readable_room5_203
-* (What the hey is this?)/%
+* (Che è?)/%
 obj_readable_room5_209
-* (Dumplings.)&* (They look slightly nibbled...)/
+* (Ravioli.)&* (Sembrano morsicchiati...)/
 obj_readable_room5_216
-* (Looks like the dog didn't&  like them very much...)/
+* (Sembra che il cane&  non abbia apprezzato molto...)/
 obj_readable_room5_217
-* (So far the donation money&  has been totally wasted.)/%
+* (Per ora tutti i soldi&  donati son stati sprecati.)/%
 obj_readable_room5_218
-* (Looks like the dog bought a&  CD for the boombox.)/
+* (Sembra che il cane abbia&  comprato dei CD per lo&  stereo.)/
 obj_readable_room5_226
-* (... but^1, it's a game CD.^1)&* (... so it won't work...)/%
+* (... in realtà^1, è un DVD.^1)&* (... quindi non va...)/%
 obj_readable_room5_227
-* (It's some kind of inflatable&  mascot.)/
+* (È una qualche sorta di&  mascotte gonfiabile.)/
 obj_readable_room5_231
-* (It's not clear how this is&  going to encourage anyone&  to donate.)/%
+* (Non è chiaro come&  dovrebbe incoraggiare&  a donare.)/%
 obj_readable_room5_232
 * (Una foto incorniciata di Papyrus.)/
 obj_readable_room5_236
-* (Looks like he's having fun&  making some kind of pasta...)/%
+* (Sembra si diverta a&  cucinare qualche sorta&  di pasta...)/%
 obj_readable_room5_237
 obj_readable_room5_241
-* (It's a bit blurry^1, but it&  looks like he's angrily&  chasing the photographer...)/%
+* (È sfocata^1, ma sembra&  rincorrere infuriato&  il fotografo...)/%
 obj_readable_room5_242
-* (The dog spent all of the money&  on a piece of rope.)/
+* (Il cane ha speso tutti i&  soldi comprando una corda.)/
 obj_readable_room5_246
-* (However^1, it's really not very&  much rope for the amount&  spent...)/
+* (A dirla tutta^1, è anche&  corta per quanti soldi&  ha speso...)/
 obj_readable_room5_247
-* (It seems like the dog got&  ripped off...)/%
+* (Oppure l'ha strappata mentre&  chi lo ha fregato&  ha tagliato la corda...)/%
 obj_readable_room5_248
-* (It's a tap to dispense&  dog food.)/
+* (Un distributore di&  cibo per cani.)/
 obj_readable_room5_252
-* (So is there a tank full&  of dog food in the&  walls...?)/%
+* (Quindi deve esserci&  una tanica piena di cibo&  per cani nelle mura...?)/%
 obj_readable_room5_253
-* (Huh!? Blueprints...!?)/
+* (Huh!? Cianografie...!?)/
 obj_readable_room5_257
-* (Literally^1. It's white paper^1,&  but covered in little blue&  pawprints...)/
+* (Letteralmente^1. Fogli con sc-&  ritti sopra degli abbaii &  con una matita ciano...)/
 obj_readable_room5_258
-* (Wait...)&* (Blue pawprints...)&* (Could it be a clue!?)/
+* (Aspetta...)&* (Abbaii...)&* (Che l'autore sia...!?)/
 obj_readable_room5_259
-* (... No^1, it's totally useless.)/%
+* (... No^1, è impossibile.)/%
 obj_readable_room5_260
-* (It's another piece of rope.)/
+* (Un'altra corda.)/
 obj_readable_room5_264
-* (It's not even any bigger than&  the last one.)/%
+* (Questa volta non&  gli dai corda.)/%
 obj_readable_room5_265
-* (It's a framed letter from the&  Shrine Certification&  Committee.)/
+* (Lettera incorniciata dal&  Comitato per La&  Certificazione Altari.)/
 obj_readable_room5_269
-* (Apparently^1, the dog applied to&  have its Shrine officially&  recognized.)/
+* (A quanto pare^1, il cane ha&  fatto richiesta per il&  riconoscimento ufficiale.)/
 obj_readable_room5_270
-* (... It was completely&  rejected...)/
+* (... È stato&  bocciato in toto...)/
 obj_readable_room5_271
-* (... It doesn't seem to have&  realized that at all...)/%
+* (... Non sembra averlo&  ancora realizzato...)/%
 obj_readable_room5_272
 * Te la sei persa?&* Vendita di Beneficenza per&  ragni in basso e poi a destra./
 obj_readable_sign2_55
@@ -23679,7 +23679,7 @@ obj_sans_room_119
 obj_sans_room_120
 * ricorda..^1.&* segni dello stop blu./%%
 obj_sans_room_123
-* ... hi./%%
+* ... ehilà./%%
 obj_sans_room_128
 * ehi^1, grazie..^1.&* sembra che mio fratello&  si stia divertendo./
 obj_sans_room_135
@@ -23781,7 +23781,7 @@ obj_sans_sentry2_134
 obj_sans_sentry2_141
 obj_sans_sentry2_142
 obj_sans_sentry2_306
-* Skipped ahead.
+* Saltato.
 obj_sansb_90
 come^1? credevi che&sarei rimasto&fermo a prenderle?/%%
 obj_sansb_252
@@ -23960,9 +23960,9 @@ obj_sansb_960
 obj_sansb_962
 * Senti le tue colpe&  pesarti sul collo.
 obj_sansb_963
-* KARMA coursing through your&  veins.
+* KARMA pervade le tue&  vene.
 obj_sansb_964
-* Doomed to death of KARMA!
+* Condannato a morte&  via KARMA!
 obj_sansb_965
 * Ha inizio la VERA battaglia.
 obj_sansb_969
@@ -24194,7 +24194,7 @@ obj_sansdate3_187
 obj_sansdate3_188
 \Tt* "Toc toc!"/
 obj_sansdate3_189
-\Ts* \E1e io dico "chi è?"/ 
+\Ts* \E1e io dico "chi è?"/
 obj_sansdate3_190
 \Tt* \E0"Sca!"/
 obj_sansdate3_191
@@ -25085,7 +25085,7 @@ obj_shop3_2184
 obj_shop3_2196
 * Firmato^1,&  Catty <3/*
 obj_shop3_2198
-\E0* Il cliente ha sempre ragione./*
+\E0* Il cliente ha sempre&  ragione./*
 obj_shop4_244
 \E0* Benvenuto all'Emporio &  dei Burger MTT^1, casa &  del Glamburger^1.&* Fai brillare la&  tua giornata (TM)./*
 obj_shop4_245
@@ -25537,9 +25537,9 @@ obj_shyren_541
 obj_shyren_550
 * Agiti le braccia in aria^1.&* La folla è in visibilio./^
 obj_shyren_551
-* It's a mixture of socks^1,&  fanmail^1, and toilet paper./%%
+* È un miscuglio di calzini^1,&  lettere dei fan^1,&  e carta igienica./%%
 obj_shyrenstrewn_60
-* There's a conspicuous&  lack of anything on the&  ground./%%
+* Noti una strana assenza&  di oggetti per&  terra./%%
 obj_shyrenstrewn_61
 * Dolci di Ragni&* Tutto il ricavato andrà a dei&  veri ragni./%%
 obj_sign_room_66
@@ -25593,7 +25593,7 @@ obj_sign_room_133
 obj_sign_room_145
 * Hai fallito il puzzle!/%%
 obj_sign_room_146
-* It's a crystal^1.&* You've never seen one&  like this before./%%
+* È un cristallo^1.&* Non ne hai mai visto uno&  così prima d'ora./%%
 obj_sign_room_151
 * (Prego, prendine uno.)/%%
 obj_sign_room_156
@@ -25617,7 +25617,7 @@ obj_sign_room_228
 obj_slimejanitor_73
 * (Prova a finire il lavoro.)/%%
 obj_slimejanitor_77
-* (Futility setting in.)/%%
+* (La futilità si fa sempre più reale.)/%%
 obj_slimejanitor_82
 * (La sedia di Toriel.)&* (Si chiama Sediel.)/%%
 obj_smallchair_55
@@ -25688,13 +25688,13 @@ obj_smallfrog_118
 obj_smallfrog_119
 * (Qui non ne ho mai viste più&  di tre^1, sarà un problema?^1)&* Craccrà./%%
 obj_smallfrog_120
-* Ribbit ribbit^1.&* (I heard using "Borders" can&  add some color to the world.)/
+* Cra Cra^1.&* (Ho sentito dire che i "Bordi"&  possono ravvivare il mondo.)/
 obj_smallfrog_117_console
-* (It seems you can choose&  them in the "Settings" menu&  before you load your game.)/
+* (Dovresti poter sceglierli&  nel menu "Impostazioni"&  prima di caricare il gioco.)/
 obj_smallfrog_118_console
-* (However, there isn't a&  frog-themed border.)/
+* (Anche se non ce n'è&  uno a tema rane.)/
 obj_smallfrog_119_console
-* (So it's just pointless.^1)&* Ribbit./%%
+* (Quindi sono inutili.^1)&* Cra./%%
 obj_smallfrog_120_console
 * Cra Cra^1.&* (Troverai mai la quarta&  rana in questa stanza?)/%%
 obj_smallfrog_124
@@ -30140,15 +30140,15 @@ QUESTO È IL POSTO&CHE MIO FRATELLO&DEVE CONTROLLARE.../
 \E3MA^1, OGNI VOLTA CHE&VADO A CONTROLLARE^1,&STA BIGHELLONANDO./
 \E0MENO MALE CHE&SONO STATO IO A&TROVARTI PER PRIMO!/
 \E3CREDO PROPRIO CHE&TI AVREBBE LASCIATO&UNA BTU./%%
-IF HE'S NOT AROUND^1,&HE WON'T COME&BACK.../
-\E3THAT'S JUST THE&WAY HE FUNCTIONS./%%
+SE NON È NEI DINTORNI^1,&NON TORNA.../
+\E3È COSÌ CHE&FUNZIONA CON LUI./%%
 CHE C'È??^1?&TI SEI PERSO???/
 \E0HMMM..^1. DOVRESTI&CHIAMARE QUALCUNO&E CHIEDERE AIUTO!/%%
 EH??^1? PERCHÉ HAI&CHIAMATO ME??/%%
 IL FIUME È TROPPO&FREDDO PER&NUOTARCI./
 A MENO CHE TU NON&ABBIA UN MAGLIONE&IMPERMEABILE!/%%
 È SOLO UN&FIUME./%%
-NYEH HEH HEH!^1!&IMPRESSED!?!/
+NYEH HEH HEH!^1!&CHE NE DICI!?!/
 NON SONO SOLO&UN MAESTRO DEI&PUZZLE.../
 SONO ANCHE&UN RINOMATO&ARCHITETTO!!!/%%
 MIO FRATELLO MI&HA AIUTATO A&TROVARE LA SCATOLA!/%%
@@ -30159,7 +30159,7 @@ CANLTOLÀ NON&È IN CASA./%%
 ATTENZIONE!^1!&IL GHIACCIO È&SCIVOLOSO./
 \E0PERÒ, MENTRE SCIVOLI&SUL GHIACCIO^1, NESSU-&NO TI ATTACCHERÀ./
 \E3NESSUNO VUOLE&SCIVOLARE NEL CORSO&DI UN ATTACCO FIGO./%%
-I'M COLD OUT OF&THINGS TO SAY./%%
+NON HO VERAMENTE&ALTRO DA DIRE./%%
 DEV'ESSERE DURA,&LA VITA DI UN PUPAZZO&DI NEVE./
 \E2CERCA DI TRATTARE&BENE LA GENTE FATTA&DI MATERIALI STRANI./%%
 QUEL PUPAZZO DI&NEVE È ANCORA&LÌ?/%%
@@ -30182,7 +30182,7 @@ NAH..^1.&QUELLO SAREBBE&STRANISSIMO./
 \E0CI SONO ANIMALI&MOLTO MIGLIORI&DA SPOSARE./
 TIPO GLI&SCHELETRI!!!/%%
 HMM... UN CRUCIVERBA,&EH^1? IMMAGINO SIA&UN NOME APPROPRIATO./
-\E4THOSE WORDS MAKE&ME CROSS!!!/%%
+\E4QUEI VERBI MI FANNO&INCROCIARE GLI OCCHI!!!/%%
 STAI ANCORA&GIOCANDO A QUEL&CERCAPAROLE?/%%
 AH^1, LA TRAPPOLA&DEGLI SPAGHETTI.../
 ERRORE????/%%
@@ -30205,7 +30205,7 @@ LO STO RISOLVENDO&MENTRE PARLIAMO.../%%
 OH-HO!!^1! &QUESTO PUZZLE^1!/
 L'HAI RISOLTO&MOLTO FACILMENTE!!/
 \E2È UNA COSA./%%
-TALKING ON THE&PHONE..^1. HOW&PAPYRUS OF YOU./%%
+PARLARE AL&TELEFONO..^1. CHE&PAPYRUSATA./%%
 OH-HO!!^1!&QUESTO È IL PUZZLE&DELLA DR.SSA ALPHYS!/
 HO DOVUTO CHIEDERE&AD UNDYNE DI CHIEDER-&LE DI FARNE UNO./
 \E3LE PARLO SOLO&SU INTERNET.../
@@ -31389,8 +31389,8 @@ NON HO ALTRO&DA DIRE./%%
 * Frisk^1, non le avrai detto&  qualcosa di falso^1, vero^1?&* ]: )/%%
 * Ho sentito dire che usare&  il computer troppo a lungo&  faccia molto male./
 * Però^1, non ti ho mai&  visto usare un computer./
-* I heard that playing&  video games for too long&  is bad for you./
-* However^1, I have not seen&  you playing video games&  at all./
+* Ho sentito dire che&  giocare troppo ai videogiochi&  fa male./
+* Però^1, io non ti ho&  proprio visto giocare a&  nessun videogioco./
 * Devi essere proprio&  in salute^1!&* Che bella cosa./%%
 * Forse è il caso che&  spenga il telefono&  per adesso./
 * I tuoi amici sono&  proprio adorabili!/
@@ -31477,23 +31477,23 @@ Salvataggio completato.
 save_menu_saved
 [PREMI Z O INVIO]
 title_press_button_pc
-[PRESS ANY BUTTON]
+[PREMI UN TASTO]
 title_press_button_console
  --- istruzioni ---
-[Z or ENTER]
+[Z o INVIO]
 instructions_confirm_key
-Confirm
-[X or SHIFT]
+Conferma
+[X o SHIFT]
 instructions_cancel_key
 Annulla
-[C or CTRL]
+[C o CTRL]
 instructions_menu_key
-Menu (In-game)
+Menu (In gioco)
 [F4]
 instructions_fullscreen_key
-Fullscreen
+Schermo Intero
 instructions_fullscreen_label
-[Hold ESC]
+[Tieni Prem. ESC]
 instructions_quit_key
 Esci
 instructions_quit_label
@@ -31520,7 +31520,7 @@ flowey_load_time
 Il Mio Mondo
 flowey_load_room
 flowey_load_continue
-Restart
+Reset
 flowey_load_restart
 --
 Rovine - Entrata
@@ -31609,7 +31609,7 @@ Ma molte altre parti#di me... non vorrebbero.
 obj_shyrensisternpc_75
 Benvenuto al Test Sonoro!#Ascolta le tue tracce preferite.#Destra e Sinistra per scegliere.#Premi \*Z per ascoltare.#
 soundtest_welcome
-SOUND TEST
+TEST SONORO
 soundtest_title
 Happy Town
 soundtest_track_happytown
@@ -31629,7 +31629,7 @@ LINGUA
 settings_language
 ITALIANO
 settings_language_en
-JAPANESE
+GIAPPONESE
 settings_language_ja
 BUTTON CONFIG
 settings_button
@@ -31645,25 +31645,25 @@ BORDER
 settings_border
 NONE
 settings_border_none
-Simple
+Semplice
 settings_border_1
-Sepia
+Seppia
 settings_border_2
-Dynamic
+Dinamico
 settings_border_3
 Rovine
 settings_border_4
-Snowdin
+Nevischio
 settings_border_5
-Waterfall
+Cascate
 settings_border_6
-Hotland
+Roventerra
 settings_border_7
-Castle
+Castello
 settings_border_8
-True Lab
+Vero Lab.
 settings_border_9
-Beauty
+Bellezza
 settings_border_10
 Config. Joystick
 settings_joyconfig
@@ -31961,7 +31961,7 @@ Candela Nella#Torta di Compleanno#Più Grande del Mondo
 castroll_yellow_pyrope
 MUFFET
 castroll_name_muffet
-Trying To Make#Spider Ends Meet
+Cerca Di Portare#Guadagno
 castroll_white_muffet
 Ragno Famoso Con#Pasticceria Nuova
 castroll_yellow_muffet
@@ -32024,7 +32024,7 @@ credits_short_180
 Assistente per il Design dei Mostri
 credits_short_183
 credits_short_185
-Original Temmie Monster Design Sketch
+Bozze Design Mostri di Temmie
 credits_short_186
 Betty Kwong
 credits_short_187
@@ -32064,25 +32064,25 @@ Aiuto con Bratty & Catty
 credits_short_251
 IPGD
 credits_short_253
-Japanese Localization
+Localizzazione Giapponese
 credits_short_loc1_1
-Japanese Localization +#PS4/Vita Conversions
+Localizzazione Giapponese +#Versioni PS4/Vita
 credits_short_loc1_1_console
 8-4, Ltd.
 credits_short_loc1_1a
-Producer
+Produttore
 credits_short_loc1_2
 John Ricciardi
 credits_short_loc1_2a
-Coordinator
+Coordinatore
 credits_short_loc1_3
 Justin "JJ" Epperson
 credits_short_loc1_3a
-Translator
+Traduttrice
 credits_short_loc1_4
 Keiko Fukuichi
 credits_short_loc1_4a
-Localization Support
+Supporto Localizzazione
 credits_short_loc2_1
 Brian Gray
 credits_short_loc2_1a
@@ -32090,20 +32090,20 @@ D. Scott Miller
 credits_short_loc2_1b
 Nozomi Oshima
 credits_short_loc2_1c
-8-4 All Staff
+Tutto lo staff di 8-4
 credits_short_loc2_1d
-Japanese Graphics
+Grafiche Giapponesi
 credits_short_loc2_2
 256graph
 credits_short_loc2_2a
-Physical + Collector's Editions
+Edizione Fisica + Collector
 credits_short_loc2_3
 Fangamer
 credits_short_loc2_3a
-Sepia + Area-Themed Borders
+Bordi Seppia + Aree
 credits_short_loc2_4
 credits_short_loc2_4a
-Testers
+Tester
 credits_short_test_0
 Graeme Howard
 credits_short_test_1
@@ -32164,7 +32164,7 @@ credits_short_thanks_11_console
 credits_short_thanks_12_console
 Truant Pixel
 credits_short_thanks_13_console
-All SIE Staff
+Tutto lo Staff SIE
 credits_short_thanks_14_console
 Fontworks Inc.
 credits_short_thanks_last_1
@@ -32208,7 +32208,7 @@ mettnews_ticker_doom5
 mettnews_ticker_doom6
  NON RIMANERE FERMO!
 mettnews_ticker_doom7
-TIME:\[1]
+TEMPO:\[1]
 mettnews_timer
 ASCOLTI \[1]
 mett_ratings
@@ -32220,7 +32220,7 @@ mett_essay_prompt_console
 mett_essay_start
 TEMPO SCADUTO!!!
 mett_essay_timeup
-$ - \[G]G
+$ - \[O]O
 obj_golddisplay_42
 SPAZIO - \[1]/8
 obj_golddisplay_44
@@ -32231,13 +32231,13 @@ Esci
 Prendi
 Ruba
 Leggi
-\[1]G - \[2]
+\[1]O - \[2]
 shop_buy_list
 --- ESAURITO ---
 shop_buy_soldout
 Compralo per
 shop_buy_prompt1
-\[1]G ?
+\[1]O ?
 shop_buy_prompt2
 Prendilo.
 shop_take_prompt
@@ -32436,16 +32436,16 @@ NO!!!
 shop5_buy_no
 NO!
 shop5_sell_unsellable
-\[1]G
+\[1]O
 shop5_sell_price
 shop5_sell_separator
-(\[G] G)
+(\[O] O)
 shop5_sell_gold
 (grazie ACQUISTO)
 shop5_sell_sold
-tem compra \[1] per... \[2]G!!!
+tem compra \[1] per... \[2]O!!!
 shop5_sell_prompt
-OK!! TEM COMPRA \[1] PER \[2]G!!!
+OK!! TEM COMPRA \[1] PER \[2]O!!!
 shop5_sell_prompt_special
 yayA!
 shop5_sell_yes
@@ -32514,54 +32514,54 @@ Ora ti#guardo
 mett_opera2_11
 Bruciare piano
 mett_opera2_12
-(Hmmm? Getting creative?)
+(Hmmm? Ti dai alla creatività?)
 mett_operacomment_1
-(Dance with me, darling.)
+(Danza con me, tesoro.)
 mett_operacomment_2
-(Oh! The audience can feel#your passion!)
+(Oh! Gli spettatori#sentono la tua passione!)
 mett_operacomment_3
-(Show the audience#your passion!)
+(Mostra agli spettatori#la tua passione!)
 mett_operacomment_3_unfrantic
-(So close... How passionate...)
+(Così vicino... Che passione...)
 mett_operacomment_3_touch
-(... do you need some help?)
+(... hai bisogno di una mano?)
 mett_operacomment_3_frantic1
-(... what ARE you doing?)
+(... che COSA stai facendo?)
 mett_operacomment_3_frantic2
-(Don't stop now!)
+(Non fermarti!)
 mett_operacomment_4
-(Look at you, leaping around#the stage...)
+(Guardati, come zompetti#per il palco...)
 mett_operacomment_4_unfrantic
-(Can't keep your hands off, huh?)
+(Non riesci a non toccare, huh?)
 mett_operacomment_4_touch
-(Is that how humans dance?)
+(È così che#ballano gli umani?)
 mett_operacomment_4_frantic1
-(Humans are stranger#than I thought.)
+(Gli umani sono#più strani di#quanto credessi.)
 mett_operacomment_4_frantic2
-(Oh! They're really#getting into it.)
+(Oh! Sembra che#gli piaccia proprio.)
 mett_operacomment_5
-(Moving so far...)
+(Come sei distante...)
 mett_operacomment_5_unfrantic
-(Who can blame you?)
+(Come biasimarti?)
 mett_operacomment_5_touch
-(Hmmm, I'll have to get used#to it...)
+(Hmmm, Ci dovrò fare#l'abitudine...)
 mett_operacomment_5_frantic1
-(Even better than#I thought...)
+(Persino meglio di#quanto credessi...)
 mett_operacomment_5_frantic2
-(So that's what#it's like.)
+(Quindi è così che ci#si sente.)
 mett_operacomment_6
-(Dancing with... A human.)
+(A ballare con...#Un umano.)
 mett_operacomment_7
-(What a shame...)
+(Che peccato...)
 mett_operacomment_8
 item_use_0
 * Hai mangiato la caramella.
 item_use_1
  &* Sa molto non di liquirizia.
  &* ... sa di liquirizia.
-* You hit the Croquet Roll into&  your mouth.
+* Scrocchi la Crocchetta&  tra gli incisivi.
 item_use_2
-* You ate the Croquet Roll.
+* Mangi la Crocchetta.
 * Getti via il Bastone^1.&* Poi lo raccogli di nuovo./%
 * Lanci il Bastone^1.&* Ma non succede niente./%
 * Lanci il bastoncino e i&  cani lo corrono a prendere^1.&* Giochi con loro per un po'./%
@@ -32572,17 +32572,17 @@ item_use_2
 * Ti sei rimesso il cerotto.
 item_use_4
 &* È ancora appiccicoso.
-* You ate the Rock Candy.
+* Mangi la Carocciamella.
 item_use_5
-* You ate the Pumpkin Rings.
+* Mangi gli Anelli di Zucca.
 item_use_6
 * Hai mangiato la ciambella di&  ragni.
 item_use_7
 * Bella, umano!
-* You ate the Stoic Onion.
+* Mangi la Stocipolla.
 item_use_8
-&* You didn't cry...
-* You ate the Ghost Fruit.
+&* Non... non piangi.
+* Mangi la Sputtra.
 item_use_9
 * Hai bevuto il sidro di ragni.
 item_use_10
@@ -32749,7 +32749,7 @@ item_use_64
 * Jerry si avvinghia e non&  ti si scolla di dosso!
 * Compare Testa di Ghiaccio^1.&* C'è anche Jerry.
 * Testa di Ghiaccio e Draghiac-&  cio ti attaccano^1, sospirando.&* Jerry.
-* Icecap and Chilldrake&  confront you^1, sighing.&* Jerry.
+* Testa di Ghiaccio e Dragaz-&  zaccio ti attaccano^1,sospirando.&* Jerry.
 * Aaron ti incontrae!
 * Nemico speciale Temmie compare&  per sconfiggerti!!
 * Ti imbatti in Gelatina.
@@ -32815,63 +32815,63 @@ scr_battlegroup_654
 * ASRIEL ti blocca la strada!
 * L'ANIMA di ASRIEL è stata &  risvegliata dal potere &  dei tuoi amici!
 * È tempo di dire addio.
-* Monster does an action.
+* Mostro fa una azione.
 obj_basicmonster_act
-* Smells like a monster.
+* Odora di mostro.
 obj_basicmonster_info
-* Monster seems satisfied.
+* Mostro sembra soddisfatto.
 obj_basicmonster_mercy
 obj_basicmonster_lowhp
-* MONSTER - ATK \[1] DEF \[2]&* Mistakenly believes its lava&  is a monster./^
+* MOSTRO - ATT \[1] DIF \[2]&* Crede erroneamente che la&  sua lava sia un mostro./^
 obj_basicmonster_check
 * Esegui delle azioni./^
 obj_basicmonster_playeract
 * HAI VINTO!&* Hai perso 1 punto esperienza./%
 obj_napstablook_189
 obj_torielboss_240
-* You..^1.&* You came from outside^1,&  didn't you?/
-* People like you are so&  rare.../
-* Please^1!* Stranger!/
-* Tell me about outside...?& &         Yes         No\C
-* Huh^1?&* "SURFACE"^1?&* What do you mean?/
-* I just meant outside this&  room./
-* If you haven't noticed^1, my&  mycelium have bound me&  to the ground./
-* Please^1!&* Stranger!/
-* I'll make this simple./
-* I've spent my whole life&  in the same spot^1,&  in the same room./
-* But I've long wondered&  what lies inside the&  room to the right./
-* Long I've fantasized&  about entering^1, and&  changing my scenery.../
-* No..^1.&* Changing my LIFE!/
-* Please^1.&* Go and tell me what's&  inside./%%
-* Is everyone out there&  like you^1?&* How terrible./%%
-* Well^1, what are you&  waiting for?/%%
-* Oh^1!&* You're back!/
-* How's the room?& &         Different   Same\C
-* Oh^1, that's a relief^1!/
-* That's all I need to&  continue my fantasies^1.&* Thank you^1, stranger./%%
-* My mind is running wild^1!&* I haven't felt like this&  in a long time.../%%
-* So it's the same./
-* The same.../
-* Same.../
+* Tu..^1.&* Tu vieni dall'esterno^1,&  non è così?/
+* Le persone come te sono&  così rare.../
+* Per favore^1!* Persona sconosciuta!/
+* Raccontami dell'esterno...?& &         Sì          No\C
+* Heh^1?&* "SUPERFICIE"^1?&* Che intendi?/
+* Io intendevo cosa c'è&  fuori questa stanza./
+* Se non lo avessi notato^1,&  il micelio mi tiene&  attaccato al terreno./
+* Per favore^1!* Persona sconosciuta!/
+* Te la semplifico./
+* Ho passato tutta la vita&  nello stesso punto^1,&  nella stessa stanza./
+* Ma ho sempre fantasticato&  su cosa ci fosse&  nella stanza a destra./
+* Sogno di entrarci&  e di cambiare&  panorama.../
+* No..^1.&* Cambiare VITA!/
+* Per favore^1.&* Vacci e dimmi cosa&  c'è dentro./%%
+* Sono tutti come te lì&  fuori^1?&* Terribile./%%
+* Beh^1, che aspetti??/%%
+* Oh^1!&* Rieccoti!/
+* Com'era la stanza?& &         Diversa     Uguale\C
+* Oh^1, che sollievo^1!/
+* Era ciò di cui avevo bisogno&  per continuare a fantasticare^1.&* Grazie,^1 persona sconosciuta./%%
+* La mia immaginazione&  è così stimolata^1! Non mi&  sentivo così da anni/%%
+* Quindi è uguale./
+* È uguale.../
+* Uguale.../
 * OK./%%
-* Please leave./%%
+* Per favore lasciami solo./%%
 * (È una stalla per cavalli.)/
 * (Vuoi entrarci?)& &         Sì          No \C
 * (Spintoni la porta.)&* (È chiusa a chiave.)/
 * (All'improvviso^1, da dentro&  il [censurato], senti un&/%%
-* (It's a book labelled&  Monster History Part 6.)&         Read it     Do not\C
-* Unfortunately^1, monsters are&  not experienced with&  illness./
-* However^1, when monsters are&  about to expire of age^1,&  they lie down^1, immobile./
-* We call this state&  "Fallen Down."/
-* A person who has Fallen&  Down will soon perish./
-* In a way^1, this confusing&  situation was all too&  familiar./%%
-* \YMETTATON has sent you a&  Mortal Enemy request.\W /
-* Congratulations^1!&* You are now Mortal Enemies&  with Mettaton./
-* \YCOOLSKELETON95\W has posted&  a comment on this change./
-* CONGRATULATIONS^1, YOU TWO^1!&* WISH YOU A LONG AND&  HORRIBLE RIVALRY./%%
+* (È un libro intitolato&  Storia dei Mostri Parte 6.)&         Leggi       Non Farlo\C
+* Sfortunatamente^1, i mostri&  non hanno molta esperienza&  con le malattie./
+* Però^1, quando un mostro sta&  per decedere^1,&  cade a terra^1, immobile./
+* Chiamiamo questo stato&  "Decadimento."/
+* Una persona che Decade&  perirà in breve tempo./
+* In qualche modo^1, quella&  situazione confusa era fin&  troppo familiare./%%
+* \YMETTATON ti ha mandato&  una richiesta di Inimicizia.\W /
+* Congratulazioni^1!&* Ora sei Nemico Mortale&  di Mettaton./
+* \YCOOLSKELETON95\W ha com-&  mentato questo evento./
+* CONGRATULAZIONI A VOI^1!&* VI AUGURO&  RIVALITÀ ETERNA./%%
 * Hai rifiutato la richiesta./%%
-* \YMETTATON has sent you an&  invitation to "Die."\W /
-* RSVP?& &         Respond     Ignore\C
+* \YMETTATON ti ha mandato&  un invito a "Muori."\W /
+* RSVP?& &         Rispondi    Ignora\C
 * Bepis valley Granola Bars/%%
 CRIMINI
 obj_crimegraph_55
@@ -32952,19 +32952,19 @@ Bob Sparker, Sarah, e JN Wiedle
 castroll_credit_mettaton
 ASGORE
 castroll_name_asgore
-MONSTER#KID
+MOSTRICIATTOLO
 castroll_name_monster_kid
 di#Magnolia Porter
 castroll_by_magnolia_porter_2line
 TORIEL
 castroll_name_toriel
-[LEFT]
-[RIGHT]
-Installing trophies
+[SX]
+[DX]
+Installando trofei
 trophy_install
 .
 trophy_install_dot
-(Just this once.)
+(Solo per questa volta.)
 trophy_install_line2
 Qual è il premio#se rispondi#correttamente?
 mettquiz_q1_text
@@ -47583,7 +47583,7 @@ version
 -4
 -V
 UT v
- (C) Toby Fox 2015-2017 - USP V1.18
+ (C) Toby Fox 2015-2017 - USP V1.19
 intronoise
 ballamount
 special_x

@@ -1,4 +1,2 @@
-# Online
-Online copy of USP assets, for the installer.
-
-Increment the version number in `Version.txt` so the installer will redownload the thing.
+# USP Online Assets
+Copia pubblica degli asset di traduzione di USP, scaricabili dall'[Installer](https://github.com/USPAssets/Installer)

@@ -94,8 +94,9 @@ async Task Main()
 	ImportAllFonts(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Sounds");
-	ImportSounds(Path.Join(assetPath, "Sounds"), "_ch1");
-	ImportMusic(assetPath, gameFolder);
+	var sndPath = Path.Join(assetPath, "Sounds");
+	ImportSounds(sndPath, "_ch1");
+	ImportMusic(sndPath, gameFolder);
 
 	Done();
 }

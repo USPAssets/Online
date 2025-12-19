@@ -61,8 +61,8 @@ async Task Main()
 	}
 	CheckGameVersion(g_supportedVersion, gameVersion, g_itchioVersion);
 
-	int numSteps = 2;
-	int currentStep = 2;
+	int numSteps = 4;
+	int currentStep = 1;
 	async Task Progress(string progressName) {
 		UpdateProgressBar(
 			progressName,
@@ -82,8 +82,12 @@ async Task Main()
 	ImportAllFonts(Path.Join(assetPath, "Fonts"), false);
 
 	await Progress("Sounds");
-	ImportSounds(Path.Join(assetPath, "Sounds"));
-	ImportMusic(assetPath, gameFolder);
+	var sndPath = Path.Join(assetPath, "Sounds");
+	ImportSounds(sndPath);
+	ImportMusic(sndPath, gameFolder);
+
+	await Progress("Code");
+	UpdateLauncherStarsPosition();
 
 	Done();
 }

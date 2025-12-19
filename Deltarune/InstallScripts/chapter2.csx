@@ -77,6 +77,7 @@ async Task Main()
 	
 	await Progress("Code");
 	ImportAllCode(Path.Join(assetPath, "Codes"));
+	UpdateItemGetCode();
 	UpdateKeyboardPuzzleCode();
 
 	await Progress("Sprites");

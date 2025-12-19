@@ -21,6 +21,10 @@ Vuoi continuare lo stesso? (Potrebbe non funzionare correttamente)"))
         return;
     }
 
+    // Strip possible v prefix (used for ch3 & ch4)
+    if (value.StartsWith("v")) {
+        value = value.Substring(1);
+    }
     Version foundVersion = new Version(value);
     if (foundVersion < expectedVersion)
     {
