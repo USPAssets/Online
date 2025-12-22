@@ -107,10 +107,10 @@ async Task Main()
 	funnyTextSprite = Data.Sprites.ByName("spr_funnytext_tan");
 	funnyTextSprite.OriginX = 151;
 	funnyTextSprite.OriginY = 32;
-	// TEST THIS Update spr_funnytext_alligator origin to +206 +150 (custom origin to fit it sprite)
+	// Update spr_funnytext_alligator origin to +206 +49 (custom origin to fit bigger sprite)
 	funnyTextSprite = Data.Sprites.ByName("spr_funnytext_alligator");
 	funnyTextSprite.OriginX = 206;
-	funnyTextSprite.OriginY = 150;
+	funnyTextSprite.OriginY = 49;
 	// Update spr_funnytext_rock_concert origin to +112 +30 (same as spr_ja_funnytext_rock_concert)
 	funnyTextSprite = Data.Sprites.ByName("spr_funnytext_rock_concert");
 	funnyTextSprite.OriginX = 112;

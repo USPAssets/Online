@@ -165,6 +165,25 @@ void UpdateRankStringCode()
 	"""var _xx = 12;"""
 	);
 
+	// Bonus: translate "FUN" in name entry screen to "TV!"
+	importGroup.QueueFindReplace("gml_Object_obj_ch3_GSA02_Step_0",
+	"""global.flag[1012] = 5;""", // F
+	"""global.flag[1012] = 19;""" // T
+	);
+	importGroup.QueueFindReplace("gml_Object_obj_ch3_GSA02_Step_0",
+	"""global.flag[1013] = 20;""", // U
+	"""global.flag[1013] = 21;""" // V
+	);
+	importGroup.QueueFindReplace("gml_Object_obj_ch3_GSA02_Step_0",
+	"""global.flag[1014] = 13;""", // N
+	"""global.flag[1014] = 37;""" // !
+	);
+	importGroup.QueueFindReplace("gml_Object_obj_ch3_GSA02_Step_0",
+	"""c_var_instance(podium[0], "mystring", "FUN");""",
+	"""c_var_instance(podium[0], "mystring", "TV!");"""
+	);
+	
+
 	importGroup.Import();
 }
 

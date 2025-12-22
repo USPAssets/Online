@@ -8842,37 +8842,37 @@ obj_aaron_278
 Ciao?&; )
 obj_aaron_279
 obj_aaron_282
-* Aaron ti schizza con&  dell'acqua giocosamente.
+* Rocco ti schizza con&  dell'acqua giocosamente.
 obj_aaron_478
-* Aaron si guarda attorno^1,&  spaventato da&  qualcosa.
+* Rocco si guarda attorno^1,&  spaventato da&  qualcosa.
 obj_aaron_479
-* Aaron suda freddo^3.&* È una grandinata&  di sudore!
+* Rocco suda freddo^3.&* È una grandinata&  di sudore!
 obj_aaron_480
-* Aaron ammira i suoi&  stessi muscoli.
+* Rocco ammira i suoi&  stessi muscoli.
 obj_aaron_481
 * C'è odore di&  stalla sottomarina.
 obj_aaron_482
 * C'è odore di fattoria&  di molluschi.
 obj_aaron_483
-* Aaron aspetta la&  tua prossima contrazione.
+* Rocco aspetta la&  tua prossima contrazione.
 obj_aaron_484
-* I muscoli di&  Aaron si afflosciano&  in maniera comica.
+* I muscoli di&  Rocco si afflosciano&  in maniera comica.
 obj_aaron_486
-* AARON - ATC 24 DIF 12&* Questo cavallone marino ha&  molti PS (Punti Stallone)./
+* ROCCO - ATC 24 DIF 12&* Questo cavallone marino ha&  molti PS (Punti Stallone)./
 obj_aaron_502
 * Tutti i suoi attacchi sul&  basso sono più difficili da&  schivare./^
 obj_aaron_503
-* Chiedi ad Aaron di andarsene./^
+* Chiedi a Rocco di andarsene./^
 obj_aaron_512
-* Chiedi ad Aaron di&  andarsene^1.&* Concorda./^
+* Chiedi a Rocco di&  andarsene^1.&* Concorda./^
 obj_aaron_514
-* Contrai il bicipite^1.&* Aaron contrae IL DOPPIO.&* Aumenta il vostro ATTACCO./^
+* Contrai il bicipite^1.&* Rocco contrae IL DOPPIO.&* Aumenta il vostro ATTACCO./^
 obj_aaron_524
-* Contrai ancora di più^1.&* Aaron contrae il TRIPLO.&* Aumenta il vostro ATTACCO./^
+* Contrai ancora di più^1.&* Rocco contrae il TRIPLO.&* Aumenta il vostro ATTACCO./^
 obj_aaron_525
-* Contrai il bicipite^1.&* Aaron contrae&  fortissimo.../
+* Contrai il bicipite^1.&* Rocco contrae&  fortissimo.../
 obj_aaron_526
-* Aaron flette i&  muscoli ed è&  nel vuoto!/^
+* Rocco flette i&  muscoli ed è&  nel vuoto!/^
 obj_aaron_527
 * Da quando mi hai mostrato i&  muscoli^1, ho riflettuto su&  un sacco di cose ; )/
 obj_aaronnpc_70
@@ -25525,7 +25525,7 @@ obj_shyren_523
 obj_shyren_524
 * Sorridi^1.&* Chiedi a Insirena di&  farti un sorriso./
 obj_shyren_537
-* Insirena si fa silenziosa^1.&* Dall'angolo^1, Aaron fa un&  cenno d'approvazione./^
+* Insirena si fa silenziosa^1.&* Dall'angolo^1, Rocco fa un&  cenno d'approvazione./^
 obj_shyren_538
 * Continui a sorridere^1.&* Ma non succede nulla./^
 obj_shyren_539
@@ -31603,7 +31603,7 @@ room_fire_lab2_97_0
 room_fire_lab2_97_1
 È bello essere di#nuovo con mia sorella.
 obj_sistertext_28
-Parte di me vorrebbe#vedere il mio nuovo#"fratello" Aaron. 
+Parte di me vorrebbe#vedere il mio nuovo#"fratello" Rocco. 
 obj_shyrensisternpc_74
 Ma molte altre parti#di me... non vorrebbero.
 obj_shyrensisternpc_75
@@ -32750,7 +32750,7 @@ item_use_64
 * Compare Testa di Ghiaccio^1.&* C'è anche Jerry.
 * Testa di Ghiaccio e Draghiac-&  cio ti attaccano^1, sospirando.&* Jerry.
 * Testa di Ghiaccio e Dragaz-&  zaccio ti attaccano^1,sospirando.&* Jerry.
-* Aaron ti incontrae!
+* Rocco ti incontrae!
 * Nemico speciale Temmie compare&  per sconfiggerti!!
 * Ti imbatti in Gelatina.
 * Tilavo si strascica&  verso di te.
@@ -32763,7 +32763,7 @@ scr_battlegroup_654
 * Tsundaereo si mette in mezzo!&* Non intenzionalmente o altro.
 * Vulcarina passeggia in zona.
 * Pirocorda si allaccia al&  combattimento!
-* Spuntano dal nulla&  Tilavo e Aaron.
+* Spuntano dal nulla&  Tilavo e Rocco.
 * Spuntano dal nulla&  Gelatona e Tilavo.
 * Muffet ti intrappola!
 * Madjick sbuca fuori&  dal suo cappello!
@@ -47583,7 +47583,7 @@ version
 -4
 -V
 UT v
- (C) Toby Fox 2015-2017 - USP V1.19
+ (C) Toby Fox 2015-2017 - USP V1.20
 intronoise
 ballamount
 special_x

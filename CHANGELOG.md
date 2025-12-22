@@ -2,6 +2,25 @@
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
+## DELTARUNE v3.1 / UNDERTALE v.1.20
+
+Aggiornamento di bugfix, grazie a tutti per le segnalazioni!
+
+### DELTARUNE v3.1
+
+Varie modifiche al testo per risolvere errori di battitura, adattamento, coerenza o testi che strabordano.
+
+Risolti vari bug nel Capitolo 3:
+* Testo "NULL e' stato aggiunto a NULL" quando apri uno scrigno con dei punti dentro
+* Funnytext di Tenna completamente decentrato verticalmente rispetto alla textbox
+* Sprite del tasto ACT non tradotti nella battaglia contro Rouxls
+* Nome del giocatore non tradotto durante i giochi di Tenna quando il nome viene sovrascritto da "FUN" o "BAD" se inserisci una parolaccia. (Tradotti come "TV!" e "BUU" rispettivamente)
+
+### UNDERTALE v1.20
+
+- Uniformata la traduzione del nemico "Aaron" in "Rocco"
+- Corretto lo sprite "MANCA" della dimensione sbagliata e che mostrava la versione non tradotta ("MISS") da sotto.
+
 ## DELTARUNE v3.0 / UNDERTALE v.1.19
 
 Ci siamo! Con questo aggiornamento rilasciamo finalmente la nostra traduzione del **Capitolo 3** di Deltarune!
