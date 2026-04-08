@@ -2,6 +2,20 @@
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
+## DELTARUNE v3.2 / UNDERTALE v1.21
+
+Ciao! Abbiamo finalmente integrato tutte le nuove segnalazioni riguardo Undertale, che riceve in questo update parecchi fix. Grazie a tutti per le segnalazioni!
+Abbiamo anche sistemato qualche piccola linea in Deltarune Capitolo 2 e 3.
+
+### DELTARUNE v3.2
+
+- Uniformato "Pippins" a "Puntolo" in Capitolo 2.
+- Risolto qualche problema di formattazione in Capitolo 2 e 3.
+
+### UNDERTALE v1.21
+
+- Risolto PARECCHI errori di formattazione, linee non tradotte e sprite non tradotti.
+
 ## DELTARUNE v3.1 / UNDERTALE v.1.20
 
 Aggiornamento di bugfix, grazie a tutti per le segnalazioni!
