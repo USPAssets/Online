@@ -6373,7 +6373,7 @@ Ciamb. di ragni
 item_name_7
 Stoicipolla
 item_name_8
-Sputtro
+Sputtra
 item_name_9
 Sidro di ragni
 item_name_10
@@ -6403,9 +6403,9 @@ Cereali Temmie
 item_name_22
 Sformato Abband.
 item_name_23
-Vecchio Tutù
+V. Tutù
 item_name_24
-Scarpette da Ballo
+Scarpe da Ballo
 item_name_25
 Carta Fedeltà
 item_name_26
@@ -6432,7 +6432,7 @@ Bagatt
 item_name_39
 Glamburger
 item_name_40
-Tè Marino
+Tè di Mare
 item_name_41
 Ghiaccielo
 item_name_42
@@ -6444,11 +6444,11 @@ Taccuino Lacero
 item_name_45
 Grembiule Sporco
 item_name_46
-Padella Bruciata
+Padella Br.
 item_name_47
 Cappello Cowboy
 item_name_48
-Pistola Scarica
+Pistola Sc.
 item_name_49
 CuorPendente
 item_name_50
@@ -6520,7 +6520,7 @@ CanCann
 item_nameb_21
 CerealTem
 item_nameb_22
-SformAbband
+Sf.Abband.
 item_nameb_23
 item_nameb_24
 ScarpBall
@@ -6616,10 +6616,10 @@ Bandana
 item_names_15
 item_names_16
 item_names_17
-Ice Cream
+Gelato
 item_names_18
 item_names_19
-Popsicle
+Ghiacciolo
 item_names_20
 Cannella
 item_names_21
@@ -6718,7 +6718,7 @@ item_desc_12_0
 item_desc_13_0
 * "Guanto Clamoroso" - Arma AT 5&* Un guanto di pelle logoro^1.&* Per tipi con cinque dita./%
 item_desc_14_0
-* "Bandana da duro" - Arm DIF 7&* Ha vestito cose che voialtri&  non potete neanche immaginare./%
+* "Bandana da duro" - Arm DF 7&* Ha vestito cose che voialtri&  non potete neanche immaginare./%
 item_desc_15_0
 * "Pupezzo di Neve" - Cura 45 PS&* Per favore, portalo fino &  ai confini del mondo./%
 item_desc_16_0
@@ -6734,7 +6734,7 @@ item_desc_20_0
 item_desc_21_0
 * "Cereali Temmie" - Cura 2 PS&* Sono solo pezzi strappati&  di cartoncini colorati./%%
 item_desc_22_0
-* "Sformato Abbandon." Cura 34 PS&* Uno sformato di uova e spinaci&  psicologicamente danneggiato./%%"
+* "Sformato Abband." Cura 34 PS&* Uno sformato di uova e spinaci&  psicologicamente danneggiato./%%"
 item_desc_23_0
 * "Vecchio Tutù" - Armatura DF 10&* Finalmente^1, un pezzo di&  armatura protettivo./%%
 item_desc_24_0
@@ -6793,15 +6793,15 @@ item_desc_47_0
 item_desc_48_0
 * Aumenta inoltre l'ATTACCO di 5./%
 item_desc_48_1
-* "Pistola Scarica" - Arma ATT 12&* Un vecchio revolver^1.&* Non ha munizioni./
+* "Pistola Scarica" - Arma AT 12&* Un vecchio revolver^1.&* Non ha munizioni./
 item_desc_49_0
 * Deve essere usata con&  precisione, o il danno sarà&  basso./%
 item_desc_49_1
 * "CuorPendente" - Armat DF 15&* C'è scritto "Migliori Amici&  Per Sempre."/%
 item_desc_50_0
-* "Pugnale Usurato" - Arma ATT 15&* Perfetto per potare piante&  e rovi./%
+* "Pugnale Usurato" - Arma AT 15&* Perfetto per potare piante&  e rovi./%
 item_desc_51_0
-* "Il Vero Coltello" - &  Arma ATT 99&* Ci siamo!/%
+* "Il Vero Coltello" - &  Arma AT 99&* Ci siamo!/%
 item_desc_52_0
 * "Pendente" - Armat DF 99&* Lo senti pulsare./%
 item_desc_53_0
@@ -6872,7 +6872,7 @@ Craccrana Finale
 Astigmatismo
 Ghiribasta
 Bomba
-Bicchiere D'acqua Estremamente&     Agile
+Bicchiere D'acqua Estremamente&  Agile
 Bomba Copione
 Bomba da basket
 Bomba regalo
@@ -6978,7 +6978,7 @@ SCR_TEXT_62
 * (Sapere che un giorno il topo&  potrebbe scassinare la cassa-&  forte e rubare il formaggio...)/
 * (Un'enorme struttura.^1)&* (Ti riempi di&  determinazione.)/%%
 * (L'atmosfera rilassante&  di questo hotel..^1. ti&  riempie di determinazione.)/%%
-* (L'aria è satura dell' odore&  di ozono..^1. ti riempie di&  determinazione.)/%%
+* (L'aria è satura dell'odore&  di ozono..^1. ti riempie di&  determinazione.)/%%
 * (Dietro questa porta deve&  esserci l'ascensore per il&  castello del re.)/
 * (L'odore di ragnatele&  permea l'aria...)/
 * Lasci lo Sformato per terra&  e gli dici che tornerai&  subito./%%
@@ -6992,7 +6992,7 @@ SCR_TEXT_62
 * È la tua prima volta&  nel SOTTOSUOLO^2,&  non è vero?/
 * Woah^1, hai un'&  aria confusa./
 * Qualcuno ti dovrà&  insegnare come&  vanno le cose qui!/
-* Nessun problema^1, ci&  pensa il piccolo\Y FLOWEY\W./
+\W* Nessun problema^1, ci&  pensa il piccolo\Y FLOWEY\W./
 * Pronti^2?&* Via!/%%
 \E2* Da questa parte./%%
 \E2* Ti do il benvenuto&  nella tua nuova dimora^1,&  tesoro mio./
@@ -7090,7 +7090,7 @@ SCR_TEXT_62
 * La lasci stare./%%
 * Non avrei dovuto darmi via&  così facilmente.../%%
 * Hai appena...&* Consumato il pezzo di me&  che ti ho dato?/
-* Proprio davanti ai miei occhi!?/
+* Proprio davanti ai miei occhi?!/
 * Non ho niente da dirti..^1.&* Vattene!/%%
 * Sono grato che ti preoccupi  &  per me.../%%
 * Uh^1? Ancora...?/
@@ -7114,22 +7114,22 @@ SANS!!^1!&NON GLI HA&FATTO NIENTE!/
 SANS!!^1!&NON CI HA NEMMENO&DATO UN'OCCHIATA!/
 * oops./
 * immagino che avrei&  dovuto usare le parole&  crociate uscite oggi./
-CHE!^1?&LE PAROLE CROCIATE!?/
+CHE?^1!&LE PAROLE&CROCIATE?!/
 CHE BAGGIANATA!!/
 SECONDO ME.../
 \E3GLI ANAGRAMMI SONO&SENZA DUBBIO I PIÙ&DIFFICILI./
-* che^1? davvero^1,amico^1?&* quei semplicissimi&  anagrammi?/
-\E1* quella roba può & completarla pure una & staffa./
+* che^1? davvero^1, amico^1?&* quei semplicissimi&  anagrammi?/
+\E1* quella roba può &  completarla pure una &  staffa./
 IN^1. CREDIBILE./
 \E0UMANO!!^1!&RISOLVI QUESTO&DIVERBIO!/
 \TS \F0 \E0 \T0 %
 * (Qual è più difficile?)& &         Anagrammi   Cruciverba \C 
    
-HA^1! HA^1! HAI PROPRIO&RAGIONE!/
+AH^1! AH^1! HAI PROPRIO&RAGIONE!/
 GLI UMANI DEVONO&ESSERE MOLTO&INTELLIGENTI!/
 SE ANCHE LORO&TROVANO DIFFICILI&GLI ANAGRAMMI!/
 NYEH^1! HEH^1!&HEH HEH!/%%
-STIAMO SCHERZANDO?!/
+STIAMO&SCHERZANDO?!/
 \E3I CRUCIVERBA SONO&TROPPO FACILI./
 LA SOLUZIONE È&SEMPRE LA STESSA./
 \E0RIEMPIO SEMPRE&TUTTE LE CASELLE&CON LA LETTERA "Z".../
@@ -7151,9 +7151,9 @@ NYEH HEH HEH!!!/%%
 * Ehi^1, hai un ombrello^1,&  proprio come il mio carretto.../
 * Che solidarietà^1!&* Non ho altra scelta che farti&  un bello sconto!/
 * Gelieto in offerta! 15G!& &         Sì          No \C
-* Solidarietà di ombrelli!^1?&* Immagino debba farti uno&  sconto.../
+* Solidarietà di ombrelli?^1!&* Immagino debba farti uno&  sconto.../
 * Ehi^1!&* Hai 3 carte fedeltà!/
-* Che ne dici di scambiarle&  per un po' di Gelieto!?/
+* Che ne dici di scambiarle&  per un po' di Gelieto?!/
 * È gratis!& &         Sì          No \C
 * Superbo^1! Eccoti qui^1!&* La tua carta è nella cassa!&* (Ricevi il Gelieto.)/%%
 * Uh^1? Niente soldi^1?&* Mi spiace^1, non posso dartelo&  gratis./%%
@@ -7176,13 +7176,13 @@ NYEH HEH HEH!!!/%%
 * wow^1, quella è proprio &  una gran quantità di&  denaro./
 \E3* per questo motivo mi&  rincresce dirti che.../
 \E3* non posso venderti&  questa neve fritta./
-\E2* ha un valore sentimentale&  fin troppo grande per me./%%
+\E2* ha un valore senti-&  mentale fin troppo&  grande per me./%%
 * non capisci quando ti&  viene proposto un&  affarone?/%%
-COSA!^1? COME HAI&FATTO AD EVITARE&LA MIA TRAPPOLA?/
+COSA?^1! COME HAI&FATTO AD EVITARE&LA MIA TRAPPOLA?/
 \E3E^1, SOPRATTUTTO.../
 \E0NE HAI LASCIATI&UN PO' PER ME???/
 * (Cosa dici a Papyrus dei suoi&  spaghetti?)&         Mangiati    Lasciati   \C 
-DAVVERO!?/
+DAVVERO?!/
 \E2CAVOLI.../
 A NESSUNO È MAI&PIACIUTA LA MIA&CUCINA.../
 \E0MOLTO BENE!!/
@@ -7193,9 +7193,9 @@ TI PREPARERÒ TUTTA&LA PASTA CHE&VORRAI!/
 HEH HEH HEH HEH&HEH HEH NYEH!/%%
 EHI, GUARDA!/
 È L'ESSERE UMANO!/
-\E0QUESTO PUZZLE&TI PIACERÀ DA&MATTI!/
+\E0QUESTO ROMPICAPO&TI PIACERÀ DA&MATTI!/
 È STATO INVENTATO&DALLA GRANDE&DOTT.SSA ALPHYS!/
-LI VEDI QUESTI&PANNELLI!?/
+LI VEDI QUESTI&PANNELLI?!/
 QUANDO AVRÒ&AZIONATO QUESTA&LEVA.../
 INIZIERANNO&A CAMBIARE&COLORE!/
 OGNI COLORE HA&UNA FUNZIONE&DIVERSA!/
@@ -7223,12 +7223,12 @@ QUINDI, VIOLA&E BLU INSIEME&SONO A POSTO!/
 E INFINE^1,&I PANNELLI ROSA./
 NON SERVONO&A NULLA./
 CAMMINACI QUANTO&TI PARE./
-ALLORA!^1?&HAI CAPITO???/
+ALLORA?^1!&HAI CAPITO???/
 * (Hai capito la spiegazione?)& &         Certo       No        \C 
 OTTIMO!^1! ALLORA,&UN'ULTIMA COSA.../
-QUESTO PUZZLE.../
+QUESTO ROMPICAPO.../
 È INTERAMENTE&CASUALE!!!!!!/
-QUANDO AZIONERÒ&LA LEVA^1, VERRÀ&CREATO UN PUZZLE.../
+AZIONANDO LA LEVA^1,&VERRÀ GENERATO UN&ROMPICAPO.../
 CHE NON È MAI&STATO VISTO PRIMA!/
 NEMMENO IO SAPRÒ&LA SOLUZIONE!/
 NYEH HEH HEH^1!&PREPARATI...!/%%
@@ -7244,18 +7244,18 @@ SE PASSI SULL'&ARANCIONE^1, NON&PASSARE SUL VERDE./
 \E0I PANNELLI VIOLA&PROFUMANO DI&LIMONE.../
 \E3PERCHÉ NON SONO&QUELLI GIALLI A PRO-&FUMARE DI LIMONE?/
 \E3UMM.../
-\E1ASPETTA!!^1! FORSE HO&CONFUSO I PANNELLI&VERDI E BLU!?/
+\E1ASPETTA!!^1! FORSE HO&CONFUSO I PANNELLI&VERDI E BLU?!/
 I PANNELLI BLU&SONO PIENI&D'ACQUA!/
 \E3I PANNELLI ROSA.../
 NON..^1.&ME LO RICORDO.../
 \E1AH, GIÀ!!!/
 \E3QUEI PANNELLI&NON FANNO NULLA./
-\E0OKAY^1!&ADESSO HAI&CAPITO!?/
+\E0OKAY^1!&ADESSO HAI&CAPITO?!/
 * (Hai capito la spiegazione?)& &         Sì          Ancora meno \C 
 ........../
 OK^1, SAI CHE&TI DICO???/
 SAREBBE MEGLIO..^1.&SE TU.../
-FACESSI QUESTO&PUZZLE..^1.&DA SOLO.../
+FACESSI QUESTO&ROMPICAPO..^1.&DA SOLO.../
 LASCIO QUI&LE ISTRUZIONI.../
 LEGGILE./
 QUANDO LE AVRAI&CAPITE PER BENE.../
@@ -7285,8 +7285,8 @@ NYEH..^1.&HEH..^1.&HEH!/%%
 * (Tutti i giochi devono finire&  prima o poi.^1)&* (Ricevi una Carta Fedeltà.)/%%
 * (La felicità sta scappando.^1)&* (Ricevi una Carta Fedeltà.)/%%
 * (La casa crolla.^1)&* (Ricevi una Carta Fedeltà.)/%%
-* (Sono un paio di scarpe da&  ballerina.)/
-* (Ricevi le Scarpe da&  Ballerina.)/%%
+* (Sono un paio di scarpette&  da ballerina.)/
+* (Ricevi le Scarpette da&  Ballo.)/%%
 * (Questo piccolo uccello vuole&  portarti dall'altra parte.)/
 * (Accetti la sua offerta?)& &         Sali        No        \C 
 * (Ombrelli e uccelli...^1)&* (Una pessima combinazione.)/%%
@@ -7312,7 +7312,7 @@ NYEH..^1.&HEH..^1.&HEH!/%%
 * (Coltello nella scatola.)/
 * (Hai preso il Pugnale Usurato.)/%%
 * (Hai preso il Vero Coltello.)/%%
-* (C'è un Pendente a forma& di Cuore nella scatola.)/
+* (C'è un Pendente a forma&  di Cuore nella scatola.)/
 * (Hai preso il Pendente&  a forma di Cuore.)/%%
 * (Hai preso il Pendente.)/%%
 * (La scatola è vuota.)/%%
@@ -7421,7 +7421,7 @@ NYEH..^1.&HEH..^1.&HEH!/%%
 \E2NYOO HOO HOO.../
 NON RIESCO NEMMENO&A BATTERE QUALCUNO&DEBOLE COME TE.../
 UNDYNE SARÀ MOLTO&DELUSA./
-NON VERRÒ MAI&ARRUOLATO NELLA&GUARDIA REALE..^1. E.../
+NON FARÒ MAI PARTE&DELLA GUARDIA&REALE..^1. E POI.../
 IL NUMERO DEI MIEI&AMICI RIMARRÀ TALE&E QUALE A PRIMA!/
 * (Cosa vuoi dire a Papyrus?)&         Diventiamo  Ma che&         amici       sfigato\C
 \E0WOWIE!^1!&CE L'HAI FATTA!!!/
@@ -7429,15 +7429,15 @@ NON HAI COMMESSO&UNA VIOLENZA!!!/
 \E5AD ESSERE SINCERI^1,&MI AVEVI MESSO&TANTA PAURA.../
 \E0MA STAI GIÀ&DIVENTANDO UNA&PERSONA PER BENE!/
 \E7SONO COSÌ FIERO DI&TE CHE POTREI SCOP-&PIARE A PIANGERE!!!/
-\E3... ASPETTA^1, MA NON&DOVEVO CATTURARTI....?/
+\E3... ASPETTA^1, MA&NON DOVEVO&CATTURARTI....?/
 \E0BEH, CHI SE&NE FREGA!/
-VOGLIO SOLTANTO&CHE TU DIVENTI UNA&PERSONA COI FIOCCHI./
+VOGLIO SOLO CHE&TU DIA IL MEGLIO&DI TE./
 QUINDI&METTIAMOCI UN&OSSO SOPRA./
 TI DIRÒ PERSINO&COME USCIRE DAL&SOTTOSUOLO!/
 TU PROCEDI&VERSO EST!/
 PRIMA O POI&RAGGIUNGERAI&IL CASTELLO DEL RE./
 E POI POTRAI&ANDARTENE!/%%
-DAVVERO!^1? VUOI&CHE DIVENTIAMO&AMICI^1, SUL SERIO???/
+DAVVERO?^1! VUOI&CHE DIVENTIAMO&AMICI^1, SUL SERIO???/
 BEH.../
 \E0ALLORA..^1./
 CREDO CHE PER TE&POSSA FARE UN'&ECCEZIONE!/
@@ -7572,7 +7572,7 @@ NON CI SONO&SCHELETRI NEL&MIO ARMADIO!!!/
 \E1* per fortuna^1, due lavori&  significano il doppio&  delle pause normali./
 \E0* fo un salto da grillby.&* vieni anche tu?&  Yeah        Ho da fare \C
 * .../%%
-\E2* ehi, pare che ti stia&  cominciando ad orientare./
+\E2* ehi, pare che ti stia&  cominciando a&  orientare./
 \E0* che ne diresti se ti&  offrissi un pranzo da&  grillby?/
 \E1* ... quando tutti quelli &  che hai fatto scappare&  fanno ritorno^1, intendo./%%
 * va bene^1, se insisti..^1.&* vedrò di staccare un&  po' dal mio lavoro.../%%
@@ -7581,7 +7581,7 @@ NON CI SONO&SCHELETRI NEL&MIO ARMADIO!!!/
 * a volte dei tipi strani&  piazzano cuscini rumorosi&  sulle sedie./
 \E0* ad ogni modo^1, ordiniamo./
 * chevvuoi...?& &  Patatine    Panino\C
-* va bene^1,arriva subito./%%
+* va bene^1, arriva subito./%%
 * ehi^1, non sembra affatto&  male./
 * grillby^1, vorremmo due&  patatine fritte./%%
 * grillby^1, vorremmo &  due panini./%%
@@ -7597,7 +7597,7 @@ NON CI SONO&SCHELETRI NEL&MIO ARMADIO!!!/
 \E0* mio fratello è una vera&  e propria celebrità./
 * è merito suo se ho&  questo lavoro da &  sentinella./
 * magari sarà pure&  strano^1, ma alle volte.../
-* ... non è niente male&  avere qualcuno che ti&  critichi quando sei pigro./
+* ... non è niente male&  avere qualcuno che ti&  critica quando sei pigro./
 \E1* anche se nulla potrebbe&  essere più distante&  dalla verità./%%
 * ecco che arriva il &  rancio./
 * vuoi del ketchup^1?& &  Sì          No    \C
@@ -7701,21 +7701,21 @@ NON CI SONO&SCHELETRI NEL&MIO ARMADIO!!!/
 * Vorrei chiederti una cosa./
 * Caspita^1, è la prima volta che&  chiedo una cosa del genere.../
 * Umm.../
-* Yo..^1. Tu sei un essere umano^1, &  giusto?&* Haha./
+* Yo..^1. Tu sei un essere umano^1, &  giusto?&* Ahah./
 * Caspita^1! Lo sapevo!/
 * ... beh^1, lo so adesso^1,&  voglio dire.../
 * Undyne mi ha detto^1, uhm^1, "sta'&  lontano da quell'umano."/
 * Quindi^1, ecco^1, uhmm.../
 * Immagino che ciò faccia di noi&  dei nemici o qualcosa del&  genere./
-* Ma non sono bravo ad esserlo^1,&  haha./
+* Ma non sono bravo ad esserlo^1,&  ahah./
 * Yo^1, diresti qualcosa di cattivo&  così che possa odiarti?/
 * Per favore? & &         Sì          No \C
 * Huh...?/
 * Yo^1, questo è quello che chiami&  qualcosa di cattivo?/
 * Mia sorella me lo dice&  IN CONTINUAZIONE!/
-* Immagino debba pensarci io^1,&  haha./
+* Immagino debba pensarci io^1,&  ahah./
 * Yo^1, tu..^1. mi fai schifissimo./
-* Caspita^1, Sono..^1. sono davvero&  una carogna./
+* Caspita^1, sono..^1. sono davvero&  una carogna./
 * Io..^1. Me ne andrò a casa&  adesso./%%
 * Yo^1, cosa^1?&* Quindi devo pensarci io?/
 * O la va o la spacca.../
@@ -7787,11 +7787,11 @@ E NON HO DOVUTO&TRADIRE NESSUNO&DI VOI DUE!/
 DATO CHE LE HO&SOLO DETTO CIÒ&CHE HAI DETTO TU!/
 CAVOLI^1!&SEI PROPRIO&UN GENIETTO!/
 È FACILE ESSERE&AMICI DI TUTTI!!!/
-EHI^1!&COME VA!?/
+EHI^1!&COME VA?!/
 SENTI, STAVO&PENSANDO.../
 TU^1, IO^1, E UNDYNE&DOVREMMO USCIRE&INSIEME OGNI TANTO!/
 SONO SICURO&CHE SARESTE&OTTIMI AMICI!/
-PERCHÉ NON CI&INCONTRIAMO A CASA&SUA, PIÙ TARDI!?/
+PERCHÉ NON CI&INCONTRIAMO A CASA&SUA, PIÙ TARDI?!/
 DOPO CHE AVRAI&FATTO UN'USCITA&CON ME.../
 INCONTRIAMOCI&A CASA SUA!/
 * (Un libro intitolato&  Storia dei Mostri Parte 7.)&         Leggi       Non Farlo\C
@@ -7879,8 +7879,8 @@ Farò del mio meglio&per proteggerti&finché sarai qui./%%
 * tieni^1, ti posso dare&  delle bagatt./%%
 * un altro nino^1, in&  arrivo.../
 * ... vai proprio matto&  per il pane^1, non&  è così?/
-* tranquillo^1, non ti giudico mica./
-* non avrei un lavoro se&  non ci fosse gente come te./%%
+* tranquillo^1, non ti&  giudico mica./
+* non avrei un lavoro se&  non ci fosse gente&  come te./%%
 * figo^1.&* tieni il tuo panininetto./
 * panininetto./
 * vezzeggiativo di paninino&  panininetto./
@@ -7889,10 +7889,10 @@ Farò del mio meglio&per proteggerti&finché sarai qui./%%
 * fai attenzione^1.&* se mangi troppi&  panini.../
 * diventerai &  grande quanto me./
 * grande nel senso di&  fantastico^1, intendo./
-* praticamente sono diventato&  un luna paninark./%%
-* uoops^1, non hai abbastanza&  grana./
-* dovresti trovarti un lavoro^1.&* dicono che fare la&  sentinella paghi bene./%%
-* hai  troppa roba^1.&* ... mi sa che te lo& dovrò  mettere in testa./%%
+* praticamente sono diven-&  tato un magnate&  grazie ai magnatori./%%
+* uoops^1, non hai&  abbastanza grana./
+* ti serve un lavoro^1?&* dicono che fare la&  sentinella paghi bene./%%
+* hai  troppa roba^1.&* ... mi sa che te lo&  dovrò  mettere in testa./%%
 * eh già^1, devi risparmiare&  soldi per l'università e&  per i ragni./%%
 * S-sembra tu l'abbia&  sconfitto!/
 \E0* H-hai davvero fatto un&  ottimo lavoro./
@@ -7916,7 +7916,7 @@ Farò del mio meglio&per proteggerti&finché sarai qui./%%
 \E0* È appena dopo &  l'MTT Resort./
 \E6* Andiamo^1!&* Finiamo questa cosa!/%%
 \E0EUREKA!!!/
-HO TROVATO LA&SOLUZONE DEL&PUZZLE!!!/
+HO TROVATO LA&SOLUZONE DEL&ROMPICAPO!!!/
 \E3PERÒ^1, VEDO&CHE TI STAI&DIVERTENDO.../
 \E0VUOI ASSOLUTAMENTE,&DECISAMENTE SAPERE&LA SOLUZIONE???/
 * (Vuoi sapere assolutamente^1,&  decisamente la risposta?)&         Sì          No\C
@@ -7924,7 +7924,7 @@ LA^1!&SOLUZIONE^1!&È!/
 (IMMAGINA UN&RULLO DI TAMBURI)/
 ... QUELL'ALBERO&LÌ HA UN PULSANTE&NASCOSTO!/
 DAGLI&UN'OCCHIATINA!!!/%%
-WOW..^1. SEI DAVVERO&UN APPASSIONATO&DI PUZZLE!/
+WOW..^1. SEI DAVVERO&UN APPASSIONATO&DI ROMPICAPI!/
 IL TUO ENTUSIASMO&MI ENTUSIASMA!!!/
 PUOI FARCELA^1,&ESSERE UMANO!!!/%%
 * (C'è un interruttore sul&  tronco di quest'albero.)/
@@ -7936,7 +7936,7 @@ HO UN PIANO PER&FARVI DIVENTARE&AMICI PER LA PELLE!/
 OKAY^1!&VIENI, RESTA&DIETRO DI ME!/%%
 HMMM..^1.&TI STAI ANCORA&PREPARANDO?/
 \E0FAI CON COMODO!/%%
-OKAY^1!&SIAMO PRONTI&A DIVERTIRCI!?/
+OKAY^1!&SIAMO PRONTI&A DIVERTIRCI?!/
 FAI CON COMODO!/%%
 \E4* .../
 \E5* Che ci fai TU&  qui?/
@@ -7965,7 +7965,7 @@ FAI CON COMODO!/%%
 \E6* Davvero^1?&* Incantevole!^1!&* Accetto!/
 * Sollazziamoci&  nelle gioie&  dell'amicizia!/
 \E2* ...MA ANCHE NO!/
-\E2* Perché MAI dovrei&  essere amica con&  TE!?/
+\E2* Perché MAI dovrei&  essere amica con&  TE?!/
 \E3* Se tu non fossi&  ospite qui^1, ti avrei&  menato all'istante!/
 \E0* Sei l'ostacolo alle&  speranze e ai sogni&  di tutti!/
 \E1* NON SARÒ MAI&  TUA AMICA./
@@ -8024,7 +8024,7 @@ FAI CON COMODO!/%%
 \E2* Appena l'ho sentito^1,&  ne ho voluta subito&  una!/
 \E0* Quindi io e Alphys&  abbiamo costruito&  insieme uno spadone./
 \E0* Ha intuito da sola&  come fosse fatta.../
-\E6* È intelligente^1, no!?/%%
+\E6* È intelligente^1, no?!/%%
 \E2* Pfft^1!&* Menzogne!/
 \E3* Ho LETTO la collezione&  di libri di storia di&  Alphys!/
 \E3* So tutto delle vostre&  spade giganti.../
@@ -8055,7 +8055,7 @@ FAI CON COMODO!/%%
 \M2 %%
 \M3* OH^1!&* GIÀ DI RITORNO!/
 \M6* ESATTAMENTE^1, GENTE^1!&* SEMBREREBBE CHE NESSUNO RIESCA&  A RESISTERE AL MIO NUOVO FILM!/
-\M4* BASKET È DIVERTENTE^1,&  VERO,TESORO?/
+\M4* BASKET È DIVERTENTE^1,&  VERO, TESORO?/
 \M1* PECCATO TU NON POSSA&  GIOCARE CON QUESTE PALLE./
 \M4* SONO PALLE DA BASKET&  MARCA MTT-FASHION!^1 &* DA INDOSSARE^1, NON PER GIOCARE./
 \M6* NON PUOI DIVENTARE RICCO&  E FAMOSO COME MOI SENZA&  UN PAIO DI SFERE ABBELLENTI./
@@ -8164,7 +8164,7 @@ FAI CON COMODO!/%%
 \E7* I mostri sono strani./
 \E5* Anche se ti conoscono&  a malapena.../
 \E6* Sento che ti amano&  davvero tutti quanti./
-\E8* Haha./
+\E8* Ahah./
 \E1* Frisk..^1. io..^1.&* Io lo capisco se non&  puoi perdonarmi./
 * Lo capisco se mi&  detesti./
 * Ho agito in maniera&  così strana e orribile./
@@ -8272,7 +8272,7 @@ TUTTI QUANTI!!^1!&UN BRINDISI!!!&AGLI SFIGATI!!/
 \E9* G-già^1, Asgore^1.&* Non spezzare il cuore&  di Undyne./
 \E2* Quello spetta a me./
 \E2* OH MIO DIO!&* ORA TI RI-BUTTO &  TRA I RIFIUTI!!!/
-\E0POSSO VENIRE ANCHE IO&TRA I RIFIUTI?/
+\E0POSSO VENIRE&ANCHE IO TRA&I RIFIUTI?/
 \E9* Certamente^1, Papyrus./
 \E1* mi sa che devo andare&  tra i rifiuti anche io./
 \E0* Oh^1, potrei venire&  anche io tra i rifiuti?/
@@ -8289,13 +8289,13 @@ TUTTI QUANTI!!^1!&UN BRINDISI!!!&AGLI SFIGATI!!/
 \E0* Non è bellissimo^1,&  gente?/
 \E3* Wow..^1. p-persino&  meglio che in TV./
 \E7* MOLTO meglio^1!&* Meglio di quanto avessi&  mai immaginato!/
-\E1* Frisk^1, tu VIVI&  con tutto ciò!?/
+\E1* Frisk^1, tu VIVI&  con tutto ciò?!/
 \E9* La luce del sole è&  così bella..^1. e&  l'aria è così fresca!/
 * Mi sento davvero viva!/
 \E0EHI SANS.../
 \E3COS'È QUELLA PALLA&GIGANTE?/
 \E1* lo chiamiamo&  "il sole^1", amico mio./
-\E0QUELLO È IL SOLE!^1?&WOWIE!!!/
+\E0QUELLO È IL SOLE?^1!&WOWIE!!!/
 NON POSSO CREDERE&CHE FINALMENTE&INCONTRO IL SOLE!!!/
 \E0* Potrei stare qui&  e guardare tutto&  questo per ore.../
 \E0* Già^1, è bellissimo^1,&  non è vero?/
@@ -8351,9 +8351,9 @@ POSSO FARLO IO&PER TE!!!/
 * (Stai trasportando&  troppi oggetti.)/%%
 * Cannella o&  caramello?/
 \E1* ... aspetta^1.&* Non me lo dire./
-\E0* È MESSAGGIO DI ERRORE!& &  Sì         No      \C
-\E0* È forse il caramello?& &  Sì         No      \C
-\E0* È forse la cannella?& &  Sì         No      \C
+\E0* È MESSAGGIO DI ERRORE!& &  Sì          No      \C
+\E0* È forse il caramello?& &  Sì          No      \C
+\E0* È forse la cannella?& &  Sì          No      \C
 \E0* Hi hi hi^1.&* Me lo sentivo./
 \E1* Quando degli umani&  cadono quaggiù^1,&  stranamente..^1. Io.../
 \E1* Ho come la sensazione&  di conoscerli già./
@@ -8367,13 +8367,13 @@ POSSO FARLO IO&PER TE!!!/
 * (Cosa vuoi fare?)& &         Salta       Ri-Ascolta\C
 * Dici a Mettaton che c'è&  qualcosa di fico dietro di&  lui./%%
 * tuttavia.../
-* una cosa riguardo te&  mi ha sempre colpito come&  se fosse strano./
+* una cosa riguardo te&  mi ha sempre colpito&  come se fosse strano./
 * ora^1, capisco il&  perché del tuo tenerti&  sulla difensiva./
 * sei stato mandato allo&  sbaraglio contro la tua&  volontà./
 * ma.../
 * ogni tanto.../
 * ti comporti come se&  sapessi cosa sta per&  accadere./
-* come se lo avessi già&  vissuto tutto in anticipo../
+* come se lo avessi già&  vissuto tutto in&  anticipo.../
 * è una cosa strana da&  dire^1, ma.../
 \W* è come se avessi una&  sorta di \Ypotere speciale\W./
 * non è tua responsabilità&  fare la cosa giusta?/
@@ -8391,7 +8391,7 @@ POSSO FARLO IO&PER TE!!!/
 * Qualche volta???/
 \E4* Si chiama^1, uhm^1,&  M..^1.Mew Mew&  Dolci Baci.../
  & &         Certo!      ...no...\C
-* D-davvero!?/
+* D-davvero?!/
 \E3* È fantastico^1!&* È, ehm^1, il mio&  programma preferito!/
 * Parla di questa ragazza&  umana chiamata Mew Mew&  con orecchie da gatto!%
 \E3* Che gli umani non hanno!&* Q-quindi lei è molto&  sensibile al riguardo!%
@@ -8415,23 +8415,23 @@ POSSO FARLO IO&PER TE!!!/
 * Pensavo solo!^1!&* Di chiederlo!!!/
 \E6* P-pensavo solo che ti&  potrebbe davvero&  piacere!!/
 * Se gli dessi&  una possibilità!!/
-\M1* La sai l'ultima!^1?&* Finalmente sei di nuovo&  tra noi!/
+\M1* La sai l'ultima?^1!&* Finalmente sei di nuovo&  tra noi!/
 \M0* Ti dirò un mio grande&  segreto./
 \M1* Sto fondando una band^1, &  lo sai?/
 \M1* Si chiamerà Red Hot&  Chibi Peppers./
 \M0* Per ora ho pensato solo&  al nome./
 \M3* E beh io non so^1, suonare...&* Niente^1, e nemmeno&  cantare./
 \M1* Oh beh^1!&* Credi che diventerò mai&  famoso!!!/
- & &         Sì         No\C
+ & &         Sì          No\C
 \M0* Già^1, anch'io.../%%
 * (È una lampada.)/
 * (Non c'è la lampadina.^1)&* (Una torcia è infilata nel&  portalampada.)/
 * (La torcia ha finito&  le batterie.)/%%
 * Ehi^1, ehi^1!&* Ti ricordi il mio nome?/
 * (Ricordi?)& &         Sì          No\C
-* Co-COSA!^1?&* Te lo RICORDI!?/
-* Come ho potuto essere così&  facilmente sconfittoooooooo!?/%%
-* Co-COSA!^1?&* Non te lo RICORDI!?/
+* Co-COSA?^1!&* Te lo RICORDI?!/
+* Come ho potuto essere così&  facilmente sconfittoooooooo?!/%%
+* Co-COSA?^1!&* Non te lo RICORDI?!/
 * (È un piccolo cagnolino&  bianco.^1)&* (Dorme della grossa...)/
 * (Vuoi combattere con il&   cagnolino?)&         Sì          No\C
 * (Non puoi combattere con&   il cagnolino.)/
@@ -8445,15 +8445,15 @@ POSSO FARLO IO&PER TE!!!/
 * (A volte è peggio un cane &  sveglio che dormiente.^1)&* (...Ma che proverbio è?.)/%%
 * (Toc toc)./
 * Oooooaaah ^1!&* Servizio in camera !/
-* Ha il mio "Tè Marino" ?& &         Sì          No\C
+* Ha il mio "Tè di Mare" ?& &         Sì          No\C
 * Il servizio in camera non&  è mai arrivato ^1.&* (Sigh ...)/%%
 * Grazie mille ./%%
 * (Nessuna risposta.)/%%
-* (Versi il Tè Marino sotto&  la porta.)/
-* EH !?!?!?!^2?&* Proprio come lo volevo ^1!&* Ecco una mancia ./
+* (Versi il Tè di Mare sotto&  la porta.)/
+* EH ?!?!?!?^2!&* Proprio come lo volevo ^1!&* Ecco una mancia ./
 * (Hai ricevuto 99G.)/%%
 * ..^1.&* No, non è vero ./%%
-* Allora ...!?/%%
+* Allora ...?!/%%
 * Ha il mio "Cancannella" ?& &         Sì          No\C
 * Grazie diecimila ./%%
 * (Schiacci il Cancannella &  finché sembra carta.)&* (Fai scorrere sotto la porta.)/
@@ -8469,11 +8469,11 @@ POSSO FARLO IO&PER TE!!!/
 * (Finalmente^1, ce la fa.)/
 * (Senti uno stridio di rocce&  che si sfregano.)/
 * (Una singola polpettina &  scivola fuori&  da sotto la porta.)/
-* (Hai ottenuto&  il Cucciolo di Polpetta.)/%%
+* (Hai ottenuto&  il Can Grattato.)/%%
 * (Metti una Bagatt davanti&  alla porta.)/
 * (Senti ringhiare...)/%%
-* (Metti l'Insalata Canina&  davanti alla porta.^1)&* (Scivola al di sotto.)/
-* (L'Insalata Canina è stata&  assorbita dall'oscurità.)/%%
+* (Metti la Cansalata&  davanti alla porta.^1)&* (Scivola al di sotto.)/
+* (La Cansalata è stata&  assorbita dall'oscurità.)/%%
 * (Metti il Residuo Canino &  davanti alla porta.)/
 * (Scorre sotto la porta^1,&  come attratto da un magnete.)/
 * (ZOMMM!!^1!)&* (Viene sparato fuori &  ad alta velocità!)/%%
@@ -8528,7 +8528,7 @@ In tal caso^1, e sia./%%
    * Osserva       * Parla&   * Divora        * Pranza
    * Osserva       * Deridi&   * Non deridere
    * Osserva       * Corteggia&   * Minaccia      * Rallegra
-   * Osserva        * Accarezza
+   * Osserva       * Accarezza
    * Osserva       * Accarezza&   * Accarezza     * Accarezza &   * Accarezza     * Accarezza
    * Osserva       * Accarezza&   * Ri-annusata   * Rotola
    * Osserva       * Accarezza&   * Fai un cenno  * Gioca &   * Ignora
@@ -8560,7 +8560,7 @@ In tal caso^1, e sia./%%
    * Osserva       * Complimento&   * Minaccia      * Confondi
    * Osserva       * Deridi&   * Non deri-     * Sfida&     dere
    * Osserva       * Consola&   * Terrorizza    * Prega
-   * Osserva        * Disinnesca
+   * Osserva       * Disinnesca
    * Osserva       * Sussurra&   * Tocca il&     Guanto
    * Osserva       * Brucia
 \W   * Osserva       \Y* Gira \W
@@ -8624,7 +8624,7 @@ In tal caso^1, e sia./%%
 * Chiamarmi..^2.&* "Madre?"/
 \E0* Va bene^1, allora&  chiamami pure&  come desideri!/!
 \E8* ...^2 eh???/
-\E1* Oh,^1 heh...^1 heh...^1 \E0 &* Ha ha ha!/
+\E1* Oh,^1 heh...^1 heh...^1 \E0 &* Ah ah ah!/
 * Sei adorabile...^1 &  Ti pizzicherei&  le guance!/
 * Sono certa che puoi&  trovare di meglio di&  una vecchietta come me./
 \E1* Oh, cielo,^1 &  ma fai sul serio...?/
@@ -8858,7 +8858,7 @@ obj_aaron_483
 obj_aaron_484
 * I muscoli di&  Rocco si afflosciano&  in maniera comica.
 obj_aaron_486
-* ROCCO - ATC 24 DIF 12&* Questo cavallone marino ha&  molti PS (Punti Stallone)./
+* ROCCO - ATT 24 DIF 12&* Questo cavallone marino ha&  molti PS (Punti Stallone)./
 obj_aaron_502
 * Tutti i suoi attacchi sul&  basso sono più difficili da&  schivare./^
 obj_aaron_503
@@ -9017,11 +9017,11 @@ obj_adate_557
 obj_adate_558
 \F4 Quindi lo farò& io!!^1!& Dalla a me!!!/
 obj_adate_559
-\F3 Uh!^1?& Non ce l'hai!?/
+\F3 Uh?^1!& Non ce l'hai?!/
 obj_adate_560
 \F4 Ngggaaahhh!!/
 obj_adate_561
- Per lo meno lei& l'hai vista!?/*
+ Per lo meno lei& l'hai vista?!/*
 obj_adate_562
                               &   Certo           No     &                            
 obj_adate_576
@@ -9035,7 +9035,7 @@ obj_adate_604
 obj_adate_609
  Ma non era& in casa.../
 obj_adate_610
-\F3 Dove diamine& potrebbe essere!?/%%
+\F3 Dove diamine& potrebbe essere?!/%%
 obj_adate_611
 \E2Oddio.../
 obj_adate_669
@@ -9123,7 +9123,7 @@ obj_adate_746
 obj_adate_747
 \E8N-non ne ho&il coraggio.../
 obj_adate_748
-\E9Sbaglierò tutto^1!&Come potrei provare&a farlo!?/%%
+\E9Sbaglierò tutto^1!&Come potrei provare&a farlo?!/%%
 obj_adate_749
 Sì..^1. sì^1,&hai ragione!/
 obj_adate_755
@@ -9154,11 +9154,11 @@ obj_adate_768
 obj_adate_769
 \E4Penso che dovrò&per forza dirle&la verità./
 obj_adate_770
-\E9M-ma come!?/
+\E9M-ma come?!/
 obj_adate_771
 \E8Io..^1. Io non ne ho&il coraggio.../
 obj_adate_772
-\E7Come posso provare&anche solo a pensare&di fare questa cosa!?/%%
+\E7Come posso provare&anche solo a pensare&di fare questa cosa?!/%%
 obj_adate_773
    Proviamo una   Ovvio, &   simulazione?   facciamo una&                  simulazione
 obj_adate_794
@@ -9179,7 +9179,7 @@ obj_adate_869
 obj_adate_870
                               &   Bene.              SEi &                      carina.
 obj_adate_884
-\E5Ha^1! Ha^1!&Sono felice&di sentirlo!!/
+\E5Ah^1! Ah^1!&Sono felice&di sentirlo!!/
 obj_adate_907
 obj_adate_908
 \E4Uhhh^1, cioè, dunque,&vorrei^1, ehm^1, parlarti&di una cosa.../%%
@@ -9200,7 +9200,7 @@ obj_adate_941
 obj_adate_963
 \M3Io..^1. Io n-non sono&stata completamente&sincera c-c-con te.../
 obj_adate_964
-\E4V\M4..^1. vedi^1,&Io..^1. Io.../
+\E4V\M4..^1. vedi^1,&io..^1. Io.../
 obj_adate_965
 \E9Oh^1, ma chi&se ne frega!/
 obj_adate_966
@@ -9216,7 +9216,7 @@ obj_adate_970
 obj_adate_971
 \E3C-come quando d-dici&che s-sconfiggerai&chiunque m-mi provi&a minacciare.../%%
 obj_adate_972
-\E9C-COSA!?/
+\E9C-COSA?!/
 obj_adate_976
 \M1UNDYNE NON FAREBBE&MAI^1, EHM..../
 obj_adate_977
@@ -9265,11 +9265,11 @@ obj_adate_1070
 obj_adate_1071
 \E0Quindi^1, che c'è?/%%
 obj_adate_1072
-Cosa!^1?&A... Alphys!?/
+Cosa?^1!&A... Alphys?!/
 obj_adate_1078
-Che ti succede!?/
+Che ti succede?!/
 obj_adate_1079
-\E9G\M2-gnocca!^1?&Come osi chiamarmi&in quel modo!?/
+\E9G\M2-gnocca?^1!&Come osi chiamarmi&in quel modo?!/
 obj_adate_1080
 \E5Innanzitutto^1,&io sono una&gnocCAVALIERE!/
 obj_adate_1081
@@ -9279,11 +9279,11 @@ Tratta il mio ruolo&con rispetto^1, o io &ti farò a pezzi!/
 obj_adate_1083
 \M3Ehm^1, ora fai finta&che stia facendo&una suplex ad&un masso, a caso./
 obj_adate_1084
-\E9U\M0m^1! Comunque^1!&Cosa vorresti&dirmi^1,Alphys!?/%%
+\E9U\M0m^1! Comunque^1!&Cosa vorresti&dirmi^1, Alphys?!/%%
 obj_adate_1085
     Dico            Alphys&    ad Undyne       ti dà&    la verità       un bacio,
 obj_adate_1108
-Cosa!?/
+Cosa?!/
 obj_adate_1132
 Così, tu mi&avresti mentito&per tutto il tempo.../
 obj_adate_1133
@@ -9295,7 +9295,7 @@ obj_adate_1135
 obj_adate_1136
 \E8Dopo tutte&le volte in cui&ti ho creduto!!!/%%
 obj_adate_1137
-C-COSA!^1?&IO NON FAREI MAI.../
+C-COSA?^1!&IO NON FAREI MAI.../
 obj_adate_1143
 \M0Alphys^1!&Cosa stai&f-facendo!/
 obj_adate_1144
@@ -9443,17 +9443,17 @@ obj_adate_1636
 obj_adate_1637
 \F3OH MIO DIO!!!/
 obj_adate_1659
-\F5Stava scherzando^1,&vero!? /
+\F5Stava scherzando^1,&vero?! /
 obj_adate_1660
 Quei cartoni..^1.&quei fumetti.../
 obj_adate_1661
-\F7Sono comunque&REALI^1, giusto!?/
+\F7Sono comunque&REALI^1, giusto?!/
 obj_adate_1662
 \F8GLI ANIME&SONO REALI^1,&VERO?!?!/%%
 obj_adate_1663
    Gli anime       Gli anime &   Sono reali      non sono &                   reali
 obj_adate_1688
-HA HA HA!!!/
+AH AH AH!!!/
 obj_adate_1708
 LO SAPEVO!!!/
 obj_adate_1709
@@ -9552,7 +9552,7 @@ obj_alphys_friendc_90
 obj_alphys_friendc_91
 \E6* Oh cavolo!!!/
 obj_alphys_friendc_93
-* Potremo guardare&  gli anime su&  internet!?/
+* Potremo guardare&  gli anime su&  internet?!/
 obj_alphys_friendc_94
 \E7* Certamente^1, Undyne!/
 obj_alphys_friendc_96
@@ -9575,7 +9575,7 @@ obj_alphys_friendc_110
 obj_alphys_friendc_111
 \E0* Chi CAVOLO è sans?/
 obj_alphys_friendc_112
-\E1* TORIEL!?!?!/%%
+\E1* TORIEL?!?!?/%%
 obj_alphys_friendc_114
 \E0* Ehi Frisk^1, perché&  non vai a cercare&  Mettaton?/
 obj_alphys_friendc_119
@@ -9740,7 +9740,7 @@ obj_alphystrigger2_87
 obj_alphystrigger2_146
 \E7* C-così..^1. m-magari..^1.&* Se ti serve aiuto^1,&  potrei.../%%
 obj_alphystrigger2_147
-\E3* D..^1. dove hai preso&  questo cellulare!?&* È tipo VECCHISSIMO!/
+\E3* D..^1. dove hai preso&  questo cellulare?!&* È tipo VECCHISSIMO!/
 obj_alphystrigger2_169
 \E1* Non puoi nemmeno&  messaggiare./
 obj_alphystrigger2_170
@@ -9754,7 +9754,7 @@ obj_alphystrigger2_222
 obj_alphystrigger2_223
 \E7* Ora siamo ufficialmente&  amici^1!&* Ehehehe!/
 obj_alphystrigger2_224
-\E0* Heheh.../
+\E0* Eheheh.../
 obj_alphystrigger2_225
 \E0* Heh.../
 obj_alphystrigger2_226
@@ -9771,7 +9771,7 @@ obj_amalgam_fridge_99
 obj_amalgam_fridge_103
 * (Hai trovato una chiave blu &  per terra.^1)&* (La attacchi al portachiavi.)/%%
 obj_amalgam_fridge_107
-* Club di Carte: incontro qui!&* Prossimo incontro:&* 10 Ottobre, 8PM/%%
+* Club di Arte: incontro qui!&* Prossimo incontro:&* 10 Ottobre, 8PM/%%
 obj_artclass_sign_208
 * (Il club di arte &  è cancellato!)/%%
 obj_artclass_sign_213
@@ -9779,7 +9779,7 @@ obj_artclass_sign_213
 obj_artclass_sign_218
 * Rivediamoci, qualche volta!/%%
 obj_artclass_sign_224
-* Chissà che succederà nel&  futuro al Club di Arte!?/%%
+* Chissà che succederà nel&  futuro al Club di Arte?!/%%
 obj_artclass_sign_231
 * Ahhhh!!^1!&* È tardi!!^1!&* È tardi!!!/
 obj_artclass_sign_281
@@ -9952,7 +9952,7 @@ E ogni volta che&cercherai di &arrivare ad&un lieto fine.../
 obj_asgore_lastcutscene_782
 Ci sarò io a&strappartelo!/
 obj_asgore_lastcutscene_783
-Ha ha ha!!!/%%
+Ah ah ah!!!/%%
 obj_asgore_lastcutscene_784
 Beh^1, finiamola./%%
 obj_asgore_lastcutscene_792
@@ -9980,7 +9980,7 @@ obj_asgore_lastcutscene_840
 obj_asgore_lastcutscene_841
 \E0Ti prego^1.&Prendi la mia anima..^1.&e cerca la verità./%%
 obj_asgore_lastcutscene_842
-\E0Ha... ha.../
+\E0Ah... ah.../
 obj_asgore_lastcutscene_898
 \E6Mi spiace.../
 obj_asgore_lastcutscene_899
@@ -10123,7 +10123,7 @@ obj_asgoremeet_event_374
 obj_asgoremeet_event_375
 * Mi dispiace così tanto./%%
 obj_asriel_overworldanim_174
-* Ha..^1. ha.../
+* Ah..^1. ah.../
 obj_asriel_overworldanim_440
 * Non voglio lasciar&  andare.../%%
 obj_asriel_overworldanim_441
@@ -10305,9 +10305,9 @@ obj_asrielfinal_565
 obj_asrielfinal_566
 * Non riesci a muovere il corpo./^
 obj_asrielfinal_577
-* !?!?
+* ?!?!
 obj_asrielfinal_648
-Uh^1? Che stai&facendo...!?
+Uh^1? Che stai&facendo...?!
 obj_asrielfinal_674
 obj_asrielfinal_723
 obj_asrielfinal_724
@@ -10317,7 +10317,7 @@ obj_asrielfinal_732
 obj_asrielfinal_737
 obj_asrielfinal_741
 obj_asrielfinal_746
-Urah ha ha ha...&Ammira il mio&VERO potere!/%%
+Urah ah ah ah...&Ammira il mio&VERO potere!/%%
 obj_asrielfinal_767
 Posso sentirlo.../
 obj_asrielfinal_771
@@ -10335,9 +10335,9 @@ Tra qualche momento^1,&anche tu dimenti-&cherai tutto./
 obj_asrielfinal_781
 Questo atteggiamento&ti farà comodo nella&tua prossima vita!/%%
 obj_asrielfinal_782
-Ura ha ha.../
+Ura ah ah.../
 obj_asrielfinal_787
-Ancora!?/
+Ancora?!/
 obj_asrielfinal_788
 Andiamo.../
 obj_asrielfinal_789
@@ -10353,7 +10353,7 @@ obj_asrielfinal_820
 obj_asrielfinal_821
 \E6SMETTILA^1!&Vattene via!/
 obj_asrielfinal_826
-Mi hai sentito!?/
+Mi hai sentito?!/
 obj_asrielfinal_827
 \E2Ti farò&a pezzi!/%%
 obj_asrielfinal_828
@@ -10513,7 +10513,7 @@ obj_bara01_287
 obj_bara01_288
 02...&non gli&ho mai&detto...
 obj_bara01_291
-02!?&M-ma&per-&chè!?
+02?!&M-ma&per-&chè?!
 obj_bara01_293
 obj_bara01_300
 * 02 sembra sentirsi&  scomodo nell'armatura.
@@ -10536,7 +10536,7 @@ obj_bara01_537
 obj_bara01_538
 * Il respiro di 01&  si appesantisce.
 obj_bara01_542
-* GR 01 - ATC 30 DIF 20&* Guardia Reale dall'armatura&  brillante e lucida./^
+* GR 01 - ATT 30 DIF 20&* Guardia Reale dall'armatura&  brillante e lucida./^
 obj_bara01_558
 * Vedo due amanti guardare&  l'orizzonte dall'orlo del&  calderone dell'inferno./^
 obj_bara01_561
@@ -10572,7 +10572,7 @@ Uhm.../
 obj_bara01_663
 Voglio&dire,&uh.../
 obj_bara01_664
-Sbem!&T'ho fre-&gato, fra'!!!&Haha!/%%
+Sbem!&T'ho fre-&gato, fra'!!!&Ahah!/%%
 obj_bara01_665
 Fiuu,&frate'!&quell'&umano,/
 obj_bara01_668
@@ -10595,7 +10595,7 @@ obj_bara01_718
 obj_bara01_719
 Tipo.../
 obj_bara01_731
-Certo,&frate'!&Haha!/%%
+Certo,&frate'!&Ahah!/%%
 obj_bara01_732
 * 01 e 02 si scambiano&  sguardi sorridendo.
 obj_bara01_751
@@ -10621,7 +10621,7 @@ obj_bara02_281
 obj_bara02_282
 01...&tu...!&..!!!!
 obj_bara02_285
-01...!?&Ma&che...!?
+01...?!&Ma&che...?!
 obj_bara02_287
 obj_bara02_292
 * Del sudore gronda&  dall'armatura di 02.
@@ -10640,7 +10640,7 @@ obj_bara02_540
 obj_bara02_541
 * Il respiro di 02&  si appesantisce.
 obj_bara02_545
-* GR 02 - ATC 30 DIF 20&* Guardia Reale dall'arma-&  tura opprimente./^
+* GR 02 - ATT 30 DIF 20&* Guardia Reale dall'arma-&  tura opprimente./^
 obj_bara02_564
 * Desiderano entrambi la morte^1?&* Significherà che il loro&  amore finirà all'inferno./
 obj_bara02_567
@@ -10687,7 +10687,7 @@ obj_battlebomb_513
 obj_battlebomb_514
 * B.D.A. ESTREMAMENTE AGILE&* Dopo tutto^1, è un bicchiere&  d'acqua estremamente agile./^
 obj_battlebomb_515
-* BOMBA COPIONE&* Come tutti i grandi film&  d'azione moderni^1,&  è pieno d'esplosioni./^
+* BOMBA COPIONE&* Come tutti i grandi film&  d'azione^1, è pieno d'esplosioni./^
 obj_battlebomb_516
 * BOMBACANESTRO &* Almeno se esplodesse^1, &  sarebbe molto figo./^
 obj_battlebomb_517
@@ -10790,21 +10790,21 @@ SEMBRAVA IERI.../
 obj_bonebox_65
 \E3NONOSTANTE&SIA PRATICAMENTE&APPENA SUCCESSO./%%
 obj_bonebox_66
-EHI^1, QUELLI SONO TUTTI&GLI ATTACCHI CHE&NON HO USATO./
+EHI^1, QUELLI SONO&TUTTI GLI ATTACCHI&CHE NON HO USATO./
 obj_bonebox_70
-\WCHE FORTUNA^1!&SE SOLO AVESSI USATO&IL MIO \YATTACCO SPECIALE\W,/
+\WCHE FORTUNA^1! SE&SOLO AVESSI USATO&L'\YATTACCO SPECIALE\W,/
 obj_bonebox_71
 \E2TI AVREI SICURAMENTE&RIDOTTO IN.../
 obj_bonebox_72
-\WE\E3HI.^1 ASPETTA^1.&DOV'È  IL MIO \YATTACCO&SPECIALE\W?/
+\WE\E3HI.^1 ASPETTA^1.&DOV'È  IL MIO&\YATTACCO SPECIALE\W?/
 obj_bonebox_73
 \E1NO^1! SONO STATO&DERUBATO DA QUEL&CUCCIOLO LETALE!/
 obj_bonebox_74
-\E3QUELLA DISGUSTOSA&CANAGLIA AMA INTRUFOLARSI&NELLA MIA STANZA./
+\E3QUELLA CANAGLIA&AMA INTRUFOLARSI&NELLA MIA STANZA./
 obj_bonebox_75
-\E5A VOLTE VIENE ANCHE&NEL MIO LETTO MENTRE&DORMO./
+\E5A VOLTE SALE ANCHE&SUL MIO LETTO&MENTRE DORMO./
 obj_bonebox_76
-\E3E COME SE NON FOSSE&ABBASTANZA, HA ANCHE&LE ZAMPE FREDDE./%%
+\E3E COME SE NON&BASTASSE, HA ANCHE&LE ZAMPE FREDDE./%%
 obj_bonebox_77
 * (È una cassa piena di ossi.)/%%
 obj_bonebox_81
@@ -10923,13 +10923,13 @@ Non si&rifiuta&una sfida!
 obj_chilldrake_274
 SEI&PROPRIO&UGUALE&A LORO
 obj_chilldrake_279
-HAHA&WOWEE
+AHAH&UAUII
 obj_chilldrake_280
 LI HAI&RIFAT-&TI UGU-&ALI!
 obj_chilldrake_281
 Dov'è&Draghy&ora?
 obj_chilldrake_286
-Ha...&Ha...
+Ah...&Ah...
 obj_chilldrake_287
 Bel ten-&tativo,&deridi&Picasso.
 obj_chilldrake_288
@@ -10960,7 +10960,7 @@ obj_chilldrake_518
 obj_chilldrake_527
 * Dai ragione a Dragazzaccio&  prima che possa iniziare il&  suo discorso./^
 obj_chilldrake_539
-* Dai ragione a Dragazzaccio^1.&* It seems to get very&  uncomfortable.../^
+* Dai ragione a Dragazzaccio^1.&* Sembra essere&  a disagio.../^
 obj_chilldrake_540
 * Prendi in giro Dragazzaccio./^
 obj_chilldrake_548
@@ -11126,7 +11126,7 @@ obj_controlspear_264
 obj_controlspear_268
 \E9* ... tè^1, uh^1?&* Arriva subito!/%%
 obj_controlspear_276
-* Il frigo!^1?&* Vuoi avere tutto&  quanto il frigo!?/
+* Il frigo?^1!&* Vuoi avere tutto&  quanto il frigo?!/
 obj_controlspear_284
 \E1* No!/%%
 obj_controlspear_285
@@ -11180,7 +11180,7 @@ obj_cookshowevent_301
 \E4* Non potresti fare&  una sostituzione&  nella ricetta?!/
 obj_cookshowevent_302
 obj_cookshowevent_303
-* ...UNA SOSTITUZIONE?&* INTENDI USARE UN ALTRO&  INGREDIENTE,NON UMANO?/
+* ...UNA SOSTITUZIONE?&* INTENDI USARE UN ALTRO&  INGREDIENTE, NON UMANO?/
 obj_cookshowevent_304
 * ...PER QUALE MOTIVO?/
 obj_cookshowevent_305
@@ -11198,7 +11198,7 @@ obj_cookshowevent_311
 obj_cookshowevent_312
 * Uh cioè voglio dire%%
 obj_cookshowevent_313
-* È UN' IDEA GENIALE,&  ALPHYS!!/
+* È UN'IDEA GENIALE,&  ALPHYS!!/
 obj_cookshowevent_326
 * IN REALTÀ, FORTUNA VUOLE CHE&  IO ABBIA UN'ALTRA OPZIONE!!!/
 obj_cookshowevent_327
@@ -11208,13 +11208,13 @@ obj_cookshowevent_328
 obj_cookshowevent_329
 * BEH, TESORO?&* PERCHÉ NON TI MUOVI E NON VAI &  A PRENDERLO?/%%
 obj_cookshowevent_376
-* TRA L'ALTRO^1,IL NOSTRO SHOW HA&  UNA SCALETTA MOLTO RIGIDA./
+* TRA L'ALTRO^1, IL NOSTRO SHOW HA&  UNA SCALETTA MOLTO RIGIDA./
 obj_cookshowevent_434
 \W* SE NON RIESCI A PRENDERE IL &  IL BARATTOLO IN&  \YUN MINUTO...\W /
 obj_cookshowevent_435
 \W* BASTERÀ SEMPLICEMENTE &  TORNARE AL \RPIANO ORIGINALE\W!!!/
 obj_cookshowevent_436
-* QUINDI...&* TI CONSIGLIO DI INIZIARE A &  SCALARE,BELLEZZA!!!/%%
+* QUINDI...&* TI CONSIGLIO DI INIZIARE A &  SCALARE, BELLEZZA!!!/%%
 obj_cookshowevent_437
 obj_cookshowevent_472
 obj_cookshowevent_473
@@ -11306,7 +11306,7 @@ obj_core_enemyevent2_157
 obj_core_enemyevent2_158
 obj_core_laserswitch_118
 obj_core_laserswitch_119
-* Oddio^1,&  stai bene!?/
+* Oddio^1,&  stai bene?!/
 obj_core_laserswitch_120
 \E8* Mi..^1. Mi spiace^1,&  ti ho dato&  l'ordine sbagliato./
 obj_core_laserswitch_121
@@ -11343,9 +11343,9 @@ obj_countermiddle_120
 obj_creditsloader_449
 Pronti^1?&Finiamola&una volta per tutte!/%%
 obj_creditsloader_450
-Ha ha ha ha.../
+Ah ah ah ah.../
 obj_creditsloader_492
-\M1Pensavi DAVVERO&che fosse&FINITA!?!?/%%
+\M1Pensavi DAVVERO&che fosse&FINITA?!?!/%%
 obj_creditsloader_493
 * Napstablook attende con&  ansia la tua risposta.
 obj_crygen3_56
@@ -11385,7 +11385,7 @@ obj_darksans1_193
 obj_darksans1_194
 \E1* ti sei girato prima che&  dicessi..^1.&* ... strano./
 obj_darksans1_195
-* ... vabbè, comunque^1.&* tu sei un umano^1, non è vero?/
+* ... vabbè, comunque^1.&* tu sei un umano^1,&  non è vero?/
 obj_darksans1_196
 \E0* sono sans^1.&* sans lo scheletro./
 obj_darksans1_198
@@ -11443,7 +11443,7 @@ LO SAI BENISSIMO&COME "BUTTA^1",&FRATELLO!/
 obj_darksans1_459
 SONO PASSATI&OTTO GIORNI E NON&HAI ANCORA.../
 obj_darksans1_460
-RICALIBRATO^1.&I TUOI^1.&PUZZLE^1!/
+RICALIBRATO^1.&I TUOI^1.&ROMPICAPI^1!/
 obj_darksans1_461
 NON FAI ALTRO CHE&POLTRIRE ALLA&TUA POSTAZIONE!/
 obj_darksans1_462
@@ -11453,7 +11453,7 @@ obj_darksans1_463
 obj_darksans1_465
 NO!^1!&NON HO TEMPO&DA PERDERE!!/
 obj_darksans1_480
-E SE UN ESSERE&UMANO PASSASSE&DA QUI!?!/
+E SE UN ESSERE&UMANO PASSASSE&DA QUI?!!/
 obj_darksans1_481
 DEVO ESSERE&PRONTO!!!/
 obj_darksans1_482
@@ -11497,7 +11497,7 @@ obj_darksans1_586
 obj_darksans1_587
 \E2NON CAPISCO PERCHÉ&QUALCUNO GRANDIOSO&COME ME.../
 obj_darksans1_588
-\E3DEBBA IMPEGNARSI&TANTO PER AVERE&DEL RICONOSCIMENTO.../
+\E3DEBBA IMPEGNARSI&TANTO PER AVERE DEL&RICONOSCIMENTO.../
 obj_darksans1_589
 * wow^1, vedo che&  ti stai impegnando.../
 obj_darksans1_591
@@ -11505,7 +11505,7 @@ obj_darksans1_591
 obj_darksans1_592
 UGH!!!/
 obj_darksans1_604
-IO VADO AD&OCCUPARMI DEI&MIEI PUZZLE.../
+IO VADO A&OCCUPARMI DEI&MIEI ROMPICAPI.../
 obj_darksans1_605
 \E3PER QUANTO&RIGUARDA IL TUO&LAVORO.../
 obj_darksans1_606
@@ -11522,11 +11522,11 @@ obj_darksans1_666
 obj_darksans1_720
 \E1* uh^1, ok^1, puoi anche &  rimanere lì, se vuoi./%%
 obj_darksans1_721
-SANS!!^1! ALLORA&LO HAI TROVATO&UN UMANO!??!/
+SANS!!^1! ALLORA&LO HAI TROVATO&UN UMANO?!?!/
 obj_darksans1_750
 * sì./
 obj_darksans1_752
-DAVVERO!?!^1?&WOWIE!!!/
+DAVVERO?!?^1!&WOWIE!!!/
 obj_darksans1_754
 ALLORA DIREI&CHE LA QUESTIONE&È RISOLTA!!/%%
 obj_darksans1_755
@@ -11577,7 +11577,7 @@ obj_darksink_133
 obj_dateheart_158
 \E0TI PIACE TOCCARE&I MIEI BICIPITI CON &UN CUORE VOLANTE./
 obj_dateheart_159
-\E1MA A CHI NON&PIACE!?/%%
+\E1MA A CHI NON&PIACE?!/%%
 obj_dateheart_160
 \E0RIPROVA!/%%
 obj_dateheart_161
@@ -11693,7 +11693,7 @@ obj_dogboat_thing_411
 obj_dogboat_thing_412
 * Hmm..^1. picchiettante./%%
 obj_dogboat_thing_413
-* Tra la la^1.&* Non c'è limite,mi pare&  a quanti hot-dog puoi portare./
+* Tra la la^1.&* Non c'è limite, mi pare&  a quanti hot-dog puoi portare./
 obj_dogboat_thing_414
 * ...Forse^1./%%
 obj_dogboat_thing_415
@@ -11762,7 +11762,7 @@ obj_dogetrigger1_114
 obj_dogetrigger1_115
 * E..^1. ehi!&* All'improvviso non riesco più&  a smettere di tremare./
 obj_dogetrigger1_116
-* Chi..^1. chi va là!?/%%
+* Chi..^1. chi va là?!/%%
 obj_dogetrigger1_117
 * Q-Q-Q-Qualcosa mi ha&  accarezzato...&* Qualcosa che non si muove.../
 obj_dogetrigger1_156
@@ -11842,9 +11842,9 @@ obj_dogroom_npc_97
 obj_dogroom_npc_98
 * (Qualcuno stava fumando&  biscottini per cani.)/%%
 obj_dogtreat_99
-* SCARABBOZZO - ? ATK ? DEF&* L'arte porta alla luce&  le tue più profonde fantasie!/^
+* SCARABBOZZO - ? ATT ? DEF&* L'arte porta alla luce&  le tue più profonde fantasie!/^
 obj_doodlebug_368
-* SCARABBOZZO H - ? ATK ? DEF&* La "H" sta per "a cavallo".&* Gli piace galoppare./^
+* SCARABBOZZO H - ? ATT ? DEF&* La "H" sta per "a cavallo".&* Gli piace galoppare./^
 obj_doodlebug_371
 * Disegni un cavallo.&* Scarabbozzo monta&  in sella./^
 obj_doodlebug_381
@@ -11871,11 +11871,11 @@ obj_dummymonster_445
 obj_dummymonster_446
 * TORIEL sembra contenta di te./%%
 obj_dummymonster_447
-* Hahaha..^1.&* Fuggire via è tipico di te./
+* Ahaha..^1.&* Fuggire via è tipico di te./
 obj_dummytrigger_222
 * FOLLE^1!&* Pensi di poter ferire ME???/
 obj_dummytrigger_223
-* Hahaha..^1.&* Troppa paura per&  combattermi^1, eh!?/
+* Ahaha..^1.&* Troppa paura per&  combattermi^1, eh?!/
 obj_dummytrigger_224
 * Io sono un fantasma che&  vive dentro un PUPAZZO./
 obj_dummytrigger_225
@@ -11998,7 +11998,7 @@ obj_dummytrigger_432
 obj_echoflower_96
 * Tutto ciò che dà un senso&  alla mia vita è lo spiegare&  il Fiore dell'Eco.../
 obj_echoflower_104
-* Nessuno può sapere../%%
+* Nessuno può sapere.../%%
 obj_echoflower_105
 * Questo è un Fiore dell'Eco^1.&* Ripete l'ultima cosa che sente^1,  all'infinito.../%%
 obj_echoflower_110
@@ -12080,7 +12080,7 @@ obj_echoflower_243
 obj_echoflower_244
 \TS* .../
 obj_echoflower_245
-\TF* Hee hee hee./
+\TF* Hi hi hi./
 obj_echoflower_246
 * Non è AFFATTO vero./
 obj_echoflower_247
@@ -12102,7 +12102,7 @@ obj_echoflower_262
 obj_echoflower_301
 * (L'ascensore non funziona.)/
 obj_elevatordoor_215
-\S-\Sp* Ring...\S+/
+\S-\Sp* Drin...\S+/
 obj_elevatordoor_218
 obj_elevatordoor_219
 * Come^1?&* L'ascensore&  dovrebbe funzionare.../
@@ -12311,7 +12311,7 @@ obj_endflowey_375
 obj_endflowey_376
 \E2Perché hai dovuto&MANDARE TUTTO ALL'ARIA?/
 obj_endflowey_377
-\E5Hahaha.../
+\E5Ahaha.../
 obj_endflowey_378
 \E9Si tratta di una VENDETTA?/
 obj_endflowey_379
@@ -12329,7 +12329,7 @@ SO che intenzioni&hai./
 obj_endflowey_392
 Vuoi soltanto vedere&come sia tutto questo./
 obj_endflowey_393
-Prima che noi glielo STRAPPIAMO&VIA./
+Prima che noi glielo&STRAPPIAMO VIA./
 obj_endflowey_394
 Ahahaha.../
 obj_endflowey_395
@@ -12679,7 +12679,7 @@ obj_f_frasier_33
 obj_f_frasier_34
 obj_f_frasier_35
 obj_f_frasier_36
-* Hee hee hee^1.&* Pensavi davvero di&  riuscire a scappare?/%%
+* Hi hi hi^1.&* Pensavi davvero di&  riuscire a scappare?/%%
 obj_f_frasier_40
 * He he he./
 obj_f_frasier_43
@@ -12698,9 +12698,9 @@ obj_f_frasier_58
 obj_f_frasier_59
 * Questo è tutto ciò che&  è rimasto...!/%%
 obj_f_frasier_60
-* Ma si può essere COSÌ&  disperati...^1?&* Hee hee hee.../%%
+* Ma si può essere COSÌ&  disperati...^1?&* Hi hi hi.../%%
 obj_f_frasier_64
-* Ti stai facendo&  uccidere..^1.&* ... di PROPOSITO^2?&* Tu sei FUORI^1. Ha ha ha./%%
+* Ti stai facendo&  uccidere..^1.&* ... di PROPOSITO^2?&* Tu sei FUORI^1. Ah ah ah./%%
 obj_f_frasier_68
 * Francamente^1, combattere&  con te È divertente.../
 obj_f_frasier_72
@@ -12839,7 +12839,7 @@ obj_flowey_master_1124
 obj_flowey_master_1181
 * DAVVERO&  pensavi.../
 obj_flowey_master_1182
-* Di poter&  sconfiggere ME!?/
+* Di poter&  sconfiggere ME?!/
 obj_flowey_master_1183
 \E5* Io sono il DIO&  di questo mondo./
 obj_flowey_master_1184
@@ -12895,7 +12895,7 @@ obj_flowey_master_1322
 obj_flowey_master_1323
 \E4* Co..^4. %
 obj_flowey_master_1347
-* Dove sono i&  miei poteri!^5? %%
+* Dove sono i&  miei poteri?^5! %%
 obj_flowey_master_1348
 obj_flowey_master_1349
 \E5* Le anime...^5? %
@@ -12968,7 +12968,7 @@ obj_floweybattle1_274
 obj_floweybattle1_275
 obj_floweybattle1_276
 obj_floweybattle1_277
-stop it
+smettila
 obj_floweybattle1_278
 \E1* Salve..^1.&* Stai bene?/
 obj_floweytrigger_122
@@ -13058,7 +13058,7 @@ obj_floweytrigger2_176
 obj_floweytrigger2_177
 \E6* Quante volte ancora&  hai intenzione&  di ucciderla?/
 obj_floweytrigger2_178
-* Ha ha ha ha ha.../
+* Ah ah ah ah ah.../
 obj_floweytrigger2_179
 \E4*\TF Bestia schifosa./
 obj_floweytrigger2_180
@@ -13106,7 +13106,7 @@ obj_floweytrigger2_213
 obj_floweytrigger2_214
 \E4* Io starò a guardare./%%
 obj_floweytrigger2_215
-* Hahaha.../
+* Ahahah.../
 obj_floweytrigger2_226
 \E1* Non sei davvero un&  essere umano^1, giusto?/
 obj_floweytrigger2_227
@@ -13114,7 +13114,7 @@ obj_floweytrigger2_227
 obj_floweytrigger2_228
 \E8* Ma tu sei \[C],^1 vero?/
 obj_floweytrigger2_229
-\E0* We're still inseparable^1,&  after all these years.../
+\E0* Siamo sempre insepa-&  rabili^1, nonostante tutti&  questi anni.../
 obj_floweytrigger2_230
 * Ascolta^1.&* Ho un piano per&  diventare onnipotente./
 obj_floweytrigger2_231
@@ -13182,7 +13182,7 @@ obj_floweytrigger2_284
 obj_floweytrigger2_285
 \E7* E quindi sei tornato&  indietro^1, perché ti&  sentivi in colpa./
 obj_floweytrigger2_286
-* Ha ha ha ha.../
+* Ah ah ah ah.../
 obj_floweytrigger2_287
 \E5* Razza di idiota./
 obj_floweytrigger2_288
@@ -13229,7 +13229,7 @@ obj_friendc_event_183
 obj_friendc_event_184
 * Sì^1! Un altro po'&  e avrei dato&  di matto!/
 obj_friendc_event_186
-\E2* La prossima volta che&  ti fai un sonnellino&  faccelo sapere^1, ok!?/
+\E2* La prossima volta che&  ti fai un sonnellino&  faccelo sapere^1, ok?!/
 obj_friendc_event_187
 * già^1.&* hai fatto piangere&  papyrus come un bambino./
 obj_friendc_event_189
@@ -13459,7 +13459,7 @@ Penso&che sia&un buon&paragone./%%
 obj_friendscene_911
 OH MIO DIO!/
 obj_friendscene_945
-\XMA VI DECIDETE&A \RSBACIUCCHIARVI\X!?/
+\XMA VI DECIDETE&A \RSBACIUCCHIARVI\X?!/
 obj_friendscene_946
 IL PUBBLICO MUORE&DALLA VOGLIA DI&AMOREGGIAMENTI!!!/%%
 obj_friendscene_947
@@ -13467,7 +13467,7 @@ EHI^1, STA' ZITTO!!!/
 obj_friendscene_962
 Diamine^1, il coraggio&di quel tizio!/
 obj_friendscene_963
-Vero^1,&Alphys!??/
+Vero^1,&Alphys?!?/
 obj_friendscene_964
 obj_friendscene_965
 Uh^1, Alphys?/%%
@@ -13526,7 +13526,7 @@ obj_friendscene_1196
 obj_friendscene_1197
 \E6Ma anche tutte le&ANIME dei tuoi&AMICI lo saranno!/
 obj_friendscene_1198
-\E0Hee hee hee./
+\E0Hi hi hi./
 obj_friendscene_1199
 \E1E sai qual è la&parte migliore?/
 obj_friendscene_1200
@@ -13544,7 +13544,7 @@ obj_friendscene_1205
 obj_friendscene_1206
 \E5Raggiungerò la&mia VERA FORMA./
 obj_friendscene_1207
-\E0Hee hee.../
+\E0Hi hi.../
 obj_friendscene_1208
 \E3Uh?/
 obj_friendscene_1209
@@ -13568,7 +13568,7 @@ obj_friendscene_1217
 obj_friendscene_1218
 \E8Ancora^1, e ancora^1,&e ancora.../
 obj_friendscene_1219
-\E5Hee hee hee./
+\E5Hi hi hi./
 obj_friendscene_1220
 \E1Ascolta./
 obj_friendscene_1221
@@ -13728,7 +13728,7 @@ obj_gaster_room_43
 obj_gaster_room_44
 VOI DUE CHE&NE PENSATE/%%
 obj_gaster_room_45
- Thanks!
+ Grazie!
 obj_gladdummy_216
 Grazie!
 obj_gladdummy_218
@@ -13745,7 +13745,7 @@ obj_gladdummy_232
 obj_gladdummy_405
 obj_gladdummy_406
 obj_gladdummy_411
-* PUPAZZO FELICE - ATK 0 DEF 0^1 &* Togliti quel sorriso dalla&  faccia./^
+* PUPAZZO FELICE - ATT 0 DEF 0^1 &* Togliti quel sorriso dalla&  faccia./^
 obj_gladdummy_448
 Quanto&sono&magni-&fico.
 obj_glydeb_148
@@ -13761,7 +13761,7 @@ Mmm,&Haters&Freschi&Freschi
 obj_glydeb_160
 OK!&Spacco!&Lo am-&metto!
 obj_glydeb_165
-Che &altro&hai da&dire!?
+Che &altro&hai da&dire?!
 obj_glydeb_168
 obj_glydeb_174
 Eh?&E gli&applau-&si?
@@ -13903,7 +13903,7 @@ obj_grillbynpc_doggo_80
 obj_grillbynpc_doggo_81
 * Papyrus^1?&* Sei tu^1?& Andiamo.../%%
 obj_grillbynpc_doggo_86
-* Undyne!^1?&* Hai fatto tutta la strada&  fin qui...?/%%
+* Undyne?^1!&* Hai fatto tutta la strada&  fin qui...?/%%
 obj_grillbynpc_doggo_91
 * Uh^1?&* Da quanto tu e Sans siete&  diventati amici...?/
 obj_grillbynpc_doggo_96
@@ -14142,7 +14142,7 @@ obj_grillbynpc_womandog_86
 obj_grillbynpc_womandog_87
 * (Mi piace Sans.^1)&* (A volte ci dà degli avanzi&  sotto il tavolo.)/
 obj_grillbynpc_womandog_92
-* (E suo fratello si arrabbia...^1)&* (Ma perché!^1? Siamo adulti!^1)&* (Mica è un problema per noi!)/%%
+* (E suo fratello si arrabbia...^1)&* (Ma perché?^1! Siamo adulti!^1)&* (Mica è un problema per noi!)/%%
 obj_grillbynpc_womandog_93
 * (Dov'è Canltolà?^1)&* (Spero non si sia&  perso di nuovo.)/%%
 obj_grillbynpc_womandog_97
@@ -14378,9 +14378,9 @@ LO SAPE-&VO!!!&LADRO!!
 obj_icecap_169
 AIUTO!!!&POLIZIA&DELLA&MODA!!
 obj_icecap_170
-Haha!&Mi hai&fatto&RIDERE!
+Ahah!&Mi hai&fatto&RIDERE!
 obj_icecap_175
-Ha!&L'hai&imitato&bene!
+Ah!&L'hai&imitato&bene!
 obj_icecap_176
 Non si&sentono&più bat-&tute così!
 obj_icecap_177
@@ -14401,7 +14401,7 @@ obj_icecap_379
 obj_icecap_380
 * Il cappello di Testa di&  Ghiaccio è troppo largo.
 obj_icecap_381
-* TESTA DI GHIACCIO - AT 11 DF 4&* Si chiede perché non si chiami&  "Cappello di Ghiaccio". /^
+* TESTA DI GHIACCIO - ATT 11 DF 4&* Si chiede perché non si chiami&  "Cappello di Ghiaccio". /^
 obj_icecap_396
 * Continui a non guardare&  il cappello di Testa&  di Ghiaccio./
 obj_icecap_406
@@ -14438,7 +14438,7 @@ obj_icecap_npcg_70
 obj_icecap_npcg_71
 * ... potresti farlo^1, per favore?/%%
 obj_icecap_npcg_72
-* Ha^1!&* Dopo tutto questo tempo^1, pensi&  ancora al mio cappello!/
+* Ah^1!&* Dopo tutto questo tempo^1, pensi&  ancora al mio cappello!/
 obj_icecap_npcg_77
 obj_icecap_npcg_78
 * ... per favore?/%%
@@ -14451,7 +14451,7 @@ obj_icecap_npcr_71
 obj_icecap_npcr_72
 * Forse qualcuno in superficie&  mi considererebbe./
 obj_icecap_npcr_77
-* Ci sono così tante persone^1,&  qualcuno lo farà^1, giusto!?/%%
+* Ci sono così tante persone^1,&  qualcuno lo farà^1, giusto?!/%%
 obj_icecap_npcr_78
 obj_icecube_174
 Che&posso&dire&...
@@ -14480,7 +14480,7 @@ obj_icecube_378
 obj_icecube_379
 * Si sta sciogliendo.
 obj_icecube_380
-* Ghiaccio - ATK 1 DEF 0&* Senza il suo&  cappello.../^
+* Ghiaccio - ATT 1 DEF 0&* Senza il suo&  cappello.../^
 obj_icecube_406
 * Informi Testa di Ghiaccio&  che non sta poi&  messo così male.../^
 obj_icecube_414
@@ -14572,11 +14572,11 @@ Cioè,tipo, ma&te che staresti&facendo?
 obj_jerry_174
 Il wi-fi qua&fa schifo.
 obj_jerry_175
-Hahaha!&Dinne&un'altra!
+Ahaha!&Dinne&un'altra!
 obj_jerry_199
-Haha! Wow!&Draga, fai schifo!
+Ahah! Wow!&Draga, fai schifo!
 obj_jerry_200
-Hahaha!&Ma come ti&vengono!?!
+Ahaha!&Ma come ti&vengono?!?
 obj_jerry_201
 obj_jerry_207
 * Jerry mangia del cibo&  farraginoso e si lecca la&  mano emettendo forti versi.
@@ -14595,7 +14595,7 @@ obj_jerry_412
 obj_jerry_414
 * Il Ritorno di Jerry.
 obj_jerry_415
-* JERRY - ATK 0 DEF 30&* Tutti conoscono Jerry.&* Rallenta gli attacchi di 2sec./^
+* JERRY - ATT 0 DEF 30&* Tutti conoscono Jerry.&* Rallenta gli attacchi di 2sec./^
 obj_jerry_442
 * Assieme agli altri mostri&  piantate in asso Jerry appena&  distoglie lo sguardo!/^
 obj_jerry_450
@@ -14605,7 +14605,7 @@ obj_jetpackchara_198
 obj_jetpackchara_199
 * MA SOLO PERCHÉ&  HAI RICEVUTO AIUTO DALLA&  BRILLANTE DOTT.SSA ALPHYS!/
 obj_jetpackchara_200
-* OH^1,HO I BRIVIDI AL PENSIERO&  DI COSA TI SAREBBE SUCCESSO&  SENZA DI LEI!!!/
+* OH^1, HO I BRIVIDI AL PENSIERO&  DI COSA TI SAREBBE SUCCESSO&  SENZA DI LEI!!!/
 obj_jetpackchara_201
 * BEH^1, CI SI VEDE!!/%%
 obj_jetpackchara_203
@@ -14617,7 +14617,7 @@ obj_jetpackchara_224
 obj_jetpackchara_225
 obj_jetpackchara_301
 obj_jetpackchara_302
-* C-cosa!^1?&* P-perché non ti stai&  m-m-muovendo?/
+* C-cosa?^1!&* P-perché non ti stai&  m-m-muovendo?/
 obj_jetpackchara_303
 * N-no...^1!&* Devo aver messo troppo&  poco carburante!/
 obj_jetpackchara_304
@@ -14732,13 +14732,13 @@ obj_knock_room_71
 obj_knock_room_75
 * Chi va là^1?&* C'è il mio programma&  preferito in TV./
 obj_knock_room_81
-* Lo so^1, Lo so..^1.&* Fissare uno schermo...&* Sembra un hobby noioso./
+* Lo so^1, lo so..^1.&* Fissare uno schermo...&* Sembra un hobby noioso./
 obj_knock_room_82
 * Ma la TV offre una via&  d'uscita per un altro mondo^1.&* Ne abbiamo davvero bisogno./%%
 obj_knock_room_83
 * Vuoi guardare anche tu^1?&* Scusami^1, è uno show&  per giocatore singolo./%%
 obj_knock_room_86
-* Ahh^1, che bella bussata..^1.!&* Forse se non rispondo^1,&  La sentirò di nuovo./%%
+* Ahh^1, che bella bussata..^1.!&* Forse se non rispondo^1,&  la sentirò di nuovo./%%
 obj_knock_room_91
 * Ahh^1, la mia pazienza mi ha&  ripagato./%%
 obj_knock_room_93
@@ -14749,7 +14749,7 @@ obj_knock_room_99
 obj_knock_room_113
 * Ehi^1!&* Fermi!!!/%%
 obj_lab_powerswitch_218
-* Vi ho portato del cibo^1,&  ok ragazzi!?/%%
+* Vi ho portato del cibo^1,&  ok ragazzi?!/%%
 obj_lab_powerswitch_258
 \E4* Scusami&  per tutto questo.../
 obj_lab_powerswitch_294
@@ -14918,7 +14918,7 @@ obj_labtv_event_308
 obj_labtv_event_309
 * Ehi^1!&* Eddai^1, Tori^1!&* Era divertente!\TT/
 obj_labtv_event_310
-* Hahaha^1, lo so^1.&* Ti sto solo stuzzicando./
+* Ahahah^1, lo so^1.&* Ti sto solo stuzzicando./
 obj_labtv_event_311
 * Buonanotte^1, caro.\Ta/
 obj_labtv_event_312
@@ -14931,23 +14931,23 @@ obj_labtv_event_315
 obj_labtv_event_350
 * Fai la tua faccia spaventosa!/
 obj_labtv_event_351
-* AHHHHH!^1!&* Hee hee hee!/
+* AHHHHH!^1!&* Hi hi hi!/
 obj_labtv_event_352
 * Oh^1!&* Aspetta^1!&* Avevo l'obiettivo coperto.../
 obj_labtv_event_353
-* Cosa!^1?&* Adesso non la vuoi&  più fare...?/
+* Cosa?^1!&* Adesso non la vuoi&  più fare...?/
 obj_labtv_event_354
-* Eddai^1, smettila&  di prendermi in giro^1!&* Haha!/%%
+* Eddai^1, smettila&  di prendermi in giro^1!&* Ahah!/%%
 obj_labtv_event_355
 * Buondì^1, \[C]^1!&* Sorridi alla camera!/
 obj_labtv_event_391
-* Ha^1, stavolta ti ho beccato^1!&* Ho lasciato il coperchio..^1.&* APPOSTA!/
+* Ah^1, stavolta ti ho beccato^1!&* Ho lasciato il coperchio..^1.&* APPOSTA!/
 obj_labtv_event_392
-* Adesso stai sorridendo&  seeeeeeenza motivo^1!&* Hee hee hee!/
+* Adesso stai sorridendo&  seeeeeeenza motivo^1!&* Hi hi hi!/
 obj_labtv_event_393
 * Cosa^1?&* Oh^1, sì^1, mi ricordo./
 obj_labtv_event_394
-* Quando abbiamo provato a fare&  la torta al caramello a Papà^1,&  giusto?/
+* Quando abbiamo provato a fare&  la crostata al&  caramello a Papà^1, giusto?/
 obj_labtv_event_395
 * Dovevamo decorare la torta con&  dei ranuncoli di zucchero.../
 obj_labtv_event_396
@@ -15394,7 +15394,7 @@ obj_lastsans_trigger_644
 obj_lastsans_trigger_645
 \E0* hmm^1.&* quell'espressione.../
 obj_lastsans_trigger_650
-\E1* quella è l'espressione di& qualcuno che è morto per& la seconda volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la seconda volta di fila./
 obj_lastsans_trigger_651
 \E2* naturalmente^1,&  hai un'espressione..^1.&* insoddisfatta./
 obj_lastsans_trigger_652
@@ -15403,22 +15403,22 @@ obj_lastsans_trigger_653
 \E4* che ne dici&  se facciamo&  un terzo giro?/%%
 obj_lastsans_trigger_654
 obj_lastsans_trigger_659
-\E1* quella è l'espressione di& qualcuno che è morto per& la terza volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la terza volta di fila./
 obj_lastsans_trigger_660
 obj_lastsans_trigger_661
-\E1* ehi^1,sai cosa viene&  dopo "terza"?/
+\E1* ehi^1, sai cosa viene&  dopo "terza"?/
 obj_lastsans_trigger_662
 \E4* lo stai per scoprire./%%
 obj_lastsans_trigger_663
 obj_lastsans_trigger_668
-\E1* quella è l'espressione di& qualcuno che è morto per& la quadruplice volta./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la quadruplice volta./
 obj_lastsans_trigger_669
 \E1* quadruplice^1?&* quadratica?/
 obj_lastsans_trigger_670
 \E4* oh beh^1, tanto non avrò&  bisogno di riutilizzarla./%%
 obj_lastsans_trigger_671
 obj_lastsans_trigger_676
-\E1* quella è l'espressione di& qualcuno che è morto per& la quinta volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la quinta volta di fila./
 obj_lastsans_trigger_677
 \E2* comodo^1, eh^1?&* una volta per&  dito./
 obj_lastsans_trigger_678
@@ -15427,7 +15427,7 @@ obj_lastsans_trigger_679
 \E4* avrai bisogno di una&  mano da mutante per&  contare le tue morti./%%
 obj_lastsans_trigger_680
 obj_lastsans_trigger_685
-\E1* quella è l'espressione di& qualcuno che è morto per& la sesta volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la sesta volta di fila./
 obj_lastsans_trigger_686
 \E2* è lo stesso numero &  di dita di una mano&  da mutante./
 obj_lastsans_trigger_687
@@ -15435,7 +15435,7 @@ obj_lastsans_trigger_688
 \E4* ora dovrai trovare una&  mano da mutante con&  ancora più dita./%%
 obj_lastsans_trigger_689
 obj_lastsans_trigger_694
-\E1* quella è l'espressione di& qualcuno che è morto per& la settima volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la settima volta di fila./
 obj_lastsans_trigger_695
 \E0* ehi^1, mica male^1.&* il sette mi pare sia&  un numero fortunato./
 obj_lastsans_trigger_696
@@ -15444,7 +15444,7 @@ obj_lastsans_trigger_697
 \E4* e quel numero diventerà&  dieci volte più grande./%%
 obj_lastsans_trigger_698
 obj_lastsans_trigger_703
-\E1* quella è l'espressione di& qualcuno che è morto per& l'ottava volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  l'ottava volta di fila./
 obj_lastsans_trigger_704
 \E2* è lo stesso numero&  di dita di un ragno./
 obj_lastsans_trigger_705
@@ -15454,14 +15454,14 @@ obj_lastsans_trigger_707
 obj_lastsans_trigger_713
 obj_lastsans_trigger_714
 obj_lastsans_trigger_715
-\E2* come non detto, di sicuro& sono nove^1, scusa./
+\E2* come non detto, di &  sicuro sono nove^1, scusa./
 obj_lastsans_trigger_716
 \E4* o erano dieci?/%%
 obj_lastsans_trigger_717
 obj_lastsans_trigger_723
-\E1* quella è l'espressione di& qualcuno che è morto per& la decima volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  la decima volta di fila./
 obj_lastsans_trigger_724
-\E2* ehi^1, congratulazioni^1!&* sei arrivato alle due cifre!/
+\E2* ehi^1, congratulazioni^1!&* sei arrivato&  alle due cifre!/
 obj_lastsans_trigger_725
 \E1* perché non inviti&  tutti i tuoi amici&  per festeggiare?/
 obj_lastsans_trigger_726
@@ -15472,7 +15472,7 @@ obj_lastsans_trigger_728
 \E4* tu non hai&  amici./%%
 obj_lastsans_trigger_729
 obj_lastsans_trigger_735
-\E1* quella è l'espressione di& qualcuno che è morto per& l'undicesima volta di fila./
+\E1* quella è l'espressione di&  qualcuno che è morto per&  l'11esima volta di fila./
 obj_lastsans_trigger_736
 \E2* oh beh^1, più o meno./
 obj_lastsans_trigger_737
@@ -15484,10 +15484,10 @@ obj_lastsans_trigger_739
 obj_lastsans_trigger_740
 \E4* inizieremo da 12./%%
 obj_lastsans_trigger_741
-\E0* andiamo direttamente al dunque./%%
+\E0* andiamo direttamente&  al dunque./%%
 obj_lastsans_trigger_747
 obj_lastsans_trigger_752
-\E1* quell'espressione sul tuo volto.../
+\E1* quell'espressione&  sul tuo volto.../
 obj_lastsans_trigger_753
 obj_lastsans_trigger_754
 \E4* oh be^1, non posso certo&  abbellirla descrivendola./%%
@@ -15537,7 +15537,7 @@ obj_lemonbread_207
 obj_lemonbread_429
 * Senti la melodia della carne&  che pulsa.
 obj_lemonbread_433
-* Che sia un arrivederci!?
+* Che sia un arrivederci?!
 obj_lemonbread_434
 obj_lemonbread_435
 * Hai chiamato aiuto^1.&* Ma non è venuto nessuno./^
@@ -15853,7 +15853,7 @@ obj_maddummy_1156
 obj_maddummy_1157
 * Pu-Pazzo sta facendo&  cadere del cotone su tutta la&  finestra di dialogo.
 obj_maddummy_1158
-* PU-PAZZO  - ATK 30 DEF SÌ&* Poiché è un fantasma^1, gli&  attacchi fisici falliranno./^
+* PU-PAZZO  - ATT 30 DEF SÌ&* Poiché è un fantasma^1, gli&  attacchi fisici falliranno./^
 obj_maddummy_1174
 * Parli al PU-PAZZO^1.&* .../
 obj_maddummy_1194
@@ -15873,7 +15873,7 @@ obj_maddummy_1371
 obj_maddummy_1372
 \E3FALLITI^1!&SIETE LICENZIATI^1!&VI RIMPIAZZO&TUTTI QUANTI!!!/%%
 obj_maddummy_1373
-\E0Hahaha^1.&Hahaha^1!&HAHAHA!/
+\E0Ahaha^1.&Ahaha^1!&AHAHA!/
 obj_maddummy_1414
 Adesso assisterai al&il mio vero potere:/
 obj_maddummy_1415
@@ -15912,9 +15912,9 @@ obj_maddummy_1547
 obj_maddummy_1548
 obj_maddummy_1549
 obj_maddummy_1550
-\E2Ch..^1.&Che cavolo&è questa!?/
+\E2Ch..^1.&Che cavolo&è questa?!/
 obj_maddummy_1613
-\E3Ergh^1!&Pioggia acida!?!/
+\E3Ergh^1!&Pioggia acida?!?/
 obj_maddummy_1614
 Oh^1, AL DIAVOLO^1!&Me ne vado!/%%
 obj_maddummy_1615
@@ -16007,7 +16007,7 @@ obj_mainend_267
 obj_mainend_268
 \E2* non ti arrendere&  neanche tu, ovunque&  tu sia^1, ok?/
 obj_mainend_269
-\E3* chissà quanto& ci vorrà.../
+\E3* chissà quanto&  ci vorrà.../
 obj_mainend_270
 \E0* ma ce ne andremo&  da qui./
 obj_mainend_271
@@ -16017,7 +16017,7 @@ SANS!!!&CON CHI STAI&PARLANDO???/
 obj_mainend_274
 * oh^1, con nessuno./
 obj_mainend_276
-COSA!^1?&NESSUNO!?/
+COSA?^1!&NESSUNO?!/
 obj_mainend_278
 \E0POSSO PARLARCI&ANCH'IO???/
 obj_mainend_279
@@ -16158,7 +16158,7 @@ SPESSO DICE&COSE DEL&TIPO.../
 obj_mainend_367
 "NON SONO STATA&IN GRADO DI&PROTEGGERLA.../"
 obj_mainend_368
-È DIFFICILE RIUSCIRE&A FARLE FARE&QUALSIASI COSA, ORMAI./
+NON HA PIÙ&VOGLIA DI FARE&NULLA, ORMAI./
 obj_mainend_369
 \E5LE HO PERSINO&SUGGERITO DI VENDI-&CARCI CON TE./
 obj_mainend_370
@@ -16185,7 +16185,7 @@ obj_mainend_385
 \E3DELLA&SCOMPARSA&DI ASGORE./
 obj_mainend_386
 obj_mainend_387
-\E3PARLA MOLTO&CON ME../
+\E3PARLA MOLTO&CON ME.../
 obj_mainend_388
 \E5SU COME&VENDICARSI&CON TE./
 obj_mainend_389
@@ -16199,15 +16199,15 @@ obj_mainend_392
 obj_mainend_393
 PERCHÉ VOGLIO&ANDARE CON&LEI!/
 obj_mainend_394
-COSÌ TI POTREI&RIVEDEREI!/
+COSÌ TI POTREI&RIVEDERE!/
 obj_mainend_395
-\E3 ANCHE SE DOVESSIMO&COMBATTERE DI NUOVO./
+\E3ANCHE SE DOVREMMO&LOTTARE DI NUOVO./
 obj_mainend_396
 \E0OH BEH^1, INCROCIAMO&LE DITA!/
 obj_mainend_397
 E TENIAMOCI&IN CONTATTO.../
 obj_mainend_398
-COSÌ SARÀ PIÙ &FACILE METTERE IN &ATTO IL NOSTRO PIANO./
+COSÌ SARÀ PIÙ &FACILE REALIZZARE&I NOSTRI PIANI./
 obj_mainend_399
 CIAO!/%%
 obj_mainend_400
@@ -16231,13 +16231,13 @@ obj_mainend_415
 obj_mainend_416
 obj_mainend_417
 obj_mainend_418
-* Ehi^1!&* Che stai facendo^1,&  teppista!?/
+* Ehi^1!&* Che stai facendo^1,&  teppista?!/
 obj_mainend_434
 \E1* Ngahhhh!/
 obj_mainend_435
 PER FAVORE NON&SCAZZOTTARE&IL TELEFONO./
 obj_mainend_437
-\E2* Ehi^1!&* Chi è che comanda&  qui!?/
+\E2* Ehi^1!&* Chi è che comanda&  qui?!/
 obj_mainend_439
 IO./
 obj_mainend_441
@@ -16263,7 +16263,7 @@ obj_mainend_455
 obj_mainend_456
 \E9* Oh^1, già^1, insegno anche&  ginnastica nella nuova&  scuola della regina./
 obj_mainend_457
-\E6* Lo sapevi che riesco a&  sollevare sette ragaz-&  zini insieme!?/
+\E6* Lo sapevi che riesco a&  sollevare sette ragaz-&  zini insieme?!/
 obj_mainend_458
 \E9* Figo^1, vero?/
 obj_mainend_459
@@ -16308,7 +16308,7 @@ obj_mainend_480
 obj_mainend_481
 * Quindi^1, ovunque tu&  sia.../
 obj_mainend_482
-\E6* Devi provare a&  essere felice^1, &  capito!?/
+\E6* Devi provare a&  essere felice^1, &  capito?!/
 obj_mainend_483
 \E2* Per noi!/
 obj_mainend_484
@@ -16595,7 +16595,7 @@ obj_mainend_820
 OH^1, FIGO./
 obj_mainend_822
 obj_mainend_823
-\E5FERMO, HAI&PER CASO DETTO&L'UMANO!?/
+\E5FERMO, HAI&PER CASO DETTO&L'UMANO?!/
 obj_mainend_824
 \E0POSSO&PARLARCI???/
 obj_mainend_825
@@ -16610,7 +16610,7 @@ obj_mainend_831
 MEMBRO PIÙ&IMPORTANTE DELLA &GUARDIA REALE!!!/
 obj_mainend_832
 obj_mainend_833
-\E3CIOÈ^1, QUELLO È &LETTERALMENTE IL &TITOLO CHE MI HA DATO./
+\E3QUELLO È IL TITOLO&CHE MI HA DATO,&ALLA LETTERA./
 obj_mainend_834
 \E0CHE COSA FACCIO?/
 obj_mainend_835
@@ -16632,7 +16632,7 @@ GRAZIE^1, UMANO!/
 obj_mainend_843
 TORNA A FARCI&VISITA UN GIORNO!!/
 obj_mainend_844
-\E3NO, ASPETTA..^1.&UNDYNE PROBABILMENTE&TI UCCIDEREBBE./
+\E3NO, ASPETTA..^1.&FORSE UNDYNE&TI UCCIDEREBBE./
 obj_mainend_845
 \E0MA..^1.&MI RINCON- &TRERESTI./
 obj_mainend_846
@@ -16678,9 +16678,9 @@ obj_mainend_901
 obj_mainend_902
 \E7* SOVRAFFOLLAMENTO?&* SQUALLORE???/
 obj_mainend_903
-\E9* CHI HA BISOGNO DEL&  SOLE QUANDO HAI LE LUCI&  DEI RIFLETTORI!!?/
+\E9* CHI HA BISOGNO DEL&  SOLE QUANDO HAI LE LUCI&  DEI RIFLETTORI?!?/
 obj_mainend_904
-\E1* CRISI ECONOMICA?&* PROBLEMI DI ISTRUZIONE?&* COSA!?/
+\E1* CRISI ECONOMICA?&* PROBLEMI DI ISTRUZIONE?&* COSA?!/
 obj_mainend_905
 \E8* TUTTO È RICOPERTO  &  DI GLITTER DORATO!/
 obj_mainend_906
@@ -16733,25 +16733,25 @@ obj_mainend_933
 obj_mainend_937
 EHI!!^1!&SONO IO^1, PAPYRUS!!/
 obj_mainend_939
-\E2IMMAGINAMI CON ADDOSSO&DEGLI OCCHIALI FIGHI^1, E&UN COMPLETO./
+\E2IMMAGINAMI CON&DEGLI OCCHIALI FIGHI&VESTITO ELEGANTE./
 obj_mainend_940
-\E0E IMMAGINA SANS CON&ADDOSSO OCCHIALI DA SOLE&MENTRE FA IL BUTTAFUORI./
+\E0E SANS CON OCCHIA-&LI DA SOLE CHE FA&IL BUTTAFUORI./
 obj_mainend_941
 QUESTA È LA NOSTRA&VITA ORA ..^1.&È FIGHISSIMO!!!/
 obj_mainend_942
-LE COSE SONO MIGLIORATE&UN SACCO DA QUANDO CI&HAI FATTO VISITA!!!/
+LE COSE VANNO MOL-&TO MEGLIO DOPO&LA TUA VISITA!!!/
 obj_mainend_943
-\E3BEH^1, TRANNE PER IL FATTO&CHE FA TUTTO SCHIFO.../
+\E3BEH^1, A PARTE&IL FATTO CHE FA&TUTTO SCHIFO.../
 obj_mainend_944
 \E5PER CHI NON VENERA&METTATON./
 obj_mainend_945
-\E3E TRANNE PER IL FATTO&CHE LA MIA AMICA UNDYNE&È SCOMPARSA./
+\E3E A PARTE IL FATTO&CHE LA MIA AMICA&UNDYNE È SPARITA./
 obj_mainend_946
 CHISSÀ DOV'È FINITA./
 obj_mainend_947
-NON LE È MAI PIACIUTO&LO SHOW DI METTATON./
+NON LE È MAI&PIACIUTO LO SHOW&DI METTATON./
 obj_mainend_948
-\E3E LE PERSONE A CUI NON &PIACE TENDONO A.../
+\E3E LE PERSONE A CUI&NON PIACE&TENDONO A.../
 obj_mainend_949
 \E5SPARIRE./
 obj_mainend_950
@@ -16795,7 +16795,7 @@ SPERO SI STIANO&DIVERTENDO!!!/
 obj_mainend_1000
 \E3OH SÌ./
 obj_mainend_1001
-\E0SONO IL SOVRANO DEL&SOTTOSUOLO ORA!!!/
+\E0ADESSO SONO IL&SOVRANO DEL&SOTTOSUOLO!!!/
 obj_mainend_1002
 LE COSE STANNO&MIGLIORANDO MOLTO&QUI./
 obj_mainend_1003
@@ -16807,7 +16807,7 @@ E^1, NESSUNO È&AFFAMATO!!!/
 obj_mainend_1006
 PERCHÈ CUCINO&SPAGHETTI PER&TUTTI./
 obj_mainend_1007
-\E3NEL MENTRE^1, MIO&FRATELLO SI OCCUPA&DEL LAVORO D'UFFICIO./
+\E3NEL MENTRE^1, MIO&FRATELLO SI OCCUPA&DI BUROCRAZIA./
 obj_mainend_1008
 \E3STRANAMENTE..^1.&SEMBRA STAR&LAVORANDO SODO?/
 obj_mainend_1009
@@ -16827,9 +16827,9 @@ obj_mainend_1015
 obj_mainend_1017
 \E0ESATTO^1!&SI FARÀ CASO PER&CASO!/
 obj_mainend_1019
-SE SONO CATTIVI..^1.&GLI DAREMO DEI &PUZZLE DA RISOLVERE!/
+SE SONO CATTIVI..^1.&GLI DAREMO DEI&ROMPICAPI!/
 obj_mainend_1020
-SE SONO BUONI..^1.&GLI DAREMO COMUNQUE&DEI PUZZLE DA RISOLVERE!/
+SE SONO BUONI..^1.&GLI DAREMO DEI ROM-&PICAPI LO STESSO!/
 obj_mainend_1021
 DOVREBBE ESSERE&LA VIA MIGLIORE!/
 obj_mainend_1022
@@ -16843,7 +16843,7 @@ NON DIRLO A MIO&FRATELLO, MA.../
 obj_mainend_1027
 NONOSTANTE I&MIGLIORAMENTI CHE&ABBIAMO FATTO.../
 obj_mainend_1028
-A VOLTE QUESTO&LAVORO È &ABBASTANZA DIFFICILE./
+QUESTO LAVORO&HA LE SUE&DIFFICOLTÀ./
 obj_mainend_1029
 DA QUANDO IL RE&SE NE È ANDATO.../
 obj_mainend_1030
@@ -16853,11 +16853,11 @@ A VOLTE, NEANCHE&I MIEI MIGLIORI&INCORAGGIAMENTI.../
 obj_mainend_1032
 BASTANO./
 obj_mainend_1033
-E^1, E^1, MI MANCA TANTO&UNDYNE^1, ANCHE./
+E POI^1, MI MANCA&TANTO ANCHE&UNDYNE./
 obj_mainend_1034
-NON RISPONDE MAI&ALLE MIE CHIAMATE.../
+NON RISPONDE&MAI ALLE MIE&CHIAMATE.../
 obj_mainend_1035
-\E5SI STARÀ DIVERTENDO&UN MONDO IN VACANZA./
+\E5SI STARÀ DIVERTENDO&UN MONDO&IN VACANZA./
 obj_mainend_1036
 \E6SPERO SOLO MI&MANDI UNA&CARTOLINA./
 obj_mainend_1037
@@ -16972,7 +16972,7 @@ obj_mainend_1145
 obj_mainend_1147
 * Sono rimasta seduta^1.&* A guardarti./
 obj_mainend_1148
-\E1* Mi sentivo in colpa a sa-&  pere che non avevo fat-&  to nulla per fermarti./
+\E1* Mi sentivo in colpa&  perché non avevo fatto &  nulla per fermarti./
 obj_mainend_1149
 \E3* Mi sentivo come se.../
 obj_mainend_1150
@@ -17162,7 +17162,7 @@ obj_mettaton_neo_542
 obj_mettaton_neo_543
 \E0E ALLA FINE DELLO&SPETTACOLO, PER GIUNTA./
 obj_mettaton_neo_544
-\E0HA... HA.&ALMENO ADESSO&POSSO RIPOSARMI./
+\E0AH... AH.&ALMENO ADESSO&POSSO RIPOSARMI./
 obj_mettaton_neo_545
 \E3SAPENDO CHE ALPHYS&E GLI UMANI&SOPRAVVIVERANNO...!/%%
 obj_mettaton_neo_546
@@ -17180,7 +17180,7 @@ obj_mettaton_npc_77
 obj_mettaton_npc_82
 * LA MARCA MTT USA SOLO GLI&  INGREDIENTI ARTIFICIALI E &  GLI AGENTI CHIMICI PIÙ FRESCHI!/%%
 obj_mettaton_npc_83
-INZIAMO CON&UNA DOMANDA FACILE!!/%%
+INIZIAMO CON&UNA DOMANDA FACILE!!/%%
 obj_mettatonb_quiz_255
 ECCO IL TUO MAGNIFICO&PREMIO!/%%
 obj_mettatonb_quiz_258
@@ -17207,11 +17207,11 @@ obj_mettatonb_quiz_514
 obj_mettatonb_quiz_524
 È FINITA, TESORO!&PREPARATI/%%
 obj_mettatonb_second_256
-HA!&QUEL PULSANTE NON TI&PUÒ SALVARE, TESORO!/%%
+AH!&QUEL PULSANTE NON TI&PUÒ SALVARE, TESORO!/%%
 obj_mettatonb_second_265
 NON OSERESTI USARE&IL COMANDO [AZIONE]&E PREMERE QUEL&PULSANTE!/%%
 obj_mettatonb_second_268
-PROPRIO COSÌ!&NON PREMERLO!&TI DISTRUGGER!/%%
+PROPRIO COSÌ!&NON PREMERLO!&TI DISTRUGGERÒ!/%%
 obj_mettatonb_second_271
 SENZA QUEL PULSANTE&TI STAI AVVICINANDO&SEMPRE DI PIÙ ALLA&TUA DISFATTA!/%%
 obj_mettatonb_second_274
@@ -17304,7 +17304,7 @@ obj_mettatonb_third_555
 obj_mettatonb_third_560
 U..uh... Non riesco&a vedere che succede&lì dentro, ma.../
 obj_mettatonb_third_644
-N-n-non arrenderti,&okay!?/
+N-n-non arrenderti,&okay?!/
 obj_mettatonb_third_645
 C... c'è a-ancora&un modo per battere&Mettaton.../
 obj_mettatonb_third_646
@@ -17342,7 +17342,7 @@ L'INTERRUTTORE?/%%
 obj_mettatonb_third_850
 QUELL'INUTILE SPARA-&PISELLI NON FUNZIO-&NERÀ SU DI ME, TESORO. ^3 %
 obj_mettatonb_third_943
-ANCORA NON CAPISCI &COSA SIA LA&RECITAZIONE!?^3 %%
+ANCORA NON CAPISCI &COSA SIA LA&RECITAZIONE?!^3 %%
 obj_mettatonb_third_944
 obj_mettatonb_third_952
 obj_mettatonex_167
@@ -17368,9 +17368,9 @@ E se ti mostrassi&il mio?/%%
 obj_mettatonex_223
 Ooooh,&mi sto&solo ri-&scaldan-&do!/%%
 obj_mettatonex_231
-Ma come te la cavi&sulla pista da ballo!?/%%
+Ma come te la cavi&sulla pista da ballo?!/%%
 obj_mettatonex_237
-Riesci a&tenere&il&ritmo!?/%%
+Riesci a&tenere&il&ritmo?!/%%
 obj_mettatonex_244
 Luci!&Motore&Bombe!/%%
 obj_mettatonex_253
@@ -17394,11 +17394,11 @@ Dr...&Drammi!&A...&Azione!/%%
 obj_mettatonex_317
 \E5L... luci...&M...motore.../
 obj_mettatonex_329
-Basta così!&Vuoi davvero che&l'umanità perisca!?/
+Basta così!&Vuoi davvero che&l'umanità perisca?!/
 obj_mettatonex_330
 \E7... o forse credi&in te così tanto?/%%
 obj_mettatonex_331
-Haha, com'è toccante!/
+Ahah, com'è toccante!/
 obj_mettatonex_353
 Beh, tesoro!&Può vincere solo&uno di noi!/
 obj_mettatonex_354
@@ -17410,7 +17410,7 @@ obj_mettatonex_356
 obj_mettatonex_368
 \E8Sei TU la star?/
 obj_mettatonex_369
-Riuscirai davvero a&proteggere l'umanità!?/%%
+Riuscirai davvero a&proteggere l'umanità?!/%%
 obj_mettatonex_370
 obj_mettatonex_638
 obj_mettatonex_639
@@ -17438,7 +17438,7 @@ obj_mettatonex_712
 obj_mettatonex_726
 * Adesso stanno tifando per&  la tua distruzione!/^
 obj_mettatonex_727
-H.. ha.../
+Ah.. ah.../
 obj_mettatonex_770
 Dunque avevo torto./
 obj_mettatonex_771
@@ -17545,7 +17545,7 @@ obj_mettatonex_977
 obj_mettatonex_978
 \E0SONO CERTO CHE&RIUSCIRAI A PROTEGGERE&L'UMANITÀ./
 obj_mettatonex_979
-\E4HA^1, HA.../
+\E4AH^1, AH.../
 obj_mettatonex_980
 FORSE È MEGLIO COSÌ,&COMUNQUE^1./
 obj_mettatonex_981
@@ -17639,7 +17639,7 @@ obj_mettboss_event_267
 obj_mettboss_event_268
 * CI SONO ALCUNE PERSONE..^1.&* CHE VORREI PROTEGGERE./%%
 obj_mettboss_event_269
-* E-ehi!!^1!&* Ch-ch-che succede!?/
+* E-ehi!!^1!&* Ch-ch-che succede?!/
 obj_mettboss_event_303
 * L-l-la porta&  si è chiusa da sola!/%%
 obj_mettboss_event_304
@@ -17653,7 +17653,7 @@ obj_mettboss_event_341
 obj_mettboss_event_342
 * "L'ATTACCO DEL ROBOT&  OMICIDA!"/%%
 obj_mettboss_event_343
-* AH HA HA^1.&* IMPAZIENTE COME SEMPRE, EH?/
+* AH AH AH^1.&* IMPAZIENTE COME SEMPRE, EH?/
 obj_mettboss_event_411
 * MA ASPETTA A CAMBIARE CANALE.&* C'È QUALCOSA DI CUI NON&  HAI TENUTO CONTO./
 obj_mettboss_event_412
@@ -17725,7 +17725,7 @@ obj_mettnews_battleobj_210
 obj_mettnews_battleobj_214
 * Bel lavoro^1!&* Ora vai a destra!/%%
 obj_mettnews_battleobj_218
-* Non hai preso&  nemmeno una bomba...!?/%%
+* Non hai preso&  nemmeno una bomba...?!/%%
 obj_mettnews_battleobj_223
 * Error,/%%
 obj_mettnews_battleobj_246
@@ -17762,7 +17762,7 @@ obj_mettnewsevent_174
 obj_mettnewsevent_175
 * QUI METTATON^1, IN DIRETTA&  SU TG MTT!/
 obj_mettnewsevent_176
-\M2* UN PECULIARE EVENTO STA&  ACCANDENDO A ROVENTERRA EST!/
+\M2* UN PECULIARE EVENTO STA&  ACCADENDO A ROVENTERRA EST!/
 obj_mettnewsevent_177
 \M3* FORTUNATAMENTE^1, UN MEMBRO DEL&  NOSTRO STAFF È GIÀ SUL LUOGO^1,&  AL MOMENTO!/
 obj_mettnewsevent_178
@@ -17830,7 +17830,7 @@ obj_mettnewsevent_372
 obj_mettnewsevent_373
 \M5* OH CIELO!!^1!&* SEMBREREBBE CHE ABBIA SBAGLIATO&  RIGUARDO AL FILM!/
 obj_mettnewsevent_374
-* ABBIAMO TRA LE MANI UN& FILM CHE È UNA BOMBA!/
+* ABBIAMO TRA LE MANI UN&  FILM CHE È UNA BOMBA!/
 obj_mettnewsevent_375
 * E SEMBRA CHE STIA PER FARTI&  SALTARE IN ARIA!/
 obj_mettnewsevent_376
@@ -17869,7 +17869,7 @@ obj_mettnewsevent_449
 obj_mettnewsevent_450
 \M5* SCOPRIAMO COSA C'È&  ALL'INTERNO!!/%%
 obj_mettnewsevent_451
-\M2* QUELLA FORMA CIRCOLARE^1 E NERA..^1.&* È QUELLO CHE PENSO???/
+\M2* QUELLA FORMA CIRCOLARE^1&  E NERA..^1.&* È QUELLO CHE PENSO???/
 obj_mettnewsevent_479
 \M4* SEMBRA CHE NATALE SIA&  STATO ANTICIPATO./
 obj_mettnewsevent_480
@@ -17883,7 +17883,7 @@ obj_mettnewsevent_484
 obj_mettnewsevent_485
 \M3* ATTENZIONE^1, SPETTATORI^1!&* ABBIAMO  TROVATO..^1.&  UN VIDEOGIOCO!/
 obj_mettnewsevent_499
-\M4* QUESTO GIOCO PIENO DI AZIONE&  PORTERÀ DI CERTO&  UN' ESPERIENZA ESPLOSIVA!/
+\M4* QUESTO GIOCO PIENO DI AZIONE&  PORTERÀ DI CERTO&  UN'ESPERIENZA ESPLOSIVA!/
 obj_mettnewsevent_500
 \M3* NEMICI STRANI^1!&* ALLEATI STRANI^1!&* ROBOT ATTRAENTI!/
 obj_mettnewsevent_501
@@ -17968,7 +17968,7 @@ obj_mettnewsevent_939
 obj_mettnewsevent_987
 * SEMBRA CHE LA BOMBA&  NON STIA ESPLODENDO./
 obj_mettnewsevent_988
-\S-\Sp\T0* Ring...\S+/
+\S-\Sp\T0* Drin...\S+/
 obj_mettnewsevent_989
 * Questo p-perché!!!/
 obj_mettnewsevent_991
@@ -17989,7 +17989,7 @@ obj_mettnewsevent_999
 obj_mettnewsevent_1000
 \M8* MA NON MALEDICO I MIEI&  OTTO FANTASTICI SPETTATORI&  PER SEGUIRCI!!!/
 obj_mettnewsevent_1001
-* ALLA PROSSIMA VOLTA^1,TESORO!/%%
+* ALLA PROSSIMA VOLTA^1, TESORO!/%%
 obj_mettnewsevent_1002
 * W-wow..^1.&* G-gliel'abbiamo&  fatta vedere^1, eh?/
 obj_mettnewsevent_1017
@@ -18035,7 +18035,7 @@ obj_mettnewsevent_1042
 obj_mettnewsevent_1043
 \E0* Siamo a metà percorso&  per il NUCLEO!/
 obj_mettnewsevent_1044
-* Let's go!/
+* Andiamo!/
 obj_mettnewsevent_1045
 obj_mettnewsevent_1046
 obj_mettnewsevent_1047
@@ -18088,7 +18088,7 @@ obj_migosp_445
 obj_migosp_446
 * BLATTEO - ATT 7 DIF 5&* Sembra cattivo^1, ma ha solo&  la compagnia sbagliata.../^
 obj_migosp_468
-Ha ha&hee hee&ho ho&huu huu!
+Ah ah&hi hi&oh oh&Uh uh!
 obj_migospel_213
 Honk!&HOOONK!
 obj_migospel_214
@@ -18135,7 +18135,7 @@ obj_mkid_actor_339
 obj_mkid_actor_340
 * Ciò mi ha fatto venire in&  mente.../
 obj_mkid_actor_341
-* YO^1!&* Quanto sarebbe FICO se&  UNDYNE venisse a scuola!?/
+* YO^1!&* Quanto sarebbe FICO se&  UNDYNE venisse a scuola?!/
 obj_mkid_actor_342
 * Potrebbe picchiare tutti&  gli insegnanti!!/%%
 obj_mkid_actor_343
@@ -18217,7 +18217,7 @@ obj_mkid_battle_719
 obj_mkid_battle_728
 Dovrai fare&un po' meglio&di COSÌ./%%
 obj_mkid_battle_827
-You.../
+Tu.../
 obj_mkid_battle_883
 \E9Dovrai fare&un po' meglio&di COSÌ!/%%
 obj_mkid_battle_884
@@ -18229,12 +18229,12 @@ obj_mkid_goner_95
 obj_mkid_goner_96
 * Tutto funziona perfettamente&  anche senza di te.../
 obj_mkid_goner_97
-* Ha^1, ha..^1.&* Il solo pensiero mi fa&  rabbrividere./%%
+* Ah^1, ah..^1.&* Il solo pensiero mi fa&  rabbrividere./%%
 obj_mkid_goner_98
 obj_mkid_goner_102
 * Un ombrello...^1?&* Ma non sta piovendo./
 obj_mkid_goner_107
-* Ha^1, ha.../
+* Ah^1, ah.../
 obj_mkid_goner_108
 * Sai^1, mi ha rallegrato&  un po'./
 obj_mkid_goner_109
@@ -18338,9 +18338,9 @@ obj_moldsmalx_462
 obj_moldsmalx_463
 * Gelatona ha passato&  giorni migliori.
 obj_moldsmalx_464
-* GELATINA? - ATC 6 DIF 0&* È una gelatina di&  visicidume...?/^
+* GELATINA? - ATT 6 DIF 0&* È una gelatina di&  visicidume...?/^
 obj_moldsmalx_484
-* GELATONA - ATC 18 DIF 18&* Decisamente più grande&  di una tipica Gelata./^
+* GELATONA - ATT 18 DIF 18&* Decisamente più grande&  di una tipica Gelata./^
 obj_moldsmalx_486
 * Ti avvicini a Gelatina.&* All'improvviso...!/^
 obj_moldsmalx_495
@@ -18358,7 +18358,7 @@ obj_moldsmalx_530
 obj_monsterkidtrigger3_134
 * Yo..^1./
 obj_monsterkidtrigger3_140
-* Dov'è l'ombrello...^1?&* Ha... ha.../%%
+* Dov'è l'ombrello...^1?&* Ah... ah.../%%
 obj_monsterkidtrigger3_141
 * Yo^1!&* Pronti?/%%
 obj_monsterkidtrigger3_146
@@ -18373,13 +18373,13 @@ obj_monsterkidtrigger3_167
 obj_monsterkidtrigger3_168
 * Yo^1! Nemmeno tu riesci ad&  impugnare un ombrello?/
 obj_monsterkidtrigger3_173
-* Se ti fai comunque una&  camminata^1, immagino che verrò&  con te^1, haha.../%%
+* Se ti fai comunque una&  camminata^1, immagino che verrò&  con te^1, ahah.../%%
 obj_monsterkidtrigger3_174
 * Andiamo!/%%
 obj_monsterkidtrigger3_201
 * Yo^1, ho già controllato^1,&  Undyne non è qui intorno./
 obj_monsterkidtrigger3_284
-* Quindi ci becchiamo dopo&  credo^1, haha./%%
+* Quindi ci becchiamo dopo&  credo^1, ahah./%%
 obj_monsterkidtrigger3_285
 * A presto!/%%
 obj_monsterkidtrigger3_286
@@ -18389,7 +18389,7 @@ obj_monsterkidtrigger4_66
 obj_monsterkidtrigger4_67
 * Se fossi un essere umano^1,&  me la farei addosso ogni&  giorno.../
 obj_monsterkidtrigger4_68
-* ... sapendo che vorrebbe farmi&  a pezzi^1!&* Ha ha./%%
+* ... sapendo che vorrebbe farmi&  a pezzi^1!&* Ah ah./%%
 obj_monsterkidtrigger4_69
 * Ummm^1, forse non picchierebbe&  gli insegnanti.../
 obj_monsterkidtrigger5_91
@@ -18405,7 +18405,7 @@ obj_monsterkidtrigger6_195
 obj_monsterkidtrigger6_272
 * Non preoccuparti per me^1.&* Trovo sempre un modo per&  passare!/%%
 obj_monsterkidtrigger6_273
-* Ahia..^1.&* Yo^1, cerca di andarci un po'&  più piano^1, haha./
+* Ahia..^1.&* Yo^1, cerca di andarci un po'&  più piano^1, ahah./
 obj_monsterkidtrigger6_276
 * Comunque^1, cercherò un'altra&  strada per raggiungerti^1.&* A dopo!/%%
 obj_monsterkidtrigger6_277
@@ -18418,7 +18418,7 @@ obj_monsterkidtrigger7_215
 * Ha detto che tu..^1.&* Hai fatto del male a molta&  gente./
 obj_monsterkidtrigger7_216
 obj_monsterkidtrigger7_217
-* Ma^1, yo^1, sono tutte bugie^1,&  vero!?/
+* Ma^1, yo^1, sono tutte bugie^1,&  vero?!/
 obj_monsterkidtrigger7_218
 obj_monsterkidtrigger7_219
 * ... yo..^1.&* Perché non mi rispondi?/
@@ -18437,7 +18437,7 @@ obj_monsterkidtrigger7_379
 obj_monsterkidtrigger7_417
 * Undyne..^1. mi hai salvato...?/
 obj_monsterkidtrigger7_490
-* Yo^1, pensavo ci sarei rimasto&  secco^1, haha.../
+* Yo^1, pensavo ci sarei rimasto&  secco^1, ahah.../
 obj_monsterkidtrigger7_491
 * ... aspetta^1, stai bene^1?&* Sembra che tu abbia fatto&  una brutta caduta.../
 obj_monsterkidtrigger7_492
@@ -18451,7 +18451,7 @@ obj_monsterkidtrigger7_495
 obj_monsterkidtrigger7_496
 * Cosa^1?&* Hai intenzione di combatterci&  proprio adesso?/
 obj_monsterkidtrigger7_497
-* Ma sembri ferita..^1.&* Dovresti riposare^1, haha.../
+* Ma sembri ferita..^1.&* Dovresti riposare^1, ahah.../
 obj_monsterkidtrigger7_498
 obj_monsterkidtrigger7_499
 * I g-guerrieri non riposano^1,&  huh?/
@@ -18468,7 +18468,7 @@ obj_monsterkidtrigger7_645
 obj_monsterkidtrigger7_714
 * Yo^1, mi hai proprio salvato&  la pelle./
 obj_monsterkidtrigger7_715
-* Immagino che non potessimo&  davvero essere nemici^1, haha./
+* Immagino che non potessimo&  davvero essere nemici^1, ahah./
 obj_monsterkidtrigger7_716
 * Ci toccherà essere amici&  invece./
 obj_monsterkidtrigger7_717
@@ -18560,7 +18560,7 @@ obj_movedogehead_263
 obj_movedogehead_264
 * Eccoti qua^1, tesoro^1.&* Il mio salotto è sempre&  aperto per te!/
 obj_muffetnpc2_75
-* Cerca solo di comportarti&  il meglio possibile^1~&* Ueee hee hee hee~/%%
+* Cerca solo di comportarti&  il meglio possibile^1~&* Ueee hi hi hi~/%%
 obj_muffetnpc2_76
 * Bonjour^1, tesoro^1~&* Ho appena finito di fare la&  somma di tutte le donazioni!/
 obj_muffetnpc2_81
@@ -18616,7 +18616,7 @@ obj_multitileevent_163
 obj_multitileevent_164
 * QUESTI GETTI DI FUOCO&  TI INCENERIRANNO!!/
 obj_multitileevent_192
-* AHAHAHAHAHAHA!&* AHAHA... HA... HA!/
+* AHAHAHAHAHAHA!&* AHAHA... AH... HA!/
 obj_multitileevent_193
 * IL MIO POVERO AMORE!&* SONO COSÌ PIENO DI DOLORE,&  CHE NON SMETTO DI RIDERE!/
 obj_multitileevent_194
@@ -19091,7 +19091,7 @@ obj_nicesnowman_125
 * Quindi^1, hai portato quel&  pezzo di me molto&  lontano...?/
 obj_nicesnowman_133
 obj_nicesnowman_134
-* Dov'è il pezzo!?/%%
+* Dov'è il pezzo?!/%%
 obj_nicesnowman_135
 * Ah^1, la barriera è aperta...?/
 obj_nicesnowman_140
@@ -19250,7 +19250,7 @@ obj_npc_room_354
 obj_npc_room_355
 LASCIA PERDERE!/%%
 obj_npc_room_356
-* cosa^1.&* Cosa^1?&* COSA!?/
+* cosa^1.&* Cosa^1?&* COSA?!/
 obj_npc_room_368
 * È solo un lavoro./%%
 obj_npc_room_369
@@ -19277,7 +19277,7 @@ obj_npc_room_407
 obj_npc_room_409
 * Ehi^1, hai sentito^1?&* La barriera si è aperta!/
 obj_npc_room_417
-* Ora le lezioni DEVONO essere&  sospese^1, giusto!?/%%
+* Ora le lezioni DEVONO essere&  sospese^1, giusto?!/%%
 obj_npc_room_418
 * Perché ci dovremmo preoccupare&  d'andare a scuola^1, tanto...?/
 obj_npc_room_423
@@ -19381,7 +19381,7 @@ obj_npc_room_621
 obj_npc_room_622
 \E6* Quindi ho cercato dei&  NUOVI TALENTI per la&  mia nuova compagnia./
 obj_npc_room_623
-\E0* Per adesso^1, Shyren ha&  accettato di essere la&  mia cantante di riserva./
+\E0* Per adesso^1, Insirena ha&  accettato di essere la&  mia cantante di riserva./
 obj_npc_room_624
 \E0* E Bl..^1.&* Napstablook^1, qui^1, si&  occuperà del mixaggio!/
 obj_npc_room_625
@@ -19417,7 +19417,7 @@ obj_npc_room_646
 obj_npc_room_651
 \E1* Da quel lampo di luce&  si è messa a lavorare&  per sistemare tutto./
 obj_npc_room_652
-\E0* Ha-Ha^1.&* Finalmente^1, eh?/%%
+\E0* Ah-Ah^1.&* Finalmente^1, eh?/%%
 obj_npc_room_653
 * (Abbaiando in un sintetizzatore&  vocale^1, il cane ha programmato&  per sbaglio un intero gioco.)/
 obj_npc_room_662
@@ -19487,7 +19487,7 @@ obj_npc_room_751
 obj_npc_room_752
 * Mettaton..^1.!&* Ha riconosciuto la mia voce&  quando l'ho chiamato^1, e.../
 obj_npc_room_756
-* Lui..^1. mi ha dato quell'abito^1!&* Sono così...^1!&* Ha ha ha!/%%
+* Lui..^1. mi ha dato quell'abito^1!&* Sono così...^1!&* Ah ah ah!/%%
 obj_npc_room_757
 * Per favore, non parlarmi^1.&* Sono scoraggiato per &  via di una cosa./%%
 obj_npc_room_762
@@ -19570,7 +19570,7 @@ obj_onionsan_event_314
 obj_onionsan_event_317
 \M3* Poiché..^1. se accadesse..^1.&* Come farei a saperlo?/
 obj_onionsan_event_318
-\M1* Beh^1, Starò con i tentacoli&  all'erta apposta per te^1!&* Capito!/
+\M1* Beh^1, starò con i tentacoli&  all'erta apposta per te^1!&* Capito!/
 obj_onionsan_event_319
 * Non appena saprò qualcosa&  te lo dirò subito^1!&* Capito!!/%%
 obj_onionsan_event_320
@@ -19692,7 +19692,7 @@ PER AVERE UN NUMERO&A DUE CIFRE DI&GENTE CHE MI SEGUE!/
 obj_papcomputer_65
 \E3OVVIAMENTE^1, IL&SUCCESSO HA UN&CARO PREZZO./
 obj_papcomputer_66
-\E1UN TROLL GELOSO&MI HA ATTACCATO&SULL'ACCOUNT ONLINE./
+\E1UN TROLL GELOSO&HA ASSEDIATO IL MIO&ACCOUNT ONLINE./
 obj_papcomputer_67
 MI MANDA SEMPRE&GIOCHI DI PAROLE&IN UN FONT SCEMO.../%%/
 obj_papcomputer_68
@@ -19823,9 +19823,9 @@ NO..^1.&PUÒ ESSERE???/
 obj_papdate_382
 \F0 \E1 %
 obj_papdate_383
-VOLEVI UN&APPUNTAMENTO&CON ME FIN&DALL'INIZIO!??/*
+VOLEVI UN&APPUNTAMENTO&CON ME FIN&DALL'INIZIO?!?/*
 obj_papdate_386
-VOLEVI USCIRE&CON ME FIN&DAL PRIMO&MOMENTO!??/*
+VOLEVI USCIRE&CON ME FIN&DAL PRIMO&MOMENTO?!?/*
 obj_papdate_389
 obj_papdate_404
 NO!!/
@@ -19848,7 +19848,7 @@ obj_papdate_469
 \E2CHE LA TUA&AMICIZIA.../
 obj_papdate_470
 obj_papdate_471
-\F3FOSSE DESTINO!?!?/
+\F3FOSSE DESTINO?!?!/
 obj_papdate_472
 NYEH!/
 obj_papdate_520
@@ -19875,7 +19875,7 @@ obj_papdate_545
 obj_papdate_546
 \E0AMMIRA!!!/%%
 obj_papdate_547
-\E1NYEH!&CHE NE PENSI&DEL MIO STILE&SEGRETO!?!/*
+\E1NYEH!&CHE NE PENSI&DEL MIO STILE&SEGRETO?!?/*
 obj_papdate_573
                               &   Lo adoro        Lo odio&                            
 obj_papdate_586
@@ -20146,7 +20146,7 @@ obj_papfridge_82
 obj_paphouse_entrance_91
 WOW^1, SEI COSÌ&ENTUSIASTA DI&VEDERTI CON ME.../
 obj_paphouse_entrance_96
-WOW^1, SEI COSÌ&ENTUSIASTA DI PASSARE&IL TEMPO CON ME.../
+WOW^1, SEI COSÌ&ENTUSIASTA DI&DIVERTIRCI INSIEME.../
 obj_paphouse_entrance_97
 CHE STAI CERCANDO&DI ENTRARE IN CASA&MIA SENZA DI ME!/
 obj_paphouse_entrance_98
@@ -20158,7 +20158,7 @@ obj_paphouse_entrance_103
 obj_papmailbox_74
 \E3ASPETTA^1, NO^1.&IN REALTÀ È&MOLTO STRANO./%%
 obj_papmailbox_75
-\E3BASTA GUARDARE&NELLA MIA CASSETTA&DELLE LETTERE VUOTA./
+\E3NON GUARDARE&LA MIA CASELLA&POSTALE VUOTA./
 obj_papmailbox_78
 \E0QUELLA È LA MIA&VUOTEZZA^1, NON&LA TUA./%%
 obj_papmailbox_79
@@ -20168,7 +20168,7 @@ SÌ^1, UNDYNE HA&FATTO UNA GIUSTA&OSSERVAZIONE!/
 obj_papmailbox_98
 \E0PERCHÉ NON SCRIVE&INVECE UNA LETTERA&A ME?/
 obj_papmailbox_99
-* Benissimo^1, vuoi una&  lettera!?/
+* Benissimo^1, vuoi una&  lettera?!/
 obj_papmailbox_101
 * Ti darò una&  lettera!!!/
 obj_papmailbox_102
@@ -20180,15 +20180,15 @@ obj_papmailbox_105
 obj_papmailbox_106
 * Felicità!!!/%%
 obj_papmailbox_108
-GENIALE NO^1? HO&AUMENTATO L' ALTEZ-&ZA DEL LAVANDINO./
+GENIALE NO^1? HO&AUMENTATO L'ALTEZ-&ZA DEL LAVANDINO./
 obj_papsink_100
-ORA POSSO METTERCI&SOTTO PIÙ OSSI^1!&DA' UN' OCCHIATA!/%%
+ORA POSSO METTERCI&SOTTO PIÙ OSSI^1!&DA' UN'OCCHIATA!/%%
 obj_papsink_101
 LASCIA PERDERE./%%
 obj_papsink_106
 * (Questo lavandino è così alto^1,&  che non riesci nemmeno a&  lavarti le mani...)/%%
 obj_papsink_111
-COSA!?!?/%%
+COSA?!?!/%%
 obj_papsink_234
 PRENDI QUEL&CANE IMPICCIONE!/%%
 obj_papsink_244
@@ -20241,10 +20241,10 @@ obj_papyrus1_419
 obj_papyrus1_420
 SANS!!&OH MIO DIO!!&È PER CASO.../
 obj_papyrus1_443
-UN ESSERE UMANO!?!?&!??!?!/%%
+UN ESSERE UMANO?!?!&?!?!?!/%%
 obj_papyrus1_444
 obj_papyrus1_453
-UN ESSERE UMANO!?!?&!??!?!/
+UN ESSERE UMANO?!?!&?!?!?!/
 obj_papyrus1_454
 E MI SEMBRA COSÌ..^1.&FAMILIARE...!!!/%%
 obj_papyrus1_455
@@ -20372,9 +20372,9 @@ OH-HO^1!&PARLI DEL DIAVOLO!/
 obj_papyrus2_259
 PER FERMARTI^1.../
 obj_papyrus2_261
-IO E MIO FRATELLO&ABBIAMO IDEATO&ALCUNI PUZZLE!/
+IO E MIO FRATELLO&ABBIAMO IDEATO&ALCUNI ROMPICAPO!/
 obj_papyrus2_262
-CREDO CHE TROVERAI&IL PUZZLE QUI&PRESENTE.../
+CREDO CHE TROVERAI&IL ROMPICAPO QUI&PRESENTE.../
 obj_papyrus2_263
 \E2ALQUANTO&ELETTRIZANTE!!!/
 obj_papyrus2_264
@@ -20412,7 +20412,7 @@ obj_papyrus2_452
 obj_papyrus2_453
 \E0MA!!/
 obj_papyrus2_454
-IL PROSSIMO PUZZLE&NON SARÀ COSÌ&FACILE!/
+IL PROSSIMO&ROMPICAPO NON SARÀ&COSÌ FACILE!/
 obj_papyrus2_455
 È STATO IDEATO&DA MIO FRATELLO,&SANS!/
 obj_papyrus2_456
@@ -20435,17 +20435,17 @@ obj_papyrus2_552
 obj_papyrus2_553
 \E0VEDI^1, DA DOVE&PROVENGO^1, È UNA&DOLCE TRADIZIONE./
 obj_papyrus2_554
-SOFFRIRE PASSANDO&ORRIBILI PUZZLE&SENZA MOTIVO./
+SOFFRIRE RISOLVENDO&ORRIBILI ROMPICAPI&SENZA MOTIVO./
 obj_papyrus2_555
 \E5QUINDI^1, UH^1, TORNA&LÌ INDIETRO^1,&E.../
 obj_papyrus2_556
 obj_papyrus2_557
 obj_papyrus2_601
-\E3PERCHÉ NON POSSIA-&MO AVERE UN UMANO&CHE AMI I PUZZLE???/%%
+\E3PERCHÉ NON POSSIA-&MO AVERE UN UMANO&CHE AMI I ROMPICAPI?/%%
 obj_papyrus2_602
 UMANO!!^1! SPERO&CHE TU ABBIA LA&MENTE PRONTA PER.../%%
 obj_papyrus3_177
-SANS!^1!&DOV'È IL PUZZLE!!!/
+SANS!^1!&DOV'È IL&ROMPICAPO!!!/
 obj_papyrus3_200
 * è lì^1.&* per terra./
 obj_papyrus3_202
@@ -20453,7 +20453,7 @@ obj_papyrus3_202
 obj_papyrus3_203
 \E1* credimi^1.&* non esiste che possa&  saltare questo./%%
 obj_papyrus3_206
-MA CHE CAVOLO!!^1!&NON L'HA&SALTATO!?!?/
+MA CHE CAVOLO!!^1!&NON L'HA&SALTATO?!?!/
 obj_papyrus3_245
 * te lo dico io^1.&* tutti amano le parole&  crociate./
 obj_papyrus3_247
@@ -20465,7 +20465,7 @@ obj_papyrus3_254
 obj_papyrus3_256
 \E2* lo sapevo che avrei&  dovuto usare gli&  anagrammi./
 obj_papyrus3_257
-CHE?!^1?&GLI ANAGRAMMI!?/
+CHE?!^1?&GLI ANAGRAMMI?!/
 obj_papyrus3_259
 \E0FINALMENTE^1,&QUALCOSA SU CUI&ANDIAMO D'ACCORDO./%%
 obj_papyrus3_260
@@ -20478,7 +20478,7 @@ obj_papyrus4_212
 obj_papyrus4_405
 \E1SANS!!^1!&AIUTAMI!!!/
 obj_papyrus4_406
-CONTINUA A&PASSARE OLTRE&I MIEI PUZZLE!/
+CONTINUA A&SCAVALCARE I MIEI&ROMPICAPI!/
 obj_papyrus4_407
 \E3DOVREBBE ALMENO&LASCIARMELI&SPIEGARE./
 obj_papyrus4_408
@@ -20488,15 +20488,15 @@ obj_papyrus4_409
 obj_papyrus4_411
 A TUTTI PIACCIONO&LE BURLE!!!/
 obj_papyrus4_413
-* e undyne^1?&* non odiava i&  puzzle?/
+* e undyne^1?&* non odiava i&  rompicapi?/
 obj_papyrus4_415
-ODIAVA I PUZZLE^1.&MA ADORAVA LE&BURLE./
+ODIAVA I ROMPICAPI^1.&MA ADORAVA LE&BURLE./
 obj_papyrus4_417
 * ha senso./
 obj_papyrus4_419
 UMANO!^1!&CHE NE PENSI?/
 obj_papyrus4_421
-PUZZLE O BURLE?/
+ROMPICAPI O BURLE?/
 obj_papyrus4_422
 obj_papyrus4_423
 obj_papyrus4_424
@@ -20509,7 +20509,7 @@ obj_papyrus4_427
 \E0NOI DICIAMO&QUALCOSA DI&GRANDIOSO./
 obj_papyrus4_428
 obj_papyrus4_429
-\E0ECCO^1, PERCHÉ NON&FAI QUESTO PUZZLE&PER CONTO TUO./%%
+\E0ECCO^1, PERCHÉ NON&FAI QUESTO ROMPICA-&PO PER CONTO TUO./%%
 obj_papyrus4_430
 UMANO!/
 obj_papyrus5_209
@@ -20517,7 +20517,7 @@ obj_papyrus5_209
 obj_papyrus5_210
 \E0CI STAVI METTENDO&UN PO' AD ARRIVARE^1,&QUINDI.../
 obj_papyrus5_211
-HO DECISO DI&MIGLIORARE QUESTO&PUZZLE.../
+HO DECISO DI&MIGLIORARE QUESTO&ROMPICAPO.../
 obj_papyrus5_212
 RIPOSIZIONANDO LA&NEVE A MIA&IMMAGINE./
 obj_papyrus5_213
@@ -20535,21 +20535,21 @@ IO^1, IL GRANDE&PAPYRUS^1, RISOLVERÒ&QUESTO ENIGMA!/
 obj_papyrus5_219
 COSÌ POTREMO&PROCEDERE ENTRAMBI!/
 obj_papyrus5_220
-NEL FRATTEMPO^1,&SENTITI LIBERO DI&PROVARE IL PUZZLE!/
+NEL FRATTEMPO^1,&PROVA PURE ANCHE TU&IL ROMPICAPO!/
 obj_papyrus5_221
 PROVERÒ A NON&RIVELARTI LA&SOLUZIONE!!/%%
 obj_papyrus5_222
 WOW!!^1!&CE L'HAI FATTA!!/
 obj_papyrus5_281
-E CE L'HAI FATTA&SENZA IL MIO AIUTO.../
+E CE L'HAI FATTA&SENZA IL MIO&AIUTO.../
 obj_papyrus5_282
 ED È TUTTO GRAZIE&AI MIEI CONSIGLI^1!/
 obj_papyrus5_283
 INCREDIBILE^1!&SONO COLPITO!!/
 obj_papyrus5_289
-I PUZZLE DEVONO&PIACERTI TANTO&QUANTO A ME!/
+I ROMPICAPI DEVONO&PIACERTI TANTO&QUANTO A ME!/
 obj_papyrus5_290
-BEH^1, SONO SICURO&CHE ADORERAI ANCHE&IL PROSSIMO PUZZLE!/
+BEH^1, SONO SICURO&CHE ADORERAI ANCHE&IL PROSSIMO!/
 obj_papyrus5_291
 ANCHE SE POTREBBE&RISULTARTI UN PO'&TROPPO FACILE!!/
 obj_papyrus5_292
@@ -20584,7 +20584,7 @@ obj_papyrus7_203
 obj_papyrus7_221
 * beh^1?&* che stai aspettando?/
 obj_papyrus7_222
-ASPETTANDO!^1?&NON STO ASPETTANDO&UN BEL NIENTE!/
+ASPETTANDO?^1!&NON STO ASPETTANDO&UN BEL NIENTE!/
 obj_papyrus7_224
 A..^1. ADESSO&LO ATTIVO!/%%
 obj_papyrus7_225
@@ -20603,7 +20603,7 @@ obj_papyrus7_250
 obj_papyrus7_251
 IO SONO UNO&SCHELETRO CON DEI&PRINCIPI!!!/
 obj_papyrus7_252
-I MIEI PUZZLE SONO&EQUI!/
+I MIEI ROMPICAPI&SONO EQUI!/
 obj_papyrus7_253
 E LE MIE TRAPPOLE&SONO COTTE AL&PUNTO GIUSTO!/
 obj_papyrus7_254
@@ -20622,7 +20622,7 @@ BEH^1. VOGLIO DIRE^1.&MI PIACE&CATTURARLI./
 obj_papyrus7_266
 \E0COSÌ DIVENTERÒ&UNA FAMOSA&GUARDIA REALE!!!/
 obj_papyrus7_267
-\E3MA TUTTO QUESTO&TEMPO A PREPARARE&I PUZZLE.../
+\E3MA TUTTO QUESTO&TEMPO A PREPARARE&ROMPICAPI.../
 obj_papyrus7_268
 È COME PREPARARE&UNA FESTA DI&COMPLEANNO.../
 obj_papyrus7_269
@@ -20630,7 +20630,7 @@ obj_papyrus7_269
 obj_papyrus7_271
 ESATTO!^1!&È INUTILE!!!/
 obj_papyrus7_273
-\E3FORSE AVEVI RAGIONE&SULL'ESSERE PIGRI&CON I PUZZLE./
+\E3FORSE AVEVI RAGIONE&SULL'ESSERE PIGRI&CON I ROMPICAPI./
 obj_papyrus7_274
 * io^1?&* ho ragione su qualcosa^1?&* davvero?/
 obj_papyrus7_276
@@ -20645,7 +20645,7 @@ PENSA A QUANTO&SI DIVERTIREBBE&QUI UNDYNE!/
 obj_papyrus7_282
 FIAMME^1, VIOLENZA^1.&FA PROPRIO PER LEI!/
 obj_papyrus7_283
-QUINDI NON SPRECHE-&RÒ QUESTO PUZZLE&SU DI TE./
+QUINDI NON SPRECHE-&RÒ QUESTO ROMPICAPO&SU DI TE./
 obj_papyrus7_284
 DEVO SOLO&APPREZZARE.../
 obj_papyrus7_285
@@ -20653,7 +20653,7 @@ GLI AMICI CHE&HO GIÀ!!!/%%
 obj_papyrus7_286
 FIUU!/%%
 obj_papyrus7_316
-CHE COSA GUARDI!?/
+CHE COSA GUARDI?!/
 obj_papyrus7_333
 QUESTA ERA UN'&ALTRA VITTORIA DE-&CISIVA PER PAPYRUS!!/
 obj_papyrus7_334
@@ -20681,7 +20681,7 @@ PER CASO CI SIAMO GIÀ&CONOSCIUTI ONLINE???/
 obj_papyrus8_191
 POSSIEDO MOLTI "CONTATTI&SUI SOCIAL MEDIA"./
 obj_papyrus8_192
-È DIFFICILE TENERNE CONTO./
+È DIFFICILE&TENERNE CONTO./
 obj_papyrus8_193
 NE MANCANO SOLO UN'&ALTRA DOZZINA.../
 obj_papyrus8_194
@@ -20699,7 +20699,7 @@ SENTIMENTI COME.../
 obj_papyrus8_202
 LA GIOIA NEL TROVARE&UN ALTRO AMANTE DELLA&PASTA./
 obj_papyrus8_203
-L'AMMIRAZIONE PER LE&ABILITÀ DI RISOLVERE&PUZZLE./
+L'AMMIRAZIONE PER LE&ABILITÀ DI RISOLVERE&ROMPICAPI./
 obj_papyrus8_204
 IL DESIDERIO DI ESSERE&AMMIRATO DA UNA PERSONA&INTELLIGENTE E SIMPATICA./
 obj_papyrus8_205
@@ -20789,7 +20789,7 @@ BEH..^1. LO CAPISCO./
 obj_papyrus8_257
 ANCHE PAPYRUS&È AFFAMATO!/
 obj_papyrus8_258
-AFFAMATO DI GIUSTIZIA!/%%
+AFFAMATO DI&GIUSTIZIA!/%%
 obj_papyrus8_259
 ALT^1, UMANO!/%%
 obj_papyrus8_271
@@ -20797,7 +20797,7 @@ I WAS NEVER ONE&  TO BEPIS./%%
 obj_papyrus8_386
 \E1OH^1, QUASI&DIMENTICAVO.../
 obj_papyrus8_414
-PER RAGGIUNGERE&L'USCITA^1,DOVRAI&PASSARE.../
+PER RAGGIUNGERE&L'USCITA^1, DOVRAI&PASSARE.../
 obj_papyrus8_415
 \WDAL CASTELLO&DEL \YRE\W./
 obj_papyrus8_416
@@ -20837,7 +20837,7 @@ IO^1, IL GRANDE PAPYRUS^1,&HO ALCUNE COSE CHE&DEVO DIRTI./
 obj_papyrus8_516
 PRIMO^1: SEI MALEDET-&TAMENTE INQUIETANTE!/
 obj_papyrus8_517
-NON SOLO NON TI&PIACCIONO I PUZZLE./
+NON SOLO NON TI&PIACCIONO&I ROMPICAPI./
 obj_papyrus8_518
 MA IL MODO IN CUI&CAMMINI DA POSTO&A POSTO.../
 obj_papyrus8_519
@@ -20887,13 +20887,13 @@ obj_papyrus_friendc_77
 obj_papyrus_friendc_79
 \E0* Potremmo non aver&  più bisogno della&  Guardia Reale./
 obj_papyrus_friendc_80
-\E7COSA!?/
+\E7COSA?!/
 obj_papyrus_friendc_82
-\E1E ALLORA A COSA È&SERVITA LA MISSIONE&DELL'UMANO!?/
+\E1E ALLORA A COSA È&SERVITA LA MISSIONE&DELL'UMANO?!/
 obj_papyrus_friendc_83
 \E3HA FATTO TUTTO&QUEL VIAGGIO.../
 obj_papyrus_friendc_84
-\E4ED IO NON FACCIO&ANCORA PARTE DELLA&GUARDIA REALE!?/
+\E4ED IO NON FACCIO&ANCORA PARTE DELLA&GUARDIA REALE?!/
 obj_papyrus_friendc_85
 \E0DAVVERO^1, QUESTO&È IL PEGGIOR FINALE&POSSIBILE./%%
 obj_papyrus_friendc_86
@@ -20960,7 +20960,7 @@ obj_papyrus_room_122
 obj_papyrus_room_123
 ALLORA VUOI UN&AIUTINO^1, EH?/
 obj_papyrus_room_129
-\E3BEH..^1. STAVO&DANDO UN'OCCHIATA&AL PUZZLE.../
+\E3BEH..^1. STAVO&DANDO UN'OCCHIATA&AL ROMPICAPO.../
 obj_papyrus_room_130
 E CREDO CHE LA&SOLUZIONE.../
 obj_papyrus_room_131
@@ -20970,7 +20970,7 @@ PROVA COSÌ!/
 obj_papyrus_room_133
 TORNA DA ME SE&TI SERVIRANNO ALTRI&INDIZI!/%%
 obj_papyrus_room_134
-\WFORSE POTREBBE&ESSERE UTILE RIFARE&\YL'ULTIMO PUZZLE\W./
+\WFORSE POTREBBE&ESSERE UTILE RIFARE&\YL'ULTIMO ROMPICAPO\W./
 obj_papyrus_room_135
 TORNA DA ME SE&TI SERVIRANNO ALTRI&INDIZI!/%%
 obj_papyrus_room_136
@@ -20992,23 +20992,23 @@ obj_papyrus_room_166
 obj_papyrus_room_167
 \E1AFFRONTARE UN&CATTIVO./
 obj_papyrus_room_168
-\E3MA SEMBRA...^1&DEBOLE, PER QUALCHE&MOTIVO./
+\E3MA SEMBRA...^1 &DEBOLE, PER&QUALCHE MOTIVO./
 obj_papyrus_room_169
-\E5È  COLLASSATA&APPENA USCITA&DALLA PORTA./
+\E5È COLLASSATA&APPENA USCITA&DALLA PORTA./
 obj_papyrus_room_170
 \E0QUINDI ASPETTO QUI&NEL CASO ABBIA&BISOGNO DI ME./
 obj_papyrus_room_171
 \E3DATO CHE ODIA&LA GENTE CHE FA&LE COSE PER LEI./
 obj_papyrus_room_172
-\E5PENSO CHE CI&TOCCHERÀ   USCIRE&PIÙ   TARDI.../%%
+\E5PENSO CHE DOVREMO&USCIRE PIÙ&IN LÀ.../%%
 obj_papyrus_room_173
 EHI^1, IO.../
 obj_papyrus_room_176
 \E5NON PENSO CHE&RIUSCIREMO AD&USCIRE./
 obj_papyrus_room_177
-\E3SO CHE È  DIFFICILE&DA IMMAGINARE^1, MA.../
+\E3SO CHE È DIFFICILE&DA IMMAGINARE^1,&MA.../
 obj_papyrus_room_178
-\E0DOVRAI PASSARE&IL TEMPO CON NON&ME./%%
+\E0DOVRAI PASSARE&DEL TEMPO CON NON&ME./%%
 obj_papyrus_room_179
 EHI^1! SEI PRONTO&AD USCIRE CON&UNDYNE??/
 obj_papyrus_room_185
@@ -21018,7 +21018,7 @@ obj_papyrus_room_186
 obj_papyrus_room_187
 \E0DI SOLITO TORNA&VERSO QUEST'ORA./
 obj_papyrus_room_188
-\E3È  IN RITARDO PERÒ  .../
+\E3È IN RITARDO&PERÒ.../
 obj_papyrus_room_189
 \E3E NON RISPONDE&AL TELEFONO./
 obj_papyrus_room_190
@@ -21026,7 +21026,7 @@ obj_papyrus_room_190
 obj_papyrus_room_191
 L'ASPETTERO QUI&FINCHÈ  NON TORNA&A CASA./
 obj_papyrus_room_192
-TI CHIAMO IO&QUANDO ARRIVA&A CASA^1, OK!?/%%
+TI CHIAMO IO&QUANDO ARRIVA&A CASA^1, OK?!/%%
 obj_papyrus_room_193
 NO!^1!&NON È  ANCORA&ARRIVATA!/%%
 obj_papyrus_room_196
@@ -21080,7 +21080,7 @@ VOI STATE BENE IN-&SIEME COME LA PAS-&TA E GLI INCENDI!/%%
 obj_papyrus_room_260
 OH^1, EHI.../
 obj_papyrus_room_263
-\E3TRA POCO TE NE&VAI^1, GIUSTO!?/
+\E3TRA POCO TE NE&VAI^1, GIUSTO?!/
 obj_papyrus_room_264
 \E1NON VENIRE QUI PER&DIRE ADDIO!!/
 obj_papyrus_room_265
@@ -21146,7 +21146,7 @@ obj_papyrusboss_456
 obj_papyrusboss_457
  EHI, TU^1!& STUPIDO CANE!/%%
 obj_papyrusboss_466
- MI HAI SENTITO!?/
+ MI HAI SENTITO?!/
 obj_papyrusboss_477
  SMETTILA DI& ROSICCHIARE& QUELL'OSSO!!!/%%
 obj_papyrusboss_478
@@ -21179,7 +21179,7 @@ obj_papyrusboss_570
 obj_papyrusboss_571
  QUANTO IN ALTO& RIESCI A SALTARE?
 obj_papyrusboss_572
- CHE!? NO, NON& STO PENSANDO& ALL' APPUN-& TAMENTO!!
+ CHE?! NO, NON& STO PENSANDO& ALL' APPUN-& TAMENTO!!
 obj_papyrusboss_573
  TIENI PREMUTO& IL TASTO 'SU'& PER SALTARE!!!
 obj_papyrusboss_574
@@ -21282,7 +21282,7 @@ obj_papyrusboss_1611
 obj_papyrusboss_1613
 * PAPYRUS - ATT 20 DIF 20&* Gli piace dire:&  "Nyeh heh heh!"/^
 obj_papyrusboss_1645
-* PAPYRUS - ATK 3 DEF 3&* Dimenticabile./^
+* PAPYRUS - ATT 3 DEF 3&* Dimenticabile./^
 obj_papyrusboss_1647
  CHE GENTILE.../
 obj_papyrusboss_1661
@@ -21296,7 +21296,7 @@ obj_papyrusboss_1664
 obj_papyrusboss_1678
 * Papyrus è troppo impegnato&  a LOTTAre per ascoltare i tuoi&  insulti./^
 obj_papyrusboss_1680
- CHE!^1?& C-CI STAI PROVANDO& CON ME!?/
+ CHE?^1!& C-CI STAI PROVANDO& CON ME?!/
 obj_papyrusboss_1696
 \X INFINE HAI DECISO& DI RIVELARE I& TUOI\R SENTIMENTI\X!/
 obj_papyrusboss_1697
@@ -21410,7 +21410,7 @@ obj_phonecall_room_235
 * Perfetto^1, ora prosegui&  andando verso l'alto!/
 obj_phonecall_room_236
 obj_phonecall_room_237
-\E3* ..^1.&* Quella fossa..^1.&* Non c'è,sulla mia mappa./
+\E3* ..^1.&* Quella fossa..^1.&* Non c'è, sulla mia mappa./
 obj_phonecall_room_238
 \E6* Non fa niente^1!&* Prova ad andare&  verso sinistra!/
 obj_phonecall_room_239
@@ -21443,7 +21443,7 @@ obj_phonecall_room_277
 obj_phonecall_room_278
 obj_phonecall_room_279
 obj_phonecall_room_280
-* Ring.../%%
+* Drin.../%%
 obj_phonecall_room_290
 obj_phonecall_room_302
 obj_phonecall_room_303
@@ -21469,7 +21469,7 @@ obj_phonecall_room_313
 \E7* Ti basterà&  messaggiarmi quando&  ti servirà aiuto!/
 obj_phonecall_room_314
 obj_phonecall_room_315
-\E4* Aspetta^1, siamo&  già amici^1,no?/
+\E4* Aspetta^1, siamo&  già amici^1, no?/
 obj_phonecall_room_316
 \E5* Ti ho mandato&  la richiesta&  di amicizia^1, no?/
 obj_phonecall_room_317
@@ -21662,7 +21662,7 @@ obj_potheat_179
 obj_potheat_196
 * Ugh^1, lascia fare a me!/%%
 obj_potheat_211
-* Visto!^1?&* Ecco come si ^1-%%
+* Visto?^1!&* Ecco come si ^1-%%
 obj_potheat_232
 * Premi continuamente \*Z per mescolare!
 obj_potstir_64
@@ -21677,7 +21677,7 @@ obj_powerlaser_event_178
 obj_powerlaser_event_179
 * A..^1. ancora laser.../
 obj_powerlaser_event_180
-\E8* Ok^1, Io..^1.&* Non sbaglierò&  stavolta./
+\E8* Ok^1, io..^1.&* Non sbaglierò&  stavolta./
 obj_powerlaser_event_181
 \E6* Disattiverò&  i laser e &  ti farò passare./
 obj_powerlaser_event_182
@@ -21733,7 +21733,7 @@ obj_powerlaser_event_270
 obj_powerlaser_event_271
 obj_powerlaser_event_304
 obj_powerlaser_event_305
-* Oddio^1,&  stai bene!?/
+* Oddio^1,&  stai bene?!/
 obj_powerlaser_event_306
 \E8* N-non sono r-riuscita a&  togliere l'alimentazione&  per abbastanza tempo.../
 obj_powerlaser_event_307
@@ -21767,7 +21767,7 @@ obj_purpledude_249
 obj_purpledude_250
 * Bahh!!^1!&* Lascia perdere!!/%%
 obj_puzzlehater_76
-* Allora^1?&* Che cosa stai aspettando!?/%%
+* Allora^1?&* Che cosa stai aspettando?!/%%
 obj_puzzlehater_80
 * Bah^1! I mostri di oggi non sanno&  apprezzare cosa renda grandiosi&  i puzzle!/
 obj_puzzlehater_85
@@ -21787,7 +21787,7 @@ obj_puzzlehater_91
 obj_puzzlehater_97
 * Libertà^1? Cosa^1? Bah^1!&* Mi stai solo prendendo in giro!/%%
 obj_puzzlehater_98
-* Ancora tu!^1?&* Bah^1! Non me ne importa un fico&  secco della libertà!/
+* Ancora tu?^1!&* Bah^1! Non me ne importa un fico&  secco della libertà!/
 obj_puzzlehater_102
 obj_puzzlehater_103
 * Pensi che gli umani potrebbero&  apprezzare i dettagli dei&  puzzle classici...?/%%
@@ -21796,23 +21796,23 @@ obj_puzzlehater_104
 obj_puzzlehaterbox_78
 * Bah!/%%
 obj_puzzlehaterbox_84
-* Cosa...^1?&* COSA stai facendo!^1?&* Lo spingi in modo SBAGLIATO!/
+* Cosa...^1?&* COSA stai facendo?^1!&* Lo spingi in modo SBAGLIATO!/
 obj_puzzlehaterbox_91
 * Bah^1, lascia perdere^1!&* Questa generazione è DAVVERO&  senza speranza!/%%
 obj_puzzlehaterbox_92
 ANDIAMO!&NON ESSERE&COSÌ SCORTESE!!!/
 obj_puzzlewall1_62
-HO PREPARATO&QUESTO PUZZLE&APPOSTA PER TE!/%%
+HO PREPARATO&QUESTO ROMPICAPO&APPOSTA PER TE!/%%
 obj_puzzlewall1_63
 \E3TRATTI COSÌ&ANCHE TUA&MADRE.../
 obj_puzzlewall1_66
-QUANDO TI PREPARA&UN PUZZLE&?!?!?/%%
+QUANDO TI PREPARA&UN ROMPICAPO&?!?!?/%%
 obj_puzzlewall1_67
 \E3UMANI.../%%
 obj_puzzlewall1_71
 SANS!!!^1!&L'UMANO STA&SCAPPANDO!!!/
 obj_puzzlewall2_62
-HAI FATTO IL&PUZZLE TROPPO&DIFFICILE!!/
+HAI RESO IL&ROMPICAPO TROPPO&DIFFICILE!!/
 obj_puzzlewall2_63
 EHI TU!!^1!&TORNA QUI!/%%
 obj_puzzlewall2_64
@@ -21820,7 +21820,7 @@ Caldo!!!&Errore.
 obj_pyrope_266
 Brucia,&baby,&BRUCIA!
 obj_pyrope_270
-È caldo&abba-&stanza&per te!?
+È caldo&abba-&stanza&per te?!
 obj_pyrope_271
 Senti&il&calore.
 obj_pyrope_272
@@ -21828,7 +21828,7 @@ Non fa&freddo&qui?
 obj_pyrope_273
 Caldo!!&CALDO!!&Di più!&DI PIÙ!!
 obj_pyrope_280
-BRRRR!&Che&suc-&cede!?
+BRRRR!&Che&suc-&cede?!
 obj_pyrope_285
 Scusa!!&Ho le&mani&legate!!
 obj_pyrope_289
@@ -21859,23 +21859,23 @@ obj_pyrope_556
 obj_pyrope_557
 * Inviti Pirocorda ad uscire./^
 obj_pyrope_571
-* Haha^1, ha ha ha^1.&* Segreto^1, segreto^1.&* Ho fatto un bel danno./
+* Ahah^1, ah ah ah^1.&* Segreto^1, segreto^1.&* Ho fatto un bel danno./
 obj_pyropenpc_72
 * Ho dato fuoco alla lava./
 obj_pyropenpc_73
 * Nessuno lo saprà MAI^1.&* È il crimine perfetto.../%%
 obj_pyropenpc_74
-* Haha^1, ha ha ha^1.&* Se ce ne andiamo^1, nessuno lo&  saprà mai per DAVVERO!!/%%
+* Ahah^1, ah ah ah^1.&* Se ce ne andiamo^1, nessuno lo&  saprà mai per DAVVERO!!/%%
 obj_pyropenpc_78
 * La lava è così calorosa adesso./%%
 obj_pyropenpc_82
-* Haha^1, ha ha ha^1.&* Vuoi "stringere" un'amicizia?/
+* Ahah^1, ah ah ah^1.&* Vuoi "stringere" un'amicizia?/
 obj_pyropenpc_87
-* Haha^1, ha ha ha^1.&* Mi dispiace^1, ma ho&  le MANI LEGATE!!!/
+* Ahah^1, ah ah ah^1.&* Mi dispiace^1, ma ho&  le MANI LEGATE!!!/
 obj_pyropenpc_88
 * Ma anche no^1! Ti ho fregato^1!&* Nessuno vuole essere MIO&  amico!!!/%%
 obj_pyropenpc_89
-* Haha^1, ha ha ha^1.&* Mi chiedo se qualche umano&  vorrà essere mio amico./
+* Ahah^1, ah ah ah^1.&* Mi chiedo se qualche umano&  vorrà essere mio amico./
 obj_pyropenpc_93
 * MAAAAAAA ANCHE NO^1!&* Non succederà MAI!/%%
 obj_pyropenpc_94
@@ -21883,7 +21883,7 @@ obj_pyropenpc_94
 obj_pyropenpc_97
 ERRORE? %%
 obj_questionasker_119
-HAHAHA, CI SPERAVI!&SBAGLIATO!
+AHAHAH, CI SPERAVI!&SBAGLIATO!
 obj_questionasker_130
 SBAGLIATO! SE SOLO&ALPHYS FOSSE D'AIUTO!
 obj_questionasker_132
@@ -21897,7 +21897,7 @@ EHEH, È IMBARAZZANTE,&NON È VERO?
 obj_questionasker_140
 TEMPO SCADUTO!&LO PRENDO COME UN NO?? 
 obj_questionasker_142
-NO NO NO!&MA SAI LEGGERE!?
+NO NO NO!&MA SAI LEGGERE?!
 obj_questionasker_144
 GIUSTO! SEMBRA CHE&TU CAPISCA!
 obj_questionasker_151
@@ -22159,7 +22159,7 @@ obj_readable_room1_144
 obj_readable_room1_147
 \R* Niente cioccolato./%%
 obj_readable_room1_151
-* ...!^1?&* C'è una telecamera&  nascosta nei cespugli./%%
+* ...?^1!&* C'è una telecamera&  nascosta nei cespugli./%%
 obj_readable_room1_154
 * (Di lui.)/%%
 obj_readable_room1_155
@@ -22521,7 +22521,7 @@ obj_readable_room2_124
 obj_readable_room2_127
 * "Tifa" - Gruppo di piante&  palustri con fiore&  dall'oblungo baccello marrone./
 obj_readable_room2_128
-* Meglio note come& "salsicce acquatiche"./%%
+* Meglio note come&  "salsicce acquatiche"./%%
 obj_readable_room2_129
 * Hai già visto questo&  tipo di pianta, ma&  non sai come si chiama./%%
 obj_readable_room2_135
@@ -22752,7 +22752,7 @@ CIAO^1.&QUELLA NON È&LA MIA CASA./
 obj_readable_room2_492
 È LA MIA CABINA&PER GLI ATTREZZI.&NON È CARINA?/
 obj_readable_room2_493
-* Quindi sarebbe la tua&  CARINA per gli&  attrezzi!?/
+* Quindi sarebbe la tua&  CARINA per gli&  attrezzi?!/
 obj_readable_room2_495
 NO!!^1!&NON CI AVEVO&MAI PENSATO!!!/
 obj_readable_room2_497
@@ -22772,11 +22772,11 @@ NON ESSERE COSÌ&CRITICA^1,&UNDYNE./
 obj_readable_room2_513
 IL MIO CAPANNO&È A QUATTRO&STELLE./
 obj_readable_room2_514
-* Che c'è^1, fammi indovinare./
+* Che c'è^1,&  fammi indovinare./
 obj_readable_room2_516
 \E6* A volte sminuzzi&  un hot dog nel&  cibo per cani^1, vero?/
 obj_readable_room2_517
-COSA!?!?/
+COSA?!?!/
 obj_readable_room2_519
 \E0COME LO SAI?/
 obj_readable_room2_520
@@ -22784,7 +22784,7 @@ obj_readable_room2_520
 obj_readable_room2_522
 DOVRESTI IMPARARE&COS'È LA PRIVACY./%%
 obj_readable_room2_528
-* (Non puoi passare dall'uscita&  spartifuoco:non hai niente a&  che spartire con il fuoco.)/%%
+* (Non puoi passare dall'uscita&  spartifuoco: non hai niente a&  che spartire con il fuoco.)/%%
 obj_readable_room2_534
 * (È un cuscino senza federa.)/%%
 obj_readable_room2_539
@@ -22837,19 +22837,19 @@ obj_readable_room3_91
 obj_readable_room3_92
 * Uhm^1, meglio se terminiamo&  qui il capitolo.../%%
 obj_readable_room3_93
-* ...!^1?&* C'è una telecamera dietro&  il posto di guardia./%%
+* ...?^1!&* C'è una telecamera dietro&  il posto di guardia./%%
 obj_readable_room3_104
-* ...!^1?&* C'è una telecamera dietro&  il "posto di guardia"./%%
+* ...?^1!&* C'è una telecamera dietro&  il "posto di guardia"./%%
 obj_readable_room3_108
-* ...!^1?&* C'è una telecamera nascosta&  dietro questo mucchio di neve./%%
+* ...?^1!&* C'è una telecamera nascosta&  dietro questo mucchio di neve./%%
 obj_readable_room3_112
-* ...!^1?&* C'è una telecamera nascosta&  dentro questo albero./%%
+* ...?^1!&* C'è una telecamera nascosta&  dentro questo albero./%%
 obj_readable_room3_116
 obj_readable_room3_120
 obj_readable_room3_124
-* ...!^1?&* C'è una telecamera sotto&  al ponte./%%
+* ...?^1!&* C'è una telecamera sotto&  al ponte./%%
 obj_readable_room3_128
-* ...!^1?&* C'è una telecamera nascosta&  tra gli alberi qui./%%
+* ...?^1!&* C'è una telecamera nascosta&  tra gli alberi qui./%%
 obj_readable_room3_132
 * Quando quattro Semi Ponte&  si allineano in acqua^1, essi&  fioriscono./%%
 obj_readable_room3_139
@@ -23037,7 +23037,7 @@ obj_readable_room4_168
 obj_readable_room4_169
 * E SE RIESCI ANCORA A&  RICONOSCERE CIÒ CHE HAI MESSO^1,&  TI RIMBORSIAMO IL DOPPIO!!!/%%
 obj_readable_room4_170
-* ANCORA CON QUEL MICROONDE,&  EH,TESORO?/
+* ANCORA CON QUEL MICROONDE,&  EH, TESORO?/
 obj_readable_room4_174
 * NON POSSO BIASIMARTI PER&  AVERE UNA FISSAZIONE CON&  UNA SCATOLA ELETTRONICA./%%
 obj_readable_room4_175
@@ -23069,7 +23069,7 @@ obj_readable_room4_222
 obj_readable_room4_226
 * (Finalmente^1, i pezzi del&  puzzle combaciano tutti.^1)&* (Di questo puzzle almeno.)/%%
 obj_readable_room4_234
-* Huh!^1?&* C'è una telecamera nascosta&  dietro la cascata./%%
+* Huh?^1!&* C'è una telecamera nascosta&  dietro la cascata./%%
 obj_readable_room4_237
 obj_readable_room5_64
 * (Ci sono un sacco di magliette&  a righe qui.)/%%
@@ -23156,7 +23156,7 @@ obj_readable_room5_227
 obj_readable_room5_231
 * (Non è chiaro come&  dovrebbe incoraggiare&  a donare.)/%
 obj_readable_room5_232
-* (Una foto incorniciata di Papyrus.)/
+* (Una foto incorniciata&  di Papyrus.)/
 obj_readable_room5_236
 * (Sembra si diverta a&  cucinare qualche sorta&  di pasta...)/%
 obj_readable_room5_237
@@ -23173,11 +23173,11 @@ obj_readable_room5_248
 obj_readable_room5_252
 * (Quindi deve esserci&  una tanica piena di cibo&  per cani nelle mura...?)/%
 obj_readable_room5_253
-* (Huh!? Cianografie...!?)/
+* (Huh?! Cianografie...?!)/
 obj_readable_room5_257
 * (Letteralmente^1. Fogli con sc-&  ritti sopra degli abbaii &  con una matita ciano...)/
 obj_readable_room5_258
-* (Aspetta...)&* (Abbaii...)&* (Che l'autore sia...!?)/
+* (Aspetta...)&* (Abbaii...)&* (Che l'autore sia...?!)/
 obj_readable_room5_259
 * (... No^1, è impossibile.)/%
 obj_readable_room5_260
@@ -23586,7 +23586,7 @@ obj_sans_friendc_92
 obj_sans_friendc_94
 \E7* Ehehehe.../
 obj_sans_friendc_95
-\E1* AHA^1! AHAHAH^1!&* HA!^1! HA!!!/
+\E1* AHA^1! AHAHAH^1!&* AH!^1! AH!!!/
 obj_sans_friendc_96
 \E2* Oh^1, Toriel^1.&* Non hai la MINIMA idea./%%
 obj_sans_friendc_97
@@ -23633,7 +23633,7 @@ obj_sans_friendc_139
 obj_sans_friendc_140
 * Un momento!!!/
 obj_sans_friendc_142
-\E6* Posso aiutare anche io!?/
+\E6* Posso aiutare anche io?!/
 obj_sans_friendc_143
 \E0* Certamente^1!&* Sarebbe divertente&  cucinare assieme!/
 obj_sans_friendc_145
@@ -23651,7 +23651,7 @@ obj_sans_friendc_159
 obj_sans_interactable1_68
 \E2* ... ti dovrai&  sorbire altre mie&  fantastiche battute./%%
 obj_sans_interactable1_69
-* che aspetti^1?&* non ti preoccupare^1, non c'è nulla da temere./
+* che aspetti^1?&* non ti preoccupare^1, non&  c'è nulla da temere./
 obj_sans_interactable1_74
 \E2* è solo una caverna&  piena di scheletri&  e mostri orripilanti./%%
 obj_sans_interactable1_75
@@ -23976,11 +23976,11 @@ obj_sansb_975
 obj_sansb_977
 * Sans ti sta risparmiando.
 obj_sansb_985
-* SANS 1 ATK 1 DIF&* Il nemico più facile^1.&* Può infliggere solo 1 danno./
+* SANS 1 ATT 1 DIF&* Il nemico più facile^1.&* Può infliggere solo 1 danno./
 obj_sansb_1013
 * Non potrà schivare in eterno^1.&* Continua ad attaccare./^
 obj_sansb_1014
-* SANS 1 ATK 1 DIF&* Il nemico più facile^1.&* Può infliggere solo 1 di danno./^
+* SANS 1 ATT 1 DIF&* Il nemico più facile^1.&* Può infliggere solo 1 di danno./^
 obj_sansb_1018
 oggi è una&bellissima&giornata./
 obj_sansb_1079
@@ -24106,7 +24106,7 @@ obj_sansb_body_2574
 obj_sansbyetrigger_124
 * pensavo..^1.&* mio fratello si sente un&  po' giù ultimamente.../
 obj_sansbyetrigger_125
-* lui non ha mai visto un&  umano^1. e vederti gli&  risolleverebbe il morale ./
+* lui non ha mai visto un&  umano^1. e vederti gli ri-&  solleverebbe il morale ./
 obj_sansbyetrigger_126
 * non preoccuparti^1, non è&  pericoloso./
 obj_sansbyetrigger_127
@@ -24451,7 +24451,7 @@ obj_shop1_523
 obj_shop1_528
 * Un umano..^1.&* Quasi non riesco a crederci!/
 obj_shop1_529
-* Beh, se decidesse di visitare&  il mio negozio^1, ricevererebbe &  un benvenuto degno di un eroe./%%
+* Beh, se decidesse di visitare&  il mio negozio^1, riceverebbe &  un benvenuto degno di un eroe./%%
 obj_shop1_530
 \E4* Ripensa alle lezioni di&  storia.../
 obj_shop1_536
@@ -24471,7 +24471,7 @@ obj_shop1_545
 obj_shop1_546
 * A quanto pare la Regina è&  stata là dentro per&  Dio solo sa quanto tempo./
 obj_shop1_547
-* Non lo trovi incredibile^1, huh!?/%%
+* Non lo trovi incredibile^1, huh?!/%%
 obj_shop1_548
 \E0* La mia vita è&  quella di sempre./
 obj_shop1_555
@@ -24495,13 +24495,13 @@ obj_shop1_571
 obj_shop2_234
 * Ehilà^1!&* Ho un bel po' di&  robaccia che&  potrebbe interessarti./*
 obj_shop2_235
-* Wah ha ha^1!&* Sapevo che ce&  l'avresti fatta!/*
+* Wah ah ah^1!&* Sapevo che ce&  l'avresti fatta!/*
 obj_shop2_236
-* Wa ha ha..^1.&* E alla fine eccoti&  qua^1.&* Ma che bel regalo!/*
+* Wa ah ah..^1.&* E alla fine eccoti&  qua^1.&* Ma che bel regalo!/*
 obj_shop2_237
 Cosa ti&serve?/*
 obj_shop2_287
-Grazie!&Wa ha ha./*
+Grazie!&Wa ah ah./*
 obj_shop2_288
 Attenzione&con quello./*
 obj_shop2_289
@@ -24543,7 +24543,7 @@ obj_shop2_454
 obj_shop2_456
 * Vivo ormai da molto tempo^1.&*\E3 Forse troppo tempo./
 obj_shop2_462
-\E2* Studiare la storia è più facile&  quando hai vissuto tu stesso&  così tante cose^1!&*\E0 Wa ha ha!/%%
+\E2* Studiare la storia è più facile&  quando hai vissuto tu stesso&  così tante cose^1!&*\E0 Wa ah ah!/%%
 obj_shop2_463
 \E0* Tempo fa^1, ASGORE ed io abbiamo&  concordato che scappare&  sarebbe stato inutile.../
 obj_shop2_468
@@ -24555,7 +24555,7 @@ obj_shop2_470
 obj_shop2_471
 \E2* Perché dopotutto^1, anche se&  non siamo mai scappati.../
 obj_shop2_472
-\E3* Un essere umano ci sta&  uccidendo ugualmente^1,  dico&  bene?/%%
+\E3* Un essere umano ci sta&  uccidendo ugualmente^1, dico&  bene?/%%
 obj_shop2_473
 * Ok^1, Ok^1!&* Adesso me lo ricordo&  chiaramente./
 obj_shop2_478
@@ -24609,7 +24609,7 @@ obj_shop2_518
 obj_shop2_519
 \E0* Eh^1?&* Non sai cosa sia?/
 obj_shop2_524
-\E1* Ma cosa insegnano a voi&  giovani a scuola oggi...^1?&*\E2 Wa ha ha!/
+\E1* Ma cosa insegnano a voi&  giovani a scuola oggi...^1?&*\E2 Wa ah ah!/
 obj_shop2_525
 \W*\E0 Quella è la \YRuna Delta^1,\W l'&  emblema del nostro regno^1.&* Il Regno.../
 obj_shop2_526
@@ -24651,7 +24651,7 @@ obj_shop2_555
 obj_shop2_556
 \E3* ... Lo so che qui non puoi./
 obj_shop2_557
-\E1* Wah ha..^1.&* Sapere cose del genere è l'&  unica ragione per cui sono&  sopravvissuto così a lungo./%%
+\E1* Wah ah..^1.&* Sapere cose del genere è l'&  unica ragione per cui sono&  sopravvissuto così a lungo./%%
 obj_shop2_558
 * Re Pasticcino^1?&* È un tipo amichevole^1, e&  spensierato.../
 obj_shop2_564
@@ -24686,7 +24686,7 @@ obj_shop2_586
 obj_shop2_587
 \E2* Almeno, parlando con te^1,&  ho guadagnato abbastanza tempo&  per farne scappare qualcuno./%%
 obj_shop2_588
-\E0* Undyne^1?&* Sì^1, lei è considerata un' eroina&  qui in giro./
+\E0* Undyne^1?&* Sì^1, lei è considerata un'eroina&  qui in giro./
 obj_shop2_595
 \E4* Grazie solo al suo coraggio e&  determinazione^1, ha combattuto&  fino a raggiungere i ranghi&  più alti della Guardia Reale./
 obj_shop2_596
@@ -24704,7 +24704,7 @@ obj_shop2_603
 obj_shop2_604
 \E3* Anche se^1, il più delle volte&  i tipi che lei attaccava non&  erano affatto dei cattivi^1.&* Poteva essere il postino o&  qualcosa del genere./
 obj_shop2_605
-\E2* Comunque^1, lo apprezzavo^1!&* Wah ha ha ha!!!/%%
+\E2* Comunque^1, lo apprezzavo^1!&* Wah ah ah ah!!!/%%
 obj_shop2_606
 \E1* Non sono un eroe./
 obj_shop2_612
@@ -24973,7 +24973,7 @@ obj_shop3_1657
 obj_shop3_1669
 \M1* Uhm^1, NON era&  ciò che stavo&  per dire./*
 obj_shop3_1682
-\E1* Ma ci ero&  andata vicino^1,&  giusto!?/%%
+\E1* Ma ci ero&  andata vicino^1,&  giusto?!/%%
 obj_shop3_1694
 \E7* Ma non ti fa&  nemmeno un po'&  pena^1, Bratty?/
 obj_shop3_1707
@@ -25017,7 +25017,7 @@ obj_shop3_1848
 obj_shop3_1861
 * Non l'abbiamo&  letteralmente&  MAI detto./%%
 obj_shop3_1862
-\E1* PUÒ esserlo&  comunque!^1?&* PUÒ esserlo!?/%%
+\E1* PUÒ esserlo&  comunque?^1!&* PUÒ esserlo?!/%%
 obj_shop3_1873
 \E4* OMG^1, possiamo&  finalmente&  realizzare il&  nostro SOGNO di&  avere un gatto!/%%
 obj_shop3_1886
@@ -25079,7 +25079,7 @@ obj_shop3_2152
 obj_shop3_2162
 * Comunque^1.&* Concludendo^1:&* Fai schifo!/*
 obj_shop3_2174
-* Già^1!&* Schifo!!^1!&* Nya ha ha!!!/%%
+* Già^1!&* Schifo!!^1!&* Nya ah ah!!!/%%
 obj_shop3_2184
 * Firmato^1,&  Bratty <3/*
 obj_shop3_2196
@@ -25366,7 +25366,7 @@ obj_shop4_770
 obj_shop4_775
 * Non posso andare all'inferno^1.&* Ho esaurito i giorni di ferie./%%
 obj_shop4_776
-\E0* Mi dispiace^1, (ha ha) ma non&  mi è consentito parlare a&  clienti che non hanno ancora&  comprato niente./%%
+\E0* Mi dispiace^1, (ah ah) ma non&  mi è consentito parlare a&  clienti che non hanno ancora&  comprato niente./%%
 obj_shop4_785
 \E1* Cosa^1?&* Perché insiste a voler par-&  lare con me?/
 obj_shop4_790
@@ -25442,7 +25442,7 @@ obj_shop5_601
 obj_shop5_602
 \E3* Te ne pentirai./%%
 obj_shop5_607
-\E3* È forse uno scherzo^1?&* Ti stai divertendo^1?&* Ha ha^1, molto divertente^1.&* Sono io quello laureato./%%
+\E3* È forse uno scherzo^1?&* Ti stai divertendo^1?&* Ah ah^1, molto divertente^1.&* Sono io quello laureato./%%
 obj_shop5_611
 obj_shop5_633
 \E2* queli sono NANTI sodli..^1.&* può tem daver acettare.../
@@ -25495,11 +25495,11 @@ obj_shyren_480
 obj_shyren_482
 * Insirena pensa al suo&  futuro.
 obj_shyren_483
-* INSIRENA - ATC 19 DIF 0&* Stonata^1. Si vergogna di can-&  tare la sua canzone fatale./^
+* INSIRENA - ATT 19 DIF 0&* Stonata^1. Si vergogna di can-&  tare la sua canzone fatale./^
 obj_shyren_502
-* INSIRENA - ATC 19 DIF 0&* Una cantante talentuosa^1, &  con un po' d'aiuto./^
+* INSIRENA - ATT 19 DIF 0&* Una cantante talentuosa^1, &  con un po' d'aiuto./^
 obj_shyren_503
-* INSIRENA - ATC 19 DIF 0&* È Insirena^1.&* La cantante del tuo gruppo./^
+* INSIRENA - ATT 19 DIF 0&* È Insirena^1.&* La cantante del tuo gruppo./^
 obj_shyren_504
 * Canticchi qualcosa&  di funky^1.&* Insirena segue la melodia./^
 obj_shyren_514
@@ -25617,7 +25617,7 @@ obj_sign_room_228
 obj_slimejanitor_73
 * (Prova a finire il lavoro.)/%%
 obj_slimejanitor_77
-* (La futilità si fa sempre più reale.)/%%
+* (La futilità si fa&  sempre più reale.)/%%
 obj_slimejanitor_82
 * (La sedia di Toriel.)&* (Si chiama Sediel.)/%%
 obj_smallchair_55
@@ -25710,7 +25710,7 @@ obj_smallfrog_146
 obj_smallfrog_150
 * (Oggi tutti ti hanno fatto&  un grosso favore.^1)&* (Porta un po' di rispetto!)/%%
 obj_smallfrog_151
-* Cra^1, Cra^1.&* (Sigh...)/
+* Cra^1, cra^1.&* (Sigh...)/
 obj_smallfrog_xadvice_59
 * (Il mio amico non mi&  ascolta mai.)/
 obj_smallfrog_xadvice_60
@@ -25720,7 +25720,7 @@ obj_smallfrog_xadvice_61
 obj_smallfrog_xadvice_62
 * (Beh^1, almeno tu mi&  ascolti.)/%%
 obj_smallfrog_xadvice_63
-* Cra^1, Cra^1.&* (Dimmi un po'...)/
+* Cra^1, cra^1.&* (Dimmi un po'...)/
 obj_smallfrog_xadvice_67
 * (Ora che la tua avventura è&  finita^1, hai del tempo per&  ascoltarmi?.)/
 obj_smallfrog_xadvice_68
@@ -25781,7 +25781,7 @@ Raga...&raga...
 obj_snowdrake_259
 Hai buon&gusto!!&(nelle&freddure)
 obj_snowdrake_265
-Visto!?&Risate!&Papà ave-&va torto!
+Visto?!&Risate!&Papà ave-&va torto!
 obj_snowdrake_266
 Grazie,&siete&fan-&tastici.
 obj_snowdrake_267
@@ -25790,7 +25790,7 @@ E tu&CHE TI&RIDI?!?
 obj_snowdrake_271
 Dovrebbe&far ri-&dere?
 obj_snowdrake_278
-Ha...&Ha...&Buona&questa.
+Ah...&ah...&Bella&questa.
 obj_snowdrake_279
 Questa&la co-&nosco.
 obj_snowdrake_280
@@ -25801,7 +25801,7 @@ obj_snowdrake_286
 (Insulti&rivolti&agli&umani)
 obj_snowdrake_287
 obj_snowdrake_292
-HAHA&SEI&ANCHE&MEGLIO
+AHAH&SEI&ANCHE&MEGLIO
 obj_snowdrake_293
 obj_snowdrake_294
 Non mi&assomi-&glia per&niente...
@@ -25865,7 +25865,7 @@ obj_snowdrakedad_80
 obj_snowdrakedad_81
 * Quindi se n'è annato^1.&* Nun l'ho mica più visto./
 obj_snowdrakedad_82
-* Sono un padre teribbile^1.&* Ha ha ha ha.../
+* Sono un padre teribbile^1.&* Ah ah ah ah.../
 obj_snowdrakedad_83
 * Nun è divertente./%%
 obj_snowdrakedad_84
@@ -25899,9 +25899,9 @@ obj_snowdrakedad_112
 obj_snowdrakedad_113
  ghi...& ac...& cio...
 obj_snowdrakemom_158
- haha...& mi...& ri..& cordo...
+ ahah...& mi...& ri..& cordo...
 obj_snowdrakemom_165
- haha...& grazie& ...& mille...
+ ahah...& grazie& ...& mille...
 obj_snowdrakemom_167
 obj_snowdrakemom_173
 * Fa tanto freddo.
@@ -25938,7 +25938,7 @@ obj_snowdrakemom_472
 obj_snowdrakenpc_76
 * Perché mio padre è sempre stato&  "freddo" con me.../
 obj_snowdrakenpc_77
-* COSA!^1?&* È una BATTUTA!^1!&* E fattela una RISATA!!/%%
+* COSA?^1!&* È una BATTUTA!^1!&* E fattela una RISATA!!/%%
 obj_snowdrakenpc_78
 * Sul serio^1!&* Non me ne frega nulla se non&  gli piacciono le mie battute!/%%
 obj_snowdrakenpc_82
@@ -25948,7 +25948,7 @@ obj_snowdrakenpc_87
 obj_snowdrakenpc_88
 * Perché^1, umh^1, siamo fatti&  di ghiaccio, e roba così./
 obj_snowdrakenpc_89
-* COSA!?!^1?&* È una BATTUTA!^1!&* Dovresti RIDERE!!/%%
+* COSA?!?^1!&* È una BATTUTA!^1!&* Dovresti RIDERE!!/%%
 obj_snowdrakenpc_90
 * È un mucchietto di neve./%%
 obj_snowpoff_100
@@ -25987,7 +25987,7 @@ obj_sosorry_281
 obj_sosorry_282
 \E4Dannazione,sono&sempre tra i&piedi/
 obj_sosorry_287
-\E2Mi scusi, Sono&proprio un allocco/
+\E2Mi scusi, sono&proprio un allocco/
 obj_sosorry_288
 \E2A girarti&attorno.../%%
 obj_sosorry_289
@@ -26094,7 +26094,7 @@ obj_sosorry_378
 obj_sosorry_379
 \E2Credo sia meglio&se me ne vado a&casa a stendermi&un po'./%%
 obj_sosorry_380
-\E1Oh, Mi scusi tanto!&Quanto sono goffo...&Ti sono venuto&addosso/
+\E1Oh, mi scusi tanto!&Quanto sono goffo...&Ti sono venuto&addosso/
 obj_sosorry_392
 \E6Sono così&pasticcione./
 obj_sosorry_393
@@ -26145,15 +26145,15 @@ obj_sosorry_437
 obj_sosorry_445
 \E2Stavolta userò una&matita normale!&Ce la metterò tutta!/%%
 obj_sosorry_446
-\E8Pronti!?/
+\E8Pronti?!/
 obj_sosorry_453
 \E0L'ho appena finito./
 obj_sosorry_454
-\M6Ecco il disegno!&Che ne pensi!?/
+\M6Ecco il disegno!&Che ne pensi?!/
 obj_sosorry_455
 \E2È una rappresenta-&zione della tua&vera essenza.../
 obj_sosorry_456
-\E7È bellissimo^1,&non è vero!?/
+\E7È bellissimo^1,&non è vero?!/
 obj_sosorry_457
 obj_sosorry_458
 \E8(Pensa che&faccia schifo.)/
@@ -26189,7 +26189,7 @@ obj_sosorry_789
 obj_sosorry_790
 * Odora di... furry.
 obj_sosorry_791
-* Stiamo a posto!?.
+* Stiamo a posto?!.
 obj_sosorry_792
 * Il nemico si sta&  scusando con il&  Tristo Mietitore.
 obj_sosorry_793
@@ -26251,7 +26251,7 @@ obj_spagnot_114
 obj_spagnot_115
 * Ci sono solo scritte&  illeggibili./%%
 obj_spagnot_120
-COSA!^1?&MA È IMPOSSIBILE./%%
+COSA?^1!&MA È IMPOSSIBILE./%%
 obj_spagnot_124
 SCUSA^1, TI RINCHIUDO NEL-&LA STANZA DEGLI OSPITI&FINCHÉ UNDYNE NON ARRIVA/
 obj_spagnot_127
@@ -26351,13 +26351,13 @@ Ah^1, ma adesso&ne sono un po'&pentita.../%%
 obj_spiderb_310
 Ma con i soldi della&tua ANIMA, potremmo&noleggiare loro una&limousine riscaldata~/%%
 obj_spiderb_315
-Già^1, Avrei dovuto&intrappolarla quando&ne avevo l'occasione~/%%
+Già^1, avrei dovuto&intrappolarla quando&ne avevo l'occasione~/%%
 obj_spiderb_316
 E con quello che&avanza...^1?&Potremmo farci&una bella vacanza~/
 obj_spiderb_321
 O persino costruire&un campo da baseball&per ragni~/%%
 obj_spiderb_322
-Poteva diventare&un' ottima&ciambella~~~/%%
+Poteva diventare&un'ottima&ciambella~~~/%%
 obj_spiderb_323
 Ma adesso basta...&È ora di cena&non è vero?&Ahuhuhu~/%%
 obj_spiderb_328
@@ -26416,7 +26416,7 @@ Uh?&Un telegramma&dai ragni&nelle ROVINE?/
 obj_spiderb_805
 Cosa?&Dicono che ti&hanno visto&e.../
 obj_spiderb_806
-... che questo è un&messaggio d'errore!?/
+... che questo è un&messaggio d'errore?!/
 obj_spiderb_807
 ... anche se sei un&essere tirchio non&hai mai fatto del male&ad un singolo ragno!/
 obj_spiderb_811
@@ -26507,7 +26507,7 @@ obj_spidertalkevent_284
 obj_spidertalkevent_285
 * Tutti i ragni vorrebbero&  farti sapere quanto ti siano&  riconoscenti!/
 obj_spidertalkevent_286
-* Siamo in debito con te^1, Tesoro~/%%
+* Siamo in debito con te^1, tesoro~/%%
 obj_spidertalkevent_287
 * ... che abbia dei pessimi&   gusti./
 obj_spidertalkevent_293
@@ -26631,7 +26631,7 @@ obj_storybattle_gen_1074
 obj_storybattle_gen_1075
 \E0Hi hi hi.../
 obj_storybattle_gen_1076
-Oh, Ragazzi!/
+Oh, ragazzi!/
 obj_storybattle_gen_1077
 \E9Oggi sarà&altrettanto&divertente./%%
 obj_storybattle_gen_1078
@@ -26684,7 +26684,7 @@ obj_storybattle_gen_1131
 obj_storybattle_gen_1132
 \E7Fallì./
 obj_storybattle_gen_1133
-\E6Ha ha.../%%
+\E6Ah ah.../%%
 obj_storybattle_gen_1134
 \E1Capii che quei&due erano inutili./
 obj_storybattle_gen_1144
@@ -26720,7 +26720,7 @@ obj_storybattle_gen_1166
 obj_storybattle_gen_1167
 \E1Qualcosa di&primordiale si&accese in me./
 obj_storybattle_gen_1168
-"No^1," Pensai^1. &"Non voglio morire!"/
+"No^1," pensai^1. &"Non voglio morire!"/
 obj_storybattle_gen_1169
 obj_storybattle_gen_1170
 Poi mi svegliai./
@@ -26773,7 +26773,7 @@ obj_storybattle_gen_1218
 obj_storybattle_gen_1219
 \E1"Lo faccio solo&perché DEVO sapere&cosa succede"./
 obj_storybattle_gen_1220
-\E8Ha ha ha..^1.&Che razza&di scusa!/
+\E8Ah ah ah..^1.&Che razza&di scusa!/
 obj_storybattle_gen_1221
 \E9Tu meglio di tutti &saprai quanto &è liberatorio&comportarsi così./
 obj_storybattle_gen_1222
@@ -26902,7 +26902,7 @@ obj_storybattle_gen_1355
 \E1Quindi..^1. &È per questo..^1.&Che.../%%
 obj_storybattle_gen_1356
 obj_storybattle_gen_1383
-\E2... ha..^1.&Ha.../
+\E2... ah..^1.&Ah.../
 obj_storybattle_gen_1384
 \E6... Cos'è questa..^1.&... Sensazione?/
 obj_storybattle_gen_1385
@@ -26912,7 +26912,7 @@ obj_storybattle_gen_1387
 Ehi..^1. \[C]..^1.&Nessun rancore per&quello che successe&tempo fa^1, vero?/
 obj_storybattle_gen_1388
 obj_storybattle_gen_1389
-\E4E-Ehi^1, che stai&facendo!?/
+\E4E-Ehi^1, che stai&facendo?!/
 obj_storybattle_gen_1390
 A..^1. allontanati!!/%%
 obj_storybattle_gen_1391
@@ -27117,7 +27117,7 @@ obj_torboss_2ndtime_522
 obj_torboss_2ndtime_544
  È finita./%%
 obj_torboss_2ndtime_558
-\E8Hahaha^1!&Lo SAPEVO!/
+\E8Ahahaha^1!&Lo SAPEVO!/
 obj_torboss_2ndtime_578
 Perché tutti&devono essere&così boriosi?!/
 obj_torboss_2ndtime_579
@@ -27222,7 +27222,7 @@ obj_tordogcall_188
 obj_tordogcall_203
 obj_tordogcall_204
 obj_tordogcall_205
-* (Yawn...)/
+* (Sbadiglio...)/
 obj_tordogcall_206
 * (Sbattiti di palpebre.)/
 obj_tordogcall_207
@@ -27274,7 +27274,7 @@ obj_toriel_friendc_89
 obj_toriel_friendc_90
 \E0* Sei più un tipo sterno!/
 obj_toriel_friendc_91
-HAHAHA^1, WOW!/
+AHAHAH^1, WOW!/
 obj_toriel_friendc_93
 \E0'STE BATTUTE FANNO&ANCORA MENO RIDERE&DETTE DA LEI!/
 obj_toriel_friendc_94
@@ -27338,7 +27338,7 @@ Ti prego^1, vai di&sopra.
 obj_torielboss_397
 .....
 obj_torielboss_399
-Ha ha...
+Ah ah...
 obj_torielboss_401
 Patetico^1, non è&vero^2? Non riesco&a salvare nemmeno&un pargolo come te.
 obj_torielboss_402
@@ -27387,7 +27387,7 @@ Non tu.../
 obj_torielboss_462
 \E5Ma loro!/
 obj_torielboss_463
-\E3Ha... ha... %%
+\E3Ah... ah... %%
 obj_torielboss_464
 \E4Tu.../
 obj_torielboss_469
@@ -27780,7 +27780,7 @@ obj_torinteractable7_170
 obj_torinteractable7_171
 * Ecco perché ho svilup-&  pato quella terribile&  visione del mondo./
 obj_torinteractable7_172
-* "O uccidi o vieni ucciso"./
+* "O uccidi&  o vieni ucciso"./
 obj_torinteractable7_173
 \E7* Ma adesso..^1.&* Dopo averti&  incontrato.../
 obj_torinteractable7_174
@@ -28014,7 +28014,7 @@ obj_townnpc_monsterkid1_82
 obj_townnpc_monsterkid1_88
 * Mi ero un po' preoccupato,&  quando te la sei svignata./
 obj_townnpc_monsterkid1_89
-* ... ma adesso sono soltanto&  arrabbiato^1, ha ha./
+* ... ma adesso sono soltanto&  arrabbiato^1, ah ah./
 obj_townnpc_monsterkid1_90
 * Se Undyne non mi avesse&  salvato^1, sarebbe stato&  pessimo.../%%
 obj_townnpc_monsterkid1_91
@@ -28024,7 +28024,7 @@ obj_townnpc_monsterkid1_97
 * Non parlarmi./%%
 obj_townnpc_monsterkid1_98
 obj_townnpc_monsterkid1_100
-* Yo!!^1!&* Come va!?/
+* Yo!!^1!&* Come va?!/
 obj_townnpc_monsterkid1_104
 * Stavo pensando^1 ad un po'&  di cose.../
 obj_townnpc_monsterkid1_105
@@ -28040,17 +28040,17 @@ obj_townnpc_monsterkid1_109
 obj_townnpc_monsterkid1_111
 * Yo^1, tutti sono scappati e si&  sono nascosti da qualche parte./
 obj_townnpc_monsterkid1_117
-* Cavolo^1, gli adulti sono&  così scemi a volte^1, haha.../
+* Cavolo^1, gli adulti sono&  così scemi a volte^1, ahah.../
 obj_townnpc_monsterkid1_118
-* Non lo sanno che abbiamo&  Undyne a proteggerci!?/%%
+* Non lo sanno che abbiamo&  Undyne a proteggerci?!/%%
 obj_townnpc_monsterkid1_119
 * Yo^1!&* Te la sei svignata anche tu&  per vederla^1, giusto?/
 obj_townnpc_monsterkid1_122
-* Fico..^1.&* Lei è la migliore^1, vero!?/
+* Fico..^1.&* Lei è la migliore^1, vero?!/
 obj_townnpc_monsterkid1_123
 * Voglio essere proprio come&  lei quando sarò grande.../
 obj_townnpc_monsterkid1_124
-* Ehi^1, non dire ai miei genitori&  che mi trovo qui^1.&* Ha ha./%%
+* Ehi^1, non dire ai miei genitori&  che mi trovo qui^1.&* Ah ah./%%
 obj_townnpc_monsterkid1_125
 * Ok^1, io sono pronto non appena&  lo sei tu./%%
 obj_townnpc_monsterkid1_127
@@ -28060,7 +28060,7 @@ obj_townnpc_monsterkid1_129
 obj_townnpc_monsterkid1_130
 * Sai dove stai andando^1, vero...?/
 obj_townnpc_monsterkid1_132
-* Ero sul punto &  di seguirti..^1.&* Ha ha./%%
+* Ero sul punto &  di seguirti..^1.&* Ah ah./%%
 obj_townnpc_monsterkid1_133
 * Yo^1, questa sporgenza è&  troppo ripida.../%%
 obj_townnpc_monsterkid1_141
@@ -28094,7 +28094,7 @@ obj_townnpc_slimedad_70
 obj_townnpc_slimedad_74
 * Sembra che questo sia &  l'inizio di un nuovo^1,&  sconfinato mondo.../
 obj_townnpc_slimedad_79
-* Wah-ha^1!&* Questo spirito avventuroso^1!&* È come essere ancora ragazzo!/
+* Wah-ah^1!&* Questo spirito avventuroso^1!&* È come essere ancora ragazzo!/
 obj_townnpc_slimedad_80
 * E i miei figli sono come..^1.&* doppi-figli./%%
 obj_townnpc_slimedad_81
@@ -28231,7 +28231,7 @@ La mia "determinazione"./
 obj_truechara_114
 Non erano mie^1,&ma TUE./
 obj_truechara_115
-All'inzio^1, ero in &preda alla confusione./
+All'inizio^1, ero in &preda alla confusione./
 obj_truechara_116
 Il nostro piano era&fallito^1, non era così?/
 obj_truechara_117
@@ -28349,7 +28349,7 @@ Eeeeh?&U-umano&...?
 obj_tsunderplane_250
 Umano,&io...
 obj_tsunderplane_251
-Uh!?&M-ma che&dici!
+Uh?!&M-ma che&dici!
 obj_tsunderplane_256
 Ah...&Dav-&vero...?
 obj_tsunderplane_257
@@ -28486,7 +28486,7 @@ obj_undyne1_538
 obj_undyne1_539
 * Sono COSÌÌÌÌÌÌ geloso!/
 obj_undyne1_540
-* Che hai combinato per ricevere&  la sua attenzione...^1?&* Ha ha./
+* Che hai combinato per ricevere&  la sua attenzione...^1?&* Ah ah./
 obj_undyne1_541
 * Forza^1!&* Andiamo a vederla fare a &  pezzi qualche cattivone!/%%
 obj_undyne1_542
@@ -28518,7 +28518,7 @@ obj_undyne_echoflower_419
 obj_undyne_echoflower_420
 * Il vento sta soffiando...
 obj_undyne_ex_781
-* UNDYNE L'IMMORTALE 99ATK 99DEF&* Rinata con la DETERMINAZIONE&  di salvare il mondo./^
+* UNDYNE L'IMMORTALE 99ATT 99DEF&* Rinata con la DETERMINAZIONE&  di salvare il mondo./^
 obj_undyne_ex_808
 Maledizione.../
 obj_undyne_ex_863
@@ -28539,13 +28539,13 @@ obj_undyne_ex_870
 obj_undyne_ex_871
 \E4E se qualcosa fosse&andato storto^1,&avrebbe..^1. fatto&evacuare tutti./
 obj_undyne_ex_872
-\E5A quest' ora avrà&già detto ad ASGORE&di assorbire le 6&ANIME umane./%%
+\E5A quest'ora avrà&già detto ad ASGORE&di assorbire le 6&ANIME umane./%%
 obj_undyne_ex_873
 E con quel&potere.../%%
 obj_undyne_ex_881
 Questo mondo&sopravvivrà...!/%%
 obj_undyne_ex_893
-* Ehi^1, teppista^1!&* Che si dice!?/
+* Ehi^1, teppista^1!&* Che si dice?!/
 obj_undyne_friendc_76
 \E1* A-ACHOO!/
 obj_undyne_friendc_77
@@ -28585,9 +28585,9 @@ obj_undyne_friendc_113
 obj_undyne_friendc_121
 * Se qualcuno dovesse&  darti qualcosa^1, non&  potrebbe di certo!/%%
 obj_undyne_friendc_122
-* Cosa^1?&* Hai PERSO la lettera!?/
+* Cosa^1?&* Hai PERSO la lettera?!/
 obj_undyne_friendc_127
-* Ma che CAVOLO!^1?&* Come!^1? Perché!?/
+* Ma che CAVOLO?^1!&* Come?^1! Perché?!/
 obj_undyne_friendc_128
 \E7* Ughhh..^1.&* È incredibile./
 obj_undyne_friendc_129
@@ -28614,7 +28614,7 @@ obj_undyne_friendc_155
 obj_undyne_friendc_156
 \E9* Alla Dr.ssa Alphys./
 obj_undyne_friendc_157
-\E1* Uh!^1?&* Perché non lo faccio&  io stessa...?/
+\E1* Uh?^1!&* Perché non lo faccio&  io stessa...?/
 obj_undyne_friendc_158
 \E8* ... uhm^1.&* B-beh.../
 obj_undyne_friendc_159
@@ -28639,9 +28639,9 @@ obj_undyne_friendc_169
 obj_undyne_friendc_187
 \E1* Pensi che potremmo&  guardarci qualcosa&  con dei combattimenti?/
 obj_undyne_friendc_188
-\E9* Oh^1, e poi...&* Qualcosa..^1.&* Con delle principesse!?/
+\E9* Oh^1, e poi...&* Qualcosa..^1.&* Con delle principesse?!/
 obj_undyne_friendc_189
-\E2* O COMBATTIMENTI&  di principesse!?/
+\E2* O COMBATTIMENTI&  di principesse?!/
 obj_undyne_friendc_190
 \E5* V-vedrò se riesco&  a trovare qualcosa&  del genere^1, Undyne./
 obj_undyne_friendc_192
@@ -28759,9 +28759,9 @@ obj_undynebattle2_694
 obj_undynebattle2_695
 Ngahhh!
 obj_undyneboss_401
-Bring&it on!
+Fammela&vedere!
 obj_undyneboss_402
-C'mon!
+Dai!
 obj_undyneboss_403
 Fuhuhu!
 obj_undyneboss_404
@@ -28786,7 +28786,7 @@ obj_undyneboss_429
 obj_undyneboss_437
   Che affronto^1!&  Non mi arrenderei&  MAI di fronte a&  quelli come te!/%%
 obj_undyneboss_438
-  Non male^1!&  Che ne dici allora&  di QUESTO!?/%%
+  Non male^1!&  Che ne dici allora&  di QUESTO?!/%%
 obj_undyneboss_439
 \E0  Volevo che fosse&  uno scontro alla&  pari./
 obj_undyneboss_442
@@ -28854,7 +28854,7 @@ obj_undyneboss_570
 obj_undyneboss_577
 \E4  Quindi SMETTILA&  di essere così&  resistente!/%%
 obj_undyneboss_582
-  Di che diamine&  sono fatti&  gli esseri&  umani!?
+  Di che diamine&  sono fatti&  gli esseri&  umani?!
 obj_undyneboss_587
   Chiunque altro&  sarebbe MORTO&  a questo punto!
 obj_undyneboss_593
@@ -28870,7 +28870,7 @@ obj_undyneboss_616
 obj_undyneboss_622
   ... PROPRIO...&  ...&  ... ORA!!
 obj_undyneboss_628
-  Ha...&  Ha...
+  Ah...&  Ah...
 obj_undyneboss_634
 \E5  NGAHHH!!!&  MA VUOI CREPARE,&  PICCOLA PESTE!/%%
 obj_undyneboss_639
@@ -28882,9 +28882,9 @@ obj_undyneboss_658
 obj_undyneboss_664
   TU! NON! MI!&  RISPARMIERAI! MAI!
 obj_undyneboss_666
-\X  YOU'LL NEVER \RESCAPE\X&  FROM ME!!!
+\X  NON RIUSCIRAI&  MAI A \RSCAPPARE\X&  DA ME!!!
 obj_undyneboss_672
-  Andiamo^1, è&  tutto qui!?/%%
+  Andiamo^1, è&  tutto qui?!/%%
 obj_undyneboss_682
   ... patetico./
 obj_undyneboss_686
@@ -29008,7 +29008,7 @@ obj_undyneboss_1403
 * Undyne sembra determinata.
 obj_undyneboss_1410
 obj_undyneboss_1424
-Ha..^1. ha.../
+Ah..^1. ah.../
 obj_undyneboss_1425
 ... Alphys.../
 obj_undyneboss_1426
@@ -29039,7 +29039,7 @@ obj_undynedate_afterward_115
 obj_undynedate_afterward_116
 \E0* Nel frattempo^1,&  penso che starò&  un po' con Papyrus./
 obj_undynedate_afterward_117
-* Quindi se hai bisogno&  di me^1, fai un salto&  a Nevischio^1, OK!?/
+* Quindi se hai bisogno&  di me^1, fai un salto&  a Nevischio^1, OK?!/
 obj_undynedate_afterward_118
 \E1* OH^1!&* E se ti servisse&  aiuto.../
 obj_undynedate_afterward_119
@@ -29074,7 +29074,7 @@ obj_undynedate_afterward_154
 obj_undynedate_afterward_155
 * (Hai ricevuto la Lettera&  di Undyne.)/
 obj_undynedate_afterward_156
-* Beh^1, cosa stai&  aspettando!?/
+* Beh^1, cosa stai&  aspettando?!/
 obj_undynedate_afterward_158
 \E1* Va' a consegnarla!!!/
 obj_undynedate_afterward_159
@@ -29130,13 +29130,13 @@ obj_undynedate_inside_337
 obj_undynedate_inside_338
 \E3SI VEDE CHE NON&È ALL'ALTEZZA./%%
 obj_undynedate_inside_339
-* ALL'ALTEZZA!^1?&* Cosa!?/
+* ALL'ALTEZZA?^1!&* Cosa?!/
 obj_undynedate_inside_351
 \E0* Papyrus^1!&* Aspetta un attimo...!/%%
 obj_undynedate_inside_352
 * Maledizione!/
 obj_undynedate_inside_367
-* Pensa che io non&  sia in grado di&  essere amica TUA!?/
+* Pensa che io non&  sia in grado di&  essere amica TUA?!/
 obj_undynedate_inside_368
 \E6* Fuhuhu^1!&* Che scemenza!/
 obj_undynedate_inside_369
@@ -29229,9 +29229,9 @@ obj_undynedate_inside_834
 obj_undynedate_inside_835
 \E2* DIVERREMMO PIÙ&  AFFIATATI DI QUANTO TU&  POSSA IMMAGINARE!!!/
 obj_undynedate_inside_836
-\E6* Fuhuhu!!^1! Paura!^1?&* Diventeremo migliori&  amici!!!/%%
+\E6* Fuhuhu!!^1! Paura?^1!&* Diventeremo migliori&  amici!!!/%%
 obj_undynedate_inside_837
-* Pronti!^1?&* È l'ora degli&  spaghetti!/
+* Pronti?^1!&* È l'ora degli&  spaghetti!/
 obj_undynedate_inside_1000
 * Iniziamo dal&  sugo!!/%%
 obj_undynedate_inside_1001
@@ -29404,7 +29404,7 @@ obj_undynedate_outside_282
 obj_undynedate_outside_364
 NO^1!&NON PUOI FUGGIRE&ALL'AMICIZIA!!/%%
 obj_undynedate_outside_366
-* Yo..^1. l'hai visto!?/
+* Yo..^1. l'hai visto?!/
 obj_undyneencounter2_329
 * Undyne.../
 obj_undyneencounter2_330
@@ -29487,7 +29487,7 @@ obj_undynetrigger_boss_191
 obj_undynetrigger_boss_199
 * PERCHÉ DOVREI&  RACCONTARTI QUELLA&  STORIA^1  %%
 obj_undynetrigger_boss_206
-* QUANDO STAI&  PER MORIRE!?^1!   %%
+* QUANDO STAI&  PER MORIRE?!^1!   %%
 obj_undynetrigger_boss_213
 * NGAAAAAHHHHHHHHHHHHHHHHH^1! %%
 obj_undynetrigger_boss_220
@@ -29539,7 +29539,7 @@ obj_undynetrigger_boss_351
 obj_undynetrigger_boss_352
 \E4* Per tutto il tempo che&  ti stavo inseguendo.../
 obj_undynetrigger_boss_353
-\E7* Ho sentito qualcosa di..^1.&* Strano./
+\E7* Ho sentito&  qualcosa di..^1.&* Strano./
 obj_undynetrigger_boss_354
 * La sensazione di&  qualcosa di caloroso^1,&  qualcosa.../
 obj_undynetrigger_boss_355
@@ -29561,7 +29561,7 @@ obj_undynetrigger_boss_362
 obj_undynetrigger_boss_363
 obj_undynetrigger_boss_369
 obj_undynetrigger_boss_370
-\E4* Dai libri di storia di&  Alphys  pensavo che gli&  umani fossero benevoli.../
+\E4* Dai libri di storia di&  Alphys pensavo che gli&  umani fossero buoni.../
 obj_undynetrigger_boss_371
 obj_undynetrigger_boss_372
 \E5* Tu sei solo una&  bestia senza scrupoli!/
@@ -29582,27 +29582,27 @@ obj_undynetrigger_boss_379
 obj_undynetrigger_boss_381
 * ...non ritornano a casa^1?&* Lo trovi divertente?/
 obj_undynetrigger_boss_382
-* Shyren^1, che stava&  solo imparando a&  cantare.../
+* Insirena^1, che stava&  solo imparando a&  cantare.../
 obj_undynetrigger_boss_386
-* ...è morta^1, solo&  per i capricci di&  un singolo umano?/
+* ...non c'è più^1, solo&  per i capricci di&  un singolo umano?/
 obj_undynetrigger_boss_387
 * Un giovane comico che&  ha avuto a che fare con&  il pubblico sbagliato.../
 obj_undynetrigger_boss_392
 obj_undynetrigger_boss_393
-* Can Perone^1, che mi fa&  sempre ridere.../
+* Canltolà^1, che mi faceva&  sempre ridere.../
 obj_undynetrigger_boss_399
 obj_undynetrigger_boss_400
 * Quei due cani premurosi^1,&  che si prendono sempre&  cura l'uno dell'altra.../
 obj_undynetrigger_boss_405
 * ...sono morti^1, solo&  per i capricci di&  un singolo umano?/
 obj_undynetrigger_boss_406
-* Quel grosso cane^1, che&  non voleva fare altro&  che giocare.../
+* Che quel grosso cane^1,&  che voleva solo&  giocare.../
 obj_undynetrigger_boss_412
 obj_undynetrigger_boss_413
-* Canino^1, che non&  desiderava altro che&  un po' di affetto.../
+* Cagnolino^1, che non&  desiderava altro che&  un po' di affetto.../
 obj_undynetrigger_boss_419
 obj_undynetrigger_boss_420
-* L'unità canina di&  Nevischio è stata&  completamente decimata./
+* Che l'unità canina di&  Nevischio è stata&  completamente decimata./
 obj_undynetrigger_boss_425
 * I miei soldati e amici^1,&  annientati..^1.&* Lo trovi divertente?/
 obj_undynetrigger_boss_426
@@ -29612,7 +29612,7 @@ obj_undynetrigger_boss_429
 obj_undynetrigger_boss_430
 \E0* Non farai più del male&  a nessuno./
 obj_undynetrigger_boss_431
-* È apparsa una guerriera&  in armatura scintillante./
+* È apparsa una guerriera&  in armatura&  scintillante./
 obj_undynetrigger_boss_432
 \E4* E tutto il dolore&  che hai inflitto&  ai caduti.../
 obj_undynetrigger_boss_433
@@ -29771,7 +29771,7 @@ obj_vulkin_545
 obj_vulkin_546
 * Piccoli rivoli di lava&  fuoriescono dagli occchi di&  Vulcarina.
 obj_vulkin_547
-* Vulcarina ti rassicura che&  l'aereoplanina è diventata&  piccola^1, tipo^1, apposta.
+* Vulcarina ti rassicura che&  l'aeroplanina è diventata&  piccola^1, tipo^1, apposta.
 obj_vulkin_551
 * VULCARINA - ATT 25 DIF 0&* Pensa erroneamente che la sua&  lava curi le persone./^
 obj_vulkin_599
@@ -29940,7 +29940,7 @@ obj_womandog_249
 obj_womandog_250
 (Ho la&puzza&sotto al&naso)
 obj_womandog_256
-(Ma sei&un picco-&lo cuc-&ciolo!?)
+(Ma sei&un picco-&lo cuc-&ciolo?!)
 obj_womandog_257
 (Cave&Canem.)
 obj_womandog_261
@@ -30035,7 +30035,7 @@ Scompari!&Macchia&male-&detta
 obj_woshua_256
 Oops, in-&tendevo...&spazza&grandicel
 obj_woshua_257
-Spazza&bambin^1,&Spazza&bambin^1
+Spazza&bambin^1,&spazza&bambin^1
 obj_woshua_258
 Verde&vuol&dire&pulito
 obj_woshua_263
@@ -30060,7 +30060,7 @@ obj_woshua_507
 obj_woshua_508
 * Tilavo è disgustato dalle&  sue stesse ferite.
 obj_woshua_510
-* TILAVO - ATC 18 DIF 5&* Quest'umile germofobo vuole&  ripulire il mondo dal male./^
+* TILAVO - ATT 18 DIF 5&* Quest'umile germofobo vuole&  ripulire il mondo dal male./^
 obj_woshua_526
 * Cerchi di toccarlo^1.&* Tilavo fa un balzo&  all'indietro./^
 obj_woshua_535
@@ -30136,11 +30136,11 @@ HMMMM..^1.&LA STRANA PORTA&DELLA FORESTA, EH?/
 \E1DEVO TENERLO&SULLA RETTA VIA!!!/%%
 SEI ANCORA&VICINO A QUELLA&PORTA?/
 \E1OH NO!!^1!&MIO FRATELLO TI HA&INFLUENZATO!!!/%%
-QUESTO È IL POSTO&CHE MIO FRATELLO&DEVE CONTROLLARE.../
-\E3MA^1, OGNI VOLTA CHE&VADO A CONTROLLARE^1,&STA BIGHELLONANDO./
+QUESTO È IL POSTO&CHE MIO FRATELLO&DEVE PATTUGLIARE.../
+\E3MA^1, OGNI VOLTA CHE&PASSO^1, LO TROVO&A BIGHELLONARE./
 \E0MENO MALE CHE&SONO STATO IO A&TROVARTI PER PRIMO!/
-\E3CREDO PROPRIO CHE&TI AVREBBE LASCIATO&UNA BTU./%%
-SE NON È NEI DINTORNI^1,&NON TORNA.../
+\E3CREDO CHE TI&AVREBBE DATO UNA&STRANA IMPRESSIONE./%%
+SE NON È NEI&PARAGGI^1, NON&TORNA PIÙ.../
 \E3È COSÌ CHE&FUNZIONA CON LUI./%%
 CHE C'È??^1?&TI SEI PERSO???/
 \E0HMMM..^1. DOVRESTI&CHIAMARE QUALCUNO&E CHIEDERE AIUTO!/%%
@@ -30148,29 +30148,29 @@ EH??^1? PERCHÉ HAI&CHIAMATO ME??/%%
 IL FIUME È TROPPO&FREDDO PER&NUOTARCI./
 A MENO CHE TU NON&ABBIA UN MAGLIONE&IMPERMEABILE!/%%
 È SOLO UN&FIUME./%%
-NYEH HEH HEH!^1!&CHE NE DICI!?!/
-NON SONO SOLO&UN MAESTRO DEI&PUZZLE.../
+NYEH HEH HEH!^1!&CHE NE DICI?!?/
+NON SONO SOLO&UN MAESTRO DEI&ROMPICAPI.../
 SONO ANCHE&UN RINOMATO&ARCHITETTO!!!/%%
-MIO FRATELLO MI&HA AIUTATO A&TROVARE LA SCATOLA!/%%
+MIO FRATELLO MI HA&AIUTATO A TROVARE&LA SCATOLA!/%%
 QUESTA È LA&STAZIONE DI&CANLTOLÀ./
-POSSIEDE L'INCREDIBILE&POTERE DI VEDERE LE&COSE CHE SI MUOVONO./
-\E3OKAY^1, FORSE NON È&UN POTERE INCREDIBILE./%%
+HA L'INCREDIBILE&POTERE DI VEDERE&CIÒ CHE SI MUOVE./
+\E3OKAY^1, FORSE NON È&PROPRIO UN POTERE&INCREDIBILE./%%
 CANLTOLÀ NON&È IN CASA./%%
 ATTENZIONE!^1!&IL GHIACCIO È&SCIVOLOSO./
-\E0PERÒ, MENTRE SCIVOLI&SUL GHIACCIO^1, NESSU-&NO TI ATTACCHERÀ./
+\E0PERÒ, NESSUNO TI&ATTACCHERÀ^1 MENTRE&STAI SCIVOLANDO./
 \E3NESSUNO VUOLE&SCIVOLARE NEL CORSO&DI UN ATTACCO FIGO./%%
 NON HO VERAMENTE&ALTRO DA DIRE./%%
-DEV'ESSERE DURA,&LA VITA DI UN PUPAZZO&DI NEVE./
+DEV'ESSERE DURA,&LA VITA DI UN&PUPAZZO DI NEVE./
 \E2CERCA DI TRATTARE&BENE LA GENTE FATTA&DI MATERIALI STRANI./%%
 QUEL PUPAZZO DI&NEVE È ANCORA&LÌ?/%%
-OH HO^1!&IL LABIRINTO ELETTRICO^1!&È STATO UNO SPASSO!/
-\E3TRANNE QUANDO&HO PRESO LA SCOSSA./%%
-OH HO^1!&IL LABIRINTO ELETTRICO^1!&CHE BEL PUZZLE!/
+OH HO^1! IL LABIRINTO&ELETTRICO^1! È STATO &UNO SPASSO!/
+\E3TRANNE QUANDO&HO PRESO LA&SCOSSA./%%
+OH HO^1! IL LABIRINTO&ELETTRICO^1! CHE BEL&ROMPICAPO!/
 \E3TRANNE PER IL FATTO&CHE NON L'ABBIAMO&MAI AFFRONTATO./
 \E0MA A PARTE QUEL&PICCOLO DIFETTO^1,&È DA DIECI E LODE!/%%
 HO DISATTIVATO&L'ELETTRICITÀ.^1&È TRISTE, LO SO./%%
 QUESTO È IL&FAMOSO NEVEGOLF&DI NEVISCHIO./
-PIÙ VELOCEMENTE&LO COMPLETI, MIGLIORE&SARÀ IL PREMIO FINALE./
+PIÙ VELOCEMENTE LO&COMPLETI^1, MEGLIO&SARÀ IL TUO PREMIO./
 \E3MA COME FANNO&A FINANZIARE QUESTI&PREMI?/
 \E0LA TASSA SULLE&PALLE DI NEVE^1,&OVVIAMENTE!/%%
 COSA^1? NON HAI MAI&SENTITO PARLARE&DI QUESTA TASSA?/
@@ -30181,74 +30181,74 @@ QUESTA È LA&STAZIONE DEI&CANI SPOSATI.../
 NAH..^1.&QUELLO SAREBBE&STRANISSIMO./
 \E0CI SONO ANIMALI&MOLTO MIGLIORI&DA SPOSARE./
 TIPO GLI&SCHELETRI!!!/%%
-HMM... UN CRUCIVERBA,&EH^1? IMMAGINO SIA&UN NOME APPROPRIATO./
-\E4QUEI VERBI MI FANNO&INCROCIARE GLI OCCHI!!!/%%
+HMM... CRUCIVERBA^1. SUPPONGO SIA UN&NOME APPROPRIATO./
+\E4QUEI VERBI MI FANNO&CRUCCIARE!!!/%%
 STAI ANCORA&GIOCANDO A QUEL&CERCAPAROLE?/%%
 AH^1, LA TRAPPOLA&DEGLI SPAGHETTI.../
 ERRORE????/%%
 \E3DEVO ANCORA&TORNARE A DARCI&UNA SISTEMATA.../
 \E2MA QUELLI SONO GLI&SPAGHETTI CHE MI&HAI LASCIATO TU!!!/%%
-\E3A QUESTO PUNTO^1, NON&È PIÙ UNA TRAPPOLA&MOLTO EFFICACE.../
+\E3TEMO CHE NON SIANO&PIÙ MOLTO EFFICACI COME TRAPPOLA.../
 \E0DATO CHE HAI&MANGIATO TUTTO^1,&GIUSTO?/%%
-NIENTE DI MEGLIO&DI UNA BELLA PENTO-&LA PIENA DI SPAGHI.../%%
+NIENTE DI MEGLIO&DI UNA BELLA PEN-&TOLA DI SPAGHI.../%%
 DI SOLITO, QUESTA&STANZA È BLOCCATA&DA QUELLE PUNTE.../
 \E3MA TEMO CHE DOVRÒ&TOGLIERLE, PRIMA O&POI./
-\E0IL RE HA EMESSO&UN MANDATO SUI&PUZZLE, DI RECENTE./
-\E3SECONDO LUI LE PUNTE&SONO PERICOLOSE&PER I BAMBINI./
+\E0IL RE HA DA POCO&EMESSO UN MANDATO&SUI ROMPICAPI./
+\E3SECONDO LUI LE&PUNTE SONO PERICOLOSE&PER I BAMBINI./
 \E4MA SECONDO&ME SI SBAGLIA!!!/
 \E0I BAMBINI ADORANO&QUELLE PUNTE&LETALI!!!/%%
 SE CONOSCI QUALCHE&BAMBINO^1, DOVRESTI&CHIEDERGLIELO!!!/%%
-HMMM..^1.&VUOI LA SOLUZIONE&DI QUESTO PUZZLE...?/
-\E5A DIRE IL VERO, IO HO&SEMPLICEMENTE AT-&TRAVERSATO LE PUNTE./
+HMMM..^1. VUOI LA&SOLUZIONE A QUESTO&ROMPICAPO...?/
+\E5A DIRE IL VERO, IO&HO SCAVALCATO LE&PUNTE E BASTA./
 \E0QUINDI LA SOLUZIONE&È: SII MOLTO ALTO&E ATTRAENTE./%%
 LO STO RISOLVENDO&MENTRE PARLIAMO.../%%
-OH-HO!!^1! &QUESTO PUZZLE^1!/
-L'HAI RISOLTO&MOLTO FACILMENTE!!/
-\E2È UNA COSA./%%
+OH-HO!!^1! &QUESTO ROMPICAPO^1!/
+L'HAI RISOLTO&COSÌ FACILMENTE!!/
+\E2È MOLTO PAPYRUS&DA PARTE TUA./%%
 PARLARE AL&TELEFONO..^1. CHE&PAPYRUSATA./%%
-OH-HO!!^1!&QUESTO È IL PUZZLE&DELLA DR.SSA ALPHYS!/
-HO DOVUTO CHIEDERE&AD UNDYNE DI CHIEDER-&LE DI FARNE UNO./
+OH-HO!!^1! QUESTO È&IL ROMPICAPO DELLA&DR.SSA ALPHYS!/
+HO DOVUTO CHIEDERE&AD UNDYNE DI CHIE-&DERLE DI FARNE UNO./
 \E3LE PARLO SOLO&SU INTERNET.../
 \E3NON SONO PROPRIO&UN SUO AMICO.../
 \E0O ALMENO,&NON ANCORA!!!!/%%
-UN GIORNO O L'ALTRO,&LA STUPIRÒ CON I&MIEI BICIPITI SCOLPITI.../
+UN GIORNO LA&STUPIRÒ CON I MIEI&BICIPITI ENORMI.../
 \E0CHE BEL MODO&PER FARE AMICIZIA!!!/%%
 QUELLA È LA&POSTAZIONE DI&CAGNOLINO./
 QUEL CANE&ADORA ESSERE&ACCAREZZATO./
 È QUELLO IL SUO&TRATTO DISTINTIVO./
-\E3ASPETTA^1, PERCHÉ LUI&FA PARTE DELLA GUAR-&DIA REALE E NON IO!?/
+\E3ASPETTA^1, PERCHÉ LUI&FA PARTE DELLA GUAR-&DIA REALE E NON IO?!/
 \E0ANCHE A ME&PIACE ESSERE&ACCAREZZATO!!!/%%
 SIGH..^1. È TUTTA UNA&QUESTIONE DI&POPOLARITÀ./%%
 CI STAVAMO&ANNOIANDO, MENTRE&TI ASPETTAVAMO.../
 \E0COSÌ, HO COSTRUITO&UN PAPYRUS DI NEVE!/
 \E3MENTRE SANS...&HA FATTO DEL&SUO MEGLIO./%%
-ANCHE SE A DIRE IL&VERO^1, È UNO DEI SUOI&CUMULI DI NEVE MIGLIORI./%%
-IO SALTO SEMPRE&IL BURRONE, INVECE&DI RISOLVERE IL PUZZLE./
+ANCHE SE IN REALTÀ^1,&È UNO DEI SUOI&MUCCHI MIGLIORI./%%
+IO SALTO SEMPRE IL&BURRONE INVECE DI&RISOLVERLO./
 NEMMENO SANS&LO RISOLVE MAI./
-\E3OGNI VOLTA, NON&FA ALTRO CHE..^1.&EHM.../
-SALTARE&ATTRAVERSO./%%
-PENSO CHE PRENDA U-&NA SCORCIATOIA, O UNA&COSA DEL GENERE./%%
+\E3DI SOLITO..^1.&EHM.../
+LO SUPERA&E BASTA./%%
+CREDO PRENDA UNA&SCORCIATOIA, O&ROBE SIMILI./%%
 REGALCE VIVE QUI^1.&LE PIACCIONO MOLTO&I REGALI./
 \E3NON PREOCCUPARTI SE&NON PUOI PRENDERLE&UN BEL REGALO./
 \E0L'IMPORTANTE È&IL PENSIERO./
-QUINDI PENSA AL&FATTO CHE POTRESTI&AVERE MOLTI SOLDI.../%%
+QUINDI IMMAGINA&DI AVERE UN&SACCO DI SOLDI.../%%
 HAI INCONTRATO&REGALCE?/%%
 STO PERDENDO&IL SEGNALE./
-\E3CREDO CHE IL&TELEFONO NON FUNZIO-&NERÀ DA LÌ IN POI./
-\E0QUINDI, NON C'È&MOTIVO DI PROSEGUIRE./%%
+\E3IL TELEFONO NON&FUNZIONERÀ PIÙ&DA LÌ IN POI./
+\E0QUINDI, NON C'È&MOTIVO DI&PROSEGUIRE./%%
 CIAO./%%
 ECCO LA POSTAZIONE&DI CAGNOLONE./
 \E3ASSOMIGLIA UN PO'&A UN CERTO CANE&ANTIPATICO./
 \E0MA CAGNOLONE&NON COLLEZIONA&NULLA./
 \E2È SOLO UN&CLEPTOMANE&PER AFFETTO!/%%
-HA ACCUMULATO UN'E-&NORME COLLEZIONE DI&ABBRACCI E CAREZZE./%%
+HA ACCUMULATO UN'&ENORME COLLEZIONE&DI COCCOLE./%%
 QUESTO PONTE&SEMBRA PERICOLOSO^1,&MA È MOLTO STABILE./
 ANZI^1, È SOLO UNA&FORMAZIONE ROCCIOSA&CHE HO RIDIPINTO./
-SECONDO ME,&CI DÀ UN'ASPETTO&PIÙ DRAMMATICO./%%
+SECONDO ME,&CI DÀ UN ASPETTO&PIÙ DRAMMATICO./%%
 HO ANCHE AGGIUNTO&QUELLE CORDE./%%
 NEVISCHIO..^1.&DOVE ABITA&PAPYRUS!/
 \E3È QUELLO LO&SLOGAN^1, NO???/%%
-DEVO FARE UNA&PETIZIONE PER&CAMBIARE LO SLOGAN./%%
+DEVO FARE UNA&PETIZIONE PER&CAMBIARE SLOGAN./%%
 QUEL TIZIO PELOSO&GETTA GHIACCIO&DA MATTINA A SERA./
 NESSUNO SA DOVE&VADA A FINIRE./%%
 NESSUNO SA DOVE&VADA A FINIRE./
@@ -30256,8 +30256,8 @@ NESSUNO SA DOVE&VADA A FINIRE./
 * Arriva a Roventerra&  per raffreddare&  il NUCLEO!/
 WOW^1, UNDYNE!^1!&NON TI FACEVO&COSÌ NERD!/
 \E3PENSAVO TI INTERES-&SASSERO SOLO&I COMBATTIMENTI.../
-\E0* Stai scherzando!?&* Perché non dovrei!?/
-\E6* Il cervello è il&muscolo piú grande&di tutti!!!/%%
+\E0* Stai scherzando?!&* Perché non dovrei?!/
+\E6* Il cervello è il&  muscolo piú grande&  di tutti!!!/%%
 IPNOTIZZANTE^1, &NON TROVI???/%%
 LA LOCANDA È UN&OTTIMO POSTO PER&PASSARE LA NOTTE./
 LA SIGNORA CHE&LO GESTISCE È&MOLTO GENTILE./
@@ -30274,7 +30274,7 @@ IL LOCALE DI GRILLBY&È UN POSTO BUIO&E SUDICIO./
 IL PURGATORIO DELLE&PATATINE..^1. L'ABISSO&DEGLI HAMBURGER.../
 COMUNQUE^1, MIO&FRATELLO VIVE&QUA, PRATICAMENTE./%%
 NO, NON VENGO&DA GRILLBY./%%
-DA GRILLBY^1? SIAMO&TROPPO RAFFINATI PER&QUEL POSTO LARDOSO./
+DA GRILLBY^1? SIAMO&TROPPO RAFFINATI PER&QUELLA LARDERIA./
 * Se ci vai^1, devi ASSOLU-&  TAMENTE provare le pata-&  tine al formaggio./
 \E6* Sono FANTASTIC^1AMENTE&  poco salutari!!/
 \E9* Oh^1, scusa^1, Papyrus^1,&  stavi dicendo&  qualcosa?/
@@ -30291,7 +30291,7 @@ COS'È UNA TESSERA&PER LA BIBLIOTECA?/%%
 \E1* Ne ho strappati&  a tonnellate!/
 \E6* Li distruggevo&  proprio!!!/%%
 * Ma adesso penso che&  leggere sia fico./%%
-WOW^1! CI HAI MESSO&SOLO QUATTRO&SECONDI A CHIAMARE!!/
+WOW^1! CI HAI MESSO&SOLO QUATTRO SEC-&ONDI A CHIAMARE!!/
 DEVI AVERE&DISPERATAMENTE&BISOGNO DI AIUTO!!!/
 BEH^1, NON TEMERE^1!&SONO QUI PER&AIUTARTI!/
 DIMMI SOLO DOVE TI&TROVI^1, E...!/
@@ -30299,12 +30299,12 @@ TI DARÒ DEGLI UTILI&SUGGERIMENTI!/
 \E0ALLORA^1, DOVE SEI&ADESSO?/
 \E5... SEI ANCORA&IN CAMERA MIA??/
 \E3HAI MAI SENTITO&PARLARE DI UNA COSA&CHIAMATA..^1. PORTA?/
-\E0ASPETTA^1! NON TEMERE^1!&TI FARÒ UN DISEGNINO&ESPLICATIVO!/%%
+\E0ASPETTA^1!NON TEMERE^1!&TI FARÒ UN DISEGNINO&ESPLICATIVO!/%%
 ASPETTA^1!&STO ANCORA&DISEGNANDO!/%%
 COME^1? PENSAVO&FOSSI USCITO DA&CAMERA MIA./
-\E1DOVREMO RICOMINCIARE&DA ZERO!/
-\E0PER PRIMA COSA: SAI&CHI È PAPYRUS!?/%%
-E IO, SO CHI&È PAPYRUS!?/%%
+\E1DOVREMO&RICOMINCIARE&DA ZERO!/
+\E0PER PRIMA COSA: SAI&CHI È PAPYRUS?!/%%
+E IO, SO CHI&È PAPYRUS?!/%%
 MA SEI IN CASA&MIA!^1! OTTIMA&SCELTA!/
 \E3ANCHE SE È ANCHE&CASA DI SANS,&IMMAGINO./
 \E1MA PREFERISCO&NON PARLARE DELLA&SUA PARTE DI CASA./
@@ -30314,8 +30314,8 @@ FARESTI MEGLIO A&STARE LONTANO DA&QUEL STRANO POSTO./%%
 QUESTO È IL POSTO&DOVE HO CERCATO&DI CATTURARTI!/
 CHE RICORDO&ORRIBILE!/%%
 * Evvai!^1! Questa è&  la sanza migliore per&  fare lotta innevata!!/
-LA LOTTA INNEVATA&È QUANDO LEI TI SI&AVVICINA DI SOPPIATTO,/
-POI TI BUTTA A TERRA&E GRIDA& "LOTTA INNEVATA!"/
+LOTTA INNEVATA È&QUANDO LEI TI SOR-&PRENDE ALLE SPALLE,/
+POI TI BUTTA A&TERRA E GRIDA&"LOTTA INNEVATA!"/
 \E5NON È..^1.&IL MIGLIOR GIOCO&CHE ESISTA./
 \E9* Beh^1, sai che&  ti dico?/
 COSA?/
@@ -30328,7 +30328,7 @@ UH^1, NON HO NIENTE&DA DIRE RIGUARDO A&QUESTA STANZA./%%
 * Se vai a Nevischio^1,&  non ho molto&  da dire./
 MA IO SÌ!!/
 * È qui la fregatura^1,&  giusto?/
-SFREGATURA!^1?&C'È QUALCOSA DA&SFREGARE^1? DOVE!?!?/
+SFREGATURA?^1!&C'È QUALCOSA DA&SFREGARE^1? DOVE?!?!/
 * A Nevischio^1, ovvio!!!/%%
 FARÒ DEL MIO&MEGLIO PER SFREGARE&QUALCOSA./
 * Ehi^1, penso di aver&  trovato qualcosa!/
@@ -30348,7 +30348,7 @@ LA GENTE NORMALE&PUÒ SOLO SOGNARE&TANTO OZIO.../%%
 \E4* Andare avanti SOLO&  con lo stretto&  indispensabile.../
 \E9* Immagino sia&  abbastanza notevole...?/%%
 ROCCE?/
-\E0DEV'ESSERE UNO&DEI GENIALI PUZZLE&DI UNDYNE./
+\E0DEV'ESSERE UNO&DEI GENIALI ROMPI-&CAPI DI UNDYNE./
 \E0FOSSI IN TE,&IO FAREI MOLTA&ATTENZIONE!!!/%%
 FA' ATTENZIONE&ALLE ROCCE./%%
 * Cielo^1, avrei dovuto&  creare un puzzle per&  questa stanza.../
@@ -30356,7 +30356,7 @@ FA' ATTENZIONE&ALLE ROCCE./%%
 \E6* Quindi ho semplicemente&  messo un grosso cumulo&  di rocce di sopra./%%
 * Cosa??^1?&* Non giudicarmi!!!/
 \E6* La mia mancanza&  di creatività ti sta&  semplificando la vita!/%%
-CHE FINE HAI&FATTO!?&NON TI VEDO!!!/
+CHE FINE HAI&FATTO?!&NON TI VEDO!!!/
 \E0OH , ASPETTA^1, FORSE&È PERCHÉ SEI AL&TELEFONO./%%
 SEI ANCORA&AL TELEFONO?/%%
 * Quindi hai trovato&  la stanza dietro la&  cascata.../
@@ -30376,11 +30376,11 @@ SE PIANTI QUATTRO&SEMI-PONTE IN FILA,&CRESCERÀ UN PONTE./
 \E3ANCHE SE SONO&POCHI I CASI IN CUI&CIÒ TORNA UTILE./
 \E2PERCHÉ NON ESISTONO&SEMI DI AERO-&PLANO???/%%
 OPPURE^1, DEI TELEFONI&CHE POSSONO TRAS-&FORMARSI IN JETPACK?/%%
-* Aspetta^1, hai fatto&  DAVVERO il puzzle!?/
-\E2* Non puoi semplicemente&  saltare di là!?/
-\E6* Non puoi fare&  un salto balzoso&  zomposo!?/%%
-* Uno slancio&  guizzoso caprioloso!?/%%
-HMMM..^1. QUESTO&PUZZLE.../
+* Aspetta^1, hai fatto&  DAVVERO il puzzle?!/
+\E2* Non puoi semplicemente&  saltare di là?!/
+\E6* Non puoi fare&  un salto balzoso&  zomposo?!/%%
+* Uno slancio&  guizzoso caprioloso?!/%%
+HMMM..^1. QUESTO&ROMPICAPO.../
 \E0HO TROVATO!!!/
 PROVA A COSTRUIRE&UN PONTE CON I&SEMI-PONTE!!/%%
 VISTO? TI STO&AIUTANDO./%%
@@ -30389,7 +30389,7 @@ VISTO? TI STO&AIUTANDO./%%
 \E9* Siamo un buon team^1.&* Lei è brava a&  costruirli.../
 \E6* Ed io sono brava&  a distruggerli!!/%%
 * Adesso ce n'è&  a malapena&  traccia.../%%
-COSA C'È DI MEGLIO DI&UN POCHINO DI SFORMA-&TO SU UNA PANCHINA?/%%
+COSA C'È DI MEGLIO&DI UNA PANCHINA&COLMA DI SFORMATO?/%%
 * Cosa c'è di meglio&  di un pochino di sforma-&  to su una panchina?/%%
 \E3QUESTA È LA SALA&DEI DESIDERI^1. TU&NE HAI UNO...?/
 \E0NYEH HEH HEH!^1!&IO SÌ!!!/
@@ -30410,7 +30410,7 @@ LE CASCATE SONO&PRACTICAMENTE UN&MUSEO STORICO./
 PRONTO?/%%
 * Lungo questi muri&  vi è la nostra&  tragica storia.../
 \E1* Tragicamente NOIOSA!/
-\E2* Perché la nostra storia&  non può avere ANIMAZIONI&  FICHE COME GLI UMANI!?/
+\E2* Perché la nostra storia&  non può avere ANIMAZIONI&  FICHE COME GLI UMANI?!/
 \E6* Qui dovrebbero ALMENO&  esserci incise storie&  di guerra e amore!!!/%%
 * Suvvia^1, non fare finta&  che la vostra storia&  non sia FICHISSIMA!!/%%
 UN ALTRO CORRIDOIO&INNOCUO E SICURO.../
@@ -30428,8 +30428,8 @@ FA' ATTENZIONE,&OKAY?/%%
 DA DOVE ARRIVANO&TUTTI QUESTI TAVOLI?/%%
 * Da dove arrivano&  tutti questi&  tavoli?/%%
 HUH^1? SANS NON STA&GIOCANDO CON IL&SUO TELESCOPIO?/
-\E0CAVOLI!!^1! MAGARI È&ANDATO A LAVORARE!!!/
-\E2WOW!!^1! MI È PERMESSO&ESSERE FIERO DI&LUI???/%%
+\E0CAVOLI!!^1! MAGARI&È ANDATO A&LAVORARE!!!/
+\E2WOW!!^1! MI È&PERMESSO ESSERE&FIERO DI LUI???/%%
 CHE^1? MIO FRATELLO^1?&MA CERTO CHE HA&UN TELESCOPIO./
 \E0SANS ADORA QUELLE&ROBE SPAZIALI E&FANTASCIENTIFICHE./
 \E3HMM^1?&NON TE NE HA MAI&PARLATO??/
@@ -30448,7 +30448,7 @@ SANS!!^1! NESSUNO HA&CHIESTO IL TUO&PARERE!/%%
 SONO LUSINGATO DA&QUANTO VUOI DAR-&MI DEL GELATO./
 * anche io./
 NO CHE NON LO SEI!!/%%
-\E1* Ugh^1, gelato!^1?&* Zuccheroso... FREDDO..^1.&* Ma che SCHIFO./
+\E1* Ugh^1, gelato?^1!&* Zuccheroso... FREDDO..^1.&* Ma che SCHIFO./
 \E3* Invece questa roba&  rosa e fresca che&  mi fa Alphys.../
 \E6* Quella SÌ che è buona!!!/%%
 * La bevo anche&  se è riscaldata./%%
@@ -30458,7 +30458,7 @@ HAI TROVATO&IL PREMIO?/%%
 * Normalmente c'è un&  paio di vecchie scarpe&  tra quelle piante./
 \E4* Stranamente^1, sono fatte&  per qualcuno senza&  pinne o artigli./
 \E7* Che razza di mostro&  potrebbe mai essere...?/
-\E2* Oh^1, aspetta!^1?&* Che ne dici di un&  mostro gelatinoso!?/
+\E2* Oh^1, aspetta?^1!&* Che ne dici di un&  mostro gelatinoso?!/
 \E6* Aspetta^1, quelli non li&  hanno proprio i piedi!/%%
 * Beh^1, se ti vanno^1, &  puoi anche prenderle./
 \E6* Chiunque le abbia&  indossate non tornerà&  di certo!/%%
@@ -30476,15 +30476,15 @@ GLI SONO PIACIUTI&I MIEI CINGUETTII???/%%
 CIPOLLA?/%%
 HUM HUM HUM.../%%
 * Cipolla...?/%%
-HO SENTITO PARLARE&DI UN MOSTRO TIMIDO&CHE VIVE QUI INTORNO./
+HO SENTITO DI UN&MOSTRO TIMIDO CHE&VIVE QUI INTORNO./
 \E3BEH^1, SE VUOI ROM-&PERE IL GHIACCIO&CON QUALCUNO.../
 \E0IL MODO MIGLIORE DI&FARLO È SFIDARLO&IN COMBATTIMENTO!!!/%%
-* Oh già^1, Shyren&  vive qui in zona./
+* Oh già^1, Insirena&  vive qui in zona./
 * Un tempo le davo lezioni&  di pianoforte./
 \E4* Era davvero&  talentuosa..^1. \E9per&  qualcuno senza dita./
 \E4* Un giorno però^1, ha&  smesso di venire a&  lezione^1.../%%
 \E7* Com'era che faceva&  la sua canzone...?/%%
-HUH!^1?&MI STAI CANTANDO&UNA SERENATA!?/
+HUH?^1!&MI STAI CANTANDO&UNA SERENATA?!/
 \E2OH NO!!^1!&MI STAI FACENDO&ARROSSIRE!!!/%%
 DOVREMMO CREARE&UN MUSICAL SULLE&NOSTRE AVVENTURE!!!/%%
 \E6* Sì!^1! SÌ!!^1!&* L'ho fatto io&  questo puzzle!!/
@@ -30496,7 +30496,7 @@ C'È QUALCOSA CHE&MI TURBA SU QUESTA&STANZA./%%
 MA NON SO, NON&CI METTEREI LA MANO&SUL FUOCO.../
 E POI TUTTO IL&BRACCIO.../
 PER POI VENIRE&USTIONATO.../%%
-\E1* Uh!^1?&* Hai risolto il&  puzzle!?/
+\E1* Uh?^1!&* Hai risolto il&  puzzle?!/
 \E6* Nessuno ha mai..^1.&* Ho aspettato così a&  lungo qualcuno che.../
 \E2* Voglio dire^1, uhhh^1, &  sai che roba^1!&* Capirai!/%%
 * Immagino debba trovare&  un nuovo artefatto&  mistico./%%
@@ -30507,29 +30507,29 @@ SONO IN LISTA&D'ATTESA, PER&CASO???/%%
 * Nessuno sa da dove&  provenga./%%
 * Ehi^1, hai capito&  come far suonare&  la melodia...?/
 \E9* Non male^1, vero?/%%
-DOVRESTI SEMPRE&PORTARE UN OMBRELLO,&NEL CASO PIOVA!/
-NON È DIFFICILE^1.&TIENINE SEMPRE&UN PO' NELLE TASCHE./%%
+PORTA SEMPRE UN&OMBRELLO NEL&CASO PIOVA!/
+BASTA TENERNE&SEMPRE UN PO'&NELLE TASCHE./%%
 NIENTE DI MEGLIO DI&UNA BELLA PENTOLA&PIENA DI 'BRELLI.../%%
 * Quegli ombrelli erano&  un'idea di ASGORE./
-\E9* Disse che non voleva&  che qualcuno si&  prendesse un raffreddore./
+\E9* Disse che non voleva&  che qualcuno si pren-&  desse un raffreddore./
 \E0* Agli abitanti subacquei&  delle Cascate non&  importava^1, comunque./%%
 * Hai preso un ombrello?/%%
-POTRAI ANCHE VEDERE&IL TUO RIFLESSO NELLA&POZZANGHERA^1, MA.../
-\E1NON FAR MINARE LA&TUA AUTOSTIMA DA UNO&SPECCHIO D'ACQUA!!!/%%
+PUOI VEDERE IL&TUO RIFLESSO NELLA&POZZANGHERA^1, MA.../
+\E1NON FARTI DEMO-&RALIZZARE DA UNO&SPECCHIO D'ACQUA!!!/%%
 HMMM^1? SEI&USCITO CON&UN AMICO?/
 ALLORA FARESTI&MEGLIO A NON&CHIAMARMI.../
 \E0LO FARAI&INGELOSIRE!/%%
 CHIAMI ANCORA...?/%%
-* Cosa!^1?&* Sei nel mio&  PUNTO PREFERITO!?!?/
+* Cosa?^1!&* Sei nel mio&  PUNTO PREFERITO?!?!/
 \E2* Sarà meglio che salti&  in almeno 1000 pozze&  per me!!!/%%
-* Hai raggiunto&  le tre cifre!?/%%
+* Hai raggiunto&  le tre cifre?!/%%
 DOVE SEI^1?&SENTO DELL'ACQUA&CHE SCROSCIA./
 SEI IN BAGNO?/%%
 FRA L'ALTRO^1, COS'È&UN BAGNO?/%%
 * Tutta quest'area&  è come un piccolo&  percorso naturalistico./
 * È bello avere un&  piccolo angolo piovoso&  fuori dalla civiltà.../
 \E7* Anche se^1, con la città&  che si riempie^1, chissà&  quanto potrà durare./%%
-* Beh?^1!&* Ti stai godendo&  la natura!?/%%
+* Beh?^1!&* Ti stai godendo&  la natura?!/%%
 QUELLO È IL&CASTELLO DEL RE.../%%
 RIESCI A VEDERE&LA FINE, NON È&COSÌ?/%%
 * Il castello di ASGORE.../
@@ -30542,7 +30542,7 @@ FARESTI MEGLIO&A NON PROSEGUIRE&OLTRE./%%
 \E1* ... e come ho fatto&  ad azzeccarci???/%%
 * Non provare a&  spiegarlo!!/%%
 DEI FIORI...?/
-\E0CE N'È QUALCUNO&CHE PARLA!^1? SALUTA-&LO DA PARTE MIA!!!/%%
+\E0CE N'È QUALCUNO&CHE PARLA?^1! SALUTA-&LO DA PARTE MIA!!!/%%
 I FIORI SONO I&NOSTRI MIGLIORI&AMICI!!/%%
 * Questi fiori.../
 * Un giorno^1, semplicemente&  hanno cominciato a&  crescere qui./
@@ -30612,19 +30612,19 @@ DI ESTREMAMENTE&FICO DA DIRE SULLA&TUA CASA!!!/
 * Sai dove&  trovarmi./%%
 OH^1, QUELLA È LA&CASA DI... UHM..^1. &IL VICINO DI UNDYNE/
 \E3COM'ERA CHE SI&CHIAMAVA?/
-\E0SPOOKY BLOO BLOO?/%%
-RASTA BLU...?/%%
+\E0RASTA BLU?/%%
+PASTA LOOK...?/%%
 * Quella è la casa&  di Napstablook./
 \E9* Sta un po' per i&  fatti suoi^1, ma...&* È un fantasma a posto./
 \E4* Cerco di essere una&  buona vicina^1, ma credo&  abbia paura di me./
-\E2* Andiamo^1, cosa c'è di&  pauroso di un invito&  cordiale a lottare!!?/%%
+\E2* Andiamo^1, cosa c'è di&  pauroso di un invito&  cordiale a lottare?!?/%%
 * Tanto è&  incorporeo!!!/%%
 E COSÌ HAI FATTO&AMICIZIA CON UN&FANTASMA.../
 \E5NON È UN PO'&INQUIETANTE?/
-\E3PENSAVO CHE I TUOI&AMICI TI PIACESSERO&CALDI E COCCOLOSI.../
+\E3PENSAVO CHE&PREFERISSI AMICI&CALDI E COCCOLOSI../
 \E0COME GLI&SCHELETRI!!!/%%
 MOLTO SOFFICI^1, E&CON MOLTO CALCIO./%%
-* Oh^1, ti stai vedendo&  con Napstablook!^1?&* Grande!!!/
+* Oh^1, ti stai vedendo&  con Napstablook?^1!&* Grande!!!/
 \E9* Non lo vedo uscire&  con qualcuno da&  quando c'era.../
 \E4* Beh^1, suo cugino./
 \E9* Lui guardava la&  TV a tutte le ore&  del giorno.../
@@ -30640,7 +30640,7 @@ A PROPOSITO^1,&INTROMETTERSI IN&CASA D'ALTRI.../
 \E3SAREBBE ILLEGALE^1,&GIUSTO???/
 \E5PER FAVORE, SMETTILA&DI COMMETTERE REATI&SPETTRALI./%%
 * COSA?/
-* Sei entrato in casa&  del cugino di&  Napstablook!?/
+* Sei entrato in casa&  del cugino di&  Napstablook?!/
 \E2* Ma è..^1.&* È...!/
 \E9* Ehi^1, com'era che&  si chiamava^1, comunque?/
 NAPSTALLEGRO^1,&IL FANTASMA&FELICE./
@@ -30657,7 +30657,7 @@ EMETTERE BAVA..^1.&È PROPRIO CIÒ CHE&FANNO I FRATELLI./%%
 \E0* Lui e suo cugino&  sono rimasti indietro&  a gestire la fattoria./
 \E4* Ma nessuno ha visto&  suo cugino da molto&  tempo./
 \E7* Adesso Napstablook&  è rimasto solo.../
-\E1* Sii gentile con lui^1,&  ok!?/%%
+\E1* Sii gentile con lui^1,&  ok?!/%%
 * Ama questo fantasma!!!/%%
 SE VEDI UN NEGOZIO^1,&FAI ATTENZIONE AL&CALORE.../
 PER VIA DELLE&SCOTTANTI^1.../
@@ -30675,7 +30675,7 @@ PER CASO C'È LA&PERSONA DEL FIUME,&OGGI?/%%
 SÌ O NO?/%%
 * Quel fiume si connette&  a Nevischio e a&  Roventerra./
 * Se devi arrivare da&  un posto all'altro^1, &  usa questo!/
-\E2* Senti^1, questo è tutto&  quello che abbiamo come&  trasporto pubblico^1, ok!?/%%
+\E2* Senti^1, questo è tutto&  quello che abbiamo come&  trasporto pubblico^1, ok?!/%%
 * E allora?/%%
 COSA SONO QUEGLI&STRANI SUSSURRI?/
 \E5MI SA CHE DEVO&RIATTACCARE./%%
@@ -30691,7 +30691,7 @@ IO PROVEREI A&MANGIARLI./%%
 * Quando prendi confidenza&  con questa stanza.../
 \E9* Non hai nemmeno più&  bisogno di illuminare&  i funghi!/
 \E0* Voglio dire^1, il percorso&  al Villaggio Temmie non&  è mai illuminato qui./
-\E6* Ma perché mai vorresti&  andare là!?/%%
+\E6* Ma perché mai vorresti&  andare là?!/%%
 * Si trova a sud, nel&  caso volessi evitarlo./%%
 LANTERNE^1?&UHM^1, OK.../
 \E0PUOI MANGIARLE???/
@@ -30717,11 +30717,11 @@ FIORI DELL'ECO.../
 * Campi di fiori^1, che&  sussurrano i sogni e&  le speranze di tutti.../
 \E1* NGAHHHH!!^1!&* MI RIEMPIE DI&  FORZA!!!/%%
 * NGAHHHH!!/%%
-OGNI AREA DEV'ESSERE&MUNITA DI UN PONTE&PERICOLANTE./
+OGNI AREA DEVE&ESSERE MUNITA DI UN&PONTE PERICOLANTE./
 È IMPOSTO DAL&GOVERNO./
 OVVIAMENTE^1, RE&PACIOCCONE VORREBBE&DISIMPORLO./
-\E1MA PERCHÉ!!^1? NON&CI PENSA AI&BAMBINI!?/%%
-SPUNTONI^1. PONTI&PERICOLANTI^1. I PILASTRI&DELLA GIOVINEZZA./%%
+\E1MA PERCHÉ?^1!? NON&CI PENSA AI&BAMBINI?!/%%
+SPUNTONI^1. PONTI PE-&RICOLANTI^1. I PILASTRI&DELLA GIOVENTÙ./%%
 * Questa stanza...!/
 * Errore?/%%
 \E7* Quella era davvero&  una situazione tesa./
@@ -30736,16 +30736,16 @@ SPUNTONI^1. PONTI&PERICOLANTI^1. I PILASTRI&DELLA GIOVINEZZA./%%
 \E9* Anche se^1, chi potrebbe&  biasimarti per una fuga&  da morte certa...?/
 \E6* IO!!!^1!&* Sono ancora&  ASSOLUTAMENTE delusa!/
 \E1* È la cosa più&  CODARDA che tu&  abbia MAI fatto!/
-* Scusati con il tuo&  povero amico^1, ok^1,&  teppista!?/%%
-QUESTO È IL POSTO&PREFERITO DEL VECCHIO&CREATORE DI PUZZLE./
+* Scusati con il tuo&  povero amico^1, ok^1,&  teppista?!/%%
+QUI È DOVE IL&VECCHIO ROMPICA-&PISTA AMA STARE./
 SPINGERE BLOCCHI^1.&RACCOGLIERE CHIAVI^1.&UNA NOIA ATROCE./
 È IMPORTANTE IL&RISPETTO PER LE&NOSTRE ORIGINI!/%%
-ED È IMPORTANTE&ONORARE LE ORIGINI&DEI NOSTRI PUZZLE./
+ED È IMPORTANTE&ONORARE LE NOSTRE&ORIGINI ROMPICAPOSE./
 * Sì^1, qualcun altro&  dovrà pensarci, purché&  che non debba farlo io!/
 MA UNDYNE^1, NON TI&PIACCIONO LE&TRADIZIONI?/
 * Ho lavorato in un&  ufficio spingendo&  blocchi per un mese!/
-\E9* La vita aziendale ha&  esaurito la mia stima per&  i puzzle con i blocchi./
-COSA!^1? HAI LASCIATO&IL SOGNO DELLA&MIA VITA!!!/
+\E9* La vita aziendale mi&  ha fatto perdere la&  stima per quei puzzle./
+COSA?^1! HAI LASCIATO&IL SOGNO DELLA&MIA VITA!!!/
 \E2LA VITA DI&UN SEMPLICE&IMPIEGATO.../
 PENDOLARE TUTTI I&GIORNI SU UN TRENO&PIENO DI PUNTE.../
 * (Non gli dirò&  che non è così&  che funziona...)/%%
@@ -30757,16 +30757,16 @@ QUELLA È LA&SPORGENZA DRAMMA-&TICA DI UNDYNE./
 \E0LE PIACE POSARE&SOPRA DI ESSA./
 \E3MORMORANDO COSE&TRA SÉ E SÉ.../%%
 CREDO SIA QUALCOSA&CHE VUOLE IMPARARE&A MEMORIA./%%
-* Oh mio DIO!!^1!&* Questa stanza non era&  forse la MIGLIORE!?/
+* Oh mio DIO!!^1!&* Questa stanza non era&  forse la MIGLIORE?!/
 \E3* Come quando ho deciso&  di NON fare quel&  NOIOSO monologo.../
-\E6* E ho poi deciso di&  improvvisare&  COMPLETAMENTE!?/
+\E6* E ho poi deciso di&  improvvisare&  COMPLETAMENTE?!/
 \E2* O quando ti ho quasi&  ucciso con le&  lance???/
 \E3* O quando ti ho quasi&  ucciso con ALTRE&  lance???/
 \E9* Ah, cavolo^1.&* Avrei dovuto fare&  delle foto./
 \E8* Pensa a come sarebbe&  carino un piccolo&  album fotografico.../
 ADESSO VOGLIO UN&ALBUM ANCHE PER IL&MIO COMBATTIMENTO!!/
 * Avviamo un'agenzia&  fotografica per i&  combattimenti dei boss!/
-UNA SETTIMANA DOPO^1,&DELLE COPIE LAMINATE&NELLA POSTA./
+COPIE LAMINATE&SPEDITE DOPO&UNA SETTIMANA./
 * E rivivere i ricordi.../%%
 * Improvvisare..^1.&* Anche perché io...&* Uh./
 \E9* Avevo completamente&  scordato le parole del&  monologo^1, del resto.../%%
@@ -30777,9 +30777,9 @@ EHI..^1. MA NON&È IL POSTO DOVE TI&HO CHIAMATO?/
 * Qui è dove ti stavo&  inseguendo.../
 \E1* Ma qualcuno ti ha&  telefonato^1, quindi ho&  dovuto aspettare./
 OH^1!&SONO STATO IO!/
-* Cosa!^1?&* E per cosa avresti&  chiamato!?/
-STAVO SOLO DICENDO&CHE SAREMMO DOVUTI&USCIRE TUTTI INSIEME./
-* Mentre cercavo&  di porre fine alla&  sua vita!?/
+* Cosa?^1!&* E per cosa avresti&  chiamato?!/
+VOLEVO DIRTI CHE&SAREMMO DOVUTI U-&SCIRE TUTTI INSIEME./
+* Mentre cercavo&  di porre fine alla&  sua vita?!/
 BEH!^1!&NON SI PARTE MAI&COME GRANDI AMICI!/%%
 * Non si parte mai&  come grandi amici^1, eh?/
 È LA REGOLA./
@@ -30792,7 +30792,7 @@ FINALMENTE^1, SANS FA&IL SUO LAVORO./%%
 \E1* Non posso credere che&  il fratello di Papyrus&  stesse dormendo!!/
 \E2* Contavo su di lui&  per fermarti!^1!&* UrrrrgHHHH!!!/
 È VERAMENTE FUORI&FORMA^1. SI STANCA&FACILMENTE./
-ULTIMAMENTE FACEVA&PISOLINI DI OLTRE&SETTE ORE A NOTTE.../
+ULTIMAMENTE FA&PISOLINI DI OLTRE&7 ORE A NOTTE.../
 \E1SE CONTINUA COSÌ&SONNECCHIERÀ FINO&ALLA MORTE!!/
 * Sono d'accordo!^1!&* Tuo fratello ha&  bisogno di...!/
 \E9* ... aspetta^1, quello non&  si chiama dormire e&  basta?/
@@ -30800,7 +30800,7 @@ UNDYNE!^1! NO!!^1!&NON ANCHE TU!!!/%%
 * Aspetta^1. Papyrus..^1.&* TU quando dormi?/
 \E3DI SOLITO SONO&TROPPO IMPEGNATO&PER FARLO^1. PERCHÉ???/
 * Beh^1, stavo solo&  pensando.../
-\E6* Se non usi quel&  letto-automobile fico^1,&  posso averlo io!?/%%
+\E6* Se non usi quel&  letto-automobile fico^1,&  posso averlo io?!/%%
 UN DISTRIBUTORE DI&ACQUA FREDDA...^1? A&ROVENTERRA?? MAH./
 \E0NON DOVREBBE ES-&SERCI INVECE UN DIS-&TRIBUTORE DI FUOCO?/%%
 \E3COSA FA POI UN&DISTRIBUTORE DI&ACQUA FREDDA?/
@@ -30815,21 +30815,21 @@ UN DISTRIBUTORE DI&ACQUA FREDDA...^1? A&ROVENTERRA?? MAH./
 UN LABORATORIO??^1?&MIO FRATELLO LO&ADOREREBBE!/
 È UN APPASSIONATO&DI FANTASCIENZA!!/
 SOPRATTUTTO&QUANDO È REALE./%%
-ASPETTA^1, QUELLA&BUSTA DI CIBO PER&CANI MI È FAMILIARE.../
+ASPETTA^1, MI RICORDO&QUELLA BUSTA DI&CIBO PER CANI.../
 MI SEMBRA DI AVERLA&VISTA..^1. NELLA&STANZA DI SANS?/
 \E1AH, GIUSTO^1! GLI HO&CHIESTO PERCHÉ CE&L'AVESSE!/
 \E0MI HA DETTO CHE&STAVA CERCANDO DI&MANGIARE PIÙ SANO./%%
 * Sei al laboratorio di&  Alphys^1?&* Lei si trova lì...?/
-\E1* Ehi^1, salutala da&  parte mia^1, ok!?/
+\E1* Ehi^1, salutala da&  parte mia^1, ok?!/
 \E2* E^1 fammi sapere&  come sta!/
 \E9* E fammi sapere&  se le servisse&  qualcosa^1, e.../
 \E1* Aspetta^1! No^1!&* Non chiederle niente&  di tutto ciò!!!/%%
-* Ma lei sta bene^1,&  giusto!?/%%
+* Ma lei sta bene^1,&  giusto?!/%%
 * (Ci sono delle strane&  interferenze...)/%%
 \E2SEI IN CAMERA SUA^1,&SENZA INVITO^1?&CAVOLI.../
 \E3È UNA COSA&ABBASTANZA&INQUIETANTE./%%
 NON FARLO,&MAGARI./%%
-* Cosa!^1?&* Sei in camera sua!?/
+* Cosa?^1!&* Sei in camera sua?!/
 \E2* Esci subito da lì!/
 \E9* A meno che^1, uhm^1, non&  ti abbia invitato lei.../
 \E2* Maccheeè!!^1!&* Non PUÒ averlo fatto!/%%
@@ -30861,7 +30861,7 @@ PER FORTUNA CHE NON&VIVO A ROVENTERRA./%%
 \E1* Ho compreso in&  fretta che mi&  fanno sentir male./
 HAI VOMITATO??/
 * Sì^1, tipo 9000&  volte!^1!&* È stato fantastico!!/%%
-SMETTILA DI CHIAMARE&E FARLE DIRE COSE&DISGUSTOSE./%%
+SMETTILA DI CHIAMA-&RE E FARLE DIRE&COSE DISGUSTOSE./%%
 SBOCCHI PER IL&VAPORE^1? WOW..^1. CHE&COSA ORRIBILE./
 \E1E SE STESSI&INDOSSANDO&UNA GONNA?/%%
 PER FORTUNA CHE NON&VIVO A ROVENTERRA!!/%%
@@ -30869,22 +30869,22 @@ PER FORTUNA CHE NON&VIVO A ROVENTERRA!!/%%
 * Il NUCLEO si raffredda&  emettendo vapore&  da quelle cose.../
 \E9* E allo stesso tempo^1,&  fa anche da mezzo&  di trasporto!/
 \E6* Molto divertente^1, se&  non stai indossando&  una gonna!/%%
-* Uh!^1?&* Hai messo una&  gonna?/%%
+* Uh?^1!&* Hai messo una&  gonna?/%%
 LASER BLU E&ARANCIONI^1, EH?/
 \E3TIENI SOLO A MENTE&CHE COSA SIGNIFICA-&NO I COLORI./
 \E0BLU VUOL DIRE&SALTA.../
 \E3E ARANCIONE VUOL&DIRE..^1. CHE PROFU-&MERAI DI ARANCE./
 \E0QUESTO È QUELLO&CHE RICORDO./%%
 BEH, DIVERTITI!!/%%
-* Cosa!^1? Perché mai&  avrei dovuto chiamare&  Alphys per il meteo?/
-\E3* Chi se ne FREGA!?!^1?&* Non è naturale&  amare la meteorologia!?/
+* Cosa?^1! Perché mai&  avrei dovuto chiamare&  Alphys per il meteo?/
+\E3* Chi se ne FREGA?!?^1!&* Non è naturale&  amare la meteorologia?!/
 CAPPERI!!!/
 \E3PENSAVO FOSSE&SOLO UNA SCUSA&PER PARLARLE./
 NON SAPEVO&CHE CI FOSSE UN&CLIMA QUAGGIÙ!!!/
-\E1* SÌ!?!^1!&* C'È?!!?!/
+\E1* SÌ?!?^1!&* C'È?!?!?/
 \E2* E prevedo un&  temporale di&  CHIUDI IL BECCO!!!/
 CAVOLI!!^1!&MI SERVIRÀ&UN OMBRELLO?/%%
-* Cosa!^1?&* Che VUOI da questa&  stanza!?/%%
+* Cosa?^1!&* Che VUOI da questa&  stanza?!/%%
 * Oh^1, Papyrus^1.&* Non posso rimanere&  arrabbiata con te./
 VA BENE COSÌ^1,&TI PERDONO!/
 \E3(PSST^1, QUAND'È CHE&SI È ARRABBIATA?)/%%
@@ -30895,25 +30895,25 @@ MENO MALE&CHE NON VIVO&A ROVENTERRA!!/%%
 * Uh^1?&* Quei ragazzini stanno&  saltando la scuola?/
 \E6* ... beh^1, non posso&  dargli torto^1, la&  scuola fa schifo!/
 \E4* Dovremmo trovare un&  modo per renderla&  più divertente.../
-\E2* Ehi^1, e se io&  visitassi la&  loro scuola!?/
+\E2* Ehi^1, e se io&  visitassi la&  loro scuola?!/
 \E6* Così potrei picchiare&  TUTTI gli insegnanti!/%%
 * Ok^1, forse non&  picchierei un&  insegnante.../%%
-OH NO^1!&LA RIATTIVAZIONE DEI&PUZZLE.../
-\E3HA IMPEDITO A QUEL-&LE PERSONE DI TOR-&NARE AL LAVORO!?/
+OH NO^1!&LA RIATTIVAZIONE DEI&ROMPICAPI.../
+\E3HA IMPEDITO A QUEL-&LE PERSONE DI TOR-&NARE AL LAVORO?!/
 * già./
 \E1* è la ragione per cui&  anche io non sono a&  lavoro./
 OH MIO DIO!!^1!&SANS^1, VAI A&LAVORARE!!!/%%
 MENO MALE^1,&CHE NON VIVO&A ROVENTERRA./
-E ALLORA PERCHÉ&STAI SALTANDO IL&LAVORO!?!/%%
+E ALLORA PERCHÉ&STAI SALTANDO IL&LAVORO?!?/%%
 HO SENTITO CHE&HAI CONOSCIUTO&METTATON!!/
-\E0È VERO!^1?&PUOI FARTI FARE UN&AUTOGRAFO PER ME!?/
+\E0È VERO?^1!&PUOI FARTI FARE UN&AUTOGRAFO PER ME?!/
 \E2È IL MIO&RETTANGOLO SEXY&PREFERITO!!/%%
 AVREI VOLUTO VIVERE&A ROVENTERRA!!!/%%
 * Davvero^1? Occhio^1, quel&  tizio mi dà una&  brutta sensazione./
 C-COSA^1?&MA È COSÌ&POPOLARE.../
 * Non apprezzo le&  persone solo perché&  sono popolari./
 BEH^1, TU PUOI&DIRLO PERCHÉ&SEI POPOLARE./
-* Pssshhht^1, cosa!^1?&* Popolare per CHI?/
+* Pssshhht^1, cosa?^1!&* Popolare per CHI?/
 SEI POPOLARE&PER ME!!!/
 * Awww..^1.&* Papyrus^1, anche tu sei&  popolare per me./
 AWW^1, CAVOLI!^1!&ASPETTA.../
@@ -30926,13 +30926,13 @@ MIO FRATELLO È UN&VERO MAESTRO./%%
 NON HO ALTRI&COMMENTI./%%
 * Cosa^1?&* Pensavo avesse&  solo tre chioschi./
 NO^1, NE HA..^1.&ALMENO QUATTRO?/
-* Chi diamine continua ad&  assumere questo tizio!?/%%
+* Chi diamine continua ad&  assumere questo tizio?!/%%
 * Davvero!!/%%
 MIO FRATELLO NON SI&TROVA NEMMENO LÌ???/
 \E1NON STAVA PERDENDO&TEMPO VENDENDO&PANINI?/
 \E3ADESSO STA&PERDENDO TEMPO DAL&PERDERE TEMPO.../
-COSA^1? DEVI FARE UN&PUZZLE SUI NASTRI&TRASPORTATORI?/
-\E3MA QUESTO È CONTRO&LE BASI DEL DESIGN&DI PUZZLE.../
+COSA^1? DEVI FARE UN&ROMPICAPO SUI NAS-&TRI TRASPORTATORI?/
+\E3MA QUESTO È CONTRO&LE BASI DEL DESIGN&DI ROMPICAPI.../
 \E4I NASTRI TRASPORTA-&TORI SONO ORRIBILI E&NON VANNO USATI!!!/%%
 FELICE DI NON VIVERE&SUL MONDO DEI NAS-&TRI TRASPORTATORI!!!/%%
 * Ehi^1, ti ho mai parlato&  della MIA idea per un&  puzzle con quei nastri?/
@@ -30942,22 +30942,22 @@ CHE... COS'È?/
 \E6* E poi devi vomitare&  in tutti e quattro i&  canestri di fila!!!/
 LO ODIO./
 * Devi sincronizzare&  le vomitate!!!/%%
-* Mamma mia!!^1!&* Vi dico altro sulla&  mia grandiosa idea!?/
+* Mamma mia!!^1!&* Vi dico altro sulla&  mia grandiosa idea?!/
 STO PER&RIATTACCARE!!!/%%
 QUINDI LE FRECCE&RUOTANO QUANDO&FAI COSA?/
-NON RIESCO AD&IMMAGINARMI AFFATTO&QUESTO PUZZLE./
+NON RIESCO AD&IMMAGINARMI AFFATTO&QUESTO ROMPICAPO./
 \E0NON È CHE POTRESTI&FARMI UN DISEGNO???/
 \E3E POI ATTACCARLO&AL RICEVITORE??/%%
 L'HAI GIÀ DISEGNATO?/%%
-EH^1? COM'È CHE&FUNZIONA QUESTO&PUZZLE^1? UMMM.../
+EH^1? COM'È CHE&FUNZIONA QUESTO&ROMPICAPO^1? UMMM.../
 \E0OOPS^1, CREDO SIA&IL TURNO DI UNDYNE&PER PARLARE!!!/
-\E1* Cosa!^1?&* No^1, io ODIO i puzzle^1!&* Papyrus^1, pensaci TU!/
-BEH^1, ALPHYS HA&FATTO IL PUZZLE^1,&GIUSTO?/
+\E1* Cosa?^1!&* No^1, io ODIO i puzzle^1!&* Papyrus^1, pensaci TU!/
+BEH^1, ALPHYS HA&FATTO IL ROMPICAPO^1,&GIUSTO?/
 \E0TI BASTEREBBE&CHIAMARLA.../
 \E2E DIRE CON VOCE&SENSUALE.../
 ALPHYS..^1.&MI SERVE AIUTO&CON UN.../
 (AMMICCATA UDIBILE)/
-\E2PUZZLE.../
+\E2ROMPICAPO.../
 * Oh mio DIO^1!&* NO^1!&* Sta' zitto!!!/
 E VA BENE!!^1!&DAMMI IL SUO&NUMERO!!!/
 \E0FARÒ IO LA&VOCE SENSUALE!!!/
@@ -30981,9 +30981,9 @@ BOOM-WOWIE!/%%
 \E8* È quasi tenero.../
 \E1* ... Voglio dire^1, uh.../
 \E2* Sono tosta!!^1!&* Amo mangiare rocce!!/%%
-* Che c'è!?!?/%%
+* Che c'è?!?!/%%
 IL NUCLEO..^1.&TI STAI&AVVICINANDO^1, UH...?/
-* Cosa!^1?&* No^1, siamo appena&  diventati amici!!/
+* Cosa?^1!&* No^1, siamo appena&  diventati amici!!/
 \E4* Non possiamo ancora&  essere così vicini.../%%
 * Cosa?/%%
 POTREBBE SEMBRARE&STRANO CHE AI RAGNI&SERVANO DONAZIONI./
@@ -30993,31 +30993,31 @@ POTREBBE SEMBRARE&STRANO CHE AI RAGNI&SERVANO DONAZIONI./
 RIFLETTI SU QUESTA&IMMAGINE./%%
 OM.../%%
 TUTTA LA STANZA&È PIENA DI QUELLE&ROBE COL VAPORE?/
-\E1SANTO CIELO^1, NON&POTRESTI PRENDERE UN&AUTOBUS E BASTA!?!/
+\E1SANTO CIELO^1, NON&POTRESTI PRENDERE UN&AUTOBUS E BASTA?!?/
 \E3ROVENTERRA FA&SCHIFO.../%%
 NON DIRMI ALTRO&DI TUTTA QUESTA&SCHIFEZZA./%%
 UN'INTERA STANZA&RICOPERTA DI SFIATI^1?&OH NO.../
 * Ehi^1, ti ho mai&  parlato della mia&  idea per un puzzle?/
 * Un labirinto pieno&  di sfoghi di vapore.../
 \E2* Ma che si trovano&  su nastri trasportatori^1,&  e.../
-OH MIO DIO!!^1!&LO ODIO!?!?/%%
+OH MIO DIO!!^1!&LO ODIO?!?!/%%
 È MEGLIO SE NON&LA INCORAGGI./%%
 LASER SUI NASTRI&TRASPORTATORI^1?&NO GRAZIE./
 SAREBBE IL PIÙ&SGRADEVOLE&DEI MIEI INCUBI./%%
-DEI LASER SUI&NASTRI TRASPORTATORI^1?&SUL SERIO???/
+LASER SUI NASTRI&TRASPORTATORI^1?&SUL SERIO???/
 * Ehi^1, ciò mi fa venire&  in mente un'idea per&  un puzzle./
 OH MIO DIO??^1?&NO??^1?&PERCHÉ????/
-PENSAVO CHE&ODIASSI CREARE&PUZZLE!!/
+PENSAVO CHE&ODIASSI CREARE&ROMPICAPI!!/
 * Sì^1, ma adoro&  farti impazzire!/%%
 PER FAVORE,&SMETTILA DI&INCORAGGIARLA./%%
 E QUEL TAVOLO DA&DOVE SPUNTA?/
 \E0APPARTIENE FORSE&AL TOPO??/%%
 EH???/%%
-* Da dove provengonono&  tutti questi tavoli?/
+* Da dove provengono&  tutti questi tavoli?/
 FORSE APPARTENGONO&AL TOPO./
 * Cosa se ne farebbe&  un topo di un tavolo?/
 PER METTERCI&IL FORMAGGIO./
-* Ma da dove proviene&  il formaggio!?/
+* Ma da dove proviene&  il formaggio?!/
 * non proviene&  dal latte?/
 OH MIO DIO!!^1!&BASTA,&VATTENE!!!/%%
 ASPETTA^1, PROVIENE&DAL LATTE??/%%
@@ -31036,10 +31036,10 @@ CHE?&UN BELATO?/
 BBE^1EEE^1EEH^1HH./
 È UNA PECORA CON&UN BELATO MOLTO&LENTO./%%
 BEH?/%%
-* COSA!^1?&* GR01 e GR02 stanno&  battendo la fiacca?!/
+* COSA?^1!&* GR01 e GR02 stanno&  battendo la fiacca?!/
 \E2* Oh ANDIAMO^1!&* Dovrebbero stare ad&  UCCIDERTI adesso!/
 \E9* Non che io lo&  voglia^1, intendo./
-\E6* Ma potrebbero almeno&  PROVARCI^1, no!?/%%
+\E6* Ma potrebbero almeno&  PROVARCI^1, no?!/%%
 * Oh già^1,&  dimenticavo./
 * Ho detto a GR01 e GR02&  che se fossero riusciti&  a beccarti.../
 \E9* Li avrei portati&  a prendere un gelato./
@@ -31056,10 +31056,10 @@ SÌ!^1!&ANDIAMO IN VACANZA&IN UN HOTEL!!!/%%
 * Beh^1, forse andremmo&  anche in posti diversi&  dall'hotel^1, direi.../
 OH^1, ERO&SARCASTICO./
 \E0NON ANDREI MAI&IN VACANZA PER&NESSUNA RAGIONE./%%
-UN RISTORANTE&LUSSUOSO&SCICCOSO!?!?/
+UN RISTORANTE&LUSSUOSO&SCICCOSO?!?!/
 \E2DOPO AVER PROVATO&LA MIA CUCINA^1, NON&AVREBBE SENSO^1, NO?/%%
 SCOMMETTO CHE NON&SANNO NEMMENO FARE&GLI SPAGHETTI!/%%
-* Woah!^1!&* Un ristorante di lusso!?/
+* Woah!^1!&* Un ristorante di lusso?!/
 \E6* Ci offri qualcosa^1?&* Ce l'hanno la bistecca?/
 PFFFFFFT./
 \E0E A CHI SERVE!&I TUOI AMICI SONO&GRANDI CUOCHI!/
@@ -31077,9 +31077,9 @@ OCCHIO^1. SO CHE&QUELL'HOTEL HA UN&PROBLEMA DI CANI./
 NON PARLO DI&ANIMALI DOMESTICI./
 * Qual è il problema?/
 IL PROBLEMA È..^1.&IL CANE./
-* Cosa c'è che non va&  con i cani!?/
+* Cosa c'è che non va&  con i cani?!/
 NON TUTTI I CANI^1.&SOLO QUELLO./
-* Cosa ha che NON VA&  quello!?/
+* Cosa ha che NON VA&  quello?!/
 TUTTO./%%
 * Quindi odi questo cane^1,&  ma ti piacciono degli&  strani fiori parlanti?/
 IL FIORE È&MIO AMICO!/
@@ -31090,7 +31090,7 @@ F.../
 \E3FIORELLO?/
 * Oh mio DIO!!^1!&* Te lo sei appena&  inventato!!/
 OK^1, È VERO!^1!&MA LUI È REALE!!/%%
-HAI UNA TUA STANZA&PERSONALE!?/
+HAI UNA TUA STANZA&PERSONALE?!/
 \E3... PERCHÉ?/
 \E0IL MIO GARAGE È&SEMPRE APERTO&PER TE!!/%%
 ED IL PREZZO È&GIUSTO!!/%%
@@ -31100,7 +31100,7 @@ ED IL PREZZO È&GIUSTO!!/%%
 * Nah^1, tipo "prendi a&  cuscinate lo scheletro!"/
 E-EHI!!^1!&NON I CUSCINI&DEL DIVANO!/
 * Aww^1, va bene./
-EHI!!^1!&NON TUTTO IL DIVANO!!/
+EHI!!^1!&NON TUTTO&IL DIVANO!!/
 * Troppo tardi!!!/%%
 EHI^1, NON MI HAI&COLPITO CON TUTTO&IL MIO DIVANO./
 * Nah^1, perché avrei&  dovuto?/
@@ -31109,7 +31109,7 @@ L'ASCENSORE&DICE S1./
 \E3MA PER COSA STA&QUELLA S^1?&SPAGHETTI?/
 \E0SPAGHETTI^1.&LA MIGLIORE PASTA./
 CI PUOI PERSINO&CHIUDERE I REGALI./%%
-SE SONO PIATTI AB-&BASTANZA CI PUOI FA-&RE ANCHE UN FIOCCO./%%
+SE SONO ABBASTANZA&PIATTI CI PUOI FARE&ANCHE UN FIOCCO./%%
 \E0L'ASCENSORE&DICE S1./
 \E3MA PER COSA&STA QUELLA S?/
 \E0* Andiamo^1, Papyrus^1.&* Pensaci./
@@ -31120,7 +31120,7 @@ SI SCRIVE DAVVERO&IN QUEL MODO&ASCENSORE?/
 \E3MA PER COSA STA&QUELLA D^1?&DATTERI?/
 \E0DATTERI..^1.&MI HANNO DETTO CHE&SONO FRUTTI ESOTICI./
 MA A ME NON&SEMBRANO AFFATTO&DEGLI ZOTICI./%%
-ANZI, MANGIARLI&MI FA SENTIRE RAF-&FINATO. DICO DATTÉRO!/%%
+ANZI, MANGIARLI&MI FA SENTIRE&DATTÉRO RAFFINATO!/%%
 \E0L'ASCENSORE&DICE D1./
 \E3MA PER COSA&STARÀ QUELLA D?/
 \E6* Vuol dire DORATO^1,&  perché è il colore&  delle luci!/%%
@@ -31140,7 +31140,7 @@ ASPETTA^1.&MA NON SONO&DUE PAROLE?/
 * smeraldo pastello chiaro./
 TRE NON RISOLVE&IL PROBLEMA!/%%
 * smeraldo pastello&  marino chiaro./
-MA NON STARESTI&LAVORANDO NELLA&STANZA ACCANTO!?/%%
+MA NON STARESTI&LAVORANDO NELLA&STANZA ACCANTO?!/%%
 L'ASCENSORE&DICE S2./
 \E3MA PER COSA STA&QUELLA S^1?&SPIEDINI?/
 \E3SPERO DI NO^1.&È DA TEMPO CHE NON&FACCIO PIÙ SPIEDINI./
@@ -31150,17 +31150,17 @@ POI SI RANNICCHIA&IN UNA PICCOLA&SCATOLA BLU./
 SI COPRE CON UN&LENZUOLO^1,&E DORME.../%%
 \E2* OK^1, OK^1.&* Ci sono./
 \E9* La S sta per il&  color "Salvia"./
-\E0DAVVERO!?/
+\E0DAVVERO?!/
 \E3DETESTO LA SALVIA./
-\E1* Come!^1? La salvia&  è forte!^1! Ne mangio&  in continuazione!!/
+\E1* Come?^1! La salvia&  è forte!^1! Ne mangio&  in continuazione!!/
 \E3BEH^1, UNA VOLTA&STAVO FACENDO UNA&CURA DI BELLEZZA./
 \E0E MI SONO MESSO&LA SALVIA SUGLI&OCCHI^1, COME IN TV./
-\E1MA DÀ FASTIDIO!^1!&COME FANNO!?/
+\E1MA DÀ FASTIDIO!^1!&COME FANNO?!/
 \E6* Oh mio dio^1!&* Quella non è SALVIA^1!&* Quelli sono CETRIOLI!/%%
 \E3PENSAVO AVREBBE&DOVUTO ESSERE&RINGIOVANENTE./
 \E1MA NON STAVA&FUNZIONANDO!/
 \E5QUINDI HO MESSO&ALTRA SALVIA&SUI MIEI OCCHI./
-\E1* Che schifo!^1!&* E perché mai&  l'hai fatto!?/
+\E1* Che schifo!^1!&* E perché mai&  l'hai fatto?!/
 \E2VOLEVO SOLO AVE-&RE DEI BELLISSIMI&OCCHI DA MANGA./
 COME METTATON..^1.&SIGH.../
 * (Ma se gli occhi&  nemmeno ce LI HA!!!)/%%
@@ -31173,7 +31173,7 @@ EHI!^1!&FORSE TE NE DARÀ &UN PO'!/%%
 \E0FORSE DOVREMMO&PENSARE IN&MANIERA ASTRATTA./
 \E3FORSE LA S&STA PER.../
 \E2SENTIMENTI./
-\E2* Ma il sentimento&  non dovrebbe essere&  ROSSO FUOCO!?/
+\E2* Ma il sentimento&  non dovrebbe essere&  ROSSO FUOCO?!/
 \E9* Come un cuore&  umano stilizzato?/
 \E3MA UNDYNE^1, TU NON&LI FAI DIVENTARE&VERDI I CUORI?/
 \E9* Detto così sembra&  che faccia venire la&  nausea alle persone./
@@ -31183,7 +31183,7 @@ EHI!^1!&FORSE TE NE DARÀ &UN PO'!/%%
 \E3UN CUORE CHE&UNDYNE HA&NAUSEATO?/%%
 L'ASCENSORE&DICE D3./
 \E3MA PER COSA STA&QUELLA D^1?&...DENTICE? /
-MI RENDO CONTO&CHE CI SONO DAVVERO&POCHI CIBI CON LA D./
+SONO DAVVERO POCHI&I CIBI CON LA D./
 O FORSE SONO&IO CHE HO POCA&FANTASIA./%%
 PER FORTUNA CHE&NON FACCIO IL&TRADUTTORE!/%%
 \E3ASPETTA^1.&E SE "D" E "S"./
@@ -31209,7 +31209,7 @@ SCHELFICO95./
 (RISCHI DI RIVELARE&IL MIO ALTER-EGO&ONLINE SEGRETO!)/%%
 * E va BENE allora^1!&* Io non sono Undyne!/
 \E2* Io sono...&* PesceTosto91!/
-COOSA!^1?&DAVVERO!^1?&OH NO!!!/
+COOSA?^1!&DAVVERO?^1!&OH NO!!!/
 PESCETOSTO!^1!&TI PREGO, RIDAMMI LA&MIA AMICA UNDYNE!/
 * Uh^1, OK./%%
 UN GREMBIULE&A ROVENTERRA^1?&HA SENSO./
@@ -31218,10 +31218,10 @@ A MENO CHE TU NON&CUCINI UN&GHIACCIOLO./%%
 \E3* Sì^1, cucinare è&  senza dubbio di&  elemento fuoco!/
 \E3A MENO CHE TU NON&CUCINI UN&GHIACCIOLO./
 \E9* Non lo chiamerei&  "cucinare" con&  i ghiaccioli...?/
-\E5È COSÌ CHE L'HAI&CHIAMATO L'ULTIMA&VOLTA CHE NOI^1, UH.../
+\E5È COSÌ CHE L'HAI&CHIAMATO L'ULTIMA&VOLTA CHE^1, EHM.../
 * Oh DIAMINE^1, l'avevo&  quasi dimenticato^1!&* Che macello!/%%
 * C'è voluta una vita&  per lavare via tutto./%%
-\E0WOW^1! L'HO VISTO^1!&IL PUZZLE CON I&PANNELLI COLORATI!/
+\E0WOW^1! L'HO VISTO^1!&IL ROMPICAPO COI&PANNELLI COLORATI!/
 \E2L'HAI COMPLETATO!^1!&LE MIE ISTRUZIONI&TI HANNO AIUTATO!!/
 SONO BRAVO&A SPIEGARE!/
 \E3SEMBRA CHE TU NON&CE L'ABBIA FATTA A&COMPLETARLO./
@@ -31245,12 +31245,12 @@ SMETTILA^1!&NON SERVE&DIRMI ADDIO!/%%
 \E3COME FARAI SENZA&DI NOI...?/
 * Hai qualcosa che&  devi fare^1,&  giusto...?/
 * Beh.../
-\E9* Anche senza parole^1,&  noi saremo con te&  con lo spirito^1, ok!?/
+\E9* Anche senza parole^1,&  noi saremo con te&  con lo spirito^1, ok?!/
 \E0VERO^1! NON PUOI&LIBERARTI DI NOI!/
 \E9* Contiamo su di te^1,&  quindi non fare&  sciocchezze!/%%
 * Non ti diciamo&  addio, non&  ancora!/%%
 \E0UN POSTER PER LO&SHOW DI METTATON?/
-CHE BELLO^1.&VOGLIO UN POSTER&PER I MIEI PUZZLE!/
+CHE BELLO^1. VOGLIO&UN POSTER PER I&MIEI ROMPICAPI!/
 \E3E MAGARI QUALCHE&BAND D'APERTURA./%%
 POTREBBERO SUONARE&LA MIA COLONNA&SONORA!/
 \E3DEVO SOLO FARMI&UNA COLONNA&SONORA./%%
@@ -31271,7 +31271,7 @@ COME UN ARROSTO&MA SOLO CON OSSA./%%
 SOLO PER CURIOSITÀ./%%
 \E0EHI^1, UNDYNE^1.&MA I RAGNI USANO&LE TELE-CINESI?/
 \E9* No^1, i maghi usano&  la telecinesi./
-I MAGHI SANNO&FARE LE TELE!?/
+I MAGHI SANNO&FARE LE TELE?!/
 * Certo^1, i maghi producono&  tele in continuazione.&  Non lo sapevi?/
 \E3* Poi le vendono e la&  gente ci dipinge sopra&  con i colori ad olio./
 METTONO L'OLIO&SULLE TELE?/
@@ -31284,8 +31284,8 @@ OVVIAMENTE!/
 * (Il segnale è intasato&  dalle ragnatele...)/%%
 HO SENTITO CHE&CI SONO DUE GRUPPI&DI RAGNI./
 UNO A ROVENTERRA^1,&E UNO NELLE ROVINE./
-\E3DATO CHE NON POS-&SONO PASSARE IL&GELO DI NEVISCHIO.../
-GLI SERVIREBBE UN&QUALCHE TIPO DI&TRASPORTO./
+\E3DATO CHE NEVISCHIO&È TROPPO FREDDA&PER LORO.../
+GLI SERVIREBBE UN&QUALCHE MEZZO DI&TRASPORTO./
 \E0TIPO UN TANDEM&CON OTTO RUOTE./%%
 O UN MONOCICLO&CON OTTO RUOTE!/%%
 MI CHIEDO SE TRA&I MIEI FAN ONLINE&CI SIANO DEI RAGNI./
@@ -31318,7 +31318,7 @@ UH OH!!!/
 * Non devi dirlo per&  forza^1, Papyrus./
 FORSE SONO UN&BEBÈ CHE AMA&CARTONI PER BAMBINI!/
 * NON DEVI DIRLO PER&  FORZA^1, PAPYRUS!!/%%
-* Cosa!^1?&* Le Guardie Reali&  bloccano il passaggio!?/
+* Cosa?^1!&* Le Guardie Reali&  bloccano il passaggio?!/
 \E2* Allora dirò loro&  di...!/
 \E4* Beh^1, niente^1,&  immagino./
 \E2* Gli ho già detto&  di cercarti e&  distruggerti!/
@@ -31479,7 +31479,7 @@ save_menu_saved
 title_press_button_pc
 [PREMI UN TASTO]
 title_press_button_console
- --- istruzioni ---
+ --- Istruzioni ---
 [Z o INVIO]
 instructions_confirm_key
 Conferma
@@ -31631,7 +31631,7 @@ ITALIANO
 settings_language_en
 GIAPPONESE
 settings_language_ja
-BUTTON CONFIG
+CONFIG TASTI
 settings_button
 CONFERMA
 settings_button_confirm
@@ -31776,7 +31776,7 @@ FILE \[1] CARICATO
 flowey_load
 CARICAMENTO FALLITO
 flowey_load_failed
-HAHAHAHAHAHAHAHAHAHAHAHAHA
+AHAHAHAHAHAHAHAHAHAHAHAHAH
 flowey_haha
 Ce la#puoi#fare!
 obj_bringitinguys_298
@@ -31951,7 +31951,7 @@ TSUNDAEREO
 castroll_name_tsunderplane
 Nuova Studentessa#Della Scuola
 castroll_white_tsunderplane
-Finalmente si dichiara#(Cosa!? Non è vero!!)
+Finalmente si dichiara#(Cosa?! Non è vero!!)
 castroll_yellow_tsunderplane
 PIROCORDA
 castroll_name_pyrope
@@ -32034,11 +32034,11 @@ Gigi DG#Chess#Clairevoire
 credits_short_195
 Arte Gen.
 credits_short_199
-Easynam (Tile Area 1)#Guzusuru (Asgore Spear Reveal)
+Easynam (Tile Area 1)#Guzusuru (Animazione Lancia di Asgore)
 credits_short_201
 Design di Mostri Aggiuntivi
 credits_short_205
-"Muffet" - Michelle Czajkowski#"Woshua" - Insprato da OMOCAT
+"Muffet" - Michelle Czajkowski#"Tilavo" - Inspirato da OMOCAT
 credits_short_207
 Photoshop#Flowey Battle Co-designer
 credits_short_219
@@ -32126,7 +32126,7 @@ Jenna Post
 credits_short_test_10
 Christopher Warriner
 credits_short_test_11
-Special Thanks
+Ringraziamenti Speciali
 credits_short_thanks_0
 Reid Young
 credits_short_thanks_1
@@ -32220,7 +32220,7 @@ mett_essay_prompt_console
 mett_essay_start
 TEMPO SCADUTO!!!
 mett_essay_timeup
-$ - \[O]O
+$ - \[G]G
 obj_golddisplay_42
 SPAZIO - \[1]/8
 obj_golddisplay_44
@@ -32231,13 +32231,13 @@ Esci
 Prendi
 Ruba
 Leggi
-\[1]O - \[2]
+\[1]G - \[2]
 shop_buy_list
 --- ESAURITO ---
 shop_buy_soldout
 Compralo per
 shop_buy_prompt1
-\[1]O ?
+\[1]G ?
 shop_buy_prompt2
 Prendilo.
 shop_take_prompt
@@ -32354,7 +32354,7 @@ Cura 14PS#Cibo molto#popolare.
 shop4_itemdesc_42
 Cura 27PS#Cibo molto#popolare.
 shop4_itemdesc_40
-Cura 40PS#Eroico Panino.#ATK SU in#battaglia.
+Cura 40PS#Eroico Panino.#ATT SU in#battaglia.
 shop4_itemdesc_43
 Cura 60PS#Non chiedere.#Per favore.
 shop4_itemdesc_61
@@ -32436,16 +32436,16 @@ NO!!!
 shop5_buy_no
 NO!
 shop5_sell_unsellable
-\[1]O
+\[1]G
 shop5_sell_price
 shop5_sell_separator
-(\[O] O)
+(\[G] G)
 shop5_sell_gold
 (grazie ACQUISTO)
 shop5_sell_sold
-tem compra \[1] per... \[2]O!!!
+tem compra \[1] per... \[2]G!!!
 shop5_sell_prompt
-OK!! TEM COMPRA \[1] PER \[2]O!!!
+OK!! TEM COMPRA \[1] PER \[2]G!!!
 shop5_sell_prompt_special
 yayA!
 shop5_sell_yes
@@ -32565,7 +32565,7 @@ item_use_2
 * Getti via il Bastone^1.&* Poi lo raccogli di nuovo./%
 * Lanci il Bastone^1.&* Ma non succede niente./%
 * Lanci il bastoncino e i&  cani lo corrono a prendere^1.&* Giochi con loro per un po'./%
-* Lanci il bastoncini e il&  cane corre a prenderlo^1.&* Ci giochi per un po'./%
+* Lanci il bastoncino e il&  cane corre a prenderlo^1.&* Ci giochi per un po'./%
 * Lanci il bastone.&* Papyrus lo riporta&  in bocca./%
 * Alzi il bastoncino.&* Madjick lo scambia per una&  bacchetta magica./%
 * Lanci il bastoncino.&* Mettaton lo prende al volo&  con la bocca e fa l'occhiolino./%
@@ -32579,7 +32579,7 @@ item_use_6
 * Hai mangiato la ciambella di&  ragni.
 item_use_7
 * Bella, umano!
-* Mangi la Stocipolla.
+* Mangi la Stoicipolla.
 item_use_8
 &* Non... non piangi.
 * Mangi la Sputtra.
@@ -32783,7 +32783,7 @@ scr_battlegroup_654
 * Disinnesca la palla da basket!
 * Disinnesca il regalo!
 * Disinnesca il gioco!
-* Tsundereo attacca!&* Ma mica perché è gelosa di&  come Vulcarina ti guarda!
+* Tsundaereo attacca!&* Ma mica perché è gelosa di&  come Vulcarina ti guarda!
 * Il raro e pericoloso&  Doppio Davis.
 * Una strana parata ti&  blocca il passaggio.
 * Mettaton EX fa la sua première!
@@ -32836,7 +32836,7 @@ obj_torielboss_240
 * Heh^1?&* "SUPERFICIE"^1?&* Che intendi?/
 * Io intendevo cosa c'è&  fuori questa stanza./
 * Se non lo avessi notato^1,&  il micelio mi tiene&  attaccato al terreno./
-* Per favore^1!* Persona sconosciuta!/
+* Per favore^1!* Persona&  sconosciuta!/
 * Te la semplifico./
 * Ho passato tutta la vita&  nello stesso punto^1,&  nella stessa stanza./
 * Ma ho sempre fantasticato&  su cosa ci fosse&  nella stanza a destra./
@@ -32895,13 +32895,13 @@ VEN
 obj_daygraph_5
 SAB
 obj_daygraph_6
-No Information
+Nessuna Info
 obj_titleimage_activity_0
-Activity Level A
+Attività Livello A
 obj_titleimage_activity_a
-Activity Level B
+Attività Livello B
 obj_titleimage_activity_b
-Activity Level C
+Attività Livello C
 obj_titleimage_activity_c
 M-ma non#ho mai#...!
 obj_tsunderplane_body_152
@@ -32940,7 +32940,7 @@ JN Wiedle
 castroll_jn_wiedle
 UNDYNE
 castroll_name_undyne
-Design by Toby#Armatura di Temmie#Aiuto stile:#JN Wiedle & Gigi DG
+Design di Toby#Armatura di Temmie#Aiuto stile:#JN Wiedle & Gigi DG
 castroll_credit_undyne
 ALPHYS
 castroll_name_alphys
@@ -48106,7 +48106,7 @@ Hey!!&That&was&fun!!
 * Doge is now primed for petting.
 * Doge looks satisfied.
 * Doge needs a vet.
-* DOGE - ATK 7 DEF 5&* Pronounced "dohj." Soft j^1.&* Seems like she wants a walk./^
+* DOGE - ATT 7 DEF 5&* Pronounced "dohj." Soft j^1.&* Seems like she wants a walk./^
 * You tried to bathe Doge^2,&  but she's perfectly clean.../^
 * You go on a short walk with&  the Doge./^
 * The Doge seems all tuckered&  out./^
