@@ -15,6 +15,7 @@ Abbiamo anche sistemato qualche piccola linea in Deltarune Capitolo 2 e 3.
 ### UNDERTALE v1.21
 
 - Risolto PARECCHI errori di formattazione, linee non tradotte e sprite non tradotti.
+    - In particolare, risolto molti errori di frasi che strabordavano dal box di testo, specie per Papyrus.
 
 ## DELTARUNE v3.1 / UNDERTALE v.1.20
 
