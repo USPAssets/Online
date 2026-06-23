@@ -1,7 +1,7 @@
 DELTARUNE Capitolo 1&2
 L'Inizio
 Un Mondo di Cyber
-USP 3.2 | DR 
+USP 3.2.1 | DR 
 Capitolo 
 Gioca
 Indietro
@@ -21,4 +21,4 @@ Seleziona Cap.
 Continua dal Capitolo 
 Capitolo
 Ultimo Spettacolo
-Profezia
+Profezia (Prossimamente)
