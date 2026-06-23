@@ -87,9 +87,8 @@ void UpdateKeyboardPuzzleCode()
 	importGroup.Import();
 }
 
-void UpdateWaterCoolerCode()
+void UpdateWaterCoolerCode(string codeFile)
 {
-	string codeFile = "gml_Object_obj_watercooler_enemy_Step_0";
 	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
 
 	// Watercooler "b[aeiou]b[il]e"

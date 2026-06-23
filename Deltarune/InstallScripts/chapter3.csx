@@ -90,7 +90,7 @@ async Task Main()
 	await Progress("Code");
 	ImportAllCode(Path.Join(assetPath, "Codes"));
 	UpdateItemGetCode();
-	UpdateWaterCoolerCode();
+	UpdateWaterCoolerCode("gml_Object_obj_watercooler_enemy_Step_0");
 	UpdateRankStringCode();
 
 	await Progress("Sprites");
