@@ -7,8 +7,7 @@ Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'ins
 Piccolo aggiornamento prima di Capitolo 4!
 
 - Fix possibile crash quando la pietà di RotellinaMaus raggiunge il 100% (grazie a @9charachan9 per la segnalazione!) in Capitolo 2.
-- Tradotte alcune piccole stringhe rimaste non tradotte.
-- Aggiunti alcuni sprite mancanti.
+- Tradotte alcune piccole stringhe rimaste non tradotte e sistemato altri problemi vari. (grazie a @IlGardenz per le segnalazioni!).
 
 ## DELTARUNE v3.2 / UNDERTALE v1.21
 
