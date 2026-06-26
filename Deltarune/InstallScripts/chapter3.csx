@@ -37,7 +37,7 @@ void ImportVideo(string videoFolder, string gameFolder, string fileName) {
 	File.Copy(sourcePath, destPath, true);
 }
 
-readonly Version g_supportedVersion = new Version(0, 0, 98);
+readonly Version g_supportedVersion = new Version(0, 0, 103);
 
 async Task Main()
 {

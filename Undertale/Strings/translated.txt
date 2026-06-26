@@ -7417,7 +7417,7 @@ NYEH..^1.&HEH..^1.&HEH!/%%
 \E1* ... Devo fare una cosa^1.&* Resta qui./%%
 \E0* Cosa c'è?&              Come si esce&  Nulla       dalle ROVINE\C 
 * Se ti serve qualcosa^1,&  chiedi pure./%%
-\E1* ... Devo fare una cosa.&* Resta qui./%%
+\E1* ... Devo fare una cosa.&* Resta qui./%%.
 \E2NYOO HOO HOO.../
 NON RIESCO NEMMENO&A BATTERE QUALCUNO&DEBOLE COME TE.../
 UNDYNE SARÀ MOLTO&DELUSA./
@@ -14925,7 +14925,7 @@ obj_labtv_event_312
 * Buonanotte, tesoro.\TT/
 obj_labtv_event_313
 obj_labtv_event_314
-* Oh cielo^1, forse c'è troppo&  buio per il video.../%% 
+* Oh cielo^1, forse c'è troppo&  buio per il video.../%%
 obj_labtv_event_315
 * Okay^1, \[C]^1, pronti?/
 obj_labtv_event_350
@@ -22075,7 +22075,7 @@ obj_readable_modernbook_68
 obj_readable_room1_64
 * Passeranno solo gli impavidi.&* I coraggiosi o gli incoscienti&  non seguono la via di mezzo./%%
 obj_readable_room1_65
-* Segui la strada./%%           
+* Segui la strada./%%
 obj_readable_room1_66
 * La stanza a sinistra fa da&  mappa alla stanza a destra./%%
 obj_readable_room1_67

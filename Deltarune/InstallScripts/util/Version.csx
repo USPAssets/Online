@@ -37,7 +37,7 @@ Vuoi continuare lo stesso? (Potrebbe non funzionare correttamente)"))
     if (foundVersion > expectedVersion)
     {
         if (!ScriptQuestion(
-@"La versione del gioco è più recente rispetto a quella che la traduzione supporta attualmente.
+$@"La versione del gioco ({foundVersion}) è più recente rispetto a quella che la traduzione supporta attualmente ({expectedVersion}).
 Vuoi continuare lo stesso? (Potrebbe non funzionare correttamente)"))
         {
             throw new Exception("Errore: versione del gioco non supportata. Installazione interrotta.");

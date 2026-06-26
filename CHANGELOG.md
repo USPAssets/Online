@@ -2,6 +2,13 @@
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
+## DELTARUNE v3.2.2
+
+Un altro minuscolo aggiornamento prima del rilascio della patch del Capitolo 4!
+
+- Aggiornata la traduzione per renderla compatibile con la versione più recente di Deltarune (DR v22)
+- Fix di vari errori di ortografia e qualche rimanente stringa non tradotta nei capitoli 1, 2 e 3.
+
 ## DELTARUNE v3.2.1
 
 Piccolo aggiornamento prima di Capitolo 4!
