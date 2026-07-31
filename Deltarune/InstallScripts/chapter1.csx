@@ -79,10 +79,12 @@ async Task Main()
 	ImportAllCode(Path.Join(assetPath, "Codes"));
 
 	await Progress("Sprites");
-	ImportAllGraphics(Path.Join(assetPath, "Sprites"));
+	ImportAllSprites(Path.Join(assetPath, "Sprites"));
+	ImportAllTilesets(Path.Join(assetPath, "Sprites", "Backgrounds"));
 
 	await Progress("Fonts");
-	ImportAllFonts(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGlyphs(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Sounds");
 	ImportSounds(Path.Join(assetPath, "Sounds"));

@@ -2,6 +2,13 @@
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
+## DELTARUNE v4.0.0
+
+Finalmente! Con questo aggiornamento ora Capitolo 4 è disponibile in italiano!
+
+- Capitolo 4 disponibile in italiano!
+- Vari fix in Capitolo 1, 2 e 3 per errori di ortografia e un pass generale di consistenza tra i vari termini.
+
 ## DELTARUNE v3.2.2
 
 Un altro minuscolo aggiornamento prima del rilascio della patch del Capitolo 4!

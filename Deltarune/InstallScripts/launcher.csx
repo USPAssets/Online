@@ -6,6 +6,7 @@
  */
 
 #load "util/Strings.csx"
+#load "util/Graphics.csx"
 #load "util/Version.csx"
 #load "util/GameCode.csx"
 #load "util/Fonts.csx"
@@ -25,7 +26,7 @@ void Done() {
 	ScriptMessage("Done. PLEASE save and overwrite your file (Ctrl+S) and run the game!");
 }
 
-readonly Version g_supportedVersion = new Version(22, 0);
+readonly Version g_supportedVersion = new Version(23, 0);
 readonly Version g_itchioVersion = new Version(3, 0);
 
 async Task Main()
@@ -79,7 +80,8 @@ async Task Main()
 	);
 
 	await Progress("Fonts");
-	ImportAllFonts(Path.Join(assetPath, "Fonts"), false);
+	ImportAllFontGlyphs(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Sounds");
 	var sndPath = Path.Join(assetPath, "Sounds");

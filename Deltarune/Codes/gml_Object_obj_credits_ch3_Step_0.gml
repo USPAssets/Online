@@ -121,9 +121,3 @@ if (timer > (1744 + uspcredits) && timer < (1910 + uspcredits))
 
 if (timer > (1910 + uspcredits))
     creditalpha -= 0.02;
-
-if (keyboard_check_pressed(ord("F")))
-    room_speed = 200;
-
-if (keyboard_check_pressed(ord("W")))
-    room_speed = 30;

@@ -45,19 +45,9 @@ string GmxString(string innerText) {
 	return innerText;
 }
 
-void SmartFontReplace(string fontsPath, string origName, string scapegoatName) {
-
-	string fontGmx = Path.Combine(fontsPath, origName + ".font.gmx");
-	string fontPng = null;
-	
-	UndertaleFont ufont = Data.Fonts.ByName(origName);
-	if (ufont is null) {
-		ScriptError(string.Format("Font '{0}' was not found in the game.", origName), "Font Error");
-		return;
-	}
-	
+void ImportFontGmx(UndertaleFont ufont, string fontGmxPath) {
 	XmlDocument xdoc = new XmlDocument();
-	xdoc.Load(fontGmx);
+	xdoc.Load(fontGmxPath);
 	
 	int gfirst = int.MaxValue /* def: 32 */;
 	int glast = int.MinValue /* def: 127 */;
@@ -68,7 +58,7 @@ void SmartFontReplace(string fontsPath, string origName, string scapegoatName) {
 		string xname = xnode.Name;
 		switch (xname) {
 			default: {
-				ScriptError(string.Format("Unknown entry '{0}' found in Font GMX.", xname), "GMX Error");
+				ScriptError($"Unknown entry '{xname}' found in {fontGmxPath}.", "GMX Error");
 				return;
 			}
 			
@@ -144,7 +134,7 @@ void SmartFontReplace(string fontsPath, string origName, string scapegoatName) {
 			}
 			
 			case "image": {
-				fontPng = Path.Combine(fontsPath, GmxString(xnode.InnerText));
+				// ignore, will be imported by graphics importer
 				break;
 			}
 			
@@ -189,63 +179,16 @@ void SmartFontReplace(string fontsPath, string origName, string scapegoatName) {
 	// post process...
 	ufont.RangeStart = checked((ushort)gfirst);
 	ufont.RangeEnd = checked((ushort)glast);
-
-    // This is broken, and also not needed. Ignore for now.
-	// foreach (var ktuple in kpairslist) {
-	// 	foreach (var theglyph in ufont.Glyphs) {
-	// 		if (ktuple.Item1/*:mychar*/ == theglyph.Character) {
-	// 			// found our kerning pair:
-	// 			theglyph.Kerning.Add(new UndertaleFont.Glyph.GlyphKerning() {
-	// 				Other = checked((short)ktuple.Item2/*:other*/),
-	// 				Amount = checked((short)ktuple.Item3/*:amount*/)
-	// 			});
-	// 		}
-	// 	}
-	// }
-	
-	// obtain font texture
-	var myFontTexture = TextureWorker.ReadBGRAImageFromFile(fontPng);
-	
-	var targetFontTexture = ufont.Texture;
-	
-	var doScapegoat = (!(scapegoatName is null)) && scapegoatName.Length > 0;
-	if (doScapegoat) {
-		ufont.Texture = Data.Fonts.ByName(scapegoatName).Texture;
-		targetFontTexture = ufont.Texture;
-	}
-	
-	// ensure that we're not going to horribly break shit.
-	if (myFontTexture.Width  > targetFontTexture.SourceWidth
-	||  myFontTexture.Height > targetFontTexture.SourceHeight) {
-		ScriptError("The font texture is LARGER than the game's.", "Font Import Error");
-	}
-	
-	// this will shrink down the texture if using scapegoat font
-	// or if the font happens to be larger.
-	targetFontTexture.SourceWidth = checked((ushort)myFontTexture.Width);
-	targetFontTexture.SourceHeight = checked((ushort)myFontTexture.Height);
-	targetFontTexture.TargetWidth = checked((ushort)myFontTexture.Width);
-	targetFontTexture.TargetHeight = checked((ushort)myFontTexture.Height);
-	targetFontTexture.BoundingWidth = checked((ushort)myFontTexture.Width);
-	targetFontTexture.BoundingHeight = checked((ushort)myFontTexture.Height);
-	
-	// render the texture on top of the original one.
-	targetFontTexture.ReplaceTexture(myFontTexture);
-	
-	// should be done?
 }
 
-void ImportAllFonts(string fontsPath, bool includeTinyNoelle = true) {
-	// null - the italian texture is equal to, or smaller.
-	// otherwise, a japanese font is specified to abuse it's large AF texture.
-	// (the JP texture will be wiped out, and italian font will be drawn at 0;0)
-	if (includeTinyNoelle) {
-		SmartFontReplace(fontsPath, "fnt_tinynoelle", null);
+void ImportAllFontGlyphs(string fontsPath) {
+	foreach (string file in Directory.EnumerateFiles(fontsPath, "*.font.gmx", SearchOption.TopDirectoryOnly)) {
+		// Strip both .font and .gmx extensions
+		string fontName = Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(file));
+		UndertaleFont? font = Data.Fonts.ByName(fontName);
+		if (font == null) {
+			continue;
+		}
+		ImportFontGmx(font, file);
 	}
-	SmartFontReplace(fontsPath, "fnt_dotumche", "fnt_ja_dotumche"); // doesn't seem to fit... :(
-	// okay now we HAVE to import this font.
-	SmartFontReplace(fontsPath, "fnt_mainbig", null);
-	SmartFontReplace(fontsPath, "fnt_main", null);
-	SmartFontReplace(fontsPath, "fnt_comicsans", null);
-	SmartFontReplace(fontsPath, "fnt_small", null);
 }
