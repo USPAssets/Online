@@ -88,10 +88,14 @@ async Task Main()
 	UpdateKeyboardPuzzleCode();
 
 	await Progress("Sprites");
-	ImportAllGraphics(Path.Join(assetPath, "Sprites"), "_ch1");
+	ImportAllSprites(Path.Join(assetPath, "Sprites"));
+	ImportAllSprites(Path.Join(assetPath, "Sprites"), "_ch1");
+	ImportAllTilesets(Path.Join(assetPath, "Sprites", "Backgrounds"));
+
 
 	await Progress("Fonts");
-	ImportAllFonts(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGlyphs(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Sounds");
 	var sndPath = Path.Join(assetPath, "Sounds");

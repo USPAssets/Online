@@ -12,10 +12,12 @@ void ImportAllCode(string codeFolder) {
     foreach (string file in Directory.GetFiles(codeFolder))
     {
         if (!file.EndsWith(".gml")) continue;
-
-        string code = File.ReadAllText(file);
         string codeName = Path.GetFileNameWithoutExtension(file);
-        importGroup.QueueReplace(codeName, code);
+		UndertaleCode? code = Data.Code.ByName(codeName);
+		if (code != null) {
+		    string codeText = File.ReadAllText(file);
+        	importGroup.QueueReplace(code, codeText);
+		}
     }
     importGroup.Import();
 }
@@ -196,6 +198,23 @@ void UpdateLauncherStarsPosition()
 	"""draw_sprite_ext(spr_ui_star, star_index, x + 180""",
 	"""draw_sprite_ext(spr_ui_star, star_index, x + 185"""
 	);
+
+	importGroup.Import();
+}
+
+void UpdateTemmieSongCode()
+{
+	UndertaleModLib.Compiler.CodeImportGroup importGroup = new(Data);
+
+	// Temmie lyrics overlay
+	importGroup.QueueFindReplace("gml_Object_obj_tem_school_Step_0", 
+		"""scr_delay_var("song_con", 2, 130);""", 
+		"""scr_delay_var("song_con", 2, 130); var song = ""; if (sound_index == 1) song = "\\cYQuando il sole scenderà"; else if (sound_index == 2) song = "\\cYEd il buio calerà/%"; else if (sound_index == 3) song = "\\cYTrasformando la realtà"; else song = "\\cYCome fantasia"; msgset(0, song); w = instance_create((room_width / 2) - (string_width(song) / 2), 5, obj_writer); w.skippable = 0;""");
+	
+	// Remove the overlay
+	importGroup.QueueFindReplace("gml_Object_obj_tem_school_Step_0", 
+		"""song_mode = false;""",
+		"""song_mode = false; with (obj_writer) instance_destroy();""");
 
 	importGroup.Import();
 }

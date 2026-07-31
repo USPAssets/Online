@@ -26,7 +26,7 @@ void Done() {
 	ScriptMessage("Done. PLEASE save and overwrite your file (Ctrl+S) and run the game!");
 }
 
-readonly Version g_supportedVersion = new Version(1, 49);
+readonly Version g_supportedVersion = new Version(1, 52);
 readonly Version g_itchioVersion = new Version(1, 19);
 
 async Task Main()
@@ -81,10 +81,13 @@ async Task Main()
 	UpdateKeyboardPuzzleCode();
 
 	await Progress("Sprites");
-	ImportAllGraphics(Path.Join(assetPath, "Sprites"));
+	ImportAllSprites(Path.Join(assetPath, "Sprites"));
+	ImportAllTilesets(Path.Join(assetPath, "Sprites", "Backgrounds"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Fonts");
-	ImportAllFonts(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGlyphs(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Sounds");
 	ImportSounds(Path.Join(assetPath, "Sounds"));

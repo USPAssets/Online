@@ -37,7 +37,7 @@ void ImportVideo(string videoFolder, string gameFolder, string fileName) {
 	File.Copy(sourcePath, destPath, true);
 }
 
-readonly Version g_supportedVersion = new Version(0, 0, 103);
+readonly Version g_supportedVersion = new Version(0, 0, 105);
 
 async Task Main()
 {
@@ -94,7 +94,9 @@ async Task Main()
 	UpdateRankStringCode();
 
 	await Progress("Sprites");
-	ImportAllGraphics(Path.Join(assetPath, "Sprites"));
+	ImportAllSprites(Path.Join(assetPath, "Sprites"));
+	ImportAllTilesets(Path.Join(assetPath, "Sprites", "Backgrounds"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 	// Update spr_funnytext_coffee origin to +152 +32 (same as spr_ja_funnytext_coffee)
 	var funnyTextSprite = Data.Sprites.ByName("spr_funnytext_coffee");
 	funnyTextSprite.OriginX = 152;
@@ -124,9 +126,8 @@ async Task Main()
 	ImportVideo(Path.Join(assetPath, "Videos"), gameFolder, "tennaIntroF1_compressed_28.mp4");
 
 	await Progress("Fonts");
-	var fontsPath = Path.Join(assetPath, "Fonts");
-	ImportAllFonts(fontsPath);
-	SmartFontReplace(fontsPath, "fnt_8bit", null);
+	ImportAllFontGlyphs(Path.Join(assetPath, "Fonts"));
+	ImportAllFontGraphics(Path.Join(assetPath, "Fonts"));
 
 	await Progress("Sounds");
 	ImportSounds(Path.Join(assetPath, "Sounds"));
