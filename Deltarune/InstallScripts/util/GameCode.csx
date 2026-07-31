@@ -12,12 +12,10 @@ void ImportAllCode(string codeFolder) {
     foreach (string file in Directory.GetFiles(codeFolder))
     {
         if (!file.EndsWith(".gml")) continue;
+
+        string code = File.ReadAllText(file);
         string codeName = Path.GetFileNameWithoutExtension(file);
-		UndertaleCode? code = Data.Code.ByName(codeName);
-		if (code != null) {
-		    string codeText = File.ReadAllText(file);
-        	importGroup.QueueReplace(code, codeText);
-		}
+        importGroup.QueueReplace(codeName, code);
     }
     importGroup.Import();
 }
