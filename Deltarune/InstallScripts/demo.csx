@@ -53,6 +53,14 @@ async Task Main()
 		throw new Exception("La cartella di gioco non ha il formato corretto. Sei sicuro di aver scelto il percorso giusto?");
 	}
 
+	string demoVersionMsg = 
+@"L'installer ha rilevato la versione demo di DELTARUNE. Vuoi continuare e installare la patch sulla versione demo di DELTARUNE?
+Se non è quello che ti aspetti, clicca su 'No' e consulta la guida per la risoluzione problemi";
+
+	if (!ScriptQuestion(demoVersionMsg)) {
+		throw new Exception("Installazione della demo annullata.");
+	}
+	
 	string? gameVersion = FindCodeVariableValue("gml_Object_obj_CHAPTER_SELECT_Create_0", "global.version");
 	CheckGameVersion(g_supportedVersion, gameVersion);
 

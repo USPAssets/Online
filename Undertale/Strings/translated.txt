@@ -10513,7 +10513,7 @@ obj_bara01_287
 obj_bara01_288
 02...&non gli&ho mai&detto...
 obj_bara01_291
-02?!&M-ma&per-&chè?!
+02?!&M-ma&per-&ché?!
 obj_bara01_293
 obj_bara01_300
 * 02 sembra sentirsi&  scomodo nell'armatura.
@@ -16801,11 +16801,11 @@ LE COSE STANNO&MIGLIORANDO MOLTO&QUI./
 obj_mainend_1003
 LA PRODUTTIVITÀ&È AUMENTATA!/
 obj_mainend_1004
-PERCHÈ DICO A&TUTTI DI CONTINUARE&A LAVORARE./
+PERCHÉ DICO A&TUTTI DI CONTINUARE&A LAVORARE./
 obj_mainend_1005
 E^1, NESSUNO È&AFFAMATO!!!/
 obj_mainend_1006
-PERCHÈ CUCINO&SPAGHETTI PER&TUTTI./
+PERCHÉ CUCINO&SPAGHETTI PER&TUTTI./
 obj_mainend_1007
 \E3NEL MENTRE^1, MIO&FRATELLO SI OCCUPA&DI BUROCRAZIA./
 obj_mainend_1008
@@ -21024,7 +21024,7 @@ obj_papyrus_room_189
 obj_papyrus_room_190
 \E0STRANO./
 obj_papyrus_room_191
-L'ASPETTERO QUI&FINCHÈ  NON TORNA&A CASA./
+L'ASPETTERO QUI&FINCHÉ  NON TORNA&A CASA./
 obj_papyrus_room_192
 TI CHIAMO IO&QUANDO ARRIVA&A CASA^1, OK?!/%%
 obj_papyrus_room_193
@@ -21053,7 +21053,7 @@ obj_papyrus_room_211
 UNDYNE È  MALATA^1,&OGGI NON PUOI&GIOCARE./%%
 obj_papyrus_room_214
 obj_papyrus_room_220
-GRANDE!!^1!&PERCHÈ  NON È  &NEANCHE QUI./
+GRANDE!!^1!&PERCHÉ  NON È  &NEANCHE QUI./
 obj_papyrus_room_221
 PRONTO IN ANTICIPO^1!&QUESTO DIMOSTRA&QUANTO CI TIENI!!/
 obj_papyrus_room_222
@@ -47583,7 +47583,7 @@ version
 -4
 -V
 UT v
- (C) Toby Fox 2015-2017 - USP V1.21
+ (C) Toby Fox 2015-2017 - USP V1.22
 intronoise
 ballamount
 special_x
