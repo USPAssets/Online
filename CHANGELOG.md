@@ -2,6 +2,20 @@
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
+## DELTARUNE v4.0.1 / UNDERTALE v1.22
+
+Piccolo hotfix per risolvere alcuni problemi! Stiamo anche lavorando a un aggiornamento un po' più corposo per correggere altri errori, rimanete sintonizzati.
+
+### DELTARUNE v4.0.1
+
+- Aggiunti sprite mancanti in Capitolo 2
+- Corretto errore di ortografia in Capitolo 2
+- Quando l'installer rileva che si sta installando la patch sulla demo, chiederà conferma, rimandando l'utente a leggere la [guida di risoluzione problemi](https://github.com/USPAssets/Installer#risoluzione-problemi) nel caso non fosse ciò che si aspetta.
+
+### UNDERTALE v1.22
+
+- Corretti un paio di errori di ortografia!
+
 ## DELTARUNE v4.0.0
 
 Finalmente! Con questo aggiornamento ora Capitolo 4 è disponibile in italiano!
