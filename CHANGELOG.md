@@ -14,8 +14,6 @@ Piccolo hotfix per risolvere alcuni problemi! Stiamo anche lavorando a un aggior
 
 ### UNDERTALE v1.22
 
-Questa versione era già stata in realtà rilasciata con la release di DELTARUNE Capitolo 4, ma ci siamo dimenticati di scrivere il changelog (oops).
-
 - Corretti un paio di errori di ortografia!
 
 ## DELTARUNE v4.0.0
