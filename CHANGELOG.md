@@ -10,6 +10,7 @@ Primo aggiornamento "grosso" dopo la release di Capitolo 4! Grazie mille a @Lore
 - Corretto il formatting di alcune descrizioni di oggetti.
 - Corretto vari refusi ortografici in tutti i capitoli.
 - Modificate alcune linee per rendere l'adattamento più scorrevole.
+- In Capitolo 2, in un rompicapo che include fastidiosi topi, il gioco pronuncerà correttamente le lettere inserite.
 
 ## DELTARUNE v4.0.1 / UNDERTALE v1.22
 
