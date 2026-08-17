@@ -2,6 +2,15 @@
 
 Per aggiornare la traduzione potete semplicemente riapplicare la patch con l'installer. **Vi consigliamo di reinstallare il gioco prima di aggiornare la patch, trovate le istruzioni nella [guida](https://github.com/USPAssets/Installer/blob/main/README.md)**
 
+## DELTARUNE v4.1.0
+
+Primo aggiornamento "grosso" dopo la release di Capitolo 4! Grazie mille a @Lorenzo, @DrExecutor2010, @IO-2, @Akkun, @SuperFrancy0171, e tutt* quant* per il feedback e le segnalazioni!
+
+- Abbreviato PUNTI in P.TI
+- Corretto il formatting di alcune descrizioni di oggetti.
+- Corretto vari refusi ortografici in tutti i capitoli.
+- Modificate alcune linee per rendere l'adattamento più scorrevole.
+
 ## DELTARUNE v4.0.1 / UNDERTALE v1.22
 
 Piccolo hotfix per risolvere alcuni problemi! Stiamo anche lavorando a un aggiornamento un po' più corposo per correggere altri errori, rimanete sintonizzati.
